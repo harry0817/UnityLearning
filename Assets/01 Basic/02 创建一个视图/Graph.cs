@@ -12,14 +12,14 @@ public class Graph : MonoBehaviour {
 
     private void Awake() {
         points = new Transform[resolution];
-        float step = 4f / resolution;
+        float step = 2f / resolution;
         Vector3 scale = Vector3.one * step;
         Vector3 position;
         position.y = 0f;
         position.z = 0f;
         for (int i = 0; i < points.Length; i++) {
             Transform point = Instantiate(pointPrefab);
-            position.x = ((i + 1f) * step - 2f);
+            position.x = ((i + 0.5f) * step - 1f);
             //position.y = position.x * position.x;
             point.localPosition = position;
             point.localScale = scale;
