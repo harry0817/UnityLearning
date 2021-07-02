@@ -73,7 +73,8 @@ namespace MathematicalSurfaces {
 
         static float Ripple(float x, float z, float t) {
             float d = Mathf.Sqrt(x * x + z * z);
-            float y = Mathf.Sin(pi * d * t); ;
+            float y = Mathf.Sin(pi * 4f * (d - t));
+            y /= 1f + 10f * d;
             return y;
         }
 
