@@ -28,8 +28,9 @@ public class Grid : MonoBehaviour {
         }
 
         mesh.vertices = vertices;
+        mesh.RecalculateNormals();
 
-        int[] triangles = new int[xSize * 6];
+        int[] triangles = new int[xSize * ySize * 6];
         for (int ti = 0, vi = 0, y = 0; y < ySize; y++, vi++) {
             for (int x = 0; x < xSize; x++, ti += 6, vi++) {
                 triangles[ti] = vi;
@@ -52,7 +53,8 @@ public class Grid : MonoBehaviour {
             return;
         }
         for (int i = 0; i < vertices.Length; i++) {
-            Gizmos.DrawSphere(vertices[i], 0.2f);
+            Gizmos.color = Color.black;
+            Gizmos.DrawSphere(vertices[i], 0.1f);
         }
     }
 }
