@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="white">#ffffffff</color>
+  <color name="white_overlay">#66ffffff</color>
+  <color name="quit_content_bg">#336d33</color>
+  <color name="quit_border">#b66a1a</color>
+</resources>

@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">Flashlight</string>
+  <string name="east">E</string>
+  <string name="west">W</string>
+  <string name="south">S</string>
+  <string name="north">N</string>
+  <string name="south_east">SE</string>
+  <string name="south_west">SW</string>
+  <string name="north_east">NE</string>
+  <string name="north_west">NW</string>
+  <string name="main_color">สี</string>
+  <string name="main_morse">มอร์ส</string>
+  <string name="morse_transmit">ส่ง</string>
+  <string name="on">เปิด</string>
+  <string name="off">ปิด</string>
+  <string name="morse_your_text">ข้อความของคุณ</string>
+  <string name="morse_morse_code">รหัสมอร์ส</string>
+  <string name="permission_location_rationale">จำเป็นต้องมีการเข้าถึงบริการตำแหน่งเพื่อแสดงคุณลักษณะ "ตำแหน่งของฉัน" ซึ่งจะแสดงตำแหน่งปัจจุบันของคุณบนแผนที่</string>
+  <string name="permission_location_denied_message">ตัวอย่างนี้ต้องการการอนุญาตตำแหน่งเพื่อเปิดใช้เลเยอร์ \'ตำแหน่งของฉัน\' โปรดลองอีกครั้งและให้สิทธิ์การเข้าถึงเพื่อใช้ตำแหน่ง  \n หากสิทธิ์ถูกปฏิเสธโดยถาวรคุณสามารถเปิดใช้งานได้จากการตั้งค่าระบบ &gt; Apps &gt; </string>
+  <string name="no_location_detected">ไม่พบตำแหน่ง ตรวจสอบว่าได้เปิดใช้งานตำแหน่งบนอุปกรณ์แล้ว</string>
+  <string name="locate">ค้นหา</string>
+  <string name="rt_title">เราต้องการความคิดเห็นของคุณ</string>
+  <string name="dialog_rate_message_normal">คุณชอบเครื่องมือไฟฉายของเราหรือไม่? คุณช่วยกรุณาสักสักครู่เพื่อให้คะแนนได้ไหม การสนับสนุนของคุณทำให้เราดีขึ้น ขอขอบคุณสำหรับการสนับสนุนของคุณ</string>
+  <string name="dialog_rate_positive">ที่น่าตื่นตาตื่นใจ</string>
+  <string name="rt_fb">ฉันมีคำแนะนำ</string>
+  <string name="rt_cancel">ครั้งต่อไป</string>
+  <string name="dialog_rate_message_feedback">ข้อเสนอแนะจะทำให้เราสามารถให้บริการที่มีคุณภาพมากขึ้น</string>
+  <string name="ok">ตกลง</string>
+  <string name="cancel">ยกเลิก</string>
+  <string name="no_sending_emails_app">ขออภัยเราไม่พบแอปสำหรับส่งอีเมล! ด้านล่างคือที่อยู่อีเมลสำหรับข้อเสนอแนะของเรา: \n</string>
+  <string name="no_google_play_app">ขออภัยเราไม่พบแอปพลิเคชันใด ๆ ในการเปิดการให้คะแนนบ้าน!</string>
+  <string name="can_not_open_flash_light">ไม่สามารถเปิดไฟแฟลช</string>
+  <string name="device_not_support_flash_light">อุปกรณ์ไม่รองรับไฟแฟลชและจะสว่างขึ้นโดยอัตโนมัติที่หน้าจอ</string>
+  <string name="seconds">%1$d วินาที</string>
+  <plurals name="minute">
+    <item quantity="other">%1$d นาที</item>
+  </plurals>
+  <string name="never">ไม่เคย</string>
+  <string name="auto_close">ปิดโดยอัตโนมัติ</string>
+  <string name="calibration_message">คุณสามารถอยู่ห่างจากแหล่งสัญญาณรบกวนจากสนามแม่เหล็กและทำตามคำแนะนำเพื่อให้การสอบเทียบเข็มทิศเป็นไปตามมาตรฐาน</string>
+  <string name="the_device_compass_is_not_available">เข็มทิศของอุปกรณ์ไม่พร้อมใช้งาน</string>
+  <string name="recover_billing_completed">เสร็จ หากคุณมีคำถามใด ๆ โปรดตรวจสอบเครือข่ายของคุณหรือตรวจสอบใบสั่งซื้อของ Google Play และลองอีกครั้ง ขอบคุณ!</string>
+  <string name="processing_please_wait">กำลังประมวลผล … กรุณา waite.</string>
+  <string name="billing_set_up_failed_message">ไม่สามารถเริ่มต้นได้ โปรดตรวจสอบว่า Google Play ทำงานอย่างถูกต้อง</string>
+  <string name="purchase_success">ซื้อความสำเร็จ</string>
+  <string name="purchase_failed">การสั่งซื้อล้มเหลว</string>
+  <string name="notification_hint_on">แตะเพื่อเปิดไฟ</string>
+  <string name="notification_hint_off">แตะเพื่อปิดไฟ</string>
+  <string name="title_setting">การตั้งค่า</string>
+  <string name="setting_primary_title_launch_open">เปิดโดยอัตโนมัติ</string>
+  <string name="setting_secondary_title_launch_open">เปิดไฟฉายเมื่อเริ่มต้น</string>
+  <string name="setting_primary_title_keep_open">ไฟฉายอยู่ตลอด</string>
+  <string name="setting_secondary_title_keep_open">อยู่ต่อหลังจากล็อกหน้าจอ</string>
+  <string name="purchase_shake_open">เขย่าเพื่อเปิด / ปิดไฟฉาย</string>
+  <string name="setting_primary_title_shake_open">เขย่าเพ</string>
+  <string name="setting_secondary_title_shake_open">เขย่าโทรศัพท์เพื่อเปิด / ปิดไฟฉาย</string>
+  <string name="setting_primary_title_notification">แถบเครื่องมือแจ</string>
+  <string name="setting_secondary_title_notification">ทางลัดเพื่อเปิด / ปิดไฟฉาย</string>
+  <string name="setting_primary_title_battery_control">การควบคุมพลังงาน</string>
+  <string name="setting_secondary_title_battery_control">เตือนแบตเตอรี่ต่ำกว่า %1$d%%</string>
+  <string name="setting_primary_title_close_time">ปิดโดยอัตโนมัติ</string>
+  <string name="setting_secondary_title_close_time">ปิดไฟฉายหลังจากระยะเวลาหนึ่ง</string>
+  <string name="title_about">เกี่ยวกับ</string>
+  <string name="about_feedback">ข้อเสนอแนะ</string>
+  <string name="about_rate">ให้คะแนนเรา</string>
+  <string name="about_privacy_policy">นโยบายความเป็นส่วนตัว</string>
+  <string name="billing_remove_ads">ลบโฆษณา</string>
+  <string name="billing_shark">เขย่าเพื่อเปลี่ยนไฟฉาย</string>
+  <string name="billing_notification">ทางลัดแถบเครื่องมือแจ้งเตือนเพื่อเปิด / ปิดไฟฉาย</string>
+  <string name="purchase_billing">$1.99</string>
+  <string name="recover_billing">ฟื้นฟู</string>
+  <string name="dialog_low_power_title">ความสนใจ!</string>
+  <string name="dialog_low_power_message">แบตเตอรี่ของคุณต่ำกว่าเปอร์เซ็นต์ต่ำสุดที่กำหนดไว้ เปิดไฟฉายหรือไม่?</string>
+  <string name="dialog_low_power_close">ปิด</string>
+  <string name="dialog_low_power_open">อยู่ใน</string>
+  <string name="common_dialog_title_hint">ความสนใจ</string>
+  <string name="dialog_camera_permission_title">เปิดสิทธิ์ไฟฉาย</string>
+  <string name="dialog_camera_permission_message">ไม่มีสิทธิ์ใช้ไฟฉายซึ่งรวมอยู่กับกล้องโดยผู้ผลิตอุปกรณ์ของคุณ โปรดให้สิทธิ์กล้อง</string>
+  <string name="dialog_camera_permission_positive">เปิด</string>
+  <string name="dialog_camera_permission_granted_message">ได้รับอนุญาต! เริ่มการเดินทางด้วยไฟฉาย!</string>
+  <string name="dialog_camera_permission_granted_positive">เริ่มต้น</string>
+  <string name="dialog_no_flashlight_message">อุปกรณ์นี้ไม่มีฮาร์ดแวร์ไฟฉายพร้อมใช้งาน คุณสามารถใช้ไฟหน้าจอแทนได้</string>
+  <string name="dialog_no_flashlight_negative">ฉันรู้ว่า</string>
+  <string name="common_screen_light">ไฟหน้าจอ</string>
+  <string name="dialog_camera_occupied_positive">ฉันรู้ว่า</string>
+  <string name="dialog_camera_occupied_message">ไม่สามารถเปิดไฟฉายได้เนื่องจากฮาร์ดแวร์กำลังทำงานอยู่ โปรดตรวจสอบและหยุดแอปอื่น ๆ ที่ใช้ไฟฉาย</string>
+  <string name="setting_primary_title_share">หุ้น</string>
+  <string name="setting_secondary_title_share">ไฟฉายที่ดีที่สุดแตะเพื่อแชร์กับเพื่อนของคุณ</string>
+  <string name="setting_share_hint">คัดลอกสำเร็จคุณสามารถวางโดยตรง</string>
+  <string name="setting_secondary_title_faq">รายการปัญหาที่พบบ่อยและคำตอบสำหรับคำถามที่เกี่ยวข้อง</string>
+  <string name="dialog_no_flashlight_title">ไม่มีไฟฉาย</string>
+  <string name="dialog_no_flashlight_message_no_flashlight">ไฟฉายของอุปกรณ์นี้เสียหายหรือไม่มีไฟฉาย</string>
+  <string name="dialog_no_flashlight_message_screen_light">คุณยังสามารถใช้ไฟหน้าจอแทน</string>
+  <string name="dialog_no_flashlight_positive">ใช้ไฟหน้าจอ</string>
+  <string name="title_faq">คำถามที่พบบ่อย</string>
+  <string-array name="faq_question">
+    <item>ทำไมไฟฉายของฉันไม่ทำงานหรือทำให้สั่นตลอดเวลา</item>
+    <item>เหตุใดฉันจึงใช้ไฟหน้าจอเท่านั้น</item>
+    <item>ทำไมไฟฉายปิดอย่างผิดปกติ</item>
+    <item>วิธีการเปลี่ยนสีของแสง?</item>
+    <item>ทำไมความเร็วของแบตเตอรี่ถึงหมดอย่างรวดเร็วและอุณหภูมิของอุปกรณ์สูง?</item>
+    <item>ทำไมเข็มทิศจึงไม่ถูกต้อง</item>
+    <item>ทำไมใช้แผนที่ไม่ถูกต้อง</item>
+  </string-array>
+  <string-array name="faq_answer">
+    <item>
+หากไฟฉายของคุณไม่ทำงานอาจเกิดจากสาเหตุดังต่อไปนี้:\n- ไฟฉายสั่นตลอดเวลาอาจเป็นเพราะโหมดแฟลชเปิดอยู่ ขั้นตอนในการปิดโหมดแฟลช: กลับสู่หน้าแรก → ตรวจสอบตำแหน่งของปุ่มภายใต้ [SOS, 0 ~ 10] → ลากปุ่มไปที่หมายเลข 0;\n- เปิดแอปพลิเคชั่นไฟฉายหรือแอพพลิเคชั่นกล้องอื่น ๆ ในเวลาเดียวกันกรุณาปิดแอพเหล่านี้\n- ไม่อนุญาตให้ใช้กล้องไฟฉายจำเป็นต้องได้รับอนุญาตจากกล้องในการเปิดไฟ ขั้นตอนในการอนุญาตให้ใช้กล้องถ่ายรูป: กลับไปที่หน้าแรก → คลิกปุ่มเปิด / ปิด → อนุญาตการอนุญาตกล้องในหน้าต่างป๊อปอัป\n- ไฟฉายของอุปกรณ์นี้เสียหาย คุณยังสามารถใช้ไฟหน้าจอแทน ขั้นตอนในการใช้แสงหน้าจอ: กลับไปที่หน้าแรก → คลิกปุ่มแสงหน้าจอที่มุมล่างขวา
+    </item>
+    <item>
+ไฟฉายของอุปกรณ์นี้เสียหายหรือไม่มีไฟฉาย คุณยังสามารถใช้ไฟหน้าจอแทน ขั้นตอนในการใช้แสงหน้าจอ: กลับไปที่หน้าแรก → คลิกปุ่มแสงหน้าจอที่มุมล่างขวา
+    </item>
+    <item>
+หากคุณพบว่าไฟฉายถูกปิดอย่างผิดปกติให้ตรวจสอบการตั้งค่าต่อไปนี้:\n- ไฟฉายยังคงอยู่ หากคุณปิดไฟฉายอยู่ไฟฉายอาจปิดในระหว่างการล็อกหน้าจอ\n- ปิดอัตโนมัติ หากคุณปิดอัตโนมัติไฟฉายจะปิดโดยอัตโนมัติหลังจากเวลาที่กำหนด หากคุณไม่ต้องการปิดไฟฉายโดยอัตโนมัติโปรดตรวจสอบว่าการตั้งค่าปิดอัตโนมัติเป็น "ไม่เคย";\n- เขย่าเพื่อเปลี่ยน หากคุณเปิดการสั่นเพื่อสลับการตั้งค่าไฟฉายไฟฉายจะเปิด / ปิดโดยอัตโนมัติเมื่อตรวจพบการสั่นของอุปกรณ์ขนาดใหญ่หากคุณไม่ต้องการเปิด / ปิดไฟฉายโดยการเขย่าให้ปิดการตั้งค่านี้ .
+    </item>
+    <item>
+น่าเสียดายเนื่องจากข้อ จำกัด ของฮาร์ดแวร์อุปกรณ์สีของแฟลชไม่สามารถเปลี่ยนแปลงได้เพียงสีของแสงหน้าจอเท่านั้นที่สามารถเปลี่ยนได้ ขั้นตอนในการเปลี่ยนสีของแสงหน้าจอ: กลับไปที่หน้าแรก → คลิกที่ปุ่มแสงหน้าจอที่มุมล่างขวา → สีของแสงจะเปลี่ยนไปโดยการปรับสี (วงกลม), ความอิ่มตัว (บรรทัดแรก) และความสว่าง (ที่สอง บรรทัด)
+    </item>
+    <item>
+หากความเร็วของแบตเตอรี่หมดอย่างรวดเร็วและอุณหภูมิของอุปกรณ์สูงให้ทำการตั้งค่าต่อไปนี้:\n- หากการใช้แบตเตอรี่เร็วเกินไปให้ใช้คุณสมบัติการควบคุมพลังงานเพื่อป้องกันแบตเตอรี่ ขั้นตอนในการเปิดการควบคุมพลังงาน: ไปที่หน้าการตั้งค่า → เปิดการควบคุมพลังงาน → ตั้งการเตือนแบตเตอรี่เหลือน้อย → ตกลง\n- หากอุณหภูมิของอุปกรณ์สูง คุณยังสามารถใช้ไฟหน้าจอแทน ขั้นตอนในการใช้แสงหน้าจอ: กลับไปที่หน้าแรก → คลิกปุ่มแสงหน้าจอที่มุมล่างขวา
+    </item>
+    <item>
+หากเข็มทิศของคุณไม่ถูกต้องอาจเกิดจากสาเหตุดังต่อไปนี้:\n- มีการรบกวนสนามแม่เหล็กใกล้กับอุปกรณ์ โปรดอยู่ห่างจากสัญญาณรบกวนแม่เหล็กและทำการปรับเทียบเข็มทิศให้เสร็จสิ้นขั้นตอนในการปรับเทียบเข็มทิศ: กลับไปที่หน้าแรก → คลิกที่ไอคอน "?" ที่มุมขวาบนของเข็มทิศเพื่อเริ่มการปรับเทียบเข็มทิศ → ทำตามคำแนะนำเพื่อทำให้เข็มทิศสมบูรณ์ การปรับเทียบ;. ขั้นตอนในการปรับเทียบเข็มทิศ:\n- เนื่องจากข้อ จำกัด ด้านฮาร์ดแวร์ของอุปกรณ์ของคุณเข็มทิศไม่ทำงานคุณสามารถลองใช้แผนที่เพื่อกำหนดตำแหน่งขั้นตอนในการเปิดแผนที่: กลับสู่หน้าแรก → คลิกที่ปุ่มเข็มทิศเพื่อเปิดแผนที่ → เปิดการอนุญาตตำแหน่ง ใช้แผนที่
+    </item>
+    <item>
+หากแผนที่ของคุณใช้งานไม่ได้ให้ตรวจสอบการตั้งค่าต่อไปนี้:\n- คุณไม่ได้รับอนุญาตให้ใช้ตำแหน่ง ขั้นตอนในการเปิดการอนุญาตตำแหน่ง: กลับไปที่หน้าแรก → คลิกเข็มทิศเพื่อเปิดแผนที่ → อนุญาตการอนุญาตตำแหน่งในหน้าต่างการอนุญาตแอปพลิเคชันป๊อปอัป\n- ใช้แผนที่จำเป็นต้องเปิดเครือข่ายตรวจสอบเครือข่ายปัจจุบันเป็นปกติ\n- หากไม่มีปัญหากับการตั้งค่าข้างต้นฉันเสียใจเป็นอย่างยิ่งอุปกรณ์ของคุณไม่รองรับการกำหนดเป้าหมายหรือมีความผิดปกติในการวางตำแหน่งและแผนที่ไม่สามารถใช้งานได้ตามปกติ
+    </item>
+  </string-array>
+  <string name="title_feedback">ไม่พอใจใช่ไหม</string>
+  <string name="dialog_feedback_message_faq">พบปัญหาระหว่างการใช้งานหรือไม่? ค้นหาคำตอบในคำถามที่พบบ่อย</string>
+  <string name="dialog_feedback_message_feedback">ปัญหาไม่ได้รับการแก้ไข? กรุณาให้ข้อเสนอแนะรายละเอียดเพิ่มเติมเกี่ยวกับปัญหา</string>
+  <string name="dialog_feedback_positive">ผลตอบรับ</string>
+  <string name="dialog_request_permission_title">ต้องได้รับอนุญาตจากกล้อง</string>
+  <string name="dialog_request_permission_message">ไฟฉายต้องได้รับอนุญาตจากกล้องเพื่อให้บริการไฟฉายแก่คุณ ไฟฉายจะไม่บุกรุกความเป็นส่วนตัวของคุณโปรดอนุญาตการอนุญาตจากกล้อง</string>
+  <string name="dialog_request_permission_positive">เข้าใจ</string>
+  <string name="dialog_rate_us_title">ให้คะแนนเรา</string>
+  <string name="dialog_rate_us_message_review">หากคุณสนุกกับไฟฉายโปรดพิจารณาให้เราตรวจสอบ</string>
+  <string name="dialog_rate_us_message_rate">เลือก:</string>
+  <string name="dialog_rate_us_positive">เสนอ</string>
+  <string name="update_dialog_title_1">คุณสมบัติใหม่เปิดตัว!</string>
+  <string name="update_dialog_title_2">โปรดอัปเดต!</string>
+  <string name="update_dialog_title_3">อัปเดตและดำเนินการต่อ</string>
+  <string name="update_dialog_content_1">ต้องการเห็นสิ่งใหม่ ๆ หรือไม่? เพียงแค่อัปเดตและรับทราบ! ขอบคุณที่ใช้!</string>
+  <string name="update_dialog_content_2">เราได้แก้ไขข้อบกพร่องที่อาจเกิดขึ้นแล้ว! ขอแนะนำการอัพเดตทันที!</string>
+  <string name="update_dialog_content_3">แอปนี้กำลังประสบปัญหาร้ายแรงคุณควรอัปเดตเพื่อดำเนินการต่อหรือออก! บันทึกประวัติศาสตร์ของคุณจะยังคงมีอยู่!  ขออภัยในความไม่สะดวก. เรามุ่งมั่นที่จะสร้างแอพที่ดีที่สุดสำหรับคุณ!</string>
+  <string name="update_dialog_cancel">ยกเลิก</string>
+  <string name="update_dialog_update">ปรับปรุง</string>
+  <string name="update_dialog_quit">เลิก</string>
+  <string name="dialog_grant_permission_message">ไฟฉายต้องได้รับอนุญาตจากกล้องเพื่อให้บริการไฟฉายแก่คุณ ไฟฉายจะไม่บุกรุกความเป็นส่วนตัวของคุณโปรดอนุญาตการอนุญาตจากกล้อง</string>
+  <string name="dialog_grant_permission_positive">แกรนท์</string>
+  <string name="dialog_grant_permission_negative">ยกเลิก</string>
+</resources>

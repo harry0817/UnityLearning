@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">Flashlight</string>
+  <string name="east">E</string>
+  <string name="west">W</string>
+  <string name="south">S</string>
+  <string name="north">N</string>
+  <string name="south_east">SE</string>
+  <string name="south_west">SW</string>
+  <string name="north_east">NE</string>
+  <string name="north_west">NW</string>
+  <string name="main_color">צֶבַע</string>
+  <string name="main_morse">מורס</string>
+  <string name="morse_transmit">להעביר</string>
+  <string name="on">מופעל</string>
+  <string name="off">כבוי</string>
+  <string name="morse_your_text">הטקסט שלך</string>
+  <string name="morse_morse_code">קוד מורס</string>
+  <string name="permission_location_rationale">הגישה לשירות המיקום נדרשת להדגים את התכונה "המיקום שלי", המציגה את המיקום הנוכחי שלך במפה. </string>
+  <string name="permission_location_denied_message">מדגם זה מחייב הרשאת מיקום כדי להפעיל את שכבת המיקום שלי. נסה שוב והעניק גישה לשימוש במיקום. אם ההרשאה נדחתה לצמיתות, ניתן להפעיל אותה מתוך הגדרות המערכת&gt; אפליקציות&gt;</string>
+  <string name="no_location_detected">לא זוהה מיקום. ודא שהמיקום בטוח מופעל במכשיר/string&gt;</string>
+  <string name="locate">לְאַתֵר</string>
+  <string name="rt_title">אנו זקוקים למשוב שלך</string>
+  <string name="dialog_rate_message_normal">האם אתה אוהב את כלי הפנס שלנו! אתה יכול בבקשה לקחת רגע כדי לדרג אותו. התמיכה שלך עושה לנו טוב יותר. תודה על התמיכה שלך!</string>
+  <string name="dialog_rate_positive">מדהים</string>
+  <string name="rt_fb">יש לי הצעות</string>
+  <string name="rt_cancel">בפעם הבאה</string>
+  <string name="dialog_rate_message_feedback">משוב יגרום לנו לספק לך שירותים איכותיים יותר.</string>
+  <string name="ok">בסדר</string>
+  <string name="cancel">לְבַטֵל</string>
+  <string name="no_sending_emails_app">מצטערים, לא הצלחנו למצוא אפליקציות לשליחת הודעות אימייל! להלן כתובת האימייל למשוב שלנו: \n</string>
+  <string name="no_google_play_app">מצטערים, לא הצלחנו למצוא אף אפליקציה לפתיחת הדירוג של הבית!</string>
+  <string name="can_not_open_flash_light">לא ניתן לפתוח את אור הבזק</string>
+  <string name="device_not_support_flash_light">ההתקן אינו תומך באור הבזק ובאופן אוטומטי מאיר את המסך</string>
+  <string name="seconds">%1$d שניות</string>
+  <plurals name="minute">
+    <item quantity="other">%1$d דקות</item>
+  </plurals>
+  <string name="never">לעולם לא</string>
+  <string name="auto_close">כבה אוטומטית</string>
+  <string name="calibration_message">ניתן להתרחק ממקור הפרעות השדה המגנטי ולבצע את ההנחיות להשלמת כיול המצפן</string>
+  <string name="the_device_compass_is_not_available">המצפן של ההתקן אינו זמין</string>
+  <string name="recover_billing_completed">הושלם. אם יש לך שאלות, בדוק את הרשת שלך או בדוק את הזמנת Google Play ונסה שוב. תודה!</string>
+  <string name="processing_please_wait">מעבד … המתן.</string>
+  <string name="billing_set_up_failed_message">לא יכול להתחיל. ודא ש- Google Play פועל כהלכה.</string>
+  <string name="purchase_success">רכישת הצלחה</string>
+  <string name="purchase_failed">הרכישה נכשלה</string>
+  <string name="notification_hint_on">הקש כדי להדליק את האור</string>
+  <string name="notification_hint_off">הקש כדי לכבות את האור</string>
+  <string name="title_setting">הגדרות</string>
+  <string name="setting_primary_title_launch_open">מופעל אוטומטית</string>
+  <string name="setting_secondary_title_launch_open">להדליק את הפנס על ההפעלה</string>
+  <string name="setting_primary_title_keep_open">הפנס יישאר דולק</string>
+  <string name="setting_secondary_title_keep_open">הישאר לאחר נעילת המסך</string>
+  <string name="purchase_shake_open">לנער כדי להפעיל / לכבות את הפנס</string>
+  <string name="setting_primary_title_shake_open">לנער כדי לעב</string>
+  <string name="setting_secondary_title_shake_open">לנער את הטלפון כדי להפעיל / לכבות את הפנס</string>
+  <string name="setting_primary_title_notification">סרגל הכלים של הודע</string>
+  <string name="setting_secondary_title_notification">קיצור כדי להפעיל / לכבות את הפנס</string>
+  <string name="setting_primary_title_battery_control">בקרת חשמל</string>
+  <string name="setting_secondary_title_battery_control"> %1$d%% אזהרה על סוללה חלשה מתחת ל</string>
+  <string name="setting_primary_title_close_time">כיבוי אוטומטי</string>
+  <string name="setting_secondary_title_close_time">כבה את הפנס לאחר פרק זמן</string>
+  <string name="title_about">אודות</string>
+  <string name="about_feedback">משוב</string>
+  <string name="about_rate">דרג אותנו</string>
+  <string name="about_privacy_policy">מדיניות פרטיות</string>
+  <string name="billing_remove_ads">הסר מודעות</string>
+  <string name="billing_shark">לנער כדי להחליף פנס</string>
+  <string name="billing_notification">קיצור דרך של סרגל הכלים של ההודעות כדי להפעיל או לכבות את הפנס</string>
+  <string name="purchase_billing">$1.99</string>
+  <string name="recover_billing">שחזר</string>
+  <string name="dialog_low_power_title">תשומת הלב!</string>
+  <string name="dialog_low_power_message">הסוללה שלך נמוכה משיעור המינימום שנקבע. להדליק את הפנס בכל זאת?</string>
+  <string name="dialog_low_power_close">לכבות</string>
+  <string name="dialog_low_power_open">תישאר על</string>
+  <string name="common_dialog_title_hint">תשומת הלב</string>
+  <string name="dialog_camera_permission_title">פתח את הרשאות הפנס</string>
+  <string name="dialog_camera_permission_message">אין הרשאה להשתמש בפנס המשולב עם המצלמה על-ידי יצרן ההתקן. הענק רשות למצלמה.</string>
+  <string name="dialog_camera_permission_positive">לִפְתוֹחַ</string>
+  <string name="dialog_camera_permission_granted_message">ההרשאה ניתנה! התחל טיול פנס!</string>
+  <string name="dialog_camera_permission_granted_positive">הַתחָלָה</string>
+  <string name="dialog_no_flashlight_message">להתקן זה אין חומרה זמינה לפנס. במקום זאת, באפשרותך להשתמש באור המסך.</string>
+  <string name="dialog_no_flashlight_negative">אני יודע</string>
+  <string name="common_screen_light">אור מסך</string>
+  <string name="dialog_camera_occupied_positive">אני יודע</string>
+  <string name="dialog_camera_occupied_message">לא ניתן להדליק את הפנס מכיוון שהחומרה נכבשת. בדוק ועצור יישומים אחרים שמכוסים את הפנס.</string>
+  <string name="setting_primary_title_share">שתף</string>
+  <string name="setting_secondary_title_share">הפנס הטוב ביותר, הקש כדי לשתף עם החברים שלך</string>
+  <string name="setting_share_hint">העתק בהצלחה, תוכל להדביק ישירות</string>
+  <string name="setting_secondary_title_faq">פריטים בעיה נפוצות ותשובות לשאלות המתאימות</string>
+  <string name="dialog_no_flashlight_title">הפנס אינו זמין</string>
+  <string name="dialog_no_flashlight_message_no_flashlight">הפנס של התקן זה פגום או שאין פנס</string>
+  <string name="dialog_no_flashlight_message_screen_light">ניתן גם להשתמש באור מסך במקום זאת</string>
+  <string name="dialog_no_flashlight_positive">השתמש באור המסך</string>
+  <string name="title_faq">שאלות נפוצות</string>
+  <string-array name="faq_question">
+    <item>למה הפנס שלי לא עובד או מתפתל כל הזמן?</item>
+    <item>מדוע ניתן להשתמש רק באור המסך?</item>
+    <item>מדוע הפנס כבוי באופן לא תקין?</item>
+    <item>כיצד לשנות את צבע האור?</item>
+    <item>מדוע מהירות הסוללה נצרכת במהירות וטמפרטורת המכשיר גבוהה?</item>
+    <item>מדוע המצפן אינו מדויק?</item>
+    <item>מדוע לא ניתן להשתמש במפה בצורה נכונה?</item>
+  </string-array>
+  <string-array name="faq_answer">
+    <item>
+אם הפנס שלך אינו פועל, ייתכן שהוא נגרם מהסיבות הבאות:\n- הפנס כבר strobing כל הזמן, אולי בגלל מצב strobe פועל. צעדים לביטול מצב Strobe: חזרה לדף הבית ← בדוק את מיקומו של הלחצן תחת [SOS, 0 ~ 10] ← גרור את הלחצן אל מתחת למספר 0;\n- פתח יישום פנס אחר או יישום המצלמה בו זמנית, אנא סגור את האפליקציה;\n- אינו מאפשר רשות המצלמה, הפנס צריך רשות המצלמה להדליק את האור. שלבים כדי לאפשר את אישור המצלמה: חזרה לדף הבית ← לחץ על לחצן on / off (הפעלת / כיבוי) ← אפשר הרשאות מצלמה בחלון המוקפץ;\n- הפנס של התקן זה פגום. ניתן גם להשתמש באור מסך במקום זאת. צעדים לשימוש באור מסך: חזרה לדף הבית ← לחץ על לחצן נורית המסך בפינה השמאלית התחתונה.
+    </item>
+    <item>
+הפנס של התקן זה פגום או שאין פנס. ניתן גם להשתמש באור מסך במקום זאת. צעדים לשימוש באור מסך: חזרה לדף הבית ← לחץ על לחצן נורית המסך בפינה השמאלית התחתונה.
+    </item>
+    <item>
+אם אתה מוצא שהפנס כבוי באופן לא תקין, בדוק את ההגדרות הבאות:\n- פנס להישאר על. אם תכבה את הפנס, ייתכן שהפנס יכבה במהלך מסך הנעילה;\n- כיבוי אוטומטי. אם תכבה את המכשיר באופן אוטומטי, הפנס יכבה באופן אוטומטי לאחר זמן ההגדרה. אם אינכם רוצים לכבות את הפנס באופן אוטומטי, יש לוודא שההגדרה האוטומטית היא "לעולם לא";\n- ללחוץ כדי לעבור. אם תפעיל את הטלטול כדי להחליף את הפנס, הפנס יופעל / יכבה באופן אוטומטי כאשר מתגלה שייק גדול של המכשיר. אם אינך רוצה להדליק או לכבות את הפנס על ידי רעד, כבה הגדרה זו .
+    </item>
+    <item>
+למרבה הצער, בשל המגבלות של חומרת ההתקן, לא ניתן לשנות את צבע הפלאש, רק את הצבע של אור המסך ניתן לשנות. צעדים לשינוי צבעו של מסך האור: חזרה לדף הבית ← לחץ על לחצן נורית המסך בפינה הימנית התחתונה ← צבע האור משתנה על-ידי כוונון הגוון (מעגל), רוויה (השורה הראשונה) והבהירות (שנייה) שורה).
+    </item>
+    <item>
+אם מהירות הסוללה נצרכת במהירות וטמפרטורת ההתקן גבוהה, בצע את ההגדרות הבאות:\n- אם צריכת הסוללה מהירה מדי, השתמש בתכונת בקרת צריכת החשמל כדי להגן על הסוללה. צעדים להפעלת בקרת צריכת חשמל: עבור לדף ההגדרות הפעל את בקרת צריכת החשמל.\n- אם הטמפרטורה של המכשיר גבוהה. ניתן גם להשתמש באור מסך במקום זאת. צעדים לשימוש באור מסך: חזרה לדף הבית ← לחץ על לחצן נורית המסך בפינה השמאלית התחתונה.
+    </item>
+    <item>
+אם המצפן שלך אינו מדויק, ייתכן שהדבר נובע מהסיבות הבאות:\n- יש הפרעה בשדה מגנטי ליד המכשיר. נא להתרחק מהפרעות מגנטיות ולהשלים את כיול המצפן. צעדים לכיול המצפן: חזרה לדף הבית ← לחץ על הסמל "?" בפינה הימנית העליונה של המצפן כדי להתחיל כיול מצפן ← בצע את ההוראות להשלמת המצפן כיול; צעדים לכיול המצפן:\n- בשל מגבלות החומרה של המכשיר, המצפן אינו פועל, באפשרותך לנסות להשתמש במפה כדי לקבוע את המיקום. צעדים כדי לפתוח את המפה: חזרה לדף הבית ← לחץ על לחצן המצפן כדי לפתוח את המפה → פתח את הרשאת המיקום להשתמש במפה.
+    </item>
+    <item>
+אם המפה שלך אינה פועלת, בדוק את ההגדרות הבאות:\n- לא הרשאת את הרשאת המיקום. שלבים לפתיחת הרשאת המיקום: חזרה לדף הבית ← לחץ על המצפן כדי לפתוח את המפה ← אפשר הרשאת מיקום, בחלון הרשאת היישום המוקפץ;\n- השתמש במפה צריך להפעיל את הרשת, לבדוק את הרשת הנוכחית היא רגילה;\n- אם אין בעיה עם ההגדרות לעיל, אני מאוד מצטער, המכשיר שלך אינו תומך מיקוד, או יש חריגה המיקום, ואת המפה לא ניתן להשתמש כרגיל.
+    </item>
+  </string-array>
+  <string name="title_feedback">לא מרוצה?</string>
+  <string name="dialog_feedback_message_faq">האם נתקלת בבעיות במהלך השימוש? מצא פתרונות בשאלות נפוצות.</string>
+  <string name="dialog_feedback_message_feedback">הבעיה לא נפתרת? אנא המשוב פרטים נוספים על הבעיה.</string>
+  <string name="dialog_feedback_positive">משוב</string>
+  <string name="dialog_request_permission_title">צריך אישור מצלמה</string>
+  <string name="dialog_request_permission_message">הפנס זקוק למצלמה כדי לספק לך שירות פנס. הפנס לא יפלוש לפרטיותך, אנא המתן למצלמה.</string>
+  <string name="dialog_request_permission_positive">מובן</string>
+  <string name="dialog_rate_us_title">דרג אותנו</string>
+  <string name="dialog_rate_us_message_review">אם אתה נהנה מהפנס, אנא שקל לשקול סקירה.</string>
+  <string name="dialog_rate_us_message_rate">בחר:</string>
+  <string name="dialog_rate_us_positive">שלח</string>
+  <string name="update_dialog_title_1">תכונה חדשה שוחררה!</string>
+  <string name="update_dialog_title_2">אנא עדכן!</string>
+  <string name="update_dialog_title_3">עדכן והמשך</string>
+  <string name="update_dialog_content_1">רוצים לראות משהו חדש? פשוט עדכן וגלה! תודה שהשתמשת!</string>
+  <string name="update_dialog_content_2">תיקנו כמה באגים פוטנציאליים! מומלץ בחום עדכון מיידי!</string>
+  <string name="update_dialog_content_3">אפליקציה זו נתקלת בבעיה רצינית כלשהי, עליך לעדכן כדי להמשיך או לפרוש! רשומת ההיסטוריה שלך תימשך!  מצטער על אי הנוחות. אנו מחויבים להפוך את האפליקציה הטובה ביותר עבורך!</string>
+  <string name="update_dialog_cancel">בטל</string>
+  <string name="update_dialog_update">עדכון</string>
+  <string name="update_dialog_quit">צא</string>
+  <string name="dialog_grant_permission_message">הפנס זקוק למצלמה כדי לספק לך שירות פנס. הפנס לא יפלוש לפרטיותך, אנא המתן למצלמה</string>
+  <string name="dialog_grant_permission_positive">מענק</string>
+  <string name="dialog_grant_permission_negative">בטל</string>
+</resources>

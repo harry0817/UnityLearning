@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">Flashlight</string>
+  <string name="east">E</string>
+  <string name="west">W</string>
+  <string name="south">S</string>
+  <string name="north">N</string>
+  <string name="south_east">SE</string>
+  <string name="south_west">SW</string>
+  <string name="north_east">NE</string>
+  <string name="north_west">NW</string>
+  <string name="main_color">Warna</string>
+  <string name="main_morse">Morse</string>
+  <string name="morse_transmit">Transmit</string>
+  <string name="on">ON</string>
+  <string name="off">OFF</string>
+  <string name="morse_your_text">Teks Anda</string>
+  <string name="morse_morse_code">Kod Morse</string>
+  <string name="permission_location_rationale">Akses ke perkhidmatan lokasi diperlukan untuk menunjukkan ciri \'lokasi saya\', yang menunjukkan lokasi semasa anda pada peta.</string>
+  <string name="permission_location_denied_message">Sampel ini memerlukan kebenaran lokasi untuk membolehkan lapisan \'lokasi saya\'. Sila cuba lagi dan berikan akses untuk menggunakan lokasi.\nJika kebenaran telah ditolak secara kekal, ia boleh didayakan dari Tetapan Sistem &gt; Aplikasi &gt; </string>
+  <string name="no_location_detected">Tiada lokasi dikesan. Pastikan lokasi didayakan pada peranti.</string>
+  <string name="locate">Cari</string>
+  <string name="rt_title">Kami memerlukan maklum balas anda</string>
+  <string name="dialog_rate_message_normal">Adakah anda suka alat lampu suluh kami! Bolehkah anda mengambil masa untuk menilainya. Sokongan anda membuat kami lebih baik. Terima kasih atas sokongan anda!</string>
+  <string name="dialog_rate_positive">Amazing</string>
+  <string name="rt_fb">Saya mempunyai cadangan</string>
+  <string name="rt_cancel">Next time</string>
+  <string name="dialog_rate_message_feedback">Maklum balas akan membuatkan kami memberikan perkhidmatan yang lebih berkualiti.</string>
+  <string name="ok">OK</string>
+  <string name="cancel">Cancel</string>
+  <string name="no_sending_emails_app">Maaf, kami tidak dapat mencari sebarang aplikasi untuk menghantar e-mel! Berikut adalah alamat e-mel maklum balas kami:\n</string>
+  <string name="no_google_play_app">Maaf, kami tidak dapat mencari sebarang aplikasi untuk membuka halaman penarafan!</string>
+  <string name="can_not_open_flash_light">Tidak dapat membuka flash flash</string>
+  <string name="device_not_support_flash_light">Peranti tidak menyokong cahaya kilat dan secara automatik akan menyala skrin</string>
+  <string name="seconds">%1$d Seconds</string>
+  <plurals name="minute">
+    <item quantity="other">%1$d Minit</item>
+  </plurals>
+  <string name="never">Never</string>
+  <string name="auto_close">Matikan secara automatik</string>
+  <string name="calibration_message">Anda boleh menjauhkan diri dari sumber gangguan medan magnet dan ikut arahan untuk melengkapkan penentukuran kompas</string>
+  <string name="the_device_compass_is_not_available">Kompas peranti tidak tersedia</string>
+  <string name="recover_billing_completed">Selesai. Jika anda mempunyai sebarang pertanyaan, periksa rangkaian anda atau periksa pesanan Google Play anda dan cuba lagi. Terima kasih!</string>
+  <string name="processing_please_wait">Memproses … Sila tunggu.</string>
+  <string name="billing_set_up_failed_message">Tidak boleh bermula. Sila pastikan mainan google berfungsi dengan baik.</string>
+  <string name="purchase_success">Beli kejayaan</string>
+  <string name="purchase_failed">Pembelian gagal</string>
+  <string name="notification_hint_on">Ketik untuk menghidupkan lampu</string>
+  <string name="notification_hint_off">Ketik untuk mematikan cahaya</string>
+  <string name="title_setting">Tetapan</string>
+  <string name="setting_primary_title_launch_open">Automatik pada</string>
+  <string name="setting_secondary_title_launch_open">Hidupkan lampu kilat pada permulaan</string>
+  <string name="setting_primary_title_keep_open">Lampu suluh dihidupkan</string>
+  <string name="setting_secondary_title_keep_open">Teruskan selepas mengunci skrin</string>
+  <string name="purchase_shake_open">Goncang untuk menghidupkan</string>
+  <string name="setting_primary_title_shake_open">Goncang untuk menghidupkan</string>
+  <string name="setting_secondary_title_shake_open">Goncang telefon anda untuk menghidupkan / mematikan lampu suluh</string>
+  <string name="setting_primary_title_notification">Bar alat pemberitahuan bertukar</string>
+  <string name="setting_secondary_title_notification">Pintasan untuk menghidupkan / mematikan lampu suluh</string>
+  <string name="setting_primary_title_battery_control">Kawalan kuasa</string>
+  <string name="setting_secondary_title_battery_control">Amaran bateri rendah di bawah %1$d%%</string>
+  <string name="setting_primary_title_close_time">Keluar automatik</string>
+  <string name="setting_secondary_title_close_time">Matikan lampu suluh selepas tempoh masa</string>
+  <string name="title_about">Mengenai</string>
+  <string name="about_feedback">Maklumbalas</string>
+  <string name="about_rate">Beri penilaian kepada kami</string>
+  <string name="about_privacy_policy">Dasar privasi</string>
+  <string name="billing_remove_ads">Keluarkan ADS</string>
+  <string name="billing_shark">Goncang untuk menghidupkan lampu suluh</string>
+  <string name="billing_notification">Pintasan baris pemberitahuan untuk menghidupkan / mematikan lampu suluh</string>
+  <string name="purchase_billing">$1.99</string>
+  <string name="recover_billing">Pulihkan</string>
+  <string name="dialog_low_power_title">Perhatian!</string>
+  <string name="dialog_low_power_message">Bateri anda lebih rendah daripada peratusan minimum yang ditetapkan. Hidupkan lampu suluh pula?</string>
+  <string name="dialog_low_power_close">Matikan</string>
+  <string name="dialog_low_power_open">Tinggal di sini</string>
+  <string name="common_dialog_title_hint">Perhatian</string>
+  <string name="dialog_camera_permission_title">Buka Izin Lampu Suluh</string>
+  <string name="dialog_camera_permission_message">Tidak mempunyai kebenaran untuk menggunakan lampu suluh yang disepadukan dengan kamera oleh pengeluar peranti anda. Tolong berikan kebenaran kamera.</string>
+  <string name="dialog_camera_permission_positive">Buka</string>
+  <string name="dialog_camera_permission_granted_message">Kebenaran diberikan! Mulakan perjalanan lampu suluh!</string>
+  <string name="dialog_camera_permission_granted_positive">Mulakan</string>
+  <string name="dialog_no_flashlight_message">Peranti ini tidak mempunyai perkakas lampu suluh yang tersedia. Anda boleh menggunakan cahaya skrin sebaliknya.</string>
+  <string name="dialog_no_flashlight_negative">Saya tahu</string>
+  <string name="common_screen_light">Cahaya Skrin</string>
+  <string name="dialog_camera_occupied_positive">Saya tahu</string>
+  <string name="dialog_camera_occupied_message">Tidak boleh menghidupkan lampu suluh kerana perkakasan sedang diduduki. Sila semak dan hentikan aplikasi lain yang menggunakan lampu suluh.</string>
+  <string name="setting_primary_title_share">Kongsi</string>
+  <string name="setting_secondary_title_share">Lampu suluh yang terbaik, ketik untuk berkongsi dengan rakan anda</string>
+  <string name="setting_share_hint">Salin berjaya, anda boleh tampal secara langsung</string>
+  <string name="setting_secondary_title_faq">Item masalah biasa dan jawapan kepada soalan yang sepadan</string>
+  <string name="dialog_no_flashlight_title">Lampu suluh tidak tersedia</string>
+  <string name="dialog_no_flashlight_message_no_flashlight">Lampu suluh peranti ini rosak atau tiada lampu suluh</string>
+  <string name="dialog_no_flashlight_message_screen_light">Anda juga boleh menggunakan cahaya skrin sebaliknya</string>
+  <string name="dialog_no_flashlight_positive">Gunakan cahaya skrin</string>
+  <string name="title_faq">Soalan Lazim</string>
+  <string-array name="faq_question">
+    <item>Mengapa lampu suluh saya tidak bekerja atau strob sepanjang masa?</item>
+    <item>Mengapa saya hanya boleh menggunakan cahaya skrin?</item>
+    <item>Kenapa lampu suluh dimatikan tidak normal?</item>
+    <item>Bagaimana untuk menukar warna cahaya?</item>
+    <item>Mengapa kelajuan bateri digunakan dengan cepat dan suhu peranti tinggi?</item>
+    <item>Mengapa kompas tidak tepat?</item>
+    <item>Kenapa tidak boleh menggunakan peta dengan betul?</item>
+  </string-array>
+  <string-array name="faq_answer">
+    <item>
+Jika lampu suluh anda tidak berfungsi, mungkin disebabkan oleh sebab-sebab berikut:\n- Lampu suluh telah menjadi strob sepanjang masa, mungkin kerana mod strob sedang dihidupkan. Langkah-langkah untuk mematikan mod strob: Kembali ke laman utama → Semak kedudukan butang di bawah [SOS, 0 ~ 10] → Seret butang ke bawah nombor 0;\n- Membuka aplikasi lampu suluh atau aplikasi kamera lain pada masa yang sama, sila tutup aplikasi ini;\n- Tidak membenarkan kebenaran kamera, lampu suluh memerlukan kebenaran kamera untuk menghidupkan cahaya. Langkah-langkah untuk membolehkan kebenaran kamera: Kembali ke laman utama → Klik butang hidup / mati → Benarkan keizinan kamera dalam tetingkap pop timbul;\n- Lampu suluh alat ini rosak. Anda juga boleh menggunakan cahaya skrin sebaliknya. Langkah-langkah untuk menggunakan cahaya skrin: Kembali ke laman utama → Klik butang cahaya skrin di penjuru kanan sebelah bawah.
+    </item>
+    <item>
+Lampu suluh peranti ini rosak atau tiada lampu suluh. Anda juga boleh menggunakan cahaya skrin sebaliknya. Langkah-langkah untuk menggunakan cahaya skrin: Kembali ke laman utama → Klik butang cahaya skrin di penjuru kanan sebelah bawah.
+    </item>
+    <item>
+Jika anda mendapati bahawa lampu suluh tidak aktif dimatikan, periksa tetapan berikut:\n- Lampu suluh dihidupkan. Jika anda mematikan lampu suluh dihidupkan, lampu suluh boleh dimatikan semasa skrin kunci;\n- Pemadaman automatik. Jika anda mematikan secara automatik, lampu suluh akan dimatikan secara automatik selepas masa ditetapkan. Sekiranya anda tidak mahu mematikan lampu suluh secara automatik, pastikan bahawa tetapan luar automatik adalah "Jangan sekali-kali";\n- Goncang untuk beralih. Jika anda menghidupkan goncang untuk menghidupkan tetapan lampu suluh, lampu suluh akan secara automatik dihidupkan / dimatikan apabila guncangan besar peranti dikesan.Jika anda tidak mahu menghidupkan lampu suluh hidup / mati dengan berjabat, matikan tetapan ini .
+    </item>
+    <item>
+Malangnya, disebabkan oleh batasan perkakasan peranti, warna kilat tidak boleh diubah, hanya warna cahaya skrin yang boleh diubah. Langkah-langkah untuk menukar warna cahaya skrin: Kembali ke halaman utama → Klik butang cahaya skrin Di sudut kanan bawah → Warna cahaya diubah dengan menyesuaikan warna, tepu (baris pertama), dan kecerahan (kedua baris).
+    </item>
+    <item>
+Sekiranya kelajuan bateri digunakan dengan cepat dan suhu peranti tinggi, buat tetapan berikut:\n- Jika penggunaan bateri terlalu cepat, gunakan ciri kawalan kuasa untuk melindungi bateri. Langkah-langkah untuk menghidupkan kawalan kuasa: Pergi ke halaman tetapan → Hidupkan kawalan Kuasa → Tetapkan amaran bateri rendah → OK.\n- Jika suhu peranti tinggi. Anda juga boleh menggunakan cahaya skrin sebaliknya. Langkah-langkah untuk menggunakan cahaya skrin: Kembali ke laman utama → Klik butang cahaya skrin di penjuru kanan sebelah bawah.
+    </item>
+    <item>
+Jika kompas anda tidak tepat, mungkin disebabkan oleh sebab-sebab berikut:\n- Terdapat gangguan medan magnet di dekat peranti. Sila tinggalkan dari gangguan magnet dan selesaikan penentukuran kompas.Telepon untuk menentukur kompas: Kembali ke laman utama → Klik ikon "?" Di sudut kanan atas kompas untuk memulakan penentukuran kompas → Ikuti arahan untuk melengkapkan kompas penentukuran ;. Langkah untuk menentukib kompas:\n- Oleh kerana batasan perkakasan peranti anda, kompas tidak berfungsi, anda boleh cuba menggunakan peta untuk menentukan lokasi. Langkah-langkah untuk membuka peta: Kembali ke laman utama → Klik butang kompas untuk membuka peta → Buka kebenaran lokasi untuk gunakan peta.
+    </item>
+    <item>
+Jika peta anda tidak berfungsi, semak tetapan berikut:\n- Anda tidak membenarkan kebenaran lokasi. Langkah-langkah untuk membuka kebenaran lokasi: Kembali ke laman utama → Klik kompas untuk membuka peta → Benarkan kebenaran lokasi, dalam tetingkap kebenaran aplikasi pop timbul;\n- Gunakan peta perlu menghidupkan rangkaian, semak rangkaian semasa adalah normal;\n- Jika Tidak ada masalah dengan tetapan di atas, saya sangat menyesal, peranti anda tidak menyokong penyasaran, atau Terdapat kelainan dalam kedudukan, dan peta tidak boleh digunakan secara normal.
+    </item>
+  </string-array>
+  <string name="title_feedback">Tidak berpuas hati?</string>
+  <string name="dialog_feedback_message_faq">Mempunyai masalah yang ditemui semasa penggunaan? Cari penyelesaian dalam FAQ.</string>
+  <string name="dialog_feedback_message_feedback">Masalah tidak dapat diselesaikan? Sila maklumkan lebih banyak maklumat tentang masalah ini.</string>
+  <string name="dialog_feedback_positive">Maklumbalas</string>
+  <string name="dialog_request_permission_title">Perlu kebenaran kamera</string>
+  <string name="dialog_request_permission_message">Lampu suluh memerlukan kebenaran kamera untuk menyediakan anda dengan perkhidmatan lampu suluh. Lampu suluh tidak akan menyerang privasi anda, sila izinkan kamera.</string>
+  <string name="dialog_request_permission_positive">Faham</string>
+  <string name="dialog_rate_us_title">Beri penilaian kepada kami</string>
+  <string name="dialog_rate_us_message_review">Sekiranya anda menikmati lampu suluh sila pertimbangkan untuk memberi ulasan kepada kami.</string>
+  <string name="dialog_rate_us_message_rate">Pilih:</string>
+  <string name="dialog_rate_us_positive">Hantar</string>
+  <string name="update_dialog_title_1">Ciri-ciri Baru Dikeluarkan!</string>
+  <string name="update_dialog_title_2">Sila kemaskini!</string>
+  <string name="update_dialog_title_3">Kemas kini dan Teruskan</string>
+  <string name="update_dialog_content_1">Ingin melihat sesuatu yang baru? Cuma kemas kini dan cari! Terima kasih kerana menggunakan!</string>
+  <string name="update_dialog_content_2">Kami telah menetapkan beberapa potensi pepijat! Kemas kini segera sangat disyorkan!</string>
+  <string name="update_dialog_content_3">Aplikasi ini sedang mengalami beberapa masalah yang serius, anda perlu mengemas kini untuk terus atau berhenti! Rekod sejarah anda akan berterusan!  Maaf untuk kesulitan ini. Kami komited untuk menjadikan aplikasi terbaik untuk anda!</string>
+  <string name="update_dialog_cancel">Batalkan</string>
+  <string name="update_dialog_update">Kemas kini</string>
+  <string name="update_dialog_quit">Berhenti</string>
+  <string name="dialog_grant_permission_message">Lampu suluh memerlukan kebenaran kamera untuk menyediakan anda dengan perkhidmatan lampu suluh. Lampu suluh tidak akan menyerang privasi anda, sila izinkan kamera</string>
+  <string name="dialog_grant_permission_positive">Geran</string>
+  <string name="dialog_grant_permission_negative">Batalkan</string>
+</resources>

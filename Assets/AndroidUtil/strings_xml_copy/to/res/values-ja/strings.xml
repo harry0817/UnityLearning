@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">ソリティア</string>
+  <string name="score_label">スコア</string>
+  <string name="time_label">時間</string>
+  <string name="move_label">移動</string>
+  <string name="auto_complete_title">自動補完</string>
+  <string name="setting">設定</string>
+  <string name="themes">テーマ</string>
+  <string name="newgame">ゲーム</string>
+  <string name="hint_btn">ヒント</string>
+  <string name="undo">戻る</string>
+  <string name="hint_no_move">有効移動がありません。</string>
+  <string name="hintmove">ヒント</string>
+  <string name="play_action_random_deal">ランダムモード</string>
+  <string name="play_action_winning_deal">正解ありモード</string>
+  <string name="play_action_replay">リプレイ</string>
+  <string name="cancel">キャンセル</string>
+  <string name="setting_ok">OK</string>
+  <string name="statistics">統計</string>
+  <string name="setting_draw1">カード1枚</string>
+  <string name="setting_draw3">カード3枚</string>
+  <string name="setting_sound">サウンド</string>
+  <string name="setting_times">時間/移動</string>
+  <string name="setting_orientation">オリエンテーション</string>
+  <string name="setting_hints">オートヒント</string>
+  <string name="setting_tapmove">タップで動く</string>
+  <string name="help_rules">ルール</string>
+  <string name="setting_draw3_mode">カード3枚</string>
+  <string name="setting_score_anim">スコアアニメーション</string>
+  <string name="setting_privacy_policy">プライバシーポリシー</string>
+  <string name="setting_language">言語</string>
+  <string name="stat_won">クリア回数</string>
+  <string name="stat_lose">負けた回数</string>
+  <string name="stat_swtime">最速クリア時間</string>
+  <string name="stat_lwtime">クリア最長時間</string>
+  <string name="stat_awtime">クリア平均時間</string>
+  <string name="stat_fwmove">クリア最小移動回数</string>
+  <string name="stat_mwmove">クリア最大移動回数</string>
+  <string name="stat_nundo">戻るなしでクリア回数</string>
+  <string name="stat_hscroe">ハイスコア</string>
+  <string name="reset_stat">リセット</string>
+  <string name="yes">はい</string>
+  <string name="mode_message">難易度設定は、次の新しいゲームで有効になります</string>
+  <string name="dialog_close">閉じる</string>
+  <string name="theme">テーマ</string>
+  <string name="dialog_theme_cardback">絵柄（裏）</string>
+  <string name="dialog_theme_gameback">背景</string>
+  <string name="dialog_theme_card">絵柄（表）</string>
+  <string name="dialog_theme_hint_no_permission">許可なし</string>
+  <string name="dialog_purchase_image_hint">おめでとうございます!得るものは:</string>
+  <string name="dialog_reward_message">コインが足りない!%1$dコインを得るために短いビデオを見てみる?</string>
+  <string name="dialog_add_coin_title">おめでとう、得たコイン:</string>
+  <string name="update_available">最新バージョンに更新しますか?</string>
+  <string name="dialog_quit_message">ゲームを終了しますか？</string>
+  <string name="dialog_quit_btn_positive">@string/yes</string>
+  <string name="confirm_reset_game_stat">成績表をすべてゼロにリセットしますか？</string>
+  <string name="notification_push">クリックしてゲームを開く</string>
+  <string name="notification_ticker">ソリティアに戻る！</string>
+  <string name="done">完了</string>
+  <string name="hint_recycle_card">もう一度めくります。</string>
+  <string name="hint_draw_card">ドロー</string>
+  <string name="message_no_hint_use_magic">有効移動がありませんので、魔法を使いたいの?</string>
+  <string name="left_hand_mode">左利きモード</string>
+  <string name="congratulationsAnimation">勝利アニメーション</string>
+  <string name="title_information">情報</string>
+  <string name="invite_rate_title">ゲームを楽しんでる?</string>
+  <string name="invite_rate_message">あなたの評価は、私たちは最高のゲームを可能にするのに役立ちます!</string>
+  <string name="invite_rate_submit">送信</string>
+  <string name="invite_rate_title_gratitude_google_play">ありがとう！</string>
+  <string name="invite_rate_gratitude_google_play_message">あなたのサポートをありがとう!</string>
+  <string name="invite_rate_gratitude_google_play_positive">わかりました</string>
+  <string name="invite_rate_title_email">フィードバック</string>
+  <string name="invite_rate_email_message">私たちは本当にあなたの考えを大切に!あなたは私たちにいくつかのフィードバックを送ることによって助ける?</string>
+  <string name="invite_rate_email_positive">行く</string>
+  <string name="invite_rate_title_gratitude_email">ありがとう！</string>
+  <string name="invite_rate_gratitude_email_message">あなたのフィードバックは私達がゲームに更新を提供するのを助ける。</string>
+  <string name="invite_rate_gratitude_email_positive">わかりました</string>
+  <string name="invite_rate_google_message">あなたは Google Play で私たちを評価するために時間を割いてもらえますか?</string>
+  <string name="invite_rate_button_positive">もちろん！</string>
+  <string name="rule_0_text">
+    並べられたカードを数字の順番で列を移動させながら、同じマークのAからKの順番に並べかえることができたらゲームクリアです。
+  </string>
+  <string name="rule_1_text">
+    プレイエリアには７列の場札があり、場札の上から下へと赤と黒を交互にするルールに従っています。場札が空っぽの時は、Ｋからカードを並べられます。
+  </string>
+  <string name="rule_2_text">
+    動かし方のルールは、トランプの下の方が大きい数字になることとトランプの色が赤と黒の交互に並べられること.できるだけ多くのプレイエリアカードを使用するために露出したカードを伏せさせてください。
+  </string>
+  <string name="rule_3_text">
+    カードをタップとドラックしたら移動できます。更に、その下の連続のカードも一緒に移動できます。
+  </string>
+  <string name="rule_4_text">
+    山札をタップすると、カードは1枚か3枚ずつめくられます。場にある裏になったカードは、その上にあるカードがなくなった時、めくって表にすることが出来ます。
+  </string>
+  <string name="rule_4_restock">補充</string>
+  <string name="rule_5_text">
+    立ち往生の時、[ヒント] を使えてヘルプを確認できます。
+  </string>
+  <string name="rule_6_title">
+    スコアリングルール
+  </string>
+  <string name="rule_6_body">
+    新しいのゲームは0ポインとから始まる、組札に移動したカードは10ポイントを加える、場札にに移動したのカードは５ポイントを加える、場札の中で回転したのカードは５ポイントを加える。組札の外で移動したのカードは１０ポイントを減る、戻るのカードは２ポイントを経る。 三枚モードの時、山札をシャッフルを三回しましたら、２０ポイントを減る一枚のモードの時、山札をシャッフルを一回しましたら、１００ポイントを減る。ゲーム始めるから、１０秒ごと２ポイントを減る。
+	</string>
+  <string name="rule_7_title">
+    手の説明
+  </string>
+  <string name="rule_7_body">
+    ソリティアは二つのモードがあります:ランダムモードと正解ありモード。ランダムモードでは、カードの位置はランダムので、正解がないの可能性もあります。正解ありモードでは、必ず正解があります。
+  </string>
+  <string name="common_alert_message_purchase">%1$dコインをかかってこの商品を購入しますか?</string>
+  <string name="magic_store_no_ad_loaded">広告は読み込まれません</string>
+  <string name="common_not_enough_coin">コインが足りない</string>
+  <string name="play_action_magic">魔法棒</string>
+  <string name="victory_title">お祝い！</string>
+  <string name="victory_bonus">報酬</string>
+  <string name="victory_get_bonus">報酬を得る</string>
+  <string name="victory_watch_video">ビデオを見る</string>
+  <string name="victory_new_game">新しいゲーム</string>
+  <string name="victory_history_score">履歴記録</string>
+  <string name="magic_store_title">ショップ</string>
+  <string name="game_mode_random">ランダム</string>
+  <string name="game_mode_winning">正解あり</string>
+  <string name="daily_bonus_today">本日は</string>
+  <string name="daily_bonus_tomorrow">明日</string>
+  <string name="daily_bonus_victory_format">%1$d 分</string>
+  <string name="daily_bonus_day">%1$d日目</string>
+  <string name="daily_bonus_title">毎日のボーナス</string>
+  <string name="daily_bonus_btn_claim">受信</string>
+  <string name="daily_bonus_description">あなたの報酬を収集するために毎日戻ってくる!</string>
+  <string name="daily_bonus_select_massage">毎日のボーナス  を得るために短いビデオを見る?</string>
+  <string name="daily_bonus_select_negative">違います</string>
+  <string name="daily_bonus_select_positive">うん</string>
+  <string name="daily_bonus_victory_result_message">あなたは、次の %2$d 分で%1$d%%以上のコインを獲得します!</string>
+  <string name="daily_bonus_result_done">行く</string>
+  <string name="daily_bonus_result_message">あなたが得た: </string>
+  <string name="no_hint_message_guilde">魔法棒使用して、ゲームを保存します。</string>
+  <string name="no_hint_message_no_magic">これ以上は動けません。新しいゲームを開始しますか？</string>
+  <string name="remove_ad">広告を削除</string>
+  <string name="purchasing_error_try_again">購入エラー！ 後でもう一度やり直してください！</string>
+  <string name="msg_coin_hint">テーマまたは魔法を購入する</string>
+  <string name="purchasing_succeed_remove_ad">購入が成功しました！ 広告を削除しました！</string>
+  <string name="daily_challenge">毎日の挑戦</string>
+  <string name="daily_challenge_start_btn">チャレンジを開始</string>
+  <string name="daily_challenge_total_count">合計：</string>
+  <string name="daily_challenge_status_solved">解決済み</string>
+  <string name="daily_challenge_status_unsolved">未解決</string>
+  <string name="daily_challenge_start_hint">デイリーチャレンジを開始</string>
+  <string name="daily_challenge_start_btn_replay">リプレイ</string>
+  <string name="daily_challenge_mode">チャレンジ</string>
+  <string name="msg_remove_cardback">Google Playポリシーに準拠するため、2つのカードバックを削除します。 ご不便おかけしてすみません！ 自分の写真でカードバックをカスタマイズできます！</string>
+  <string name="recover_billing">復元</string>
+</resources>

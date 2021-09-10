@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">Flash</string>
+  <string name="east">E</string>
+  <string name="west">W</string>
+  <string name="south">S</string>
+  <string name="north">N</string>
+  <string name="south_east">SE</string>
+  <string name="south_west">SW</string>
+  <string name="north_east">NE</string>
+  <string name="north_west">NW</string>
+  <string name="main_color">Color</string>
+  <string name="main_morse">Morse</string>
+  <string name="morse_transmit">Transmitir</string>
+  <string name="on">EN</string>
+  <string name="off">APAGADO</string>
+  <string name="morse_your_text">Tu texto</string>
+  <string name="morse_morse_code">Código Morse</string>
+  <string name="permission_location_rationale">El acceso al servicio de ubicación es necesario para demostrar la función "mi ubicación", que muestra su ubicación actual en el mapa.</string>
+  <string name="permission_location_denied_message">Este ejemplo requiere permiso de ubicación para habilitar la capa \'mi ubicación \'. Por favor, inténtelo de nuevo y conceda acceso para usar la ubicación. \nSi el permiso se ha denegado permanentemente, se puede habilitar en la configuración del sistema &gt; Aplicaciones &gt; </string>
+  <string name="no_location_detected">No se detectó ninguna ubicación. Asegúrese de que la ubicación está activada en el dispositivo.</string>
+  <string name="locate">Localizar</string>
+  <string name="rt_title">Necesitamos sus comentarios</string>
+  <string name="dialog_rate_message_normal">¿Te gusta nuestra herramienta linterna! ¿Podría tomar un momento para calificarlo? Su apoyo nos hace mejorar. ¡Gracias por su apoyo!</string>
+  <string name="dialog_rate_positive">Asombroso</string>
+  <string name="rt_fb">Tengo sugerencias</string>
+  <string name="rt_cancel">La próxima vez</string>
+  <string name="dialog_rate_message_feedback">Los comentarios nos harán brindarle más servicios de calidad.</string>
+  <string name="ok">Bueno</string>
+  <string name="cancel">Cancelar</string>
+  <string name="no_sending_emails_app">Lo sentimos, no pudimos encontrar ninguna aplicación para enviar correos electrónicos. A continuación se muestra nuestra dirección de correo electrónico:\n</string>
+  <string name="no_google_play_app">Lo sentimos, no hemos podido encontrar ninguna aplicación para abrir la página de inicio!</string>
+  <string name="can_not_open_flash_light">Can not open flash light</string>
+  <string name="device_not_support_flash_light">El dispositivo no admite la luz del flash y automáticamente ilumina la pantalla</string>
+  <string name="seconds">%1$d Segundos</string>
+  <plurals name="minute">
+    <item quantity="one">%1$d Minuto</item>
+    <item quantity="other">%1$d Minutos</item>
+  </plurals>
+  <string name="never">Nunca</string>
+  <string name="auto_close">Desactivar automáticamente</string>
+  <string name="calibration_message">Puede mantenerse alejado de la fuente de interferencia de campo magnético y seguir las instrucciones para completar la calibración de la brújula</string>
+  <string name="the_device_compass_is_not_available">La brújula del dispositivo no está disponible</string>
+  <string name="recover_billing_completed">Abgeschlossen. Wenn Sie irgendwelche Fragen haben, überprüfen Sie Ihr Netzwerk oder überprüfen Sie Ihre Google Play-Bestellung und versuchen Sie es erneut. Vielen Dank!</string>
+  <string name="processing_please_wait">Procesando … por favor espere.</string>
+  <string name="billing_set_up_failed_message">No se puede empezar. Asegúrese de que Google Play esté funcionando correctamente.</string>
+  <string name="purchase_success">Éxito de compra</string>
+  <string name="purchase_failed">La compra falló</string>
+  <string name="notification_hint_on">Toca para encender la luz</string>
+  <string name="notification_hint_off">Toca para apagar la luz</string>
+  <string name="title_setting">Configuraciones</string>
+  <string name="setting_primary_title_launch_open">Automático encendido</string>
+  <string name="setting_secondary_title_launch_open">Encienda la linterna al inicio</string>
+  <string name="setting_primary_title_keep_open">Linterna permanece encendida</string>
+  <string name="setting_secondary_title_keep_open">Permanezca encendido después de bloquear la pantalla</string>
+  <string name="purchase_shake_open">Agitar para encender / apagar la linterna</string>
+  <string name="setting_primary_title_shake_open">Agitar para cambiar</string>
+  <string name="setting_secondary_title_shake_open">Agite su teléfono para encender / apagar la linterna</string>
+  <string name="setting_primary_title_notification">Alternar barra de herramientas de notificación</string>
+  <string name="setting_secondary_title_notification">Acceso directo para encender / apagar la linterna</string>
+  <string name="setting_primary_title_battery_control">Control de poder</string>
+  <string name="setting_secondary_title_battery_control">Advertencia de batería baja por debajo del %1$d%%</string>
+  <string name="setting_primary_title_close_time">Apagado automático</string>
+  <string name="setting_secondary_title_close_time">Apague la linterna después de un período de tiempo</string>
+  <string name="title_about">Acerca de</string>
+  <string name="about_feedback">Realimentación</string>
+  <string name="about_rate">Nos califica</string>
+  <string name="about_privacy_policy">Política de privacidad</string>
+  <string name="billing_remove_ads">Quitar anuncios</string>
+  <string name="billing_shark">Agite para cambiar la linterna</string>
+  <string name="billing_notification">Atajo de la barra de herramientas de notificación para encender / apagar la linterna</string>
+  <string name="purchase_billing">$1.99</string>
+  <string name="recover_billing">Restaurar</string>
+  <string name="dialog_low_power_title">¡Atención!</string>
+  <string name="dialog_low_power_message">Su batería es inferior al porcentaje mínimo establecido. ¿Enciende la linterna de todos modos?</string>
+  <string name="dialog_low_power_close">Apagar</string>
+  <string name="dialog_low_power_open">Permanecer en</string>
+  <string name="common_dialog_title_hint">Atención</string>
+  <string name="dialog_camera_permission_title">Abra los permisos de linterna</string>
+  <string name="dialog_camera_permission_message">No tiene permiso para usar linterna que está integrada con la cámara por el fabricante del dispositivo. Por favor conceda permiso a la cámara.</string>
+  <string name="dialog_camera_permission_positive">Abierto</string>
+  <string name="dialog_camera_permission_granted_message">¡Permiso concedido! ¡Comienza el viaje de la linterna!</string>
+  <string name="dialog_camera_permission_granted_positive">Comienzo</string>
+  <string name="dialog_no_flashlight_message">Este dispositivo no tiene hardware de linterna disponible. Puede usar la luz de la pantalla en su lugar.</string>
+  <string name="dialog_no_flashlight_negative">Lo sé</string>
+  <string name="common_screen_light">Luz de pantalla</string>
+  <string name="dialog_camera_occupied_positive">Lo sé</string>
+  <string name="dialog_camera_occupied_message">No se puede encender la linterna porque el hardware está ocupado. Verifique y detenga otras aplicaciones que ocupen la linterna.</string>
+  <string name="setting_primary_title_share">Compartir</string>
+  <string name="setting_secondary_title_share">La mejor linterna, toca para compartir con tus amigos.</string>
+  <string name="setting_share_hint">Copia exitosa, puedes pegar directamente</string>
+  <string name="setting_secondary_title_faq">Problemas comunes y respuestas a las preguntas correspondientes.</string>
+  <string name="dialog_no_flashlight_title">Linterna no disponible</string>
+  <string name="dialog_no_flashlight_message_no_flashlight">La linterna de este dispositivo está dañada o no hay linterna</string>
+  <string name="dialog_no_flashlight_message_screen_light">También puede utilizar la luz de la pantalla en su lugar</string>
+  <string name="dialog_no_flashlight_positive">Usar luz de pantalla</string>
+  <string name="title_faq">Preguntas más frecuentes</string>
+  <string-array name="faq_question">
+    <item>¿Por qué mi linterna no funciona o parpadea todo el tiempo?</item>
+    <item>¿Por qué solo puedo usar la luz de la pantalla?</item>
+    <item>¿Por qué se apaga la linterna anormalmente?</item>
+    <item>¿Cómo cambiar el color de la luz?</item>
+    <item>¿Por qué la velocidad de la batería se consume rápidamente y la temperatura del dispositivo es alta?</item>
+    <item>¿Por qué la brújula es inexacta?</item>
+    <item>¿Por qué no se puede utilizar correctamente el mapa?</item>
+  </string-array>
+  <string-array name="faq_answer">
+    <item>
+Si su linterna no funciona, puede deberse a los siguientes motivos:\n- La linterna ha estado parpadeando todo el tiempo, posiblemente porque el modo estroboscópico está activado. Pasos para desactivar el modo de luz estroboscópica: Volver a la página de inicio → Verifique la posición del botón debajo de [SOS, 0 ~ 10] → Arrastre el botón hasta debajo del número 0;\n- Se abrió otra aplicación de linterna o aplicación de cámara al mismo tiempo, cierre estas aplicaciones;\n- No permite el permiso de la cámara, la linterna necesita permiso de la cámara para encender la luz. Pasos para permitir el permiso de la cámara: Volver a la página de inicio → Haga clic en el botón de encendido / apagado → Permitir permisos de la cámara en la ventana emergente;\n- La linterna de este dispositivo está dañada. También puede utilizar la luz de la pantalla en su lugar. Pasos para usar la luz de la pantalla: Volver a la página de inicio → Haga clic en el botón de luz de la pantalla en la esquina inferior derecha.
+    </item>
+    <item>
+La linterna de este dispositivo está dañada o no hay linterna. También puede utilizar la luz de la pantalla en su lugar. Pasos para usar la luz de la pantalla: Volver a la página de inicio → Haga clic en el botón de luz de la pantalla en la esquina inferior derecha.
+    </item>
+    <item>
+Si encuentra que la linterna está apagada anormalmente, verifique los siguientes ajustes:\n- Linterna permanecer en. Si apaga la linterna, la linterna puede apagarse durante la pantalla de bloqueo;\n- Apagado automático. Si activa el apagado automático, la linterna se apagará automáticamente después del tiempo establecido. Si no desea apagar la linterna automáticamente, asegúrese de que la configuración de apagado automático sea "Nunca";\n- Agitar para cambiar. Si activa la vibración para cambiar la configuración de la linterna, la linterna se activará / desactivará automáticamente cuando se detecte una gran sacudida del dispositivo. Si no desea encender / apagar la linterna sacudiéndola, desactive esta configuración .
+    </item>
+    <item>
+Desafortunadamente, debido a las limitaciones del hardware del dispositivo, el color del flash no se puede cambiar, solo se puede cambiar el color de la luz de la pantalla. Pasos para cambiar el color de la luz de la pantalla: Volver a la página de inicio → Hacer clic en el botón de luz de la pantalla En la esquina inferior derecha → El color de la luz se cambia al ajustar el tono (círculo), la saturación (primera línea) y el brillo (segundo línea).
+    </item>
+    <item>
+Si la velocidad de la batería se consume rápidamente y la temperatura del dispositivo es alta, realice los siguientes ajustes:\n- Si el consumo de la batería es demasiado rápido, use la función de control de energía para proteger la batería. Pasos para activar el control de energía: Vaya a la página de configuración → Activar control de energía → Configurar advertencia de batería baja → Aceptar.\n- Si la temperatura del dispositivo es alta. También puede utilizar la luz de la pantalla en su lugar. Pasos para usar la luz de la pantalla: Volver a la página de inicio → Haga clic en el botón de luz de la pantalla en la esquina inferior derecha.
+    </item>
+    <item>
+Si su brújula es inexacta, puede deberse a las siguientes razones:\n- Hay una interferencia de campo magnético cerca del dispositivo. Manténgase alejado de la interferencia magnética y complete la calibración de la brújula. Pasos para calibrar la brújula: Regrese a la página de inicio → Haga clic en el icono "?" En la esquina superior derecha de la brújula para iniciar la calibración de la brújula → Siga las instrucciones para completar la brújula Calibración; .Pasos para calibrar la brújula:\n- Debido a las limitaciones de hardware de su dispositivo, la brújula no funciona, puede intentar usar el mapa para determinar la ubicación. Pasos para abrir el mapa: Volver a la página de inicio → Haga clic en el botón del compás para abrir el mapa → Abra el permiso de ubicación para usa el mapa
+    </item>
+    <item>
+Si su mapa no funciona, verifique la siguiente configuración:\n- No ha permitido el permiso de ubicación. Pasos para abrir el permiso de ubicación: Volver a la página de inicio → Haga clic en la brújula para abrir el mapa → Permitir el permiso de ubicación, en la ventana de permiso de la aplicación emergente;\n- Use el mapa para encender la red, verifique que la red actual sea normal;\n- Si no hay ningún problema con la configuración anterior, lo siento mucho, su dispositivo no es compatible con la orientación, o hay una anomalía en el posicionamiento, y el mapa no se puede usar normalmente.
+    </item>
+  </string-array>
+  <string name="title_feedback">¿No satisfecho?</string>
+  <string name="dialog_feedback_message_faq">¿Se han encontrado problemas durante el uso? Encuentre soluciones en FAQ.</string>
+  <string name="dialog_feedback_message_feedback">¿El problema no se resuelve? Por favor comenta más detalles sobre el problema.</string>
+  <string name="dialog_feedback_positive">Realimentación</string>
+  <string name="dialog_request_permission_title">Necesita permiso de camara</string>
+  <string name="dialog_request_permission_message">La linterna necesita permiso de la cámara para proporcionarle un servicio de linterna. La linterna no invadirá su privacidad, por favor permita el permiso de la cámara.</string>
+  <string name="dialog_request_permission_positive">Entendido</string>
+  <string name="dialog_rate_us_title">Nos califica</string>
+  <string name="dialog_rate_us_message_review">Si le gusta la linterna, por favor considere darnos una reseña.</string>
+  <string name="dialog_rate_us_message_rate">Escoger:</string>
+  <string name="dialog_rate_us_positive">Enviar</string>
+  <string name="update_dialog_title_1">¡Nueva función lanzada!</string>
+  <string name="update_dialog_title_2">¡Por favor actualice!</string>
+  <string name="update_dialog_title_3">Actualizar y continuar</string>
+  <string name="update_dialog_content_1">¿Quieres ver algo nuevo? ¡Solo actualiza y descúbrelo! Gracias por usar!</string>
+  <string name="update_dialog_content_2">¡Hemos corregido algunos errores potenciales! ¡Se recomienda encarecidamente la actualización inmediata!</string>
+  <string name="update_dialog_content_3">Esta aplicación está experimentando algún problema serio, ¡debes actualizar para continuar o salir! ¡Su registro de historia persistirá!  Lo siento por los inconvenientes ocasionados. ¡Estamos comprometidos a hacer la mejor aplicación para ti!</string>
+  <string name="update_dialog_cancel">Cancelar</string>
+  <string name="update_dialog_update">Actualizar</string>
+  <string name="update_dialog_quit">Dejar</string>
+  <string name="dialog_grant_permission_message">La linterna necesita permiso de la cámara para proporcionarle un servicio de linterna. La linterna no invadirá su privacidad, por favor permita el permiso de la cámara.</string>
+  <string name="dialog_grant_permission_positive">Conceder</string>
+  <string name="dialog_grant_permission_negative">Cancelar</string>
+</resources>

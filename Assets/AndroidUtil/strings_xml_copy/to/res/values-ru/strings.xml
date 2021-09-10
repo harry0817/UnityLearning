@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Косынка</string>
+  <string name="score_label">Счет</string>
+  <string name="time_label">Время</string>
+  <string name="move_label">Ходов</string>
+  <string name="auto_complete_title">Автозаполнение</string>
+  <string name="setting">Настройки</string>
+  <string name="themes">Темы</string>
+  <string name="newgame">Игра</string>
+  <string name="hint_btn">Подсказки</string>
+  <string name="undo">Шаг назад</string>
+  <string name="hint_no_move">Нет результативных ходов</string>
+  <string name="hintmove">Подсказки</string>
+  <string name="play_action_random_deal">Случайный пасьянс</string>
+  <string name="play_action_winning_deal">Выигрышный пасьянс</string>
+  <string name="play_action_replay">Повторить пасьянс</string>
+  <string name="cancel">Отмена</string>
+  <string name="setting_ok">ОК</string>
+  <string name="statistics">Статистика</string>
+  <string name="setting_draw1">1 Карта</string>
+  <string name="setting_draw3">3 Карты</string>
+  <string name="setting_sound">Звуки</string>
+  <string name="setting_times">Время/Ходы</string>
+  <string name="setting_orientation">Ориентация</string>
+  <string name="setting_hints">Автоподсказки</string>
+  <string name="setting_tapmove">нажмите двигаться</string>
+  <string name="help_rules">Правила Игры</string>
+  <string name="setting_draw3_mode">3 Карты</string>
+  <string name="setting_score_anim">Эффект партитуры</string>
+  <string name="setting_privacy_policy">Конфиденциальности</string>
+  <string name="setting_language">язык</string>
+  <string name="stat_won">Выиграно игр</string>
+  <string name="stat_lose">Проиграно игр</string>
+  <string name="stat_swtime">Кратчайшие сроки</string>
+  <string name="stat_lwtime">Самое длиннее время</string>
+  <string name="stat_awtime">Среднее время</string>
+  <string name="stat_fwmove">Наименьшее количество ходов</string>
+  <string name="stat_mwmove">Большинство ходов</string>
+  <string name="stat_nundo">Выиграно без отмены хода</string>
+  <string name="stat_hscroe">Рекорд</string>
+  <string name="reset_stat">Сброс</string>
+  <string name="yes">да</string>
+  <string name="mode_message">Сложность настройки вступят в силу в Следующая Новая игра</string>
+  <string name="dialog_close">Закрыть</string>
+  <string name="theme">Темы</string>
+  <string name="dialog_theme_cardback">Рубашка</string>
+  <string name="dialog_theme_gameback">Фон</string>
+  <string name="dialog_theme_card">Лицевая сторона</string>
+  <string name="dialog_theme_hint_no_permission">Нет разрешения</string>
+  <string name="dialog_purchase_image_hint">Поздравляю вас!\nвы получили:</string>
+  <string name="dialog_reward_message">Не хватает монет! Смотреть короткое видео, чтобы получить %1$d монет?</string>
+  <string name="dialog_add_coin_title">Поздравляю, вы получили:</string>
+  <string name="update_available">Обновление TOT и самая последняя версия?</string>
+  <string name="dialog_quit_message">Вы уверены, что бросить?</string>
+  <string name="dialog_quit_btn_positive">@string/yes</string>
+  <string name="confirm_reset_game_stat">Сбросить игровую статистику?</string>
+  <string name="notification_push">Нажмите меня, чтобы открыть игру!</string>
+  <string name="notification_ticker">Назад к пасьянса для удовольствия!</string>
+  <string name="done">ОК</string>
+  <string name="hint_recycle_card">Перетасовать оставшиеся карты</string>
+  <string name="hint_draw_card">Сдать карты</string>
+  <string name="message_no_hint_use_magic">Не обнаружено полезных ходов. Вы хотите использовать магию?</string>
+  <string name="left_hand_mode">Левша</string>
+  <string name="congratulationsAnimation">Экран поздравлений</string>
+  <string name="title_information">Информация</string>
+  <string name="invite_rate_title">Наслаждаюсь игрой?</string>
+  <string name="invite_rate_message">Ваш рейтинг поможет нам сделать лучшую игру возможной!</string>
+  <string name="invite_rate_submit">Отправить</string>
+  <string name="invite_rate_title_gratitude_google_play">Спасибо!</string>
+  <string name="invite_rate_gratitude_google_play_message">Спасибо за вашу поддержку!</string>
+  <string name="invite_rate_gratitude_google_play_positive">Хорошо</string>
+  <string name="invite_rate_title_email">Обратной связи</string>
+  <string name="invite_rate_email_message">Мы действительно ценим ваши мысли! Можете ли вы помочь, отправив нам некоторую обратную связь?</string>
+  <string name="invite_rate_email_positive">Пойти</string>
+  <string name="invite_rate_title_gratitude_email">Спасибо!</string>
+  <string name="invite_rate_gratitude_email_message">Ваши отзывы помогают нам предоставлять обновления для игры.</string>
+  <string name="invite_rate_gratitude_email_positive">Хорошо</string>
+  <string name="invite_rate_google_message">Не могли бы вы воспользоваться моментом, чтобы оценить нас на Google Play?</string>
+  <string name="invite_rate_button_positive">Уверен!</string>
+  <string name="rule_0_text">
+    Косынка использует стандартный 52 карточная колода игральных карт без джокеров.
+    Цель игры состоит в том, чтобы раскрыть все карты и переместить их в фундамент свай. Эти сваи строятся вверх в костюме от тузов до королей.
+  </string>
+  <string name="rule_1_text">
+    Есть 7 столбцов таблицы, которые строятся вниз (в убывающем ранга, от королей до тузов) в чередующихся цветов (красный, черный). Любая пустая колонка может быть заполнена только королем или грудой карт с королем наверху.
+  </string>
+  <string name="rule_2_text">
+    Частичные или полные сваи можно перемещать из одного столбца в другой, если они строятся по альтернативным цветам и уменьшают ранг. Выставляйте карты лицом вниз в таблицу, чтобы найти нужные карты.
+  </string>
+  <string name="rule_3_text">
+    Перемещение карты легко, просто коснитесь карты и перетащить его. При выборе карты также выбираются все карты, сложенные ниже.
+  </string>
+  <string name="rule_4_text">
+    Нажмите на акции, чтобы переместить 1 или 3 карты (ы) в отходы. Вы можете переместить верхнюю карту из кучи отходов в любое правовое положение в свай фундамента или таблицы колонн. Если запасы иссякнут, коснитесь его контура, чтобы снова разобраться.
+  </string>
+  <string name="rule_4_restock">Пополнить запасы</string>
+  <string name="rule_5_text">
+    Если вы застряли, нажмите кнопку подсказки, чтобы немного помочь.
+  </string>
+  <string name="rule_6_title">
+    Стандартный скоринг
+  </string>
+  <string name="rule_6_body">
+    Каждая новая игра начинается с 0 баллов. Каждая карта, которая перемещается в Фонд получает 10 баллов. Каждая карта, которая перемещается в столбец таблицы, получает 5 баллов.
+Каждая карта, перевернутая в столбце таблицы, получает 5 баллов. Перемещение карты из фундамента свай-это потеря 10 баллов. Каждый запрос на отмену представляет собой потерю 2 баллов в дополнение к очкам, которые вычитаются из отмены перемещения. Когда ничья 3 опция на есть потеря 20 баллов за каждый проход через кучу акций после третьего прохода. Когда ничья 3 опция Off есть потеря 100 очков за каждый проход через кучу акций. Для времени игры только: потеря 2 очка за каждые 10 секунд игры.
+  </string>
+  <string name="rule_7_title">
+    Игра
+  </string>
+  <string name="rule_7_body">
+    Пасьянс предложения игры в двух направлениях: случайные и победы. Случайная сделка переносит карты случайным образом, и, следовательно, только некоторые игры могут быть выиграны. Выигрышная сделка гарантированно имеет по крайней мере одно выигрышное решение.
+  </string>
+  <string name="common_alert_message_purchase">Купить этот продукт за %1$d монет?</string>
+  <string name="magic_store_no_ad_loaded">Объявление не загружено</string>
+  <string name="common_not_enough_coin">Не хватает монет</string>
+  <string name="play_action_magic">Волшебная палочка</string>
+  <string name="victory_title">Поздравление!</string>
+  <string name="victory_bonus">Награда</string>
+  <string name="victory_get_bonus">Получить вознаграждение</string>
+  <string name="victory_watch_video">Смотреть видео</string>
+  <string name="victory_new_game">Новая игра</string>
+  <string name="victory_history_score">История записи</string>
+  <string name="magic_store_title">Магазин</string>
+  <string name="game_mode_random">Случайных</string>
+  <string name="game_mode_winning">Победы</string>
+  <string name="daily_bonus_today">Сегодня</string>
+  <string name="daily_bonus_tomorrow">Завтра</string>
+  <string name="daily_bonus_victory_format">%1$d минут</string>
+  <string name="daily_bonus_day">День %1$d</string>
+  <string name="daily_bonus_title">Ежедневный бонус</string>
+  <string name="daily_bonus_btn_claim">Утверждают</string>
+  <string name="daily_bonus_description">Приходите каждый день, чтобы получить награды!</string>
+  <string name="daily_bonus_select_massage">Смотреть короткое видео, чтобы получить Eжедневный бонус  ?</string>
+  <string name="daily_bonus_select_negative">Нет</string>
+  <string name="daily_bonus_select_positive">Да</string>
+  <string name="daily_bonus_victory_result_message">Вы будете зарабатывать %1$d%% больше монет в ближайшие %2$d минут!</string>
+  <string name="daily_bonus_result_done">Пойти</string>
+  <string name="daily_bonus_result_message">Вы получили: </string>
+  <string name="no_hint_message_no_magic">Не обнаружено никаких полезных ходов. Чтобы открыть новую игру?</string>
+  <string name="no_hint_message_guilde">Используйте волшебную палочку, чтобы сохранить игру.</string>
+  <string name="remove_ad">Удалить рекламу</string>
+  <string name="purchasing_error_try_again">Ошибка покупки! Пожалуйста, повторите попытку позже!</string>
+  <string name="msg_coin_hint">Покупка тем или магии</string>
+  <string name="purchasing_succeed_remove_ad">Покупка удалась! Реклама удалена!</string>
+  <string name="daily_challenge">Ежедневное испытание</string>
+  <string name="daily_challenge_start_btn">Начать испытание</string>
+  <string name="daily_challenge_total_count">Всего:</string>
+  <string name="daily_challenge_status_solved">решаемая</string>
+  <string name="daily_challenge_status_unsolved">нерешенный</string>
+  <string name="daily_challenge_start_hint">Начать ежедневный вызов</string>
+  <string name="daily_challenge_start_btn_replay">переигровка</string>
+  <string name="daily_challenge_mode">Вызов</string>
+  <string name="msg_remove_cardback">Мы удаляем 2 карточки обратно в соответствии с политикой Google Play. Приносим извинения за неудобства! Вы можете настроить свою карту обратно с вашими собственными фотографиями!</string>
+  <string name="recover_billing">Восстановление</string>
+</resources>

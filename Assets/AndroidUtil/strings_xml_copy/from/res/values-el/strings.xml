@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">Flashlight</string>
+  <string name="east">E</string>
+  <string name="west">W</string>
+  <string name="south">S</string>
+  <string name="north">N</string>
+  <string name="south_east">SE</string>
+  <string name="south_west">SW</string>
+  <string name="north_east">NE</string>
+  <string name="north_west">NW</string>
+  <string name="main_color">Χρώμα</string>
+  <string name="main_morse">Morse</string>
+  <string name="morse_transmit">Μετάδοση</string>
+  <string name="on">ON</string>
+  <string name="off">OFF</string>
+  <string name="morse_your_text">Το κείμενό σας </string>
+  <string name="morse_morse_code">Κωδικός Morse</string>
+  <string name="permission_location_rationale">Η πρόσβαση στην υπηρεσία εντοπισμού θέσης είναι απαραίτητη για την επίδειξη της λειτουργίας \'της τοποθεσίας μου\', η οποία εμφανίζει την τρέχουσα θέση σας στο χάρτη.</string>
+  <string name="permission_location_denied_message">Αυτό το δείγμα απαιτεί άδεια θέσης για να ενεργοποιήσει τη στρώση \'της τοποθεσίας μου\'. Δοκιμάστε ξανά και παραχωρήστε πρόσβαση για να χρησιμοποιήσετε την τοποθεσία.\nΑν η άδεια απορρίφθηκε οριστικά, μπορεί να ενεργοποιηθεί από τις Ρυθμίσεις συστήματος&gt; Εφαρμογές&gt; </string>
+  <string name="no_location_detected">Δεν εντοπίστηκε τοποθεσία. Βεβαιωθείτε ότι η τοποθεσία είναι ενεργοποιημένη στη συσκευή.</string>
+  <string name="locate">Εντοπίστε</string>
+  <string name="rt_title">Χρειαζόμαστε τα σχόλιά σας</string>
+  <string name="dialog_rate_message_normal">Σας αρέσει το εργαλείο Flashlight! Μπορείτε, παρακαλώ, να αφιερώσετε λίγο χρόνο για να το αξιολογήσετε. Η υποστήριξή σας μας κάνει να κάνουμε καλύτερα. Ευχαριστώ για την υποστήριξή σας!</string>
+  <string name="dialog_rate_positive">Καταπληκτικό</string>
+  <string name="rt_fb">Έχω προτάσεις</string>
+  <string name="rt_cancel">Επόμενη φορά</string>
+  <string name="dialog_rate_message_feedback">Η ανατροφοδότηση θα μας κάνει να σας παρέχουμε πιο ποιοτικές υπηρεσίες.</string>
+  <string name="ok">OK</string>
+  <string name="cancel">Ακύρωση</string>
+  <string name="no_sending_emails_app">Λυπούμαστε, δεν βρήκαμε καμία εφαρμογή για αποστολή μηνυμάτων ηλεκτρονικού ταχυδρομείου! Ακολουθεί η διεύθυνση ηλεκτρονικού ταχυδρομείου ανάδρασης: \n</string>
+  <string name="no_google_play_app">Δυστυχώς, δεν μπορούσαμε να βρούμε καμία εφαρμογή για να ανοίξουμε το σπίτι βαθμολόγησης! </string>
+  <string name="can_not_open_flash_light">Δεν μπορεί να ανοίξει το φλας</string>
+  <string name="device_not_support_flash_light">Η συσκευή δεν υποστηρίζει τη λάμψη του φλας και θα ανάψει αυτόματα η οθόνη</string>
+  <string name="seconds">%1$d δευτερόλεπτα</string>
+  <plurals name="minute">
+    <item quantity="other">%1$d Λεπτά</item>
+  </plurals>
+  <string name="never">Ποτέ</string>
+  <string name="auto_close">Αυτόματη απενεργοποίηση</string>
+  <string name="calibration_message">Μπορείτε να μείνετε μακριά από την πηγή παρεμβολής μαγνητικού πεδίου και ακολουθήστε τις οδηγίες για να ολοκληρώσετε τη βαθμονόμηση της πυξίδας</string>
+  <string name="the_device_compass_is_not_available">Η πυξίδα της συσκευής δεν είναι διαθέσιμη</string>
+  <string name="recover_billing_completed">Ολοκληρώθηκε. Εάν έχετε οποιεσδήποτε ερωτήσεις, ελέγξτε το δίκτυό σας ή ελέγξτε την παραγγελία σας στο Google Play και δοκιμάστε ξανά. Ευχαριστώ!</string>
+  <string name="processing_please_wait">Επεξεργασία … Παρακαλώ περιμένετε.</string>
+  <string name="billing_set_up_failed_message">Δεν είναι δυνατή η εκκίνηση. Βεβαιωθείτε ότι το παιχνίδι Google λειτουργεί σωστά.</string>
+  <string name="purchase_success">Αγορά επιτυχία</string>
+  <string name="purchase_failed">Η αγορά απέτυχε</string>
+  <string name="notification_hint_on">Πατήστε για να ανάψετε το φως</string>
+  <string name="notification_hint_off">Πατήστε για να απενεργοποιήσετε το φως</string>
+  <string name="title_setting">Ρυθμίσεις</string>
+  <string name="setting_primary_title_launch_open">Αυτόματη ενεργοποίηση</string>
+  <string name="setting_secondary_title_launch_open">Ενεργοποιήστε το φακό κατά την εκκίνηση</string>
+  <string name="setting_primary_title_keep_open">Ο φακός παραμένει αναμμένος</string>
+  <string name="setting_secondary_title_keep_open">Μείνετε ανοιχτά μετά το κλείδωμα της οθόνης</string>
+  <string name="purchase_shake_open">Ανακινήστε για να ενεργοποιήσετε</string>
+  <string name="setting_primary_title_shake_open">Ανακινήστε για να ενεργοποιήσετε</string>
+  <string name="setting_secondary_title_shake_open">Ανακινήστε για να ενεργοποιήσετε</string>
+  <string name="setting_primary_title_notification">Εναλλαγή γραμμής εργαλείων ειδοποιήσεων</string>
+  <string name="setting_secondary_title_notification">Συντόμευση για ενεργοποίηση / απενεργοποίηση του φακού</string>
+  <string name="setting_primary_title_battery_control">Έλεγχος ισχύος</string>
+  <string name="setting_secondary_title_battery_control">Προειδοποίηση χαμηλής μπαταρίας κάτω από %1$d%%</string>
+  <string name="setting_primary_title_close_time">Αυτόματη απενεργοποίηση</string>
+  <string name="setting_secondary_title_close_time">Απενεργοποιήστε το φανάρι μετά από μια χρονική περίοδο</string>
+  <string name="title_about">Σχετικά με</string>
+  <string name="about_feedback">Ανατροφοδότηση</string>
+  <string name="about_rate">Βαθμολογήστε μας</string>
+  <string name="about_privacy_policy">Πολιτική απορρήτου</string>
+  <string name="billing_remove_ads">Αφαίρεσε τις διαφημίσεις</string>
+  <string name="billing_shark">Ανακινήστε για να αλλάξετε τον φακό</string>
+  <string name="billing_notification">Γραμμή εργαλείων ειδοποιήσεων για να ενεργοποιήσετε / απενεργοποιήσετε τον προβολέα</string>
+  <string name="purchase_billing">$1.99</string>
+  <string name="recover_billing">Επαναφέρω</string>
+  <string name="dialog_low_power_title">Προσοχή!</string>
+  <string name="dialog_low_power_message">Η μπαταρία σας είναι χαμηλότερη από το καθορισμένο ελάχιστο ποσοστό. Ενεργοποιήστε τον φακό ούτως ή άλλως;</string>
+  <string name="dialog_low_power_close">Σβήνω</string>
+  <string name="dialog_low_power_open">Μείνετε</string>
+  <string name="common_dialog_title_hint">Προσοχή</string>
+  <string name="dialog_camera_permission_title">Ανοίξτε τα δικαιώματα φακό</string>
+  <string name="dialog_camera_permission_message">Δεν έχει άδεια χρήσης του φακού που ενσωματώνεται στην κάμερα από τον κατασκευαστή της συσκευής σας. Παραχωρήστε άδεια κάμερας.</string>
+  <string name="dialog_camera_permission_positive">Ανοιξε</string>
+  <string name="dialog_camera_permission_granted_message">Χορηγηθείσα άδεια! Ξεκινήστε το φανάρι ταξίδι!</string>
+  <string name="dialog_camera_permission_granted_positive">Αρχή</string>
+  <string name="dialog_no_flashlight_message">Αυτή η συσκευή δεν διαθέτει διαθέσιμο υλικό φακό. Μπορείτε να χρησιμοποιήσετε το φως της οθόνης.</string>
+  <string name="dialog_no_flashlight_negative">Ξέρω</string>
+  <string name="common_screen_light">Φως οθόνης</string>
+  <string name="dialog_camera_occupied_positive">Ξέρω</string>
+  <string name="dialog_camera_occupied_message">Δεν είναι δυνατή η ενεργοποίηση του φακού επειδή το υλικό είναι κατεχόμενο.Παρακαλώ ελέγξτε και σταματήστε άλλες εφαρμογές που καταλαμβάνουν το φακό.</string>
+  <string name="setting_primary_title_share">Μερίδιο</string>
+  <string name="setting_secondary_title_share">Ο καλύτερος φακός, πατήστε για κοινή χρήση με τους φίλους σας</string>
+  <string name="setting_share_hint">Αντιγράψτε με επιτυχία, μπορείτε να επικολλήσετε απευθείας</string>
+  <string name="setting_secondary_title_faq">Κοινά θέματα προβλήματος και απαντήσεις σε αντίστοιχες ερωτήσεις</string>
+  <string name="dialog_no_flashlight_title">Ο φακός δεν είναι διαθέσιμος</string>
+  <string name="dialog_no_flashlight_message_no_flashlight">Ο φακός αυτής της συσκευής είναι κατεστραμμένος ή δεν υπάρχει φακός</string>
+  <string name="dialog_no_flashlight_message_screen_light">Μπορείτε επίσης να χρησιμοποιήσετε το φως οθόνης</string>
+  <string name="dialog_no_flashlight_positive">Χρησιμοποιήστε φωτισμό οθόνης</string>
+  <string name="title_faq">Συχνές ερωτήσεις</string>
+  <string-array name="faq_question">
+    <item>Γιατί ο φακός μου δεν λειτουργεί ή σβήνει συνεχώς;</item>
+    <item>Γιατί μπορώ να χρησιμοποιήσω μόνο το φως της οθόνης;</item>
+    <item>Γιατί ο φακός είναι απενεργοποιημένος ασυνήθιστα;</item>
+    <item>Πώς να αλλάξετε το χρώμα του φωτός;</item>
+    <item>Γιατί η ταχύτητα της μπαταρίας καταναλώνεται γρήγορα και η θερμοκρασία της συσκευής υψηλή;</item>
+    <item>Γιατί η πυξίδα είναι ανακριβής;</item>
+    <item>Γιατί δεν είναι δυνατή η σωστή χρήση του χάρτη;</item>
+  </string-array>
+  <string-array name="faq_answer">
+    <item>
+Αν ο φακός δεν λειτουργεί, μπορεί να οφείλεται στους εξής λόγους:\n- Ο φακός έχει στροβιλιστεί όλη την ώρα, πιθανώς επειδή η λειτουργία strobe είναι ενεργοποιημένη. Βήματα για να απενεργοποιήσετε τη λειτουργία στροβοσκοπίου: Επιστροφή στην αρχική σελίδα → Ελέγξτε τη θέση του πλήκτρου κάτω από το [SOS, 0 ~ 10] → Σύρετε το κουμπί κάτω από τον αριθμό 0.\n- Άνοιξε άλλη εφαρμογή φακού ή εφαρμογή κάμερας ταυτόχρονα, κλείστε αυτές τις εφαρμογές.\n- Δεν επιτρέπει την άδεια της φωτογραφικής μηχανής, ο φακός χρειάζεται άδεια κάμερας για να ανάψει το φως. Βήματα για να επιτρέψετε την άδεια κάμερας: Επιστροφή στην αρχική σελίδα → Κάντε κλικ στο κουμπί ενεργοποίησης / απενεργοποίησης → Να επιτρέπονται οι άδειες κάμερας στο αναδυόμενο παράθυρο.\n- Ο φακός της συσκευής είναι κατεστραμμένος. Μπορείτε επίσης να χρησιμοποιήσετε το φως οθόνης. Βήματα για τη χρήση της φωτεινής οθόνης: Επιστροφή στην αρχική σελίδα → Κάντε κλικ στο πλήκτρο οθόνης στην κάτω δεξιά γωνία.
+    </item>
+    <item>
+Ο φακός αυτής της συσκευής είναι κατεστραμμένος ή δεν υπάρχει φακός. Μπορείτε επίσης να χρησιμοποιήσετε το φως οθόνης. Βήματα για τη χρήση της φωτεινής οθόνης: Επιστροφή στην αρχική σελίδα → Κάντε κλικ στο πλήκτρο οθόνης στην κάτω δεξιά γωνία.
+    </item>
+    <item>
+Αν διαπιστώσετε ότι ο φακός είναι εκτός λειτουργίας, ελέγξτε τις παρακάτω ρυθμίσεις:\n- Ο φακός παραμένει αναμμένος. Αν απενεργοποιήσετε τον φακό, ο φακός μπορεί να σβήσει κατά τη διάρκεια της οθόνης κλειδώματος.\n- Αυτόματη απενεργοποίηση. Εάν ενεργοποιήσετε την αυτόματη απενεργοποίηση, ο φακός θα απενεργοποιηθεί αυτόματα μετά την καθορισμένη ώρα. Αν δεν θέλετε να απενεργοποιήσετε αυτόματα τον φακό, βεβαιωθείτε ότι η ρύθμιση αυτόματης απενεργοποίησης είναι "Ποτέ".\n- Ανακινήστε για να αλλάξετε. Εάν ενεργοποιήσετε το κούνημα για να αλλάξετε τη ρύθμιση του φακού, ο φακός θα ενεργοποιηθεί / απενεργοποιηθεί αυτόματα όταν ανιχνευτεί μεγάλη κούνημα της συσκευής. Εάν δεν θέλετε να ενεργοποιήσετε / απενεργοποιήσετε το φακό με κούνημα, απενεργοποιήστε αυτήν τη ρύθμιση .
+    </item>
+    <item>
+Δυστυχώς, λόγω των περιορισμών του υλικού της συσκευής, το χρώμα του φλας δεν μπορεί να αλλάξει, αλλά μόνο το χρώμα του φωτός της οθόνης μπορεί να αλλάξει. Βήματα για να αλλάξετε το χρώμα της φωτεινής οθόνης: Επιστροφή στην αρχική σελίδα → Κάντε κλικ στο κουμπί φωτός στην οθόνη Στην κάτω δεξιά γωνία → Το χρώμα του φωτός αλλάζει ρυθμίζοντας την απόχρωση (κύκλο), τον κορεσμό (πρώτη γραμμή) και τη φωτεινότητα γραμμή).
+    </item>
+    <item>
+Εάν η ταχύτητα της μπαταρίας καταναλώθηκε γρήγορα και η θερμοκρασία της συσκευής υψηλή, κάντε τις εξής ρυθμίσεις:\n- Εάν η κατανάλωση μπαταρίας είναι πολύ γρήγορη, χρησιμοποιήστε τη λειτουργία ελέγχου ισχύος για να προστατέψετε την μπαταρία. Βήματα για να ενεργοποιήσετε τον έλεγχο ισχύος: Μεταβείτε στη σελίδα ρυθμίσεων → Ενεργοποίηση ελέγχου ισχύος → Ορισμός προειδοποίησης χαμηλής μπαταρίας → Εντάξει.\n- Εάν η θερμοκρασία της συσκευής είναι υψηλή. Μπορείτε επίσης να χρησιμοποιήσετε το φως οθόνης. Βήματα για τη χρήση της φωτεινής οθόνης: Επιστροφή στην αρχική σελίδα → Κάντε κλικ στο πλήκτρο οθόνης στην κάτω δεξιά γωνία.
+    </item>
+    <item>
+Εάν η πυξίδα σας είναι ανακριβής, μπορεί να οφείλεται στους ακόλουθους λόγους:\n- Υπάρχει παρεμβολή μαγνητικού πεδίου κοντά στη συσκευή. Παρακαλούμε να μείνετε μακριά από τις μαγνητικές παρεμβολές και να ολοκληρώσετε τη βαθμονόμηση της πυξίδας. Βήματα για τη βαθμονόμηση της πυξίδας: Επιστροφή στην αρχική σελίδα → Κάντε κλικ στο εικονίδιο "?" Στην επάνω δεξιά γωνία της πυξίδας για να ξεκινήσει η βαθμονόμηση της πυξίδας → Ακολουθήστε τις οδηγίες για να ολοκληρώσετε την πυξίδα βαθμονόμηση, .Βαθμονόμηση της πυξίδας:\n- Λόγω των περιορισμών του εξοπλισμού σας, η πυξίδα δεν λειτουργεί, μπορείτε να δοκιμάσετε να χρησιμοποιήσετε το χάρτη για να προσδιορίσετε την τοποθεσία. Βήματα για να ανοίξετε το χάρτη: Επιστροφή στην αρχική σελίδα → Κάντε κλικ στο κουμπί πυξίδας για να ανοίξετε το χάρτη → Ανοίξτε την άδεια θέσης χρησιμοποιήστε το χάρτη.
+    </item>
+    <item>
+Εάν ο χάρτης σας δεν λειτουργεί, ελέγξτε τις παρακάτω ρυθμίσεις:\n- Δεν έχετε επιτρέψει την άδεια θέσης. Βήματα για να ανοίξετε την άδεια θέσης: Επιστροφή στην αρχική σελίδα → Κάντε κλικ στην πυξίδα για να ανοίξετε το χάρτη → Επιτρέψτε την άδεια θέσης, στο παράθυρο δικαιωμάτων της αναδυόμενης εφαρμογής.\n- Χρησιμοποιήστε το χάρτη για να ενεργοποιήσετε το δίκτυο, ελέγξτε το τρέχον δίκτυο είναι φυσιολογικό.\n- Εάν δεν υπάρχει πρόβλημα με τις παραπάνω ρυθμίσεις, λυπάμαι πολύ, η συσκευή σας δεν υποστηρίζει τη στόχευση ή Υπάρχει ανωμαλία στην τοποθέτηση και ο χάρτης δεν μπορεί να χρησιμοποιηθεί κανονικά.
+    </item>
+  </string-array>
+  <string name="title_feedback">Οχι ικανοποιημένος?</string>
+  <string name="dialog_feedback_message_faq">Αντιμετωπίζετε προβλήματα κατά τη χρήση; Βρείτε λύσεις σε FAQ.</string>
+  <string name="dialog_feedback_message_feedback">Το πρόβλημα δεν επιλύθηκε; Ανατρέξτε σε περισσότερες πληροφορίες σχετικά με το πρόβλημα.</string>
+  <string name="dialog_feedback_positive">Ανατροφοδότηση</string>
+  <string name="dialog_request_permission_title">Χρειάζεται άδεια κάμερας</string>
+  <string name="dialog_request_permission_message">Ο φακός χρειάζεται άδεια κάμερας για να σας παρέχει μια υπηρεσία φακό. Ο φακός δεν θα εισβάλει στην ιδιωτική σας ζωή, παρακαλώ επιτρέψτε την άδεια της κάμερας.</string>
+  <string name="dialog_request_permission_positive">Κατανοητή</string>
+  <string name="dialog_rate_us_title">Βαθμολογήστε μας</string>
+  <string name="dialog_rate_us_message_review">Εάν απολαμβάνετε τον φακό παρακαλώ σκεφτείτε να μας δώσετε μια κριτική.</string>
+  <string name="dialog_rate_us_message_rate">Επιλέγω:</string>
+  <string name="dialog_rate_us_positive">υποβάλλουν</string>
+  <string name="update_dialog_title_1">Νέα έκδοση κυκλοφόρησε!</string>
+  <string name="update_dialog_title_2">ΠΑΡΑΚΑΛΩ ενημερωσε!</string>
+  <string name="update_dialog_title_3">Ενημερώστε και συνεχίστε</string>
+  <string name="update_dialog_content_1">Θέλετε να δείτε κάτι καινούργιο; Απλά ενημερώστε και μάθετε! Ευχαριστώ για τη χρήση!</string>
+  <string name="update_dialog_content_2">Έχουμε διορθώσει μερικά πιθανά σφάλματα! Απαιτείται άμεση ενημέρωση!</string>
+  <string name="update_dialog_content_3">Αυτή η εφαρμογή αντιμετωπίζει κάποιο σοβαρό πρόβλημα, θα πρέπει να ενημερώσετε για να συνεχίσετε ή να το τερματίσετε! Η ιστορία σας θα συνεχιστεί!  Συγγνώμη για την ταλαιπωρία. Έχουμε δεσμευτεί να κάνουμε την καλύτερη εφαρμογή για εσάς!</string>
+  <string name="update_dialog_cancel">Ματαίωση</string>
+  <string name="update_dialog_update">Εκσυγχρονίζω</string>
+  <string name="update_dialog_quit">Εγκαταλείπω</string>
+  <string name="dialog_grant_permission_message">Ο φακός χρειάζεται άδεια κάμερας για να σας παρέχει μια υπηρεσία φακό. Ο φακός δεν θα εισβάλει στην ιδιωτική σας ζωή, παρακαλώ επιτρέψτε την άδεια της κάμερας</string>
+  <string name="dialog_grant_permission_positive">Χορήγηση</string>
+  <string name="dialog_grant_permission_negative">Ματαίωση</string>
+</resources>

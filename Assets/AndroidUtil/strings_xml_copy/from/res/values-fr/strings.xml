@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">Lampe de poche</string>
+  <string name="east">E</string>
+  <string name="west">W</string>
+  <string name="south">S</string>
+  <string name="north">N</string>
+  <string name="south_east">SE</string>
+  <string name="south_west">SW</string>
+  <string name="north_east">NE</string>
+  <string name="north_west">NW</string>
+  <string name="main_color">Couleur</string>
+  <string name="main_morse">Morse</string>
+  <string name="morse_transmit">Transmettre</string>
+  <string name="on">SUR</string>
+  <string name="off">DE</string>
+  <string name="morse_your_text">Ton texte</string>
+  <string name="morse_morse_code">Morse</string>
+  <string name="permission_location_rationale">L\'accès au service de localisation est nécessaire pour démontrer la fonctionnalité «mon emplacement», qui indique votre position actuelle sur la carte.</string>
+  <string name="permission_location_denied_message">Cet exemple requiert l\'autorisation de localisation pour activer la couche \'mon emplacement \'. Veuillez réessayer et accorder l\'accès pour utiliser l\'emplacement. \nSi l\'autorisation a été refusée en permanence, elle peut être activée à partir des paramètres système &gt; Applications &gt; </string>
+  <string name="no_location_detected">Aucun emplacement détecté. Assurez-vous que l\'emplacement est activé sur l\'appareil.</string>
+  <string name="locate">Localiser</string>
+  <string name="rt_title">Nous avons besoin de vos commentaires</string>
+  <string name="dialog_rate_message_normal">Vous aimez notre outil de lampe de poche! Pouvez-vous prendre un moment pour évaluer. Votre soutien nous fait mieux. Merci pour votre aide!</string>
+  <string name="dialog_rate_positive">Incroyable</string>
+  <string name="rt_fb">J\'ai suggestions</string>
+  <string name="rt_cancel">La prochaine fois</string>
+  <string name="dialog_rate_message_feedback">Les commentaires nous permettront de vous fournir plus de services de qualité.</string>
+  <string name="ok">Bien</string>
+  <string name="cancel">Annuler</string>
+  <string name="no_sending_emails_app">Désolé, nous n\'avons pas pu trouver d\'applications pour envoyer des courriels! Voici notre adresse courriel de rétroaction:\n</string>
+  <string name="no_google_play_app">Désolé, nous n\'avons pas pu trouver d\'applications pour ouvrir la page d\'accueil!</string>
+  <string name="can_not_open_flash_light">Impossible d\'ouvrir le flash</string>
+  <string name="device_not_support_flash_light">L\'appareil ne prend pas en charge le flash et allumera automatiquement l\'écran</string>
+  <string name="seconds">%1$d Secondes</string>
+  <plurals name="minute">
+    <item quantity="one">%1$d Minute</item>
+    <item quantity="other">%1$d Minutes</item>
+  </plurals>
+  <string name="never">Jamais</string>
+  <string name="auto_close">Désactiver automatiquement</string>
+  <string name="calibration_message">Vous pouvez vous éloigner de la source d\'interférence du champ magnétique et suivre les instructions pour compléter l\'étalonnage de la boussole</string>
+  <string name="the_device_compass_is_not_available">La boussole de l\'appareil est disponible</string>
+  <string name="recover_billing_completed">Terminé. Si vous avez des questions, vérifiez votre réseau ou vérifiez votre commande Google Play et réessayez. Je vous remercie!</string>
+  <string name="processing_please_wait">Traitement … Veuillez patienter.</string>
+  <string name="billing_set_up_failed_message">Ne peux pas commencer. Assurez-vous que Google Play fonctionne correctement.</string>
+  <string name="purchase_success">Achète le succès</string>
+  <string name="purchase_failed">Achat raté</string>
+  <string name="notification_hint_on">Appuyez pour allumer la lumière</string>
+  <string name="notification_hint_off">Appuyez pour éteindre la lumière</string>
+  <string name="title_setting">Paramètres</string>
+  <string name="setting_primary_title_launch_open">Automatique sur</string>
+  <string name="setting_secondary_title_launch_open">Activer la lampe de poche au démarrage</string>
+  <string name="setting_primary_title_keep_open">La lampe de poche reste allumée</string>
+  <string name="setting_secondary_title_keep_open">Rester après avoir verrouillé l\'écran</string>
+  <string name="purchase_shake_open">Secouer pour allumer</string>
+  <string name="setting_primary_title_shake_open">Secouer pour allumer</string>
+  <string name="setting_secondary_title_shake_open">Secouez votre téléphone pour allumer / éteindre la lampe de poche</string>
+  <string name="setting_primary_title_notification">Modification de la barre d\'outils de notification</string>
+  <string name="setting_secondary_title_notification">Raccourci pour allumer / éteindre la lampe de poche</string>
+  <string name="setting_primary_title_battery_control">Contrôle de puissance</string>
+  <string name="setting_secondary_title_battery_control">Avertissement de batterie faible en dessous de %1$d%%</string>
+  <string name="setting_primary_title_close_time">Automatique</string>
+  <string name="setting_secondary_title_close_time">Éteignez la lampe de poche après une période de temps</string>
+  <string name="title_about">À propos</string>
+  <string name="about_feedback">Commentaires</string>
+  <string name="about_rate">Évaluez nous</string>
+  <string name="about_privacy_policy">Politique de confidentialité</string>
+  <string name="billing_remove_ads">Supprimer les AD</string>
+  <string name="billing_shark">Secouez pour allumer la lampe de poche</string>
+  <string name="billing_notification">Barre d\'outils de notification raccourci pour allumer / éteindre la lampe de poche</string>
+  <string name="purchase_billing">$1.99</string>
+  <string name="recover_billing">Restaurer</string>
+  <string name="dialog_low_power_title">Attention!</string>
+  <string name="dialog_low_power_message">Votre batterie est inférieure au pourcentage minimum défini. Allumer la lampe de poche quand même?</string>
+  <string name="dialog_low_power_close">Éteindre</string>
+  <string name="dialog_low_power_open">Rester sur</string>
+  <string name="common_dialog_title_hint">Attention</string>
+  <string name="dialog_camera_permission_title">Ouvrir les autorisations de la lampe de poche</string>
+  <string name="dialog_camera_permission_message">N\'a pas la permission d\'utiliser une lampe de poche intégrée à l\'appareil photo par le fabricant de votre appareil. S\'il vous plaît accorder la permission de la caméra.</string>
+  <string name="dialog_camera_permission_positive">Ouvrir</string>
+  <string name="dialog_camera_permission_granted_message"> Permission accordée! Démarrer le voyage de poche!</string>
+  <string name="dialog_camera_permission_granted_positive">Début</string>
+  <string name="dialog_no_flashlight_message">Cet appareil n\'a pas de matériel de lampe de poche disponible. Vous pouvez utiliser la lumière de l\'écran à la place.</string>
+  <string name="dialog_no_flashlight_negative">je connais</string>
+  <string name="common_screen_light">Lumière de l\'écran</string>
+  <string name="dialog_camera_occupied_positive">je connais</string>
+  <string name="dialog_camera_occupied_message">Impossible d\'allumer la lampe de poche car le matériel est occupé. S\'il vous plaît vérifier et arrêter d\'autres applications qui ocupy la lampe de poche.</string>
+  <string name="setting_primary_title_share">Partager</string>
+  <string name="setting_secondary_title_share">La meilleure lampe de poche, appuyez sur pour partager avec vos amis</string>
+  <string name="setting_share_hint">Copier avec succès, vous pouvez coller directement</string>
+  <string name="setting_secondary_title_faq">Problèmes courants et réponses aux questions correspondantes</string>
+  <string name="dialog_no_flashlight_title">Lampe de poche indisponible</string>
+  <string name="dialog_no_flashlight_message_no_flashlight">La lampe de poche de cet appareil est endommagée ou il n\'y a pas de lampe de poche</string>
+  <string name="dialog_no_flashlight_message_screen_light">Vous pouvez également utiliser la lumière de l\'écran à la place</string>
+  <string name="dialog_no_flashlight_positive">Utiliser la lumière de l\'écran</string>
+  <string name="title_faq">FAQ</string>
+  <string-array name="faq_question">
+    <item>Pourquoi ma lampe de poche ne fonctionne-t-elle pas ou ne s\'allume-t-elle pas tout le temps?</item>
+    <item>Pourquoi ne puis-je utiliser que la lumière de l\'écran?</item>
+    <item>Pourquoi la lampe de poche est-elle éteinte de façon anormale?</item>
+    <item>Comment changer la couleur de la lumière?</item>
+    <item>Pourquoi la vitesse de la batterie est-elle consommée rapidement et la température de l\'appareil élevée?</item>
+    <item>Pourquoi la boussole est-elle inexacte?</item>
+    <item>Pourquoi ne pas utiliser correctement la carte?</item>
+  </string-array>
+  <string-array name="faq_answer">
+    <item>
+Si votre lampe de poche ne fonctionne pas, cela peut être dû aux raisons suivantes:\n- La lampe de poche est allumée tout le temps, probablement parce que le mode stroboscopique est activé. Étapes à suivre pour désactiver le mode stroboscopique: Retour à la page d\'accueil → Vérifiez la position du bouton sous [SOS, 0 ~ 10] → Faites glisser le bouton sous le chiffre 0;\n- Ouvert une autre application lampe de poche ou une application de la caméra en même temps, s\'il vous plaît fermez ces applications;\n- Ne permet pas l\'autorisation de la caméra, la lampe de poche a besoin de la permission de la caméra pour allumer la lumière. Étapes à suivre pour autoriser l\'autorisation de la caméra: Retour à la page d\'accueil → Cliquez sur le bouton marche / arrêt → Autoriser les autorisations de la caméra dans la fenêtre contextuelle;\n- La lampe de poche de cet appareil est endommagée. Vous pouvez également utiliser la lumière de l\'écran à la place. Procédure d\'utilisation de la lumière d\'écran: Retour à la page d\'accueil → Cliquez sur le bouton de la lumière d\'écran dans le coin inférieur droit.
+    </item>
+    <item>
+La lampe de poche de cet appareil est endommagée ou il n\'y a pas de lampe de poche. Vous pouvez également utiliser la lumière de l\'écran à la place. Procédure d\'utilisation de la lumière d\'écran: Retour à la page d\'accueil → Cliquez sur le bouton de la lumière d\'écran dans le coin inférieur droit.
+    </item>
+    <item>
+Si vous constatez que la lampe de poche est éteinte de manière anormale, vérifiez les paramètres suivants:\n- La lampe de poche reste allumée. Si vous désactivez le maintien de la lampe de poche, celle-ci peut s\'éteindre pendant le verrouillage de l\'écran.\n- Arrêt automatique. Si vous activez la désactivation automatique, la lampe de poche s\'éteindra automatiquement après l\'heure définie. Si vous ne souhaitez pas éteindre automatiquement la lampe de poche, assurez-vous que le réglage de désactivation automatique est "Jamais";\n- Secouez pour changer. Si vous activez le bougé pour changer le réglage de la lampe de poche, celle-ci s’allumera / éteindra automatiquement lorsqu’un tremblement important de l’appareil sera détecté. .
+    </item>
+    <item>
+Malheureusement, en raison des limitations du matériel de l\'appareil, la couleur du flash ne peut pas être modifiée, seule la couleur de la lumière de l\'écran peut être modifiée. Étapes à suivre pour changer la couleur de la lumière de l\'écran: Retour à la page d\'accueil → Cliquez sur le bouton de la lumière de l\'écran Dans le coin inférieur droit → La couleur de la lumière change en réglant la teinte (cercle), la saturation (première ligne) et la luminosité (seconde). ligne).
+    </item>
+    <item>
+Si la vitesse de la batterie est consommée rapidement et que la température de l\'appareil est élevée, effectuez les réglages suivants:\n- Si la consommation de la batterie est trop rapide, utilisez la fonction de contrôle de l’alimentation pour protéger la batterie. Étapes à suivre pour activer le contrôle de l\'alimentation: Allez à la page des paramètres → Activer le contrôle de l\'alimentation → Activer l\'avertissement de batterie faible → OK.\n- Si la température de l\'appareil est élevée. Vous pouvez également utiliser la lumière de l\'écran à la place. Procédure d\'utilisation de la lumière d\'écran: Retour à la page d\'accueil → Cliquez sur le bouton de la lumière d\'écran dans le coin inférieur droit.
+    </item>
+    <item>
+Si votre boussole est inexacte, cela peut être dû aux raisons suivantes:\n- Il y a une interférence de champ magnétique près de l\'appareil. Éloignez-vous des interférences magnétiques et terminez le calibrage de la boussole. Étapes pour calibrer la boussole: Retournez à la page d\'accueil → Cliquez sur l\'icône "?" Dans le coin supérieur droit de la boussole pour lancer le calibrage de la boussole → Suivez les instructions pour terminer la boussole étalonnage;. étapes pour étalonner la boussole:\n- En raison des limitations matérielles de votre appareil, la boussole ne fonctionnant pas, vous pouvez essayer d\'utiliser la carte pour déterminer l\'emplacement. Étapes pour ouvrir la carte: Retour à la page d\'accueil → Cliquez sur le bouton Compas pour ouvrir la carte → Ouvrez l\'emplacement avec la permission de utilisez la carte.
+    </item>
+    <item>
+Si votre carte ne fonctionne pas, vérifiez les paramètres suivants:\n- Vous n\'avez pas autorisé la permission d\'emplacement. Procédure pour ouvrir l\'autorisation de localisation: Retour à la page d\'accueil → Cliquez sur le compas pour ouvrir la carte → Autorisez l\'autorisation de localisation, dans la fenêtre d\'autorisation de l\'application qui s\'affiche;\n- Utilisez la carte nécessaire pour activer le réseau, vérifiez que le réseau actuel est normal;\n- S\'il n\'y a pas de problème avec les paramètres ci-dessus, je suis désolé, votre appareil ne prend pas en charge le ciblage ou si le positionnement est anormal et la carte ne peut pas être utilisée normalement.
+    </item>
+  </string-array>
+  <string name="title_feedback">Pas satisfait?</string>
+  <string name="dialog_feedback_message_faq">Avez-vous rencontré des problèmes lors de l\'utilisation? Trouvez des solutions dans la FAQ.</string>
+  <string name="dialog_feedback_message_feedback">Le problème n\'est pas résolu? S\'il vous plaît commentaires plus de détails sur le problème.</string>
+  <string name="dialog_feedback_positive">Retour d\'information</string>
+  <string name="dialog_request_permission_title">Besoin de la permission de la caméra</string>
+  <string name="dialog_request_permission_message">La lampe de poche a besoin de l\'autorisation de l\'appareil photo pour vous fournir un service de lampe de poche. La lampe de poche ne va pas envahir votre vie privée, veuillez autoriser l’autorisation de la caméra.</string>
+  <string name="dialog_request_permission_positive">Compris</string>
+  <string name="dialog_rate_us_title">Évaluez nous</string>
+  <string name="dialog_rate_us_message_review">Si vous appréciez la lampe de poche, envisagez de nous donner votre avis.</string>
+  <string name="dialog_rate_us_message_rate">Choisir:</string>
+  <string name="dialog_rate_us_positive">Soumettre</string>
+  <string name="update_dialog_title_1">Sortie d\'une nouvelle fonctionnalité!</string>
+  <string name="update_dialog_title_2">Veuillez mettre à jour!</string>
+  <string name="update_dialog_title_3">Mettre à jour et continuer</string>
+  <string name="update_dialog_content_1">Vous voulez voir quelque chose de nouveau? Mettez à jour et découvrez! Merci d\'utiliser!</string>
+  <string name="update_dialog_content_2">Nous avons corrigé quelques bugs potentiels! Une mise à jour immédiate est fortement recommandée!</string>
+  <string name="update_dialog_content_3">Cette application rencontre un problème grave, vous devez la mettre à jour pour continuer ou quitter! Votre historique va persister!  Désolé pour le dérangement. Nous nous engageons à créer la meilleure application pour vous!</string>
+  <string name="update_dialog_cancel">Annuler</string>
+  <string name="update_dialog_update">Mise à jour</string>
+  <string name="update_dialog_quit">Quitter</string>
+  <string name="dialog_grant_permission_message">La linterna necesita permiso de la cámara para proporcionarle un servicio de linterna. La linterna no invadirá su privacidad, por favor permita el permiso de la cámara.</string>
+  <string name="dialog_grant_permission_positive">La lampe de poche a besoin de l\'autorisation de l\'appareil photo pour vous fournir un service de lampe de poche. La lampe de poche ne va pas envahir votre vie privée, veuillez autoriser la caméra</string>
+  <string name="dialog_grant_permission_negative">Subvention</string>
+Annuler</resources>

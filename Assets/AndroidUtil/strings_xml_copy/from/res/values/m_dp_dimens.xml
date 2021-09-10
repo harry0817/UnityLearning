@@ -1,0 +1,31 @@
+<resources>
+  <dimen name="neg_mdp10">-5.0dp</dimen>
+  <dimen name="mdp2">1.0dp</dimen>
+  <dimen name="mdp8">4.0dp</dimen>
+  <dimen name="mdp16">8.0dp</dimen>
+  <dimen name="mdp24">12.0dp</dimen>
+  <dimen name="mdp30">15.0dp</dimen>
+  <dimen name="mdp32">16.0dp</dimen>
+  <dimen name="mdp40">20.0dp</dimen>
+  <dimen name="mdp48">24.0dp</dimen>
+  <dimen name="mdp50">25.0dp</dimen>
+  <dimen name="mdp64">32.0dp</dimen>
+  <dimen name="mdp96">48.0dp</dimen>
+  <dimen name="mdp100">50.0dp</dimen>
+  <dimen name="mdp120">60.0dp</dimen>
+  <dimen name="mdp128">64.0dp</dimen>
+  <dimen name="mdp160">80.0dp</dimen>
+  <dimen name="mdp200">100.0dp</dimen>
+  <dimen name="mdp208">104.0dp</dimen>
+  <dimen name="mdp220">110.0dp</dimen>
+  <dimen name="mdp240">120.0dp</dimen>
+  <dimen name="mdp249">124.5dp</dimen>
+  <dimen name="mdp268">134.0dp</dimen>
+  <dimen name="mdp312">156.0dp</dimen>
+  <dimen name="mdp360">180.0dp</dimen>
+  <dimen name="mdp390">195.0dp</dimen>
+  <dimen name="mdp431">215.5dp</dimen>
+  <dimen name="mdp450">225.0dp</dimen>
+  <dimen name="msp30">15.0sp</dimen>
+  <dimen name="msp34">17.0sp</dimen><dimen name="msp35">17.5sp</dimen><dimen name="msp36">18.0sp</dimen>
+  <dimen name="msp50">25.0sp</dimen></resources>

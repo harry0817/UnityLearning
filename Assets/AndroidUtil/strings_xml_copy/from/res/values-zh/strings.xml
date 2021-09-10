@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:ns0="http://schemas.android.com/tools" ns0:ignore="ExtraTranslation" ns0:locale="zh-rCN">
+  <string name="app_name">手电筒</string>
+  <string name="east">东</string>
+  <string name="west">西</string>
+  <string name="south">南</string>
+  <string name="north">北</string>
+  <string name="south_east">东南</string>
+  <string name="south_west">西南</string>
+  <string name="north_east">东北</string>
+  <string name="north_west">西北</string>
+  <string name="main_color">颜色</string>
+  <string name="main_morse">摩斯电码</string>
+  <string name="morse_transmit">译码</string>
+  <string name="on">开灯</string>
+  <string name="off">关灯</string>
+  <string name="morse_your_text">你的文本</string>
+  <string name="morse_morse_code">摩斯电码</string>
+  <string name="permission_location_rationale">需要访问位置服务才能展示“我的位置”功能，该功能会在地图上显示您当前的位置。</string>
+  <string name="permission_location_denied_message">此样本需要位置权限才能启用“我的位置”图层。 请重试并授予访问权限以使用该位置。\n如果该权限已被永久拒绝，则可以从系统设置&gt;应用&gt; </string>
+  <string name="no_location_detected">未检测到位置。 确保设备上已启用位置。</string>
+  <string name="locate">定位</string>
+  <string name="rt_title">期待您的反馈</string>
+  <string name="dialog_rate_message_normal">您喜欢我们的手电筒工具吗？请你花点时间评价一下。您的鼓励是我们前进的动力。感谢您的支持！</string>
+  <string name="dialog_rate_positive">非常棒</string>
+  <string name="rt_fb">我要反馈</string>
+  <string name="rt_cancel">下次再说</string>
+  <string name="dialog_rate_message_feedback">反馈将使我们为您提供更优质的服务。</string>
+  <string name="ok">好的</string>
+  <string name="cancel">取消</string>
+  <string name="no_sending_emails_app">很抱歉，我们找不到任何用于发送电子邮件的应用程序！ 以下是我们的反馈电子邮箱地址：\n</string>
+  <string name="no_google_play_app">很抱歉，我们找不到任何应用程序开启评价页面！</string>
+  <string name="can_not_open_flash_light">无法打开摄像头闪光灯</string>
+  <string name="device_not_support_flash_light">设备不支持闪光灯，将自动点亮屏幕</string>
+  <string name="seconds">%1$d 秒</string>
+  <plurals name="minute">
+    <item quantity="other">%1$d 分钟</item>
+  </plurals>
+  <string name="never">永不</string>
+  <string name="auto_close">自动关闭</string>
+  <string name="calibration_message">您可以远离磁场干扰源并按图示完成指南针校准</string>
+  <string name="the_device_compass_is_not_available">设备的指南针不可用</string>
+  <string name="recover_billing_completed">已完成。如果有什么问题，请查检查网络或查看Google Play订单，然后重试。谢谢！</string>
+  <string name="processing_please_wait">正在处理…请稍候</string>
+  <string name="billing_set_up_failed_message">无法启动。请确保Google Play正常工作。</string>
+  <string name="purchase_success">购买成功</string>
+  <string name="purchase_failed">购买失败</string>
+  <string name="notification_hint_on">点击打开手电筒</string>
+  <string name="notification_hint_off">点击关闭手电筒</string>
+  <string name="title_setting">设置</string>
+  <string name="setting_primary_title_launch_open">自动开启</string>
+  <string name="setting_secondary_title_launch_open">启动应用时自动打开手电筒</string>
+  <string name="setting_primary_title_keep_open">保持常亮</string>
+  <string name="setting_secondary_title_keep_open">锁屏状态下，保持手电筒开启</string>
+  <string name="purchase_shake_open">摇一摇开启/关闭手电筒</string>
+  <string name="setting_primary_title_shake_open">摇一摇开启/关闭手电筒</string>
+  <string name="setting_secondary_title_shake_open">晃动设备开启/关闭手电筒</string>
+  <string name="setting_primary_title_notification">通知栏快捷开关</string>
+  <string name="setting_secondary_title_notification">从通知栏开启/关闭手电筒</string>
+  <string name="setting_primary_title_battery_control">电量控制</string>
+  <string name="setting_secondary_title_battery_control">手机电量低于 %1$d%% 时进行低电量警告</string>
+  <string name="setting_primary_title_close_time">自动关闭</string>
+  <string name="setting_secondary_title_close_time">设置自动关闭手电筒时间</string>
+  <string name="title_about">关于</string>
+  <string name="about_feedback">反馈意见</string>
+  <string name="about_rate">评价</string>
+  <string name="about_privacy_policy">隐私条款</string>
+  <string name="billing_remove_ads">去除广告</string>
+  <string name="billing_shark">摇一摇开启/关闭手电筒</string>
+  <string name="billing_notification">从通知栏开启/关闭手电筒</string>
+  <string name="purchase_billing">$1.99</string>
+  <string name="recover_billing">恢复购买</string>
+  <string name="dialog_low_power_title">提示</string>
+  <string name="dialog_low_power_message">您的手机电量已低于设置的最低电量。请确定是否继续开启手电筒。</string>
+  <string name="dialog_low_power_close">立即关闭</string>
+  <string name="dialog_low_power_open">继续开启</string>
+  <string name="common_dialog_title_hint">提示</string>
+  <string name="dialog_camera_permission_title">开启闪光灯权限</string>
+  <string name="dialog_camera_permission_message">未获得闪光灯权限，会导致无法正常使用手电筒。</string>
+  <string name="dialog_camera_permission_positive">去开启</string>
+  <string name="dialog_camera_permission_granted_message">授权成功，开启手电筒之旅!</string>
+  <string name="dialog_camera_permission_granted_positive">开始</string>
+  <string name="dialog_no_flashlight_message">该设备不具备闪光灯功能，无法使用手电筒，可使用屏幕光源替代。</string>
+  <string name="dialog_no_flashlight_negative">知道了</string>
+  <string name="common_screen_light">屏幕光</string>
+  <string name="dialog_camera_occupied_positive">知道了</string>
+  <string name="dialog_camera_occupied_message">闪光灯硬件被占用，暂时无法使用手电筒。请检查并关闭占用闪光灯的应用。</string>
+  <string name="setting_primary_title_share">分享</string>
+  <string name="setting_secondary_title_share">最好用的手电筒，点击分享给你的朋友</string>
+  <string name="setting_share_hint">复制成功，可以直接粘贴</string>
+  <string name="setting_secondary_title_faq">常见的问题项目与对应问题的解答</string>
+  <string name="dialog_no_flashlight_title">闪光灯不可用</string>
+  <string name="dialog_no_flashlight_message_no_flashlight">设备的闪光灯损坏或没有闪光灯</string>
+  <string name="dialog_no_flashlight_message_screen_light">请使用屏幕光替代</string>
+  <string name="dialog_no_flashlight_positive">屏幕光</string>
+  <string name="title_faq">常问问题</string>
+  <string-array name="faq_question">
+    <item>为什么我的手电筒不能用或一直频闪？</item>
+    <item>为什么我只能使用屏幕光？</item>
+    <item>为什么手电筒异常关闭？</item>
+    <item>如何改变光的颜色？</item>
+    <item>为什么消耗电池的速度很快，设备发热？</item>
+    <item>为什么指南针不准确？</item>
+    <item>为什么无法使用地图？</item>
+  </string-array>
+  <string-array name="faq_answer">
+    <item>
+如果您的手电筒不能用或一直频闪，可能是以下原因造成：\n- 手电筒一直频闪，可能是开启了频闪模式，频闪模式关闭步骤：回到首页 → 查看按钮在【sos，0-10】下的位置，将按钮拖至数字0下；\n- 同时打开了其他手电筒应用或相机应用，请关闭这些应用；\n- 没有允许相机权限，手电筒需要相机权限才能照明，允许相机权限步骤：回到首页 → 点击开关 → 在弹窗中允许相机权限；\n- 设备的闪光灯损坏，请使用屏幕光替代，开启屏幕光的步骤：回到首页 → 点击右下角屏幕光。\n
+    </item>
+    <item>
+因为当前设备的闪光灯损坏或设备没有闪光灯，只能使用屏幕光替代。开启屏幕光的步骤：回到首页 → 点击右下角屏幕光。
+    </item>
+    <item>
+如果您发现手电筒异常关闭，请检查以下设置：\n- 保持常亮设置是否打开。如果您关闭保持常亮，手电筒可能会在锁屏期间关闭；\n- 自动关闭设置。如果您打开了自动关闭，在设置的时间后，手电筒会自动关闭。如果您不想自动关闭，请保证自动关闭设置为“永不”；\n- 摇一摇开启/关闭手电筒。如果开启摇一摇开启/关闭手电筒设置，在检测到幅度较大的摇晃时会自动开启/关闭手电筒。如果您不想通过摇晃来开启/关闭手电筒，请关闭此设置。
+    </item>
+    <item>
+很遗憾，由于设备硬件的限制，闪光灯的颜色是无法改变的，只有屏幕光的颜色可以改变。您可以在使用屏幕光的时候，改变屏幕光的颜色。改变屏幕光颜色的步骤：回到首页 → 点击右下角屏幕光 → 通过调节色调（圆圈）、饱和度（第一行）、明度（第二行）来改变光的颜色。
+    </item>
+    <item>
+如果您的设备消耗电池的速度很快，设备发热，请进行以下设置：\n- 如果消耗电池速度快，请使用电量控制功能保护电池。打开电量控制功能的步骤：进入设置页 → 打开电量控制 → 设置低电量提醒 → 点击【好的】；\n- 设备温度高时，请使用屏幕光替代，开启屏幕光的步骤：回到首页 → 点击右下角屏幕光。
+    </item>
+    <item>
+如果您的指南针不准确，可能是以下原因造成的：\n- 设备附近存在磁场干扰，请远离磁场干扰并完成罗盘校准。罗盘校准步骤：返回首页 → 点击指南针右上角的“？”图标开始指南针校准 → 按照说明完成指南针校准；\n- 由于您的设备硬件限制，指南针无法正常工作，您可以尝试使用地图来确定位置。打开地图步骤：返回首页 → 点击指南针按钮打开地图 → 开启定位权限即可使用地图。
+    </item>
+    <item>
+如果您的地图无法正常使用，请检查以下设置：\n- 您没有开启位置权限，打开位置权限步骤：返回首页 → 点击指南针打开地图 → 在弹出的申请权限窗口种允许位置权限；\n- 使用地图需要开启网络，请检查当前网络是否正常；\n- 如果以上设置都没有问题，那么非常抱歉，您的设备不支持定位，或定位存在异常，暂时不能正常使用地图。
+    </item>
+  </string-array>
+  <string name="title_feedback">不满意？</string>
+  <string name="dialog_feedback_message_faq">在使用过程中遇到问题了吗？在【常见问题】中寻找解决方法</string>
+  <string name="dialog_feedback_message_feedback">问题还没有解决？请给我们反馈更多的问题细节</string>
+  <string name="dialog_feedback_positive">反馈</string>
+  <string name="dialog_request_permission_title">允许相机权限</string>
+  <string name="dialog_request_permission_message">手电筒需要获得相机权限，才能为您提供手电筒服务。手电筒不会侵犯您的隐私，请放心授权。</string>
+  <string name="dialog_request_permission_positive">知道了</string>
+  <string name="dialog_rate_us_title">评价我们</string>
+  <string name="dialog_rate_us_message_review">如果您喜欢手电筒，请考虑给我们一个评价。</string>
+  <string name="dialog_rate_us_message_rate">选择：</string>
+  <string name="dialog_rate_us_positive">提交</string>
+  <string name="dialog_grant_permission_message">手电筒需要获得相机权限，才能为您提供手电筒服务。手电筒不会侵犯您的隐私，请放心授权。</string>
+  <string name="dialog_grant_permission_positive">授权</string>
+  <string name="dialog_grant_permission_negative">取消</string>
+
+  <string name="update_dialog_title_1">新特性更新</string>
+  <string name="update_dialog_title_2">请立刻升级</string>
+  <string name="update_dialog_title_3">升级后继续</string>
+  <string name="update_dialog_content_1">感谢您的使用！我们发布了新特性，快来更新体验新版本吧！</string>
+  <string name="update_dialog_content_2">我们修复了一些潜在的问题，为了您的产品体验，请尽快更新！</string>
+  <string name="update_dialog_content_3">本应用出现了严重错误，我们已尽力修复，请更新到新版本后继续。\n您的历史数据将会被保留。\n造成不便敬请谅解！我们致力于为你打造最好的产品体验！</string>
+  <string name="update_dialog_cancel">取消</string>
+  <string name="update_dialog_update">更新</string>
+  <string name="update_dialog_quit">退出</string>
+</resources>

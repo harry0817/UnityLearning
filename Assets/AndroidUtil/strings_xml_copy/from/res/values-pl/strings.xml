@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">Flashlight</string>
+  <string name="east">E</string>
+  <string name="west">W</string>
+  <string name="south">S</string>
+  <string name="north">N</string>
+  <string name="south_east">SE</string>
+  <string name="south_west">SW</string>
+  <string name="north_east">NE</string>
+  <string name="north_west">NW</string>
+  <string name="main_color">Kolor</string>
+  <string name="main_morse">Morse</string>
+  <string name="morse_transmit">Transmituj</string>
+  <string name="on">ON</string>
+  <string name="off">WYŁ</string>
+  <string name="morse_your_text">Twój tekst</string>
+  <string name="morse_morse_code">Morse Code</string>
+  <string name="permission_location_rationale">Dostęp do usługi lokalizacyjnej jest wymagany do zademonstrowania funkcji "moja lokalizacja", która pokazuje bieżącą lokalizację na mapie.</string>
+  <string name="permission_location_denied_message">Ten przykład wymaga pozwolenia lokalizacji, aby włączyć warstwę "Moja lokalizacja". Spróbuj ponownie i zezwól na dostęp do lokalizacji. \n Jeśli uprawnienia zostały trwale odrzucone, możesz je włączyć w Ustawieniach systemu &gt; Aplikacje &gt;</string>
+  <string name="no_location_detected">Nie wykryto żadnej lokalizacji. Upewnij się, że w urządzeniu jest włączona lokalizacja. </string>
+  <string name="locate">Zlokalizuj </string>
+  <string name="rt_title">Potrzebujemy Twojej opinii</string>
+  <string name="dialog_rate_message_normal">Czy podoba Ci się nasze narzędzie latarki! Czy możesz poświęcić chwilę, aby go ocenić. Twoje wsparcie pozwala nam lepiej. Dzięki za wsparcie!</string>
+  <string name="dialog_rate_positive">Niesamowite</string>
+  <string name="rt_fb">Mam sugestie</string>
+  <string name="rt_cancel">Następnym razem</string>
+  <string name="dialog_rate_message_feedback">Informacje zwrotne sprawią, że będziemy świadczyć usługi o wyższej jakości.</string>
+  <string name="ok">OK</string>
+  <string name="cancel">Anuluj</string>
+  <string name="no_sending_emails_app">Niestety, nie znaleźliśmy żadnej aplikacji do wysyłania e-maili! Poniżej znajduje się nasz adres e-mail opinii: \n</string>
+  <string name="no_google_play_app">Niestety, nie mogliśmy znaleźć żadnej aplikacji do otwierania oceny domu!</string>
+  <string name="can_not_open_flash_light">Nie można otworzyć lampy błyskowej</string>
+  <string name="device_not_support_flash_light">Urządzenie nie obsługuje lampy błyskowej i automatycznie oświetli ekran</string>
+  <string name="seconds">%1$d Sekundy</string>
+  <plurals name="minute">
+    <item quantity="other">%1$d Minuty</item>
+  </plurals>
+  <string name="never">Nigdy</string>
+  <string name="auto_close">Automatycznie wyłącz</string>
+  <string name="calibration_message">Możesz trzymać się z dala od źródła zakłóceń pola magnetycznego i postępować zgodnie z instrukcjami, aby wykonać kalibrację kompasu </string>
+  <string name="the_device_compass_is_not_available">Kompas urządzenia nie jest dostępny</string>
+  <string name="recover_billing_completed">Zakończony. Jeśli masz jakieś pytania, sprawdź swoją sieć lub sprawdź zamówienie Google Play i spróbuj ponownie. Dziękujemy! </string>
+  <string name="processing_please_wait">Przetwarzanie … Proszę czekać</string>
+  <string name="billing_set_up_failed_message">Nie można rozpocząć. Upewnij się, że Google Play działa poprawnie.</string>
+  <string name="purchase_success">Sukces zakupu</string>
+  <string name="purchase_failed">Zakup nieudany</string>
+  <string name="notification_hint_on">Stuknij, aby włączyć światło</string>
+  <string name="notification_hint_off">Stuknij, aby wyłączyć światło</string>
+  <string name="title_setting">Ustawienia</string>
+  <string name="setting_primary_title_launch_open">Automatyczne włączanie</string>
+  <string name="setting_secondary_title_launch_open">Włącz latarkę podczas uruchamiania</string>
+  <string name="setting_primary_title_keep_open">Latarka pozostaje włączona</string>
+  <string name="setting_secondary_title_keep_open">Pozostań włączony po zablokowaniu ekranu</string>
+  <string name="setting_primary_title_shake_open">Potrząśnij, aby włączyć</string>
+  <string name="purchase_shake_open">Potrząśnij, aby włączyć</string>
+  <string name="setting_secondary_title_shake_open">Potrząsnąć telefonem, aby włączyć / wyłączyć latarkę</string>
+  <string name="setting_primary_title_notification">Przełącznik paska powiadomień</string>
+  <string name="setting_secondary_title_notification">Skrót do włączania / wyłączania latarki</string>
+  <string name="setting_primary_title_battery_control">Kontrola mocy</string>
+  <string name="setting_secondary_title_battery_control">Ostrzeżenie o niskim stanie baterii poniżej %1$d%%</string>
+  <string name="setting_primary_title_close_time">Automatyczne wyłączanie</string>
+  <string name="setting_secondary_title_close_time">Wyłącz latarkę po pewnym czasie</string>
+  <string name="title_about">O mnie</string>
+  <string name="about_feedback">Informacje zwrotne</string>
+  <string name="about_rate">Oceń nas</string>
+  <string name="about_privacy_policy">Polityka prywatności</string>
+  <string name="billing_remove_ads">Usuń reklamy</string>
+  <string name="billing_shark">Wstrząśnij, aby przełączyć latarkę</string>
+  <string name="billing_notification">Pasek powiadomień skrót paska, aby włączyć / wyłączyć latarkę</string>
+  <string name="purchase_billing">$1.99</string>
+  <string name="recover_billing">Przywróć</string>
+  <string name="dialog_low_power_title">Uwaga!</string>
+  <string name="dialog_low_power_message">Twoja bateria jest niższa niż ustawiony minimalny procent. Włącz mimo to latarkę?</string>
+  <string name="dialog_low_power_close">Wyłączyć</string>
+  <string name="dialog_low_power_open">Zostań na bieżąco</string>
+  <string name="common_dialog_title_hint">Uwaga</string>
+  <string name="dialog_camera_permission_title">Otwórz uprawnienia latarki</string>
+  <string name="dialog_camera_permission_message">Nie ma uprawnień do używania latarki zintegrowanej z kamerą przez producenta urządzenia. Udziel zgody na kamerę.</string>
+  <string name="dialog_camera_permission_positive">Otwarty</string>
+  <string name="dialog_camera_permission_granted_message">Pozwolenie udzielone! Rozpocznij podróż latarką!</string>
+  <string name="dialog_camera_permission_granted_positive">Początek</string>
+  <string name="dialog_no_flashlight_message">To urządzenie nie ma dostępnego sprzętu do latarki. Zamiast tego możesz użyć światła ekranu.</string>
+  <string name="dialog_no_flashlight_negative">Wiem</string>
+  <string name="common_screen_light">Światło ekranu</string>
+  <string name="dialog_camera_occupied_positive">Wiem</string>
+  <string name="dialog_camera_occupied_message">Nie można włączyć latarki, ponieważ sprzęt jest zajęty. Sprawdź i zatrzymaj inne aplikacje, które zajmują latarkę.</string>
+  <string name="setting_primary_title_share">Dzielić</string>
+  <string name="setting_secondary_title_share">Najlepsza latarka, dotknij, aby udostępnić znajomym</string>
+  <string name="setting_share_hint">Kopiuj z powodzeniem, możesz wkleić bezpośrednio</string>
+  <string name="setting_secondary_title_faq">Typowe problemy i odpowiedzi na odpowiadające pytania</string>
+  <string name="dialog_no_flashlight_title">Latarka jest niedostępna</string>
+  <string name="dialog_no_flashlight_message_no_flashlight">Latarka tego urządzenia jest uszkodzona lub nie ma latarki</string>
+  <string name="dialog_no_flashlight_message_screen_light">Możesz także użyć światła ekranu</string>
+  <string name="dialog_no_flashlight_positive">Użyj światła ekranu</string>
+  <string name="title_faq">FAQ</string>
+  <string-array name="faq_question">
+    <item>Dlaczego moja latarka nie działa lub nie świeci przez cały czas?</item>
+    <item>Dlaczego mogę używać tylko światła ekranu?</item>
+    <item>Dlaczego latarka jest wyłączona nieprawidłowo?</item>
+    <item>Jak zmienić kolor światła?</item>
+    <item>Dlaczego prędkość baterii szybko się zużywa, a temperatura urządzenia jest wysoka?</item>
+    <item>Dlaczego kompas jest niedokładny?</item>
+    <item>Dlaczego nie można prawidłowo korzystać z mapy?</item>
+  </string-array>
+  <string-array name="faq_answer">
+    <item>
+Jeśli twoja latarka nie działa, może to być spowodowane następującymi przyczynami:\n- Latarka błądzi cały czas, być może dlatego, że włączony jest tryb stroboskopowy. Kroki, aby wyłączyć tryb stroboskopowy: Powrót do strony głównej → Sprawdź położenie przycisku pod [SOS, 0 ~ 10] → Przeciągnij przycisk pod liczbą 0;\n- Otwarte inne aplikacje latarki lub kamery w tym samym czasie, zamknij tę aplikację;\n- Nie zezwala na uprawnienia kamery, aby kamera mogła włączyć światło, potrzebna jest kamera. Kroki umożliwiające zezwolenie kamery: Powrót do strony głównej → Kliknij przycisk włączania / wyłączania → Zezwól na uprawnienia kamery w wyskakującym oknie;\n- Latarka tego urządzenia jest uszkodzona. Możesz także użyć światła ekranu. Kroki, aby użyć światła ekranu: Powrót do strony głównej → Kliknij przycisk podświetlenia ekranu w prawym dolnym rogu.
+    </item>
+    <item>
+Latarka tego urządzenia jest uszkodzona lub nie ma latarki. Możesz także użyć światła ekranu. Kroki, aby użyć światła ekranu: Powrót do strony głównej → Kliknij przycisk podświetlenia ekranu w prawym dolnym rogu.
+    </item>
+    <item>
+Jeśli zauważysz, że latarka jest nienormalnie wyłączona, sprawdź następujące ustawienia:\n- Latarka pozostaje włączona. Jeśli wyłączysz latarkę, latarka może się wyłączyć podczas blokady ekranu;\n- Automatyczne wyłączanie. Jeśli wyłączysz automatyczne wyłączanie, latarka automatycznie wyłączy się po ustawionym czasie. Jeśli nie chcesz automatycznie wyłączać latarki, upewnij się, że ustawienie automatycznego wyłączania ma wartość "Nigdy";\n- Wstrząśnij, aby się przełączyć. Jeśli włączysz wstrząs, aby zmienić ustawienie latarki, latarka zostanie automatycznie włączona / wyłączona po wykryciu dużego wstrząsu urządzenia.Jeśli nie chcesz włączyć / wyłączyć latarki przez potrząsanie, wyłącz to ustawienie .
+    </item>
+    <item>
+Niestety, ze względu na ograniczenia sprzętu urządzenia, kolor lampy błyskowej nie może być zmieniony, można zmienić tylko kolor światła ekranu. Kroki, aby zmienić kolor światła ekranu: Powrót do strony głównej → Kliknij przycisk podświetlenia ekranu W prawym dolnym rogu → Kolor światła zmienia się poprzez dostosowanie odcienia (kółko), nasycenia (pierwsza linia) i jasności (sekunda) linia).
+    </item>
+    <item>
+Jeśli szybkość baterii szybko się zużyje, a temperatura urządzenia jest wysoka, wprowadź następujące ustawienia:\n- Jeśli zużycie baterii jest zbyt szybkie, użyj funkcji kontroli zasilania, aby chronić baterię. Kroki, aby włączyć sterowanie zasilaniem: Przejdź do strony ustawień → Włącz sterowanie zasilaniem → Ustaw ostrzeżenie o niskim poziomie naładowania akumulatora → OK.\n- Jeśli temperatura urządzenia jest wysoka. Możesz także użyć światła ekranu. Kroki, aby użyć światła ekranu: Powrót do strony głównej → Kliknij przycisk podświetlenia ekranu w prawym dolnym rogu.
+    </item>
+    <item>
+Jeśli Twój kompas jest niedokładny, może to wynikać z następujących przyczyn:\n- W pobliżu urządzenia występuje interferencja pola magnetycznego. Unikaj zakłóceń magnetycznych i zakończ kalibrację kompasu. Wykonuje kroki, aby skalibrować kompas: Wróć do strony głównej → Kliknij ikonę "?" W prawym górnym rogu kompasu, aby rozpocząć kalibrację kompasu. → Wykonaj instrukcje, aby skompletować kompas kalibracja; .Próbuje skalibrować kompas:\n- Z powodu ograniczeń sprzętowych komputera kompas nie działa, możesz spróbować użyć mapy do określenia lokalizacji. Kroki otwierające mapę: Powrót do strony głównej → Kliknij przycisk kompasu, aby otworzyć mapę → Otwórz uprawnienia do lokalizacji użyj mapy.
+    </item>
+    <item>
+Jeśli twoja mapa nie działa, sprawdź następujące ustawienia:\n- Nie masz pozwolenia na lokalizację. Kroki, aby otworzyć pozwolenie na lokalizację: Powrót do strony głównej → Kliknij kompas, aby otworzyć mapę → Zezwól na uprawnienia lokalizacji, w oknie pop-up uprawnień do aplikacji;\n- Użyj mapy, aby włączyć sieć, sprawdź, czy obecna sieć jest normalna;\n- Jeśli nie ma problemu z powyższymi ustawieniami, jest mi bardzo przykro, urządzenie nie obsługuje kierowania, lub występuje nieprawidłowość w ustawieniu, a mapa nie może być normalnie używana.
+    </item>
+  </string-array>
+  <string name="title_feedback">Niezadowolony?</string>
+  <string name="dialog_feedback_message_faq">Masz problemy napotkane podczas użytkowania? Znajdź rozwiązania w FAQ.</string>
+  <string name="dialog_feedback_message_feedback">Problem nie został rozwiązany? Prześlij nam więcej informacji na temat problemu.</string>
+  <string name="dialog_feedback_positive">Sprzężenie zwrotne</string>
+  <string name="dialog_request_permission_title">Potrzebujesz zgody kamery</string>
+  <string name="dialog_request_permission_message">Latarka potrzebuje uprawnienia kamery, aby świadczyć usługę latarki. Latarka nie narusza Twojej prywatności, zezwól na pozwolenie kamery.</string>
+  <string name="dialog_request_permission_positive">Zrozumiany</string>
+  <string name="dialog_rate_us_title">Oceń nas</string>
+  <string name="dialog_rate_us_message_review">Jeśli podoba Ci się latarka, prosimy o przesłanie nam recenzji.</string>
+  <string name="dialog_rate_us_message_rate">Wybierać:</string>
+  <string name="dialog_rate_us_positive">Zatwierdź</string>
+  <string name="update_dialog_title_1">Nowa funkcja wydana!</string>
+  <string name="update_dialog_title_2">Proszę zaktualizować!</string>
+  <string name="update_dialog_title_3">Zaktualizuj i kontynuuj</string>
+  <string name="update_dialog_content_1">Chcesz zobaczyć coś nowego? Po prostu zaktualizuj i dowiedz się! Dzięki za korzystanie!</string>
+  <string name="update_dialog_content_2">Naprawiliśmy kilka potencjalnych błędów! Zdecydowanie zaleca się natychmiastową aktualizację!</string>
+  <string name="update_dialog_content_3">Ta aplikacja napotyka poważny problem, należy ją zaktualizować, aby kontynuować lub wyjść! Twój rekord historii będzie trwał!  Przepraszam za niedogodności. Jesteśmy zobowiązani do stworzenia najlepszej aplikacji dla Ciebie!</string>
+  <string name="update_dialog_cancel">Anuluj</string>
+  <string name="update_dialog_update">Aktualizacja</string>
+  <string name="update_dialog_quit">Porzucić</string>
+  <string name="dialog_grant_permission_message">Latarka potrzebuje uprawnienia kamery, aby świadczyć usługę latarki. Latarka nie narusza Twojej prywatności, zezwól na pozwolenie kamery</string>
+  <string name="dialog_grant_permission_positive">Dotacja</string>
+  <string name="dialog_grant_permission_negative">Anuluj</string>
+</resources>

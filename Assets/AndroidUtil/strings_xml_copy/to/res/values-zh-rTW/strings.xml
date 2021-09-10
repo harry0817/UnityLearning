@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns0="http://schemas.android.com/tools" ns0:locale="zh-rCN">
+  <string name="app_name">接龍</string>
+  <string name="score_label">分數</string>
+  <string name="time_label">時間</string>
+  <string name="move_label">移動</string>
+  <string name="auto_complete_title">自動收牌</string>
+  <string name="setting">設置</string>
+  <string name="newgame">新遊戲</string>
+  <string name="hint_btn">提示</string>
+  <string name="undo">撤銷</string>
+  <string name="hint_no_move">沒有發現有效的移動</string>
+  <string name="hintmove">提示</string>
+  <string name="themes">主題</string>
+  <string name="play_action_random_deal">隨機遊戲</string>
+  <string name="play_action_winning_deal">活局遊戲</string>
+  <string name="play_action_replay">重玩本局</string>
+  <string name="cancel">取消</string>
+  <string name="setting_ok">好</string>
+  <string name="setting_draw1">一張</string>
+  <string name="setting_draw3">三張</string>
+  <string name="statistics">統計</string>
+  <string name="setting_draw3_mode">3張牌</string>
+  <string name="setting_sound">聲音</string>
+  <string name="setting_times">顯示時間/移動</string>
+  <string name="setting_orientation">鎖定屏幕方向</string>
+  <string name="setting_hints">自動提示</string>
+  <string name="setting_tapmove">點擊移動</string>
+  <string name="help_rules">規則</string>
+  <string name="setting_score_anim">得分效果</string>
+  <string name="setting_privacy_policy">隱私政策</string>
+  <string name="setting_language">語言</string>
+  <string name="stat_won">獲勝</string>
+  <string name="stat_lose">輸</string>
+  <string name="stat_swtime">獲勝局最短用時</string>
+  <string name="stat_lwtime">獲勝局最長用時</string>
+  <string name="stat_awtime">獲勝局平均用時</string>
+  <string name="stat_fwmove">獲勝局最少步數</string>
+  <string name="stat_mwmove">獲勝局最多步數</string>
+  <string name="stat_nundo">未撤銷獲勝局數</string>
+  <string name="stat_hscroe">最高分</string>
+  <string name="reset_stat">重置</string>
+  <string name="yes">是</string>
+  <string name="mode_message">遊戲難度設置將在下次開始新遊戲時生效</string>
+  <string name="dialog_close">關閉</string>
+  <string name="theme">主題</string>
+  <string name="dialog_theme_cardback">卡牌背景</string>
+  <string name="dialog_theme_gameback">桌面背景</string>
+  <string name="dialog_theme_card">卡牌樣式</string>
+  <string name="dialog_theme_hint_no_permission">無許可權</string>
+  <string name="dialog_purchase_image_hint">恭喜！\n您獲得了：</string>
+  <string name="dialog_reward_message">金幣不足！是否觀看一個短視頻來獲取 %1$d 金幣？</string>
+  <string name="dialog_add_coin_title">恭喜，你獲得了：</string>
+  <string name="update_available">更新到最新版本？</string>
+  <string name="dialog_quit_message">您確定要退出嗎？</string>
+  <string name="dialog_quit_btn_positive">@string/yes</string>
+  <string name="confirm_reset_game_stat">您確定重置統計記錄嗎？</string>
+  <string name="notification_push">點我進入遊戲！</string>
+  <string name="notification_ticker">回來玩紙牌吧</string>
+  <string name="done">完成</string>
+  <string name="hint_recycle_card">牌堆循環利用</string>
+  <string name="hint_draw_card">翻牌</string>
+  <string name="message_no_hint_use_magic">未發現有效移動，是否使用魔法棒？</string>
+  <string name="left_hand_mode">左手模式</string>
+  <string name="congratulationsAnimation">慶祝動畫</string>
+  <string name="title_information">提示</string>
+  <string name="invite_rate_title">喜歡我們的遊戲嗎?</string>
+  <string name="invite_rate_message">您的評價可以説明我們做出更好的遊戲!</string>
+  <string name="invite_rate_submit">提交</string>
+  <string name="invite_rate_title_gratitude_google_play">謝謝!</string>
+  <string name="invite_rate_gratitude_google_play_message">謝謝您的支援!</string>
+  <string name="invite_rate_gratitude_google_play_positive">好的</string>
+  <string name="invite_rate_title_email">回饋</string>
+  <string name="invite_rate_email_message">我們非常重視您的意見! 您能給我們一些寶貴的建議嗎?</string>
+  <string name="invite_rate_email_positive">當然可以</string>
+  <string name="invite_rate_title_gratitude_email">謝謝!</string>
+  <string name="invite_rate_gratitude_email_message">您的建議將説明我們對遊戲做出更好的優化.</string>
+  <string name="invite_rate_gratitude_email_positive">好的</string>
+  <string name="invite_rate_google_message">您可以花點時間在谷歌商店中評價我們嗎？</string>
+  <string name="invite_rate_button_positive">當然！</string>
+  <string name="rule_0_text">
+    克朗代克紙牌使用52張標準的不含大小王的撲克牌。 遊戲目標是在收牌區構建四個從A到K同一花色的牌組。
+  </string>
+  <string name="rule_1_text">
+    在玩牌區有七個牌列，每個牌列都遵循從上到下由大到小紅黑花色交替的規則。 當出現空的位置時可以把K或者以K開始的牌組移動到此處。
+  </string>
+  <string name="rule_2_text">
+    部分或完整的牌組可以在牌列間移動，但必須遵循紅黑交替、由大到小的規則。 儘量多的讓玩牌區牌面朝下的牌露出來供您使用。
+  </string>
+  <string name="rule_3_text">
+    您可以通過點擊或拖動一張牌進行移動。 當點選了一張牌時會連同它下面的牌組一起選擇。
+  </string>
+  <string name="rule_4_text">
+    在翻牌區點擊牌堆會往牌堆左邊翻出1或3張牌。 您可以把從牌堆翻出來的牌移到收牌區或者玩牌區。 如果牌堆被翻完，點擊其方框再次進行發牌。
+  </string>
+  <string name="rule_4_restock">重新翻牌</string>
+  <string name="rule_5_text">
+    如果遇到困局，您可以點擊提示按鈕尋求説明。
+  </string>
+  <string name="rule_6_title">
+    記分規則
+  </string>
+  <string name="rule_6_body">
+    遊戲積分從0開始，每有一張牌收入收牌區加10分，右上角牌堆中的牌移動到玩牌區加5分，玩牌區每有一張牌翻轉為牌面朝上加5分。 把牌從收牌區移動到玩牌區減10分，每次撤銷減2分，之前操作增加的分數也會被一併扣除。 在一張牌模式下，每次翻牌堆減100分；三張牌模式下，前兩次翻牌堆不扣分，從第三次開始每次翻牌堆減20分。 遊戲中每過10秒減2分。
+  </string>
+  <string name="rule_7_title">
+    牌局解釋
+  </string>
+  <string name="rule_7_body">
+    克朗代克紙牌牌局分兩種：隨機模式和活局模式。 隨機模式中撲克牌被隨機分到各個位置，因此並不是一定有解法。 活局模式的牌局則是被證明過的至少有一種解法。
+  </string>
+  <string name="common_alert_message_purchase">花費%1$d金幣購買此商品？</string>
+  <string name="magic_store_no_ad_loaded">廣告未載入</string>
+  <string name="common_not_enough_coin">金幣不足</string>
+  <string name="play_action_magic">魔棒</string>
+  <string name="victory_title">  恭喜！</string>
+  <string name="victory_bonus">獎勵</string>
+  <string name="victory_get_bonus">獲取獎勵</string>
+  <string name="victory_watch_video">觀看視頻</string>
+  <string name="victory_new_game">新遊戲</string>
+  <string name="victory_history_score">歷史紀錄</string>
+  <string name="magic_store_title">商店</string>
+  <string name="game_mode_random">隨機模式</string>
+  <string name="game_mode_winning">活局模式</string>
+  <string name="daily_bonus_today">今天</string>
+  <string name="daily_bonus_tomorrow">明天</string>
+  <string name="daily_bonus_victory_format">%1$d分鐘</string>
+  <string name="daily_bonus_day">第%1$d天</string>
+  <string name="daily_bonus_title">每日獎勵</string>
+  <string name="daily_bonus_btn_claim">領取</string>
+  <string name="daily_bonus_description">每天打開遊戲領取豐厚獎勵！</string>
+  <string name="daily_bonus_select_massage">觀看一個短視頻，使每日獎勵  ?</string>
+  <string name="daily_bonus_select_negative">不</string>
+  <string name="daily_bonus_select_positive">好的</string>
+  <string name="daily_bonus_victory_result_message"> 接下來的 %2$d 分鐘您將獲得 %1$d%%的金幣加成！</string>
+  <string name="daily_bonus_result_done">開始</string>
+  <string name="daily_bonus_result_message">您獲得了：</string>
+  <string name="no_hint_message_no_magic">無有效可移動操作，是否開啟新遊戲？</string>
+  <string name="no_hint_message_guilde">使用魔棒來解除困局</string>
+  <string name="remove_ad">移除廣告</string>
+  <string name="purchasing_error_try_again">購買錯誤！請稍後再試！</string>
+  <string name="msg_coin_hint">購買主題或魔棒</string>
+  <string name="purchasing_succeed_remove_ad">購買成功！ 廣告已刪除！</string>
+  <string name="daily_challenge">每日挑戰</string>
+  <string name="daily_challenge_start_btn">開始挑戰</string>
+  <string name="daily_challenge_total_count">歷史記錄:</string>
+  <string name="daily_challenge_status_solved">已解開</string>
+  <string name="daily_challenge_status_unsolved">未解開</string>
+  <string name="daily_challenge_start_hint">開始每日挑戰</string>
+  <string name="daily_challenge_start_btn_replay">重新挑戰</string>
+  <string name="daily_challenge_mode">每日挑戰</string>
+  <string name="msg_remove_cardback">為了遵守谷歌商店政策，我們去掉了2張牌背。造成的不便我們深感抱歉！您可以將相冊中的照片設置為牌背！</string>
+  <string name="recover_billing">恢復購買</string>
+</resources>

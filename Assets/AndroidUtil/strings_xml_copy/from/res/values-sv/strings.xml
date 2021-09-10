@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">Flashlight</string>
+  <string name="east">E</string>
+  <string name="west">W</string>
+  <string name="south">S</string>
+  <string name="north">N</string>
+  <string name="south_east">SE</string>
+  <string name="south_west">SW</string>
+  <string name="north_east">NE</string>
+  <string name="north_west">NW</string>
+  <string name="main_color">Färg</string>
+  <string name="main_morse">Morse</string>
+  <string name="morse_transmit">Överför</string>
+  <string name="on">ON</string>
+  <string name="off">OFF</string>
+  <string name="morse_your_text">Din text</string>
+  <string name="morse_morse_code">Morse Code</string>
+  <string name="permission_location_rationale"> Åtkomst till platstjänsten krävs för att visa funktionen \'min plats\' som visar din nuvarande plats på kartan.</string>
+  <string name="permission_location_denied_message">Detta prov kräver platsbehörighet för att aktivera lagret \'min plats\'. Vänligen försök igen och ge tillgång till platsen.\nOm behörigheten har blivit permanent nekad kan den aktiveras från Systeminställningar &gt; Apps &gt; </string>
+  <string name="no_location_detected">Ingen plats upptäckt. Kontrollera att platsen är aktiverad på enheten.</string>
+  <string name="locate">Hitta</string>
+  <string name="rt_title">Vi behöver din feedback</string>
+  <string name="dialog_rate_message_normal">Gillar du vårt Flashlight-verktyg! Kan du snälla ta en stund att betygsätta det. Ditt stöd gör oss bättre. Tack för ditt stöd!</string>
+  <string name="dialog_rate_positive">Amazing</string>
+  <string name="rt_fb">Jag har förslag</string>
+  <string name="rt_cancel">Nästa gång</string>
+  <string name="dialog_rate_message_feedback">Återkoppling gör att vi ger dig tjänster av högre kvalitet.</string>
+  <string name="ok">OK</string>
+  <string name="cancel">Avbryt</string>
+  <string name="no_sending_emails_app">Tyvärr, vi kunde inte hitta någon app för att skicka e-post! Nedan finns vår återkopplingsadressadress: \n</string>
+  <string name="no_google_play_app">Tyvärr, vi kunde inte hitta någon app för att öppna ratinghemmet!</string>
+  <string name="can_not_open_flash_light">Kan inte öppna blixtlampa</string>
+  <string name="device_not_support_flash_light">Enheten stöder inte blixtlampan och lyser automatiskt skärmen</string>
+  <string name="seconds">%1$d Seconds</string>
+  <plurals name="minute">
+    <item quantity="other">%1$d Protokoll</item>
+  </plurals>
+  <string name="never">Aldrig</string>
+  <string name="auto_close">Slå av automatiskt</string>
+  <string name="calibration_message">Du kan hålla sig borta från magnetfältinterferenskällan och följ anvisningarna för att slutföra kompasskalibreringen</string>
+  <string name="the_device_compass_is_not_available">Kompassen för enheten är inte tillgänglig</string>
+  <string name="recover_billing_completed">Slutfört. Om du har några frågor, kolla ditt nätverk eller kolla din order i Google Play och försök igen. Tack! </string>
+  <string name="processing_please_wait">Bearbetning…Vänligen vänta.</string>
+  <string name="billing_set_up_failed_message">Kan inte starta. Se till att Google Play fungerar korrekt.</string>
+  <string name="purchase_success">Köpsucces</string>
+  <string name="purchase_failed">Inköp misslyckades</string>
+  <string name="notification_hint_on">Tryck för att slå på lampan</string>
+  <string name="notification_hint_off">Tryck för att stänga av lampan</string>
+  <string name="title_setting">Inställningar</string>
+  <string name="setting_primary_title_launch_open">Automatisk på</string>
+  <string name="setting_secondary_title_launch_open">Slå på ficklampan vid uppstart</string>
+  <string name="setting_primary_title_keep_open">Ficklampa stanna kvar</string>
+  <string name="setting_secondary_title_keep_open">Fortsätt efter att du har låsat skärmen</string>
+  <string name="purchase_shake_open">Skaka för att sätta på / stänga av ficklampan</string>
+  <string name="setting_primary_title_shake_open">Skaka för att sätta på / stänga av ficklampan</string>
+  <string name="setting_secondary_title_shake_open">Skaka din telefon för att sätta på / stänga av ficklampan</string>
+  <string name="setting_primary_title_notification">Meddelande verktygsfält växla</string>
+  <string name="setting_secondary_title_notification">Genväg för att sätta på / stänga av ficklampan</string>
+  <string name="setting_primary_title_battery_control">Strömstyrning</string>
+  <string name="setting_secondary_title_battery_control">Låg batteri varning under %1$d%%</string>
+  <string name="setting_primary_title_close_time">Automatisk avstängning</string>
+  <string name="setting_secondary_title_close_time">Stäng av ficklampan efter en tidsperiod</string>
+  <string name="title_about">Om</string>
+  <string name="about_feedback">Återkoppling</string>
+  <string name="about_rate">Betygsätt oss</string>
+  <string name="about_privacy_policy">Sekretesspolicy</string>
+  <string name="billing_remove_ads">Ta bort AD</string>
+  <string name="billing_shark">Skaka för att byta ficklampa</string>
+  <string name="billing_notification">Meddelandeverktygsfältets genväg för att aktivera / stänga av ficklampan</string>
+  <string name="purchase_billing">$1.99</string>
+  <string name="recover_billing">Återställ</string>
+  <string name="dialog_low_power_title">Uppmärksamhet!</string>
+  <string name="dialog_low_power_message">Ditt batteri är lägre än den inställda minimiprocenten. Slå på ficklampan ändå?</string>
+  <string name="dialog_low_power_close">Stäng av</string>
+  <string name="dialog_low_power_open">Stanna kvar</string>
+  <string name="common_dialog_title_hint">Uppmärksamhet</string>
+  <string name="dialog_camera_permission_title">Öppna facklampor</string>
+  <string name="dialog_camera_permission_message">Har inget tillstånd att använda ficklampa som är integrerad med kameran av din tillverkare. Vänligen ge kameratillstånd.</string>
+  <string name="dialog_camera_permission_positive">Öppen</string>
+  <string name="dialog_camera_permission_granted_message">Tillstånd beviljat! Starta ficklampans resa!</string>
+  <string name="dialog_camera_permission_granted_positive">Start</string>
+  <string name="dialog_no_flashlight_message">Den här enheten har ingen tillgänglig ficklampa. Du kan använda skärmens ljus istället.</string>
+  <string name="dialog_no_flashlight_negative">Jag vet</string>
+  <string name="common_screen_light">Skärmsljus</string>
+  <string name="dialog_camera_occupied_positive">Jag vet</string>
+  <string name="dialog_camera_occupied_message">Kan inte sätta på ficklampan eftersom maskinvaran är upptagen. Kontrollera och stoppa andra appar som hänger lös ficklampan.</string>
+  <string name="setting_primary_title_share">Dela med sig</string>
+  <string name="setting_secondary_title_share">Den bästa ficklampan, tryck för att dela med dina vänner</string>
+  <string name="setting_share_hint">Kopiera framgångsrikt, du kan klistra in direkt</string>
+  <string name="setting_secondary_title_faq">Vanliga problemfel och svar på motsvarande frågor</string>
+  <string name="dialog_no_flashlight_title">Ficklampa otillgänglig</string>
+  <string name="dialog_no_flashlight_message_no_flashlight">Lampan på denna enhet är skadad eller det finns ingen ficklampa</string>
+  <string name="dialog_no_flashlight_message_screen_light">Du kan också använda skärmljus istället</string>
+  <string name="dialog_no_flashlight_positive">Använd skärmens ljus</string>
+  <string name="title_faq">FAQ</string>
+  <string-array name="faq_question">
+    <item>Varför arbetar min ficklampa inte eller stannar hela tiden?</item>
+    <item>Varför kan jag bara använda skärmens ljus?</item>
+    <item>Varför är ficklampan avstängd på onormalt sätt?</item>
+    <item>Hur byter man ljusets färg?</item>
+    <item>Varför går batteriet snabbt och temperaturen på enheten är hög?</item>
+    <item>Varför är kompassen felaktig?</item>
+    <item>Varför kan inte kartan användas korrekt?</item>
+  </string-array>
+  <string-array name="faq_answer">
+    <item>
+Om din ficklampa inte fungerar kan den bero på följande orsaker:\n- Ficklampan har stannat hela tiden, eventuellt eftersom strob-läget är på. Åtgärder för att stänga av stroboskt läge: Tillbaka till hemsidan → Kontrollera knappens läge under [SOS, 0 ~ 10] → Dra i knappen under nummer 0;\n- Öppnade andra ficklampans applikationer eller kamerans applikation samtidigt, stänga dessa app;\n- Tillåt inte kameratillstånd, fick ficklampan kamerabehörighet för att sätta på ljuset. Steg för att tillåta kameratillstånd: Tillbaka till hemsidan → Klicka på på / av-knappen → Tillåt kameratillstånd i popup-fönstret;\n- Lampan på denna enhet är skadad. Du kan också använda skärmljus istället. Åtgärder för att använda skärmens ljus: Tillbaka till hemsidan → Klicka på skärmknappen i nedre högra hörnet.
+    </item>
+    <item>
+Lampan på denna enhet är skadad eller det finns ingen ficklampa. Du kan också använda skärmljus istället. Åtgärder för att använda skärmens ljus: Tillbaka till hemsidan → Klicka på skärmknappen i nedre högra hörnet.
+    </item>
+    <item>
+Om du upptäcker att ficklampan är onormalt avstängd, kontrollera följande inställningar:\n- Ficklampa stanna kvar Om du stänger av ficklampan fortsätter, kan ficklampan stängas av under låsskärmen.\n- Automatisk avstängning. Om du slår på automatiskt stängs ficklampan automatiskt efter inställd tid. Om du inte vill stänga av ficklampan automatiskt, se till att inställningen för automatisk avstängning är "Aldrig".\n- Skaka för att byta. Om du slår på skakningen för att växla till ficklampans inställning, sätts lampan automatiskt på / av när en stor skaka på enheten är upptäckt. Om du inte vill slå på ficklampan på / av genom att skaka, stäng av den här inställningen .
+    </item>
+    <item>
+Tyvärr, på grund av begränsningarna i enhetshårdvaran, kan blixtens färg inte ändras. Endast skärmens ljus kan ändras. Steg för att ändra skärmens ljusfärg: Tillbaka till startsidan → Klicka på skärmknappen I nedre högra hörnet → Lysets färg ändras genom att justera nyans (cirkel), mättnad (första raden) och ljusstyrka (andra linje).
+    </item>
+    <item>
+Om hastigheten på batteriet förbrukas snabbt och temperaturen på enheten är hög, gör följande inställningar:\n- Om batteriförbrukningen är för snabb, använd strömkontrollfunktionen för att skydda batteriet. Åtgärder för att slå på strömkontroll: Gå till inställningssidan → Slå på strömkontroll → Ange varning med lågt batteri → OK.\n- Om temperaturen på enheten är hög. Du kan också använda skärmljus istället. Åtgärder för att använda skärmens ljus: Tillbaka till hemsidan → Klicka på skärmknappen i nedre högra hörnet.
+    </item>
+    <item>
+Om kompassen är felaktig kan det bero på följande orsaker:\n- Det finns magnetfältinterferens nära enheten. Vänligen håll dig borta från magnetisk störning och slutföra kompasskalibreringen. Steg för att kalibrera kompassen: Återgå till startsidan → Klicka på ikonen "?" I kompassens övre högra hörn för att starta kompasskalibrering → Följ anvisningarna för att slutföra kompassen kalibrering; .Steps för att kalibrera kompassen:\n- På grund av begränsningarna i maskinhårdvaran fungerar inte kompassen, du kan försöka använda kartan för att bestämma platsen. Steg för att öppna kartan: Tillbaka till hemsidan → Klicka på kompassknappen för att öppna kartan → Öppna tillståndet till använd kartan.
+    </item>
+    <item>
+Om din karta inte fungerar, kontrollera följande inställningar:\n- Du har inte tillåtet platstillståndet. Åtgärder för att öppna platsbehörigheten: Tillbaka till hemsidan → Klicka på kompassen för att öppna kartan → Tillåt behörighet för platsen, i fönstret för popup-programmets tillstånd.\n- Använd kartan måste slå på nätverket, kontrollera att det aktuella nätverket är normalt;\n- Om det inte är något problem med ovanstående inställningar, är jag mycket ledsen, din enhet stöder inte inriktning, eller det finns en abnormitet i positioneringen och kartan kan inte användas normalt.
+    </item>
+  </string-array>
+  <string name="title_feedback">Inte tillfredsställd?</string>
+  <string name="dialog_feedback_message_faq">Har problem uppstått under användning? Hitta lösningar i FAQ.</string>
+  <string name="dialog_feedback_message_feedback">Problemet är inte löst? Vänligen återkoppla mer information om problemet.</string>
+  <string name="dialog_feedback_positive">Återkoppling</string>
+  <string name="dialog_request_permission_title">Behöver kamerabehörighet</string>
+  <string name="dialog_request_permission_message">Ficklampan behöver kamera tillstånd att ge dig en ficklampa tjänst. Ficklampan kommer inte att invadera din integritet, vänligen tillåt kamera tillstånd.</string>
+  <string name="dialog_request_permission_positive">Förstått</string>
+  <string name="dialog_rate_us_title">Gradera oss</string>
+  <string name="dialog_rate_us_message_review">Om du gillar ficklampan kan du överväga att ge oss en recension.</string>
+  <string name="dialog_rate_us_message_rate">Välja:</string>
+  <string name="dialog_rate_us_positive">Lämna</string>
+  <string name="update_dialog_title_1">Ny funktion släppt!</string>
+  <string name="update_dialog_title_2">Snälla uppdatera!</string>
+  <string name="update_dialog_title_3">Uppdatera och fortsätt</string>
+  <string name="update_dialog_content_1">Vill du se något nytt? Bara uppdatera och ta reda på det! Tack för att du använder!</string>
+  <string name="update_dialog_content_2">Vi har fixat några potentiella buggar! Omedelbar uppdatering rekommenderas starkt!</string>
+  <string name="update_dialog_content_3">Den här appen har några allvarliga problem, du bör uppdatera för att fortsätta eller sluta! Din historia kommer att fortsätta!  Beklagar olägenheten. Vi har åtagit oss att göra den bästa appen för dig!</string>
+  <string name="update_dialog_cancel">Annullera</string>
+  <string name="update_dialog_update">Uppdatering</string>
+  <string name="update_dialog_quit">Sluta</string>
+  <string name="dialog_grant_permission_message">Ficklampan behöver kamera tillstånd att ge dig en ficklampa tjänst. Ficklampan kommer inte att invadera din integritet, vänligen tillåt kamera tillstånd</string>
+  <string name="dialog_grant_permission_positive">Bevilja</string>
+  <string name="dialog_grant_permission_negative">Annullera</string>
+</resources>

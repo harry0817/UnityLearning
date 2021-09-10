@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Solitaire</string>
+  <string name="score_label">Scores</string>
+  <string name="time_label">Time</string>
+  <string name="move_label">Moves</string>
+  <string name="auto_complete_title">Auto Complete</string>
+  <string name="setting">Settings</string>
+  <string name="themes">Themes</string>
+  <string name="newgame">Play</string>
+  <string name="hint_btn">Hints</string>
+  <string name="undo">Undo</string>
+  <string name="hint_no_move">No useful moves detected</string>
+  <string name="hintmove">Hint Move</string>
+  <string name="play_action_random_deal">Random Deal</string>
+  <string name="play_action_winning_deal">Winning Deal</string>
+  <string name="play_action_replay">Replay</string>
+  <string name="cancel">Cancel</string>
+  <string name="setting_ok">OK</string>
+  <string name="statistics">Statistics</string>
+  <string name="setting_draw1">Draw 1</string>
+  <string name="setting_draw3">Draw 3</string>
+  <string name="setting_sound">Sound Control</string>
+  <string name="setting_times">Times/Moves</string>
+  <string name="setting_orientation">Lock Orientation</string>
+  <string name="setting_hints">Auto Hints</string>
+  <string name="setting_tapmove">Tap Move</string>
+  <string name="help_rules">Rules</string>
+  <string name="setting_draw3_mode">3 Cards</string>
+  <string name="setting_score_anim">Score Effect</string>
+  <string name="setting_privacy_policy">Privacy Policy</string>
+  <string name="setting_language">Language</string>
+  <string name="stat_won">Games Won</string>
+  <string name="stat_lose">Games Lost</string>
+  <string name="stat_swtime">Shortest Winning Time</string>
+  <string name="stat_lwtime">Longest Winning Time</string>
+  <string name="stat_awtime">Average Winning Time</string>
+  <string name="stat_fwmove">Fewest Winning Moves</string>
+  <string name="stat_mwmove">Most Winning Moves</string>
+  <string name="stat_nundo">Wins Without Undo</string>
+  <string name="stat_hscroe">Highest Scores</string>
+  <string name="reset_stat">Reset</string>
+  <string name="yes">Yes</string>
+  <string name="mode_message">Difficulty Setting will take effect in Next New Game</string>
+  <string name="dialog_close">Close</string>
+  <string name="theme">Themes</string>
+  <string name="dialog_theme_cardback">Card Backs</string>
+  <string name="dialog_theme_gameback">Backgrounds</string>
+  <string name="dialog_theme_card">Card Faces</string>
+  <string name="dialog_theme_hint_no_permission">No permission</string>
+  <string name="dialog_purchase_image_hint">Congratulations!\nYou got:</string>
+  <string name="dialog_reward_message">Not enough coins! Watch a short video to get %1$d coins?</string>
+  <string name="dialog_add_coin_title">Congratulations, you got:</string>
+  <string name="update_available">Update to the latest version ?</string>
+  <string name="dialog_quit_message">Are you sure to quit ?</string>
+  <string name="dialog_quit_btn_positive">Quit</string>
+  <string name="confirm_reset_game_stat">Are you sure to reset game statistics ?</string>
+  <string name="notification_push">Click me to open the game !</string>
+  <string name="notification_ticker">Back to solitaire for fun !</string>
+  <string name="done">Done</string>
+  <string name="hint_draw_card">Draw</string>
+  <string name="hint_recycle_card">Recycle remaining cards</string>
+  <string name="message_no_hint_use_magic">No useful moves detected. Do  you want to use the magic?</string>
+  <string name="left_hand_mode">Left Handed</string>
+  <string name="congratulationsAnimation">Congratulations Screen</string>
+  <string name="title_information">Information</string>
+  <string name="no_hint_message_guilde">Use Magic Stick to save the deal.</string>
+  <string name="no_hint_message_no_magic">No useful moves detected.Open a new game?</string>
+  <string name="invite_rate_title">Enjoying the game?</string>
+  <string name="invite_rate_message">Your rating helps us make the best game possible!</string>
+  <string name="invite_rate_submit">Submit</string>
+  <string name="invite_rate_title_gratitude_google_play">Thank you!</string>
+  <string name="invite_rate_gratitude_google_play_message">Thanks for your support!</string>
+  <string name="invite_rate_gratitude_google_play_positive">OK</string>
+  <string name="invite_rate_title_email">Feedback</string>
+  <string name="invite_rate_email_message">We really value your thoughts! Can you help by sending us some feedback?</string>
+  <string name="invite_rate_email_positive">Go</string>
+  <string name="invite_rate_title_gratitude_email">Thank you!</string>
+  <string name="invite_rate_gratitude_email_message">Your feedback helps us provide updates to the game.</string>
+  <string name="invite_rate_gratitude_email_positive">OK</string>
+  <string name="invite_rate_google_message">Could you please take a moment to rate us on the Google Play?</string>
+  <string name="invite_rate_button_positive">Sure!</string>
+  <string name="rule_0_text">
+    Klondike Solitaire uses a standard 52 card deck of playing cards without jokers.
+    The objective of the game is to expose all cards and move them into the foundation piles. These piles are built upward in suit from Aces to Kings.
+  </string>
+  <string name="rule_1_text">
+    There are 7 tableau columns that are built downward (in decreasing rank, from Kings to Aces) in alternating colors (red, black). Any empty column can only be filled with a King or a pile of cards with a King at the top.
+  </string>
+  <string name="rule_2_text">
+    Partial or complete piles can be moved from one column to another if they are built down by alternate colors and decreasing rank. Expose face-down cards in the tableau to find cards you need.
+  </string>
+  <string name="rule_3_text">
+    Moving a card is easy, just tap or drag it. Selecting a card also selects all cards piled below.
+  </string>
+  <string name="rule_4_text">
+    Tap the stock to move 1 or 3 card(s) to the waste. You can move the top card from the waste pile to any legal location in the foundation piles or tableau columns. If the stock runs out, tap its outline to deal again.
+  </string>
+  <string name="rule_4_restock">Restock</string>
+  <string name="rule_5_text">
+    If you get stuck, tap the hint button for a little help.
+  </string>
+  <string name="rule_6_title">
+    Standard Scoring
+  </string>
+  <string name="rule_6_body">
+    Each new game starts off at 0 points. Each card that is moved to the foundation receives 10 points. Each card that is moved from the waste pile to a tableau column receives 5 points.
+Each card that is turned over in the tableau column receives 5 points. Move a card  from the foundation piles is a loss of 10 points. Each undo request is a loss of 2 points in addition to the points that are subtracted from undoing a move. When the Draw 3 option is on there is a loss of 20 points for each pass through the stock pile after the third pass. When the Draw 3 option is off there is a loss of 100 points for each pass through the stock pile. For timed games only: a loss of 2 points for every 10 seconds of play.
+  </string>
+  <string name="rule_7_title">
+    Game
+  </string>
+  <string name="rule_7_body">
+    Solitaire deals games in two ways: Random and Winning. A Random Deal shuffles the cards randomly and consequently only some games can be won. A Winning Deal is guaranteed to have at least one winning solution.
+  </string>
+  <string name="common_alert_message_purchase">Purchase this product for %1$d coins?</string>
+  <string name="magic_store_no_ad_loaded">No ad loaded</string>
+  <string name="common_not_enough_coin">Not enough coins</string>
+  <string name="play_action_magic">Magic Stick</string>
+  <string name="victory_title">Congratulation!</string>
+  <string name="victory_bonus">Reward</string>
+  <string name="victory_get_bonus">Get Reward</string>
+  <string name="victory_watch_video">Watch Video</string>
+  <string name="victory_new_game">New Game</string>
+  <string name="victory_history_score">history record</string>
+  <string name="magic_store_title">Shop</string>
+  <string name="game_mode_random">Random</string>
+  <string name="game_mode_winning">Winning</string>
+  <string name="daily_bonus_today">Today</string>
+  <string name="daily_bonus_tomorrow">Tomorrow</string>
+  <string name="daily_bonus_victory_format">%1$d MINS</string>
+  <string name="daily_bonus_day">Day %1$d</string>
+  <string name="daily_bonus_title">Daily Bonus</string>
+  <string name="daily_bonus_btn_claim">Claim</string>
+  <string name="daily_bonus_description">Come back every day to collect your rewards!</string>
+  <string name="daily_bonus_select_massage">Watch a short video to get Daily Bonus  ?</string>
+  <string name="daily_bonus_select_negative">No</string>
+  <string name="daily_bonus_select_positive">Yes</string>
+  <string name="daily_bonus_victory_result_message">You will earn %1$d%% more coins in the next %2$d minutes!</string>
+  <string name="daily_bonus_result_done">GO</string>
+  <string name="daily_bonus_result_message">You got: </string>
+  <string name="remove_ad">Remove Ads</string>
+  <string name="purchasing_error_try_again">Error purchasing! Please try again later!</string>
+  <string name="msg_coin_hint">Purchase themes or magic</string>
+  <string name="purchasing_succeed_remove_ad">Purchase succeeds! Ads removed!</string>
+  <string name="daily_challenge">Daily Challenge</string>
+  <string name="daily_challenge_start_btn">Start Challenge</string>
+  <string name="daily_challenge_total_count">Total: </string>
+  <string name="daily_challenge_status_solved">Solved</string>
+  <string name="daily_challenge_status_unsolved">Unsolved</string>
+  <string name="daily_challenge_start_hint">Start Daily Challenge</string>
+  <string name="daily_challenge_start_btn_replay">Replay</string>
+  <string name="daily_challenge_date_formatter">MMM dd</string>
+  <string name="daily_challenge_mode">Challenge</string>
+  <string name="msg_remove_cardback">We delete 2 card backs to comply with google play policy. Sorry for the inconvenience! You can customize you card back with your own pictures!</string>
+  <string name="recover_billing">Restore</string>
+  <string name="recover_billing_completed">Completed. If you have any questions, check your network or check your Google Play order and try again. Thank you!</string>
+  <string name="recover_billing">Restore</string>
+</resources>

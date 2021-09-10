@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="language_iso" translatable="false">
+        <item>en</item>
+        <item>es</item>
+        <item>de</item>
+        <item>fr</item>
+        <item>ru</item>
+        <item>pt</item>
+        <item>it</item>
+        <item>ar</item>
+        <item>pl</item>
+        <item>nl</item>
+        <item>ja</item>
+        <item>hu</item>
+        <item>cs</item>
+        <item>ro</item>
+        <item>el</item>
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+        <item>zh_HK</item>
+        <item>th</item>
+        <item>sv</item>
+        <item>sk</item>
+        <item>fi</item>
+        <item>lb</item>
+        <item>da</item>
+        <item>no</item>
+        <item>is</item>
+        <item>in</item>
+        <item>sr</item>
+        <item>bg</item>
+        <item>hr</item>
+        <item>ko</item>
+        <item>tr</item>
+        <item>lt</item>
+        <item>uk</item>
+        <item>sl</item>
+        <item>lv</item>
+        <item>et</item>
+        <item>ms</item>
+        <item>vi</item>
+        <item>hi</item>
+    </string-array>
+
+    <string name="en">English</string>
+    <string name="ar">عربى</string>
+    <string name="bg">български</string>
+    <string name="cs">čeština</string>
+    <string name="da">Dansk</string>
+    <string name="de">Deutsche</string>
+    <string name="el">Ελληνικά</string>
+    <string name="es">Español</string>
+    <string name="et">Eesti</string>
+    <string name="fi">Suomalainen</string>
+    <string name="fr">Français</string>
+    <string name="hi">हिंदी</string>
+    <string name="hr">Hrvatski</string>
+    <string name="hu">Magyar</string>
+    <string name="in">Indonesia</string>
+    <string name="is">Íslensku</string>
+    <string name="it">Italiano</string>
+    <string name="ja">日本語</string>
+    <string name="ko">한국어</string>
+    <string name="lb">Lëtzebuergesch</string>
+    <string name="lt">Lietuvių</string>
+    <string name="lv">Latvijas</string>
+    <string name="ms">Melayu</string>
+    <string name="nl">Nederlands</string>
+    <string name="no">Norsk</string>
+    <string name="pl">Polskie</string>
+    <string name="pt">Português</string>
+    <string name="ro">Română</string>
+    <string name="ru">русский</string>
+    <string name="sk">Slovenský</string>
+    <string name="sl">Slovenščina</string>
+    <string name="sr">Српски</string>
+    <string name="sv">Svenska</string>
+    <string name="th">ไทย</string>
+    <string name="tr">Türk</string>
+    <string name="uk">Українська</string>
+    <string name="vi">Tiếng Việt</string>
+    <string name="zh_CN">简体中文</string>
+    <string name="zh_HK">粵語</string>
+    <string name="zh_TW">繁体中文</string>
+
+    <drawable name="en">@drawable/flag_en</drawable>
+    <drawable name="ar">@drawable/flag_ar</drawable>
+    <drawable name="bg">@drawable/flag_bg</drawable>
+    <drawable name="cs">@drawable/flag_cs</drawable>
+    <drawable name="da">@drawable/flag_da</drawable>
+    <drawable name="de">@drawable/flag_de</drawable>
+    <drawable name="el">@drawable/flag_el</drawable>
+    <drawable name="es">@drawable/flag_es</drawable>
+    <drawable name="et">@drawable/flag_et</drawable>
+    <drawable name="fi">@drawable/flag_fi</drawable>
+    <drawable name="fr">@drawable/flag_fr</drawable>
+    <drawable name="hi">@drawable/flag_hi</drawable>
+    <drawable name="hr">@drawable/flag_hr</drawable>
+    <drawable name="hu">@drawable/flag_hu</drawable>
+    <drawable name="in">@drawable/flag_in</drawable>
+    <drawable name="is">@drawable/flag_is</drawable>
+    <drawable name="it">@drawable/flag_it</drawable>
+    <drawable name="ja">@drawable/flag_ja</drawable>
+    <drawable name="ko">@drawable/flag_ko</drawable>
+    <drawable name="lb">@drawable/flag_lb</drawable>
+    <drawable name="lt">@drawable/flag_lt</drawable>
+    <drawable name="lv">@drawable/flag_lv</drawable>
+    <drawable name="ms">@drawable/flag_ms</drawable>
+    <drawable name="nl">@drawable/flag_nl</drawable>
+    <drawable name="no">@drawable/flag_no</drawable>
+    <drawable name="pl">@drawable/flag_pl</drawable>
+    <drawable name="pt">@drawable/flag_pt</drawable>
+    <drawable name="ro">@drawable/flag_ro</drawable>
+    <drawable name="ru">@drawable/flag_ru</drawable>
+    <drawable name="sk">@drawable/flag_sk</drawable>
+    <drawable name="sl">@drawable/flag_sl</drawable>
+    <drawable name="sr">@drawable/flag_sr</drawable>
+    <drawable name="sv">@drawable/flag_sv</drawable>
+    <drawable name="th">@drawable/flag_th</drawable>
+    <drawable name="tr">@drawable/flag_tr</drawable>
+    <drawable name="uk">@drawable/flag_uk</drawable>
+    <drawable name="vi">@drawable/flag_vi</drawable>
+    <drawable name="zh_CN">@drawable/flag_zh_cn</drawable>
+    <drawable name="zh_HK">@drawable/flag_zh_hk</drawable>
+    <drawable name="zh_TW">@drawable/flag_zh_tw</drawable>
+
+</resources>

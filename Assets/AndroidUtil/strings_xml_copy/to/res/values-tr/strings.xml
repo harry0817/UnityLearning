@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Solitaire</string>
+  <string name="score_label">Gol</string>
+  <string name="time_label">Zaman</string>
+  <string name="move_label">Hamle</string>
+  <string name="auto_complete_title">Otomatik tamamlama</string>
+  <string name="setting">Ayarlar</string>
+  <string name="themes">Temalar</string>
+  <string name="newgame">Oyun</string>
+  <string name="hint_btn">Ipuçları</string>
+  <string name="undo">Geri alma</string>
+  <string name="hint_no_move">Hiçbir yararlı hamle tespit</string>
+  <string name="hintmove">Ipuçları taşı</string>
+  <string name="play_action_random_deal">Rastgele Fırsat</string>
+  <string name="play_action_winning_deal">Kazanan Fırsat</string>
+  <string name="play_action_replay">Tekrar</string>
+  <string name="cancel">Iptal etmek</string>
+  <string name="setting_ok">Tamam</string>
+  <string name="statistics">Istatistikler</string>
+  <string name="setting_draw1">1 Beraberlik</string>
+  <string name="setting_draw3">3 Beraberlik</string>
+  <string name="setting_sound">Ses Kontrolü</string>
+  <string name="setting_times">Zaman/Hamle</string>
+  <string name="setting_orientation">Kilit Oryantasyon</string>
+  <string name="setting_hints">Oto İpucu</string>
+  <string name="setting_tapmove">Tap Taşı</string>
+  <string name="help_rules">Kurallar</string>
+  <string name="setting_draw3_mode">3 Kart</string>
+  <string name="setting_score_anim">Puan efekti</string>
+  <string name="setting_privacy_policy">Gizlilik Politikası</string>
+  <string name="setting_language">Dil</string>
+  <string name="stat_won">Galibiyeti</string>
+  <string name="stat_lose">Oyun Kayıp</string>
+  <string name="stat_swtime">Kısa Zaman Kazanma</string>
+  <string name="stat_lwtime">Uzun Zaman Kazanma</string>
+  <string name="stat_awtime">Ortalama Kazanma Zamanı</string>
+  <string name="stat_fwmove">En az Kazanan taşır</string>
+  <string name="stat_mwmove">Çoğu Kazanan taşır</string>
+  <string name="stat_nundo">Geri Al olmadan kazanç</string>
+  <string name="stat_hscroe">En yüksek skor</string>
+  <string name="reset_stat">Reset</string>
+  <string name="yes">Evet</string>
+  <string name="mode_message">Zorluk Ayarı Sonraki Yeni Oyunu yürürlüğe girecek</string>
+  <string name="dialog_close">Kapat</string>
+  <string name="theme">Temalar</string>
+  <string name="dialog_theme_cardback">Kart Arkalıkları</string>
+  <string name="dialog_theme_gameback">Arka Plan</string>
+  <string name="dialog_theme_card">Kart Yüzleri</string>
+  <string name="dialog_theme_hint_no_permission">İzin yok</string>
+  <string name="dialog_purchase_image_hint">Tebrikler!\nsen kazanılmış var:</string>
+  <string name="dialog_reward_message">Yeterli para yok! %1$d sikke almak için kısa bir video Izlemek?</string>
+  <string name="dialog_add_coin_title">Tebrikler, var:</string>
+  <string name="update_available">Güncelleştirme TOT ve en son sürümü?</string>
+  <string name="dialog_quit_message">Bırakmaktan emin misin?</string>
+  <string name="dialog_quit_btn_positive">@string/yes</string>
+  <string name="confirm_reset_game_stat">Oyun istatistiklerini sıfırladığınızdan emin misiniz?</string>
+  <string name="notification_push">Oyunu açmak için beni tıklayın!</string>
+  <string name="notification_ticker">Eğlenmek için solitaire\'ye geri dönün!</string>
+  <string name="done">tamam</string>
+  <string name="hint_recycle_card">Kalan kartları geri dönüşüme sokun</string>
+  <string name="hint_draw_card">Çekmek</string>
+  <string name="message_no_hint_use_magic">Hiçbir yararlı hamle algılandı. Büyüyü kullanmak ister misin?</string>
+  <string name="left_hand_mode">Solak</string>
+  <string name="congratulationsAnimation">Tebrikler Ekranı</string>
+  <string name="title_information">Bilgi</string>
+  <string name="invite_rate_title">Oyundan hoşlanıyor musun?</string>
+  <string name="invite_rate_message">Reytinginiz en iyi oyunu mümkün kılmak için bize yardımcı olur!</string>
+  <string name="invite_rate_submit">Gönder</string>
+  <string name="invite_rate_title_gratitude_google_play">Teşekkür ederiz!</string>
+  <string name="invite_rate_gratitude_google_play_message">Destek için teşekkürler!</string>
+  <string name="invite_rate_gratitude_google_play_positive">Tamam</string>
+  <string name="invite_rate_title_email">Geribildirim</string>
+  <string name="invite_rate_email_message">Biz gerçekten düşüncelerinizi değer! Bize bazı geribildirim göndererek yardımcı olabilir?</string>
+  <string name="invite_rate_email_positive">Gitmek</string>
+  <string name="invite_rate_title_gratitude_email">Teşekkür ederiz!</string>
+  <string name="invite_rate_gratitude_email_message">Geribildiriminiz oyuna güncellemeler sunmamıza yardımcı olur.</string>
+  <string name="invite_rate_gratitude_email_positive">Tamam</string>
+  <string name="invite_rate_google_message">Eğer Google Play bize oranı bir dakikanızı ayırın lütfen?</string>
+  <string name="invite_rate_button_positive">Emin!</string>
+  <string name="rule_0_text">
+    Klondike solitaire joker olmadan oyun kartları standart 52 kart güverte kullanır.
+    Oyunun amacı tüm kartları açığa çıkarmak ve temel yığınları içine taşımak etmektir. Bu yığınları, Ace \'lerden krallara kadar uygun bir şekilde inşa edilmiştir.
+  </string>
+  <string name="rule_1_text">
+    (kırmızı, siyah) renk alternatif olarak aşağı (azalan rütbe, krallar Aces) yerleşik 7 tablo sütun vardır. Herhangi bir boş sütun sadece bir kral ya da üst bir kral ile kart yığını ile doldurulabilir.
+  </string>
+  <string name="rule_2_text">
+    Kısmi veya komple yığınları diğer renkler ve azalan rütbe tarafından inşa edilir, bir sütun diğerine taşınabilir. İhtiyacınız olan kartları bulmak için tabloda yüz aşağı kartları ortaya çıkarır.
+  </string>
+  <string name="rule_3_text">
+    Bir kartı taşımak kolaydır, sadece bir kart dokunun ve sürükleyin. Bir kart seçmek de aşağıda yığılmış tüm kartları seçer.
+  </string>
+  <string name="rule_4_text">
+    1 veya 3 kart (ları) atıkları taşımak için stoka dokunun. En üst kartı atık yığınından temel kazık veya tablo sütunlarında herhangi bir yasal konuma taşıyabilirsiniz. Stok biterse, yeniden anlaşmak için anahatlarını dokunun.
+  </string>
+  <string name="rule_4_restock">Eksikleri tamamlamak</string>
+  <string name="rule_5_text">
+    Sıkışırsanız, küçük bir yardım için ipucu düğmesine dokunun.
+  </string>
+  <string name="rule_6_title">
+    Standart Puanlama
+  </string>
+  <string name="rule_6_body">
+    Her yeni oyun 0 puan kapalı başlar. Vakfına taşınan her kart 10 puan alır. Bir tablo sütuna taşınan her kart 5 puan alır.
+Tablo sütununda açık olan her kart 5 puan alır. Temel kazık bir kart taşımak 10 puan kaybı. Her geri alma isteği, bir taşıma işlemini iptal etmekten çıkarılan noktalara ek olarak 2 puan kaybına neden olur. Draw 3 seçeneği üzerinde olduğunda üçüncü Pass sonra hisse senedi yığını üzerinden her geçiş için 20 puan kaybı. Draw 3 seçeneği kapalı olduğunda, hisse senedi yığını üzerinden her geçiş için 100 puan kaybı vardır. Sadece zamanlı Oyunlar için: oyun her 10 saniyede 2 puan kaybı.
+  </string>
+  <string name="rule_7_title">
+    Oyun
+  </string>
+  <string name="rule_7_body">
+    Solitaire Oyunlar iki şekilde fırsatlar: rasgele ve kazanan. Rasgele bir anlaşma kartları rasgele karıştırır ve dolayısıyla sadece bazı oyunlar kazanılabilir. Kazanan bir anlaşmanın en az bir kazanan çözüm olduğu garanti edilir.
+  </string>
+  <string name="common_alert_message_purchase">%1$d sikke için bu ürünü satın?</string>
+  <string name="magic_store_no_ad_loaded">Hiçbir reklam yüklü</string>
+  <string name="common_not_enough_coin">Yeterli sikke</string>
+  <string name="play_action_magic">Magic Stick</string>
+  <string name="victory_title">Kutlama!</string>
+  <string name="victory_bonus">Ödül</string>
+  <string name="victory_get_bonus">Ödül al</string>
+  <string name="victory_watch_video">Video izle</string>
+  <string name="victory_new_game">Yeni oyun</string>
+  <string name="victory_history_score">geçmiş kaydı</string>
+  <string name="magic_store_title">Dükkanı</string>
+  <string name="game_mode_random">Rasgele</string>
+  <string name="game_mode_winning">Kazanan</string>
+  <string name="daily_bonus_today">Bugün</string>
+  <string name="daily_bonus_tomorrow">Yarın</string>
+  <string name="daily_bonus_victory_format">%1$d dakika</string>
+  <string name="daily_bonus_day">%1$d. gün</string>
+  <string name="daily_bonus_title">Günlük bonus</string>
+  <string name="daily_bonus_btn_claim">Iddia</string>
+  <string name="daily_bonus_description">Ödüllerinizi toplamak için her gün geri dönün!</string>
+  <string name="daily_bonus_select_massage">Watch Günlük bonus  almak için kısa bir video?</string>
+  <string name="daily_bonus_select_negative">No</string>
+  <string name="daily_bonus_select_positive">Evet</string>
+  <string name="daily_bonus_victory_result_message">Önümüzdeki %2$d dakika içinde%% %1$d daha fazla sikke kazanacak!</string>
+  <string name="daily_bonus_result_done">Gitmek</string>
+  <string name="daily_bonus_result_message">Var: </string>
+  <string name="no_hint_message_guilde">Magic Stick oyunu kaydetmek için kullanın.</string>
+  <string name="no_hint_message_no_magic">Hiçbir yararlı hamle algılandı. Yeni bir oyun mu açabilirim?</string>
+  <string name="remove_ad">reklamları kaldırmak</string>
+  <string name="purchasing_error_try_again">Satın alma hatası! Lütfen daha sonra tekrar deneyiniz!</string>
+  <string name="msg_coin_hint">Satın alma temaları veya sihir</string>
+  <string name="purchasing_succeed_remove_ad">Satın alma başarılı! Reklamlar kaldırıldı!</string>
+  <string name="daily_challenge">Günlük meydan okuma</string>
+  <string name="daily_challenge_start_btn">Mücadeleyi Başlat</string>
+  <string name="daily_challenge_total_count">Genel Toplam:</string>
+  <string name="daily_challenge_status_solved">çözülmüş</string>
+  <string name="daily_challenge_status_unsolved">çözülmemiş</string>
+  <string name="daily_challenge_start_hint">Günlük Mücadeleyi Başlat</string>
+  <string name="daily_challenge_start_btn_replay">Tekrar</string>
+  <string name="daily_challenge_mode">Meydan okuma</string>
+  <string name="msg_remove_cardback">Google Play politikasına uymak için 2 kart desteğini siliyoruz. Rahatsızlıktan dolayı özür dileriz! Kartı kendi resimlerinizle özelleştirebilirsiniz!</string>
+  <string name="recover_billing">Restore</string>
+</resources>

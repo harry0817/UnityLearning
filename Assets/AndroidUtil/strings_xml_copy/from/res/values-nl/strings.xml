@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">Flashlight</string>
+  <string name="east">E</string>
+  <string name="west">W</string>
+  <string name="south">S</string>
+  <string name="north">N</string>
+  <string name="south_east">SE</string>
+  <string name="south_west">SW</string>
+  <string name="north_east">NE</string>
+  <string name="north_west">NW</string>
+  <string name="main_color">Kleur</string>
+  <string name="main_morse">Morse</string>
+  <string name="morse_transmit">Verzenden</string>
+  <string name="on">ON</string>
+  <string name="off">OFF</string>
+  <string name="morse_your_text">Uw tekst</string>
+  <string name="morse_morse_code">Morse Code</string>
+  <string name="permission_location_rationale">Toegang tot de locatieservice is vereist om de \'mijn locatie\'-functie aan te tonen, die uw huidige locatie op de kaart toont.</string>
+  <string name="permission_location_denied_message">Voor dit voorbeeld is locatietoestemming vereist om de laag \'mijn locatie\' in te schakelen. Probeer het opnieuw en verleen toegang om de locatie te gebruiken. \nAls de machtiging permanent is geweigerd, kan deze worden ingeschakeld via de Systeeminstellingen &gt; Apps &gt; </string>
+  <string name="no_location_detected">Geen locatie gedetecteerd. Zorg ervoor dat de locatie op het apparaat is ingeschakeld.</string>
+  <string name="locate">Lokaliseer</string>
+  <string name="rt_title">We hebben uw feedback nodig</string>
+  <string name="dialog_rate_message_normal">Vind je onze Flashlight-tool leuk? Kun je alsjeblieft een moment nemen om het te beoordelen. Uw steun doet ons beter doen. Bedankt voor uw steun!</string>
+  <string name="dialog_rate_positive">Verbazingwekkend</string>
+  <string name="rt_fb">Ik heb suggesties</string>
+  <string name="rt_cancel">Volgende keer</string>
+  <string name="dialog_rate_message_feedback">Dankzij feedback kunnen we u diensten van betere kwaliteit bieden.</string>
+  <string name="ok">OK</string>
+  <string name="cancel">Annuleren</string>
+  <string name="no_sending_emails_app">Sorry, we konden geen app vinden voor het verzenden van e-mails! Hieronder vindt u ons feedback-e-mailadres: \n</string>
+  <string name="no_google_play_app">Sorry, we konden geen app vinden voor het openen van de beoordeling naar huis!</string>
+  <string name="can_not_open_flash_light">Kan flitslampje</string>
+  <string name="device_not_support_flash_light">Het apparaat ondersteunt geen flitslicht en verlicht automatisch het scherm</string>
+  <string name="seconds">%1$d Seconds</string>
+  <plurals name="minute">
+    <item quantity="one">%1$d Minute</item>
+    <item quantity="other">%1$d Minutes</item>
+  </plurals>
+  <string name="never">Never</string>
+  <string name="auto_close">Schakel</string>
+  <string name="calibration_message">U kunt wegblijven van de magnetische veldinterferentiebron en de instructies volgen om de kompaskalibratie te voltooien</string>
+  <string name="the_device_compass_is_not_available">Het kompas van het apparaat is niet beschikbaar</string>
+  <string name="recover_billing_completed">voltooid. Als u vragen heeft, controleert u uw netwerk of controleert u uw Google Play-bestelling en probeert u het opnieuw. Bedankt!</string>
+  <string name="processing_please_wait">Verwerken…Wachten aub.</string>
+  <string name="billing_set_up_failed_message">Kan niet starten. Zorg ervoor dat Google Play correct werkt.</string>
+  <string name="purchase_success">Koop succes</string>
+  <string name="purchase_failed">Aankoop mislukt</string>
+  <string name="notification_hint_on">Tik om het licht in te schakelen</string>
+  <string name="notification_hint_off">Tik om het licht uit te schakelen</string>
+  <string name="title_setting">Instellingen</string>
+  <string name="setting_primary_title_launch_open">Automatisch aan</string>
+  <string name="setting_secondary_title_launch_open">Schakel de zaklamp in bij het opstarten</string>
+  <string name="setting_primary_title_keep_open">Zaklamp blijft aan</string>
+  <string name="setting_secondary_title_keep_open">Blijf aan na het vergrendelen van het scherm</string>
+  <string name="purchase_shake_open">Schud om in te schakelen</string>
+  <string name="setting_primary_title_shake_open">Schud om in te schakelen</string>
+  <string name="setting_secondary_title_shake_open">Schud met je telefoon om het flitslicht in of uit te schakelen</string>
+  <string name="setting_primary_title_notification">Notificatie werkbalk schakelen</string>
+  <string name="setting_secondary_title_notification">Kortere weg om flitslicht aan / uit te zetten</string>
+  <string name="setting_primary_title_battery_control">Power control</string>
+  <string name="setting_secondary_title_battery_control">Lage batterijwaarschuwing onder %1$d%%</string>
+  <string name="setting_primary_title_close_time">Automatisch uit</string>
+  <string name="setting_secondary_title_close_time">Schakel de flitser na een bepaalde tijd uit</string>
+  <string name="title_about">Over</string>
+  <string name="about_feedback">Terugkoppeling</string>
+  <string name="about_rate">Beoordeel ons</string>
+  <string name="about_privacy_policy">Privacybeleid</string>
+  <string name="billing_remove_ads">AD\'s Verwijderen</string>
+  <string name="billing_shark">Schud om van zaklamp te veranderen</string>
+  <string name="billing_notification">Notification toolbar snelkoppeling om flitslicht in / uit te schakelen</string>
+  <string name="purchase_billing">$1.99</string>
+  <string name="recover_billing">Herstellen</string>
+  <string name="dialog_low_power_title">Aandacht!</string>
+  <string name="dialog_low_power_message">Uw batterij is lager dan het ingestelde minimumpercentage. Doe je de zaklamp toch aan?</string>
+  <string name="dialog_low_power_close">Uitschakelen</string>
+  <string name="dialog_low_power_open">Blijf doorgaan</string>
+  <string name="common_dialog_title_hint">Aandacht</string>
+  <string name="dialog_camera_permission_title">Open Flashlight-machtigingen</string>
+  <string name="dialog_camera_permission_message">Heeft geen toestemming om flitslicht te gebruiken dat is geïntegreerd met de camera door de fabrikant van uw apparaat. Geef toestemming aan de camera.</string>
+  <string name="dialog_camera_permission_positive">Open</string>
+  <string name="dialog_camera_permission_granted_message">Toestemming verleend! Start flitslicht trip!</string>
+  <string name="dialog_camera_permission_granted_positive">Begin</string>
+  <string name="dialog_no_flashlight_message">Dit apparaat heeft geen beschikbare zaklamphardware. U kunt in plaats daarvan het schermlicht gebruiken.</string>
+  <string name="dialog_no_flashlight_negative">Ik weet</string>
+  <string name="common_screen_light">Schermlicht</string>
+  <string name="dialog_camera_occupied_positive">Ik weet</string>
+  <string name="dialog_camera_occupied_message">Kan zaklantaarn niet inschakelen omdat hardware bezig is. Controleer en stop andere apps die overeenkomen met de zaklamp.</string>
+  <string name="setting_primary_title_share">Delen</string>
+  <string name="setting_secondary_title_share">De beste zaklamp, tik om te delen met je vrienden</string>
+  <string name="setting_share_hint">Kopieer succesvol, je kunt deze rechtstreeks plakken</string>
+  <string name="setting_secondary_title_faq">Veelvoorkomende probleemitems en antwoorden op overeenkomstige vragen</string>
+  <string name="dialog_no_flashlight_title">Zaklamp niet beschikbaar</string>
+  <string name="dialog_no_flashlight_message_no_flashlight">De zaklantaarn van dit apparaat is beschadigd of er is geen zaklamp</string>
+  <string name="dialog_no_flashlight_message_screen_light">U kunt in plaats daarvan ook schermverlichting gebruiken</string>
+  <string name="dialog_no_flashlight_positive">Gebruik schermlicht</string>
+  <string name="title_faq">FAQ</string>
+  <string-array name="faq_question">
+    <item>Waarom werkt mijn zaklamp niet altijd of stroboscopisch?</item>
+    <item>Waarom kan ik alleen het schermlampje gebruiken?</item>
+    <item>Waarom is de zaklamp abnormaal uitgeschakeld?</item>
+    <item>Hoe de kleur van licht veranderen?</item>
+    <item>Waarom is de snelheid van de batterij snel en de temperatuur van het apparaat hoog?</item>
+    <item>Waarom is het kompas onnauwkeurig?</item>
+    <item>Waarom kan de kaart niet goed worden gebruikt?</item>
+  </string-array>
+  <string-array name="faq_answer">
+    <item>
+Als uw zaklamp niet werkt, kan dit de volgende oorzaken hebben:\n- De zaklantaarn heeft de hele tijd aan het knipperen, mogelijk omdat de flitsermodus is ingeschakeld. Stappen om de flitsermodus uit te schakelen: Terug naar startpagina → Controleer de positie van de knop onder [SOS, 0 ~ 10] → Sleep de knop naar onder het cijfer 0;\n- Opende andere zaklamp applicatie of camera-applicatie op hetzelfde moment, sluit deze app;\n- Camera-toestemming is niet toegestaan, het flitslicht heeft toestemming van de camera nodig om het licht in te schakelen. Stappen om cameratoestemming toe te staan: Terug naar startpagina → Klik op de aan / uitknop → Cameratoestemmingen toestaan ​​in het pop-upvenster;\n- De zaklantaarn van dit apparaat is beschadigd. U kunt in plaats daarvan ook schermverlichting gebruiken. Stappen om schermlicht te gebruiken: Terug naar startpagina → Klik op de schermlichtknop in de rechter benedenhoek.
+    </item>
+    <item>
+De zaklantaarn van dit apparaat is beschadigd of er is geen zaklamp. U kunt in plaats daarvan ook schermverlichting gebruiken. Stappen om schermlicht te gebruiken: Terug naar startpagina → Klik op de schermlichtknop in de rechter benedenhoek.
+    </item>
+    <item>
+Als u vindt dat de flitser abnormaal is uitgeschakeld, controleert u de volgende instellingen:\n- Zaklamp blijft aan. Als u het flitslicht uitdooft, kan de zaklamp tijdens het vergrendelscherm uitgaan;\n- Automatisch uit. Als u automatisch uitschakelt, wordt de zaklamp na de ingestelde tijd automatisch uitgeschakeld. Als u de flitslamp niet automatisch wilt uitschakelen, moet u ervoor zorgen dat de instelling voor automatisch uitschakelen "Nooit" is;\n- Schud om te schakelen. Als je het schudden inschakelt om de flitser in te stellen, wordt de zaklamp automatisch aan / uit gezet als er een grote schok van het apparaat wordt gedetecteerd. Als je de zaklamp niet door schudden wilt uitschakelen, schakel je deze instelling uit .
+    </item>
+    <item>
+Helaas kan vanwege de beperkingen van de hardware van het apparaat de kleur van de flitser niet worden veranderd, alleen de kleur van het schermlicht kan worden gewijzigd. Stappen om de kleur van het schermlicht te wijzigen: Terug naar startpagina → Klik op de schermverlichting knop In de rechter benedenhoek → De kleur van het licht wordt veranderd door de tint (cirkel), verzadiging (eerste regel) en helderheid (tweede lijn).
+    </item>
+    <item>
+Als de snelheid van de batterij snel oploopt en de temperatuur van het apparaat hoog is, stelt u de volgende instellingen in:\n- Als het batterijverbruik te hoog is, gebruikt u de energiebeheerfunctie om de batterij te beschermen. Stappen om de vermogensregeling in te schakelen: Ga naar de pagina met instellingen → Schakel de stroomregeling in → Stel waarschuwing voor lage batterij in → OK.\n- Als de temperatuur van het apparaat hoog is. U kunt in plaats daarvan ook schermverlichting gebruiken. Stappen om schermlicht te gebruiken: Terug naar startpagina → Klik op de schermlichtknop in de rechter benedenhoek.
+    </item>
+    <item>
+Als uw kompas onnauwkeurig is, kan dit de volgende redenen hebben:\n- Er is magnetische veldinterferentie in de buurt van het apparaat. Blijf uit de buurt van magnetische interferentie en voltooi de kompaskalibratie. Stappen om het kompas te kalibreren: Terug naar de startpagina → Klik op het pictogram "?" In de rechterbovenhoek van het kompas om de kompaskalibratie te starten → Volg de instructies om het kompas te voltooien kalibratie;. Stappen om het kompas te kalibreren:\n- Vanwege de beperkingen van uw apparaat hardware werkt het kompas niet, u kunt proberen de kaart te gebruiken om de locatie te bepalen.Stappen om de kaart te openen: Terug naar startpagina → Klik op de kompasknop om de kaart te openen → Open de locatietoegang tot gebruik de kaart.
+    </item>
+    <item>
+Als uw kaart niet werkt, controleert u de volgende instellingen:\n- U hebt de locatietoestemming niet toegestaan. Stappen om de locatietoestemming te openen: Terug naar startpagina → Klik op het kompas om de kaart te openen → Sta de locatietoestemming toe, in het rechtermuisknop van de pop-upapplicatie;\n- Gebruik de kaart nodig om het netwerk in te schakelen, controleer of het huidige netwerk normaal is;\n- Als er geen probleem is met de bovenstaande instellingen, vind ik het zeer jammer dat uw apparaat geen ondersteuning biedt voor het richten of er is een afwijking in de positionering en de kaart kan niet normaal worden gebruikt.
+    </item>
+  </string-array>
+  <string name="title_feedback">Niet tevreden?</string>
+  <string name="dialog_feedback_message_faq">Zijn er problemen tijdens het gebruik? Vind oplossingen in veelgestelde vragen.</string>
+  <string name="dialog_feedback_message_feedback">Probleem is niet opgelost? Geef feedback over meer details over het probleem.</string>
+  <string name="dialog_feedback_positive">terugkoppeling</string>
+  <string name="dialog_request_permission_title">Camera-toestemming nodig</string>
+  <string name="dialog_request_permission_message">De zaklamp heeft camera-toestemming nodig om u een zaklampservice te bieden. De zaklamp zal uw privacy niet schenden, geef toestemming aan de camera.</string>
+  <string name="dialog_request_permission_positive">begrijpelijk</string>
+  <string name="dialog_rate_us_title">Beoordeel ons</string>
+  <string name="dialog_rate_us_message_review">Als je de zaklamp leuk vindt, overweeg dan om ons een beoordeling te geven.</string>
+  <string name="dialog_rate_us_message_rate">Kiezen:</string>
+  <string name="dialog_rate_us_positive">voorleggen</string>
+  <string name="update_dialog_title_1">Nieuwe functie vrijgegeven!</string>
+  <string name="update_dialog_title_2">Update alstublieft!</string>
+  <string name="update_dialog_title_3">Bijwerken en doorgaan</string>
+  <string name="update_dialog_content_1">Wil je iets nieuws zien? Gewoon bijwerken en ontdek het! Bedankt voor het gebruik!</string>
+  <string name="update_dialog_content_2">We hebben enkele mogelijke bugs opgelost! Onmiddellijke update wordt sterk aanbevolen!</string>
+  <string name="update_dialog_content_3">Deze app ondervindt een serieus probleem, je moet updaten om door te gaan of te stoppen! Je geschiedenisrecord blijft bestaan!  Excuses voor het ongemak. We zijn toegewijd om de beste app voor u te maken!</string>
+  <string name="update_dialog_cancel">annuleren</string>
+  <string name="update_dialog_update">Bijwerken</string>
+  <string name="update_dialog_quit">ophouden</string>
+  <string name="dialog_grant_permission_message">De zaklamp heeft camera-toestemming nodig om u een zaklampservice te bieden. De zaklamp zal uw privacy niet schenden, geef toestemming aan de camera</string>
+  <string name="dialog_grant_permission_positive">Verlenen</string>
+  <string name="dialog_grant_permission_negative">annuleren</string>
+</resources>

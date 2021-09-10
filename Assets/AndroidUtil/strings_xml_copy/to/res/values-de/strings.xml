@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns0="http://schemas.android.com/tools" ns0:locale="de-rDE">
+  <string name="app_name">Solitaire</string>
+  <string name="score_label">Punkte</string>
+  <string name="time_label">Zeit</string>
+  <string name="move_label">Züge</string>
+  <string name="auto_complete_title">Automatisch einsammeln</string>
+  <string name="setting">Optionen</string>
+  <string name="themes">Themen</string>
+  <string name="newgame">Spielen</string>
+  <string name="hint_btn">Tipps</string>
+  <string name="undo">Zurück</string>
+  <string name="hint_no_move">Keine sinnvollen Züge gefunden</string>
+  <string name="hintmove">Tipps</string>
+  <string name="play_action_random_deal">Zufälliger Deal</string>
+  <string name="play_action_winning_deal">Gewinner-Deal</string>
+  <string name="play_action_replay">Wiederholen</string>
+  <string name="cancel">Abbrechen</string>
+  <string name="setting_ok">OK</string>
+  <string name="statistics">Statistik</string>
+  <string name="setting_draw1">1 Karte</string>
+  <string name="setting_draw3">3 Karten</string>
+  <string name="setting_sound">Töne</string>
+  <string name="setting_times">Zeit/Züge</string>
+  <string name="setting_orientation">Ausrichtung</string>
+  <string name="setting_hints">Automatische Tipps</string>
+  <string name="setting_tapmove">Tippen, um zu verschieben</string>
+  <string name="help_rules">Spielanleitung</string>
+  <string name="setting_draw3_mode">3 Karten</string>
+  <string name="setting_score_anim">Ergebniseffekt</string>
+  <string name="setting_privacy_policy">Datenschutzrichtlinien</string>
+  <string name="setting_language">Sprache</string>
+  <string name="stat_won">Spiele gewonnen</string>
+  <string name="stat_lose">Spiele verloren</string>
+  <string name="stat_swtime">Schnellster Sieg</string>
+  <string name="stat_lwtime">Langsamster Sieg</string>
+  <string name="stat_awtime">Durchschnittliche Zeit bis Sieg</string>
+  <string name="stat_fwmove">Wenigste Gewinnt Zügen</string>
+  <string name="stat_mwmove">Meiste Gewinnt Zügen</string>
+  <string name="stat_nundo">Siege ohne Rückgängig machen</string>
+  <string name="stat_hscroe">Beste Wertung</string>
+  <string name="reset_stat">Zurücksetzen</string>
+  <string name="yes">Ja</string>
+  <string name="mode_message">Schwierigkeitsgrad wird wirksam in Next Neues Spiel</string>
+  <string name="dialog_close">Schließen</string>
+  <string name="theme">Themen</string>
+  <string name="dialog_theme_cardback">Kartenrückseite</string>
+  <string name="dialog_theme_gameback">Hintergrund</string>
+  <string name="dialog_theme_card">Kartenvorderseite</string>
+  <string name="dialog_theme_hint_no_permission">Keine Genehmigung</string>
+  <string name="dialog_purchase_image_hint">Herzlichen Glückwunsch!\nSie haben bekommen:</string>
+  <string name="dialog_reward_message">Nicht genug Münzen! Sehen Sie ein kurzes Video, um %1$d Münzen zu bekommen?</string>
+  <string name="dialog_add_coin_title">Herzlichen Glückwunsch, Sie haben:</string>
+  <string name="update_available">Update TOT und die neueste Version?</string>
+  <string name="dialog_quit_message">Sind Sie sicher, aufzuhören?</string>
+  <string name="dialog_quit_btn_positive">@string/yes</string>
+  <string name="confirm_reset_game_stat">Statistiken zurücksetzen?</string>
+  <string name="notification_push">Klick mich, um das Spiel zu öffnen!</string>
+  <string name="notification_ticker">Zurück zum Solitaire zum Spaß!</string>
+  <string name="done">Fertig</string>
+  <string name="hint_recycle_card">Verbleibende Karten recyceln</string>
+  <string name="hint_draw_card">Ziehen</string>
+  <string name="message_no_hint_use_magic">Keine nützlichen Bewegungen erkannt. Wollen Sie die Magie nutzen?</string>
+  <string name="left_hand_mode">Linkshänder</string>
+  <string name="congratulationsAnimation">Glückwunsch-Bildschirm</string>
+  <string name="title_information">Informationen</string>
+  <string name="invite_rate_title">Genießen Sie das Spiel?</string>
+  <string name="invite_rate_message">Ihre Bewertung hilft uns, das beste Spiel möglich zu machen!</string>
+  <string name="invite_rate_submit">Senden</string>
+  <string name="invite_rate_title_gratitude_google_play">Danke!</string>
+  <string name="invite_rate_gratitude_google_play_message">Vielen Dank für Ihre Unterstützung!</string>
+  <string name="invite_rate_gratitude_google_play_positive">Okay</string>
+  <string name="invite_rate_title_email">Feedback</string>
+  <string name="invite_rate_email_message">Wir schätzen Ihre Meinung wirklich! Können Sie helfen, indem Sie uns ein Feedback?</string>
+  <string name="invite_rate_email_positive">Gehen</string>
+  <string name="invite_rate_title_gratitude_email">Danke!</string>
+  <string name="invite_rate_gratitude_email_message">Ihr Feedback hilft uns bei der Bereitstellung von Updates für das Spiel.</string>
+  <string name="invite_rate_gratitude_email_positive">Okay</string>
+  <string name="invite_rate_google_message">Könnten Sie sich bitte einen Moment Zeit nehmen, um uns auf dem Google Play zu bewerten?</string>
+  <string name="invite_rate_button_positive">Sicher!</string>
+  <string name="rule_0_text">
+    Klondike Solitaire verwendet ein Standard-52-Kartendeck mit Spielkarten ohne Joker.
+    Das Ziel des Spiels ist es, alle Karten aussetzen und verschieben Sie Sie in die Fundament Pfähle. Diese Pfähle sind nach oben in Anzug von ACEs to Kings gebaut.
+  </string>
+  <string name="rule_1_text">
+    Es gibt 7 Tableau-Spalten, die nach unten (in abnehmendem Rang, von König zu Asse) in abwechselnden Farben (rot, schwarz) gebaut werden. Jede leere Spalte kann nur mit einem König oder einem Stapel von Karten mit einem König an der Spitze gefüllt werden.
+  </string>
+  <string name="rule_2_text">
+    Teil-oder vollständige Pfähle können von einer Spalte in eine andere verschoben werden, wenn Sie durch wechselnde Farben und abnehmenden Rang abgebaut werden. Decken Sie verdeckte Karten im Tableau auf, um Karten zu finden, die Sie benötigen.
+  </string>
+  <string name="rule_3_text">
+    Verschieben einer Karte ist einfach, tippen Sie einfach auf eine Karte und ziehen Sie es. Wenn Sie eine Karte auswählen, werden auch alle unten aufgestapelten Karten ausgewählt.
+  </string>
+  <string name="rule_4_text">
+    Tippen Sie auf den Bestand, um 1 oder 3 Karte (n) auf den Abfall zu verschieben. Sie können die oberste Karte aus dem Abfall Stapel an einen beliebigen legalen Ort in den Fundament Pfählen oder Tableau-Spalten verschieben. Wenn der Vorrat ausläuft, klopfen Sie seine umreiß, um wieder zu beschäftigen.
+  </string>
+  <string name="rule_4_restock">Aufzufüllen</string>
+  <string name="rule_5_text">
+    Wenn Sie stecken bleiben, tippen Sie auf die Schaltfläche Hinweis, um eine kleine Hilfe zu erhalten.
+  </string>
+  <string name="rule_6_title">
+    Standard Wertung
+  </string>
+  <string name="rule_6_body">
+    Jedes neue Spiel beginnt bei 0 Punkten. Jede Karte, die in die Stiftung verschoben wird, erhält 10 Punkte. Jede Karte, die in eine Tableau-Spalte verschoben wird, erhält 5 Punkte.
+Jede Karte, die in der Tableau-Spalte umgedreht wird, erhält 5 Punkte. Verschieben Sie eine Karte aus dem Fundament Pfähle ist ein Verlust von 10 Punkten. Jede rückgängig-Anforderung ist ein Verlust von 2 Punkten zusätzlich zu den Punkten, die vom Rückgängigmachen einer Verschiebung subtrahiert werden. Wenn die Option "Draw 3" aktiviert ist, gibt es einen Verlust von 20 Punkten für jeden Durchgang durch den vorratsstapel nach dem dritten Durchgang. Wenn die Option Draw 3 ausgeschaltet ist, gibt es einen Verlust von 100 Punkte für jeden Durchlauf durch den vorratsstapel. Nur für zeitgesteuerte Spiele: ein Verlust von 2 Punkten für alle 10 Sekunden des Spiels.
+  </string>
+  <string name="rule_7_title">
+    Spiel
+  </string>
+  <string name="rule_7_body">
+    Solitaire Angebote Spiele auf zweierlei Weise: Random und Winning. Ein Zufalls Deal mischt die Karten zufällig und folglich können nur einige Spiele gewonnen werden. Ein gewinnendes Geschäft ist garantiert, mindestens eine ausgezeichnete Lösung zu haben.
+  </string>
+  <string name="common_alert_message_purchase">Kaufen Sie dieses Produkt für %1$d Münzen?</string>
+  <string name="magic_store_no_ad_loaded">Keine Anzeige geladen</string>
+  <string name="common_not_enough_coin">Nicht genügend Münzen</string>
+  <string name="play_action_magic">Magic Stick</string>
+  <string name="victory_title">Glückwunsch!</string>
+  <string name="victory_bonus">Belohnung</string>
+  <string name="victory_get_bonus">Belohnung erhalten</string>
+  <string name="victory_watch_video">Video ansehen</string>
+  <string name="victory_new_game">Neues Spiel</string>
+  <string name="victory_history_score">geschichts rekord</string>
+  <string name="magic_store_title">Shop</string>
+  <string name="game_mode_random">Zufällige</string>
+  <string name="game_mode_winning">Gewinnen</string>
+  <string name="daily_bonus_today">Heute</string>
+  <string name="daily_bonus_tomorrow">Morgen</string>
+  <string name="daily_bonus_victory_format">%1$d Minuten</string>
+  <string name="daily_bonus_day">Tag %1$d</string>
+  <string name="daily_bonus_title">Tägliche Belohnung</string>
+  <string name="daily_bonus_btn_claim">Anspruch</string>
+  <string name="daily_bonus_description">Kommen Sie jeden Tag zurück, um ihre Belohnungen zu sammeln!</string>
+  <string name="daily_bonus_select_massage">Sehen Sie sich ein kurzes Video an, um Tägliche Belohnung zu erhalten  ?</string>
+  <string name="daily_bonus_select_negative">Nein</string>
+  <string name="daily_bonus_select_positive">Ja</string>
+  <string name="daily_bonus_victory_result_message">Sie werden in den nächsten %2$d Minuten %1$d%% mehr Münzen verdienen!</string>
+  <string name="daily_bonus_result_done">Gehen</string>
+  <string name="daily_bonus_result_message">Sie haben: </string>
+  <string name="no_hint_message_guilde">Verwenden Sie Magic Stick, um das Spiel zu speichern.</string>
+  <string name="no_hint_message_no_magic">Keine nützlichen Züge erkannt. Ein neues Spiel eröffnen?</string>
+  <string name="remove_ad">Anzeigen entfernen</string>
+  <string name="purchasing_error_try_again">Fehler beim Kauf! Bitte versuchen Sie es später noch einmal!</string>
+  <string name="msg_coin_hint">Kaufen Sie Themen oder Magie</string>
+  <string name="purchasing_succeed_remove_ad">Kauf erfolgreich! Anzeigen entfernt!</string>
+  <string name="daily_challenge">Tägliche Herausforderung</string>
+  <string name="daily_challenge_start_btn">Herausforderung starten</string>
+  <string name="daily_challenge_total_count">Gesamt:</string>
+  <string name="daily_challenge_status_solved">Gelöst</string>
+  <string name="daily_challenge_status_unsolved">Ungelöst</string>
+  <string name="daily_challenge_start_hint">Starten Sie die tägliche Herausforderung</string>
+  <string name="daily_challenge_start_btn_replay">Wiederholung</string>
+  <string name="daily_challenge_mode">Aufforderung</string>
+  <string name="msg_remove_cardback">Wir löschen 2 Kartenrückseiten, um die Google Play-Richtlinien einzuhalten. Entschuldigung für die Unannehmlichkeiten! Sie können Ihre Karte wieder mit Ihren eigenen Bildern anpassen!</string>
+  <string name="recover_billing">Wiederherstellen</string>
+  <string name="recover_billing_completed">Abgeschlossen. Wenn sie irgendwelche fragen haben, überprüfen sie Ihr Netzwerk oder überprüfen sie Ihre Google Play-Bestellung und versuchen sie es erneut. Vielen Dank!</string>
+  <string name="recover_billing">Wiederherstellen</string>
+</resources>

@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">Фонарик</string>
+  <string name="east">E</string>
+  <string name="west">W</string>
+  <string name="south">S</string>
+  <string name="north">N</string>
+  <string name="south_east">SE</string>
+  <string name="south_west">SW</string>
+  <string name="north_east">NE</string>
+  <string name="north_west">NW</string>
+  <string name="main_color">цвет</string>
+  <string name="main_morse">Морзе</string>
+  <string name="morse_transmit">передавать</string>
+  <string name="on">НА</string>
+  <string name="off">OFF</string>
+  <string name="morse_your_text">Ваш текст</string>
+  <string name="morse_morse_code">Азбука Морзе</string>
+  <string name="permission_location_rationale">Доступ к услуге определения местоположения требуется, чтобы продемонстрировать "Мое местоположение" особенность, которая показывает текущее местоположение на карте.</string>
+  <string name="permission_location_denied_message">В этом примере требуется разрешение местоположения, чтобы включить слой \'мое местоположение \'Пожалуйста, повторите попытку и предоставить доступ использовать местоположение \nЕсли разрешение было окончательно отказано, он может быть включен в настройках System &gt; Apps &gt; </string>
+  <string name="no_location_detected">Не обнаружено местонахождение. Убедитесь, что определение местоположения на устройстве.</string>
+  <string name="locate">Pазместить</string>
+  <string name="rt_title">Нам нужна ваша обратная связь</string>
+  <string name="dialog_rate_message_normal">Вам нравится наш фонарик! Не могли бы вы воспользоваться моментом, чтобы оценить его. Ваша поддержка заставляет нас действовать лучше. Спасибо за поддержку!</string>
+  <string name="dialog_rate_positive">Удивительно</string>
+  <string name="rt_fb">У меня есть предложения</string>
+  <string name="rt_cancel">В следующий раз</string>
+  <string name="dialog_rate_message_feedback">Обратная связь заставит нас предоставлять вам более качественные услуги.</string>
+  <string name="ok">Хорошо</string>
+  <string name="cancel">Отменить</string>
+  <string name="no_sending_emails_app">К сожалению, мы не смогли найти любое приложение для отправки электронной почты! Ниже наша электронная почта обратной связи адрес:\n</string>
+  <string name="no_google_play_app">К сожалению, мы не смогли найти любое приложение для открытия рейтинг дома!</string>
+  <string name="can_not_open_flash_light">Невозможно открыть вспышку света</string>
+  <string name="device_not_support_flash_light">Устройство не поддерживает вспышки света и автоматически загорается экран</string>
+  <string name="seconds">%1$d Секунд</string>
+  <plurals name="minute">
+    <item quantity="other">%1$d Минут</item>
+  </plurals>
+  <string name="never">Никогда</string>
+  <string name="auto_close">Автоматически отключать</string>
+  <string name="calibration_message">Вы можете держаться подальше от источника помех от магнитного поля и следовать инструкциям для завершения калибровки компаса</string>
+  <string name="the_device_compass_is_not_available">Компас устройства не доступен</string>
+  <string name="recover_billing_completed">Завершено. Если у вас есть вопросы, проверьте свою сеть или проверьте свой порядок в Google Play и повторите попытку. Спасибо!</string>
+  <string name="processing_please_wait">Обработка … Подождите.</string>
+  <string name="billing_set_up_failed_message">Не удается запустить. Убедитесь, что игра Google работает правильно.</string>
+  <string name="purchase_success">Успех покупки</string>
+  <string name="purchase_failed">Ошибка покупки</string>
+  <string name="notification_hint_on">Нажмите, чтобы включить свет</string>
+  <string name="notification_hint_off">Нажмите, чтобы выключить свет</string>
+  <string name="title_setting">Hастройки</string>
+  <string name="setting_primary_title_launch_open">Автоматическое включение</string>
+  <string name="setting_secondary_title_launch_open">Включить фонарик при запуске</string>
+  <string name="setting_primary_title_keep_open">Фонарь остается включенным</string>
+  <string name="setting_secondary_title_keep_open">Оставайтесь на месте после блокировки экрана</string>
+  <string name="purchase_shake_open">Встряхнуть для переключения</string>
+  <string name="setting_primary_title_shake_open">Встряхнуть для переключения</string>
+  <string name="setting_secondary_title_shake_open">Встряхните телефон, чтобы включить / выключить фонарик</string>
+  <string name="setting_primary_title_notification">Переключатель панели уведомлений</string>
+  <string name="setting_secondary_title_notification">Ярлык для включения / выключения фонарикаt</string>
+  <string name="setting_primary_title_battery_control">Управление питанием</string>
+  <string name="setting_secondary_title_battery_control">Предупреждение о низком заряде батареи ниже %1$d%%</string>
+  <string name="setting_primary_title_close_time">Автоматическое выключение</string>
+  <string name="setting_secondary_title_close_time">Отключайте фонарик через некоторое время</string>
+  <string name="title_about">О</string>
+  <string name="about_feedback">Обратная связь</string>
+  <string name="about_rate">Оцените нас</string>
+  <string name="about_privacy_policy">Политика конфиденциальности</string>
+  <string name="billing_remove_ads">Удалить AD</string>
+  <string name="billing_shark">Встряхнуть, чтобы переключить фонарик</string>
+  <string name="billing_notification">Ярлык панели уведомлений для включения / выключения фонарика</string>
+  <string name="purchase_billing">$1.99</string>
+  <string name="recover_billing">Восстановление</string>
+  <string name="dialog_low_power_title">Внимание!</string>
+  <string name="dialog_low_power_message">Ваша батарея ниже установленного минимального процента. Включите фонарик в любом случае?</string>
+  <string name="dialog_low_power_close">Выключить</string>
+  <string name="dialog_low_power_open">Оставаться</string>
+  <string name="common_dialog_title_hint">Внимание</string>
+  <string name="dialog_camera_permission_title">Разрешения для открытого фонаря</string>
+  <string name="dialog_camera_permission_message">Не имеет разрешения использовать фонарик, который встроен в камеру производителем вашего устройства. Предоставьте разрешение камеры.</string>
+  <string name="dialog_camera_permission_positive">Открыто</string>
+  <string name="dialog_camera_permission_granted_message">Разрешение получено! Начните мигать!</string>
+  <string name="dialog_camera_permission_granted_positive">Начало</string>
+  <string name="dialog_no_flashlight_message">На этом устройстве нет доступного оборудования для фонарика. Вместо этого вы можете использовать экран.</string>
+  <string name="dialog_no_flashlight_negative">Я знаю</string>
+  <string name="common_screen_light">Свет экрана</string>
+  <string name="dialog_camera_occupied_positive">Я знаю</string>
+  <string name="dialog_camera_occupied_message">Невозможно включить фонарик, потому что аппаратное обеспечение занято. Проверьте и остановите другие приложения, которые работают с фонариком.</string>
+  <string name="setting_primary_title_share">Поделиться</string>
+  <string name="setting_secondary_title_share">Лучший фонарик, нажмите, чтобы поделиться с друзьями</string>
+  <string name="setting_share_hint">Скопируйте успешно, вы можете вставить напрямую</string>
+  <string name="setting_secondary_title_faq">Общие проблемные вопросы и ответы на соответствующие вопросы</string>
+  <string name="dialog_no_flashlight_title">Фонарик недоступен</string>
+  <string name="dialog_no_flashlight_message_no_flashlight">Фонарик этого устройства поврежден или отсутствует фонарик</string>
+  <string name="dialog_no_flashlight_message_screen_light">Вы также можете использовать подсветку экрана вместо</string>
+  <string name="dialog_no_flashlight_positive">Используйте подсветку экрана</string>
+  <string name="title_faq">Часто задаваемые вопросы</string>
+  <string-array name="faq_question">
+    <item>Почему мой фонарик не работает или не работает постоянно?</item>
+    <item>Почему я могу использовать только подсветку экрана?</item>
+    <item>Почему фонарик выключен ненормально?</item>
+    <item>Как изменить цвет света?</item>
+    <item>Почему скорость батареи расходуется быстро, а температура устройства высокая?</item>
+    <item>Почему компас неточный?</item>
+    <item>Почему нельзя правильно использовать карту?</item>
+  </string-array>
+  <string-array name="faq_answer">
+    <item>
+Если ваш фонарик не работает, это может быть вызвано следующими причинами:\n- Фонарик работал постоянно, возможно, потому, что включен режим стробоскопа. Шаги по отключению режима стробоскопа: Вернуться на домашнюю страницу → Проверить положение кнопки под [SOS, 0 ~ 10] → Перетащите кнопку под цифру 0;\n- Открыл другое приложение фонарик или приложение камеры одновременно, пожалуйста, закройте это приложение;\n- Не разрешает разрешение камеры, фонарик должен иметь разрешение камеры, чтобы включить свет. Шаги для разрешения разрешения камеры: Вернуться на главную страницу → Нажмите кнопку включения / выключения → Разрешить разрешения камеры во всплывающем окне;\n- Фонарик этого устройства поврежден. Вы также можете использовать подсветку экрана. Шаги по использованию подсветки экрана: Вернуться на главную страницу → Нажмите кнопку подсветки экрана в правом нижнем углу.
+    </item>
+    <item>
+Фонарик этого устройства поврежден или отсутствует фонарик. Вы также можете использовать подсветку экрана. Шаги по использованию подсветки экрана: Вернуться на главную страницу → Нажмите кнопку подсветки экрана в правом нижнем углу.
+    </item>
+    <item>
+Если вы обнаружите, что фонарик ненормально выключен, проверьте следующие настройки:\n- Фонарик оставайся включенным. Если выключить фонарик, оставьте его включенным, он может выключиться во время блокировки экрана;\n- Автоматическое выключение. Если вы включите автоматическое выключение, фонарик автоматически выключится через установленное время. Если вы не хотите автоматически выключать фонарик, убедитесь, что для параметра автоматического выключения установлено значение «Никогда»;\n- Встряхнуть, чтобы переключиться. Если вы включаете встряхивание для переключения настроек фонарика, фонарик будет автоматически включаться / выключаться при обнаружении сильного сотрясения устройства. Если вы не хотите включать / выключать фонарик встряхиванием, отключите этот параметр ,
+    </item>
+    <item>
+К сожалению, из-за ограничений аппаратного обеспечения устройства цвет вспышки изменить нельзя, можно изменить только цвет подсветки экрана. Шаги по изменению цвета подсветки экрана: Вернуться на главную страницу → Нажмите кнопку подсветки экрана. В нижнем правом углу → Цвет подсветки изменяется путем регулировки оттенка (кружок), насыщенности (первая строка) и яркости (вторая). линия).
+    </item>
+    <item>
+Если скорость батареи быстро разряжается и температура устройства высокая, выполните следующие настройки:\n- Если расход батареи слишком высок, используйте функцию управления питанием для защиты батареи. Шаги по включению управления питанием: Перейдите на страницу настроек → Включить управление питанием → Установить предупреждение о низком заряде батареи → ОК.\n- Если температура устройства высокая. Вы также можете использовать подсветку экрана. Шаги по использованию подсветки экрана: Вернуться на главную страницу → Нажмите кнопку подсветки экрана в правом нижнем углу.
+    </item>
+    <item>
+Если ваш компас неточный, это может быть связано со следующими причинами:\n- Помехи от магнитного поля находятся рядом с устройством. Пожалуйста, держитесь подальше от магнитных помех и выполните калибровку компаса. Шаги для калибровки компаса: Вернитесь на домашнюю страницу → Нажмите значок «?» В правом верхнем углу компаса, чтобы начать калибровку компаса → Следуйте инструкциям для завершения компаса калибровка; шаги по калибровке компаса:\n- Из-за аппаратных ограничений вашего устройства компас не работает, вы можете попытаться использовать карту для определения местоположения. Шаги, чтобы открыть карту: Вернуться на главную страницу → Нажмите кнопку компаса, чтобы открыть карту → Открыть разрешение на местоположение для использовать карту.
+    </item>
+    <item>
+Если ваша карта не работает, проверьте следующие параметры:\n- Вы не разрешили разрешение на местоположение. Шаги, чтобы открыть разрешение на местоположение: Вернуться на домашнюю страницу → Нажмите на компас, чтобы открыть карту → Разрешить разрешение на местоположение, во всплывающем окне разрешения приложения;\n- Для использования карты необходимо включить сеть, проверить текущую сеть в норме;\n- Если с вышеуказанными настройками нет проблем, мне очень жаль, что ваше устройство не поддерживает нацеливание, или в позиционировании есть отклонения, и карта не может использоваться нормально.
+    </item>
+  </string-array>
+  <string name="title_feedback">Не удовлетворены?</string>
+  <string name="dialog_feedback_message_faq">Возникли проблемы во время использования? Найти решения в FAQ.</string>
+  <string name="dialog_feedback_message_feedback">Проблема не решена? Пожалуйста, оставьте отзыв подробнее о проблеме.</string>
+  <string name="dialog_feedback_positive">Обратная связь</string>
+  <string name="dialog_request_permission_title">Нужно разрешение камеры</string>
+  <string name="dialog_request_permission_message">Фонарик нуждается в разрешении камеры для предоставления вам услуги фонарика. Фонарик не нарушит вашу конфиденциальность, пожалуйста, разрешите разрешение камеры.</string>
+  <string name="dialog_request_permission_positive">Понимал</string>
+  <string name="dialog_rate_us_title">Оцените нас</string>
+  <string name="dialog_rate_us_message_review">Если вам нравится фонарик, пожалуйста, рассмотрите возможность дать нам обзор.</string>
+  <string name="dialog_rate_us_message_rate">Выберите:</string>
+  <string name="dialog_rate_us_positive">Отправить</string>
+  <string name="update_dialog_title_1">Выпущена новая функция!</string>
+  <string name="update_dialog_title_2">Пожалуйста обновите!</string>
+  <string name="update_dialog_title_3">Обновление и продолжение</string>
+  <string name="update_dialog_content_1">Хотите увидеть что-то новое? Просто обновите и узнайте! Спасибо за использование!</string>
+  <string name="update_dialog_content_2">Мы исправили некоторые потенциальные ошибки! Срочное обновление настоятельно рекомендуется!</string>
+  <string name="update_dialog_content_3">Это приложение испытывает серьезную проблему, вы должны обновить, чтобы продолжить или выйти! Ваша история будет сохранена!  Приносим извинения за неудобства. Мы стремимся сделать лучшее приложение для вас!</string>
+  <string name="update_dialog_cancel">Отмена</string>
+  <string name="update_dialog_update">Обновить</string>
+  <string name="update_dialog_quit">Уволиться</string>
+  <string name="dialog_grant_permission_message">Фонарик нуждается в разрешении камеры для предоставления вам услуги фонарика. Фонарик не нарушит вашу конфиденциальность, пожалуйста, разрешите разрешение камеры</string>
+  <string name="dialog_grant_permission_positive">Грант</string>
+  <string name="dialog_grant_permission_negative">отменить</string>
+</resources>

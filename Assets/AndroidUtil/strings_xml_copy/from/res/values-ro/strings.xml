@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">Flashlight</string>
+  <string name="east">E</string>
+  <string name="west">W</string>
+  <string name="south">S</string>
+  <string name="north">N</string>
+  <string name="south_east">SE</string>
+  <string name="south_west">SW</string>
+  <string name="north_east">NE</string>
+  <string name="north_west">NW</string>
+  <string name="main_color">Culoare</string>
+  <string name="main_morse">Emite semnale morse</string>
+  <string name="morse_transmit">Transmit</string>
+  <string name="on">ON</string>
+  <string name="off">OFF</string>
+  <string name="morse_your_text">Textul dvs.</string>
+  <string name="morse_morse_code">Cod Morse</string>
+  <string name="permission_location_rationale">Accesul la serviciul de localizare este necesar pentru a demonstra caracteristica "locația mea", care indică locația dvs. curentă pe hartă. </string>
+  <string name="permission_location_denied_message">Acest exemplu necesită permisiunea de locație pentru a activa stratul "locația mea". Încercați din nou și acordați acces pentru a utiliza locația. \n Dacă permisiunea a fost permanent refuzată, aceasta poate fi activată din Setări de sistem &gt; Aplicații &gt; </string>
+  <string name="no_location_detected">Nu a fost detectată nicio locație. Asigurați-vă că locația este activată pe dispozitiv.</string>
+  <string name="locate">Localizați</string>
+  <string name="rt_title">Avem nevoie de feedback-ul dvs.</string>
+  <string name="dialog_rate_message_normal">Îți place instrumentul nostru pentru Lanternă! Te rog, ia-ți puțin timp să-l evaluezi. Sprijinul dvs. ne face să facem mai bine. Vă mulțumim pentru sprijinul dvs.!</string>
+  <string name="dialog_rate_positive">Amazing</string>
+  <string name="rt_fb">Am sugestii</string>
+  <string name="rt_cancel">Data viitoare</string>
+  <string name="dialog_rate_message_feedback">Feedback-ul ne va face să vă oferim servicii de mai multă calitate.</string>
+  <string name="ok">OK</string>
+  <string name="cancel">Anulare</string>
+  <string name="no_sending_emails_app">Ne pare rău, nu am găsit nicio aplicație pentru trimiterea de e-mailuri! Mai jos sunt adresa noastră de e-mail de feedback: \n </string>
+  <string name="no_google_play_app">Ne pare rău, nu am putut găsi nici o aplicație pentru deschiderea casei de rating! </string>
+  <string name="can_not_open_flash_light">Nu se poate deschide lumina blițului</string>
+  <string name="device_not_support_flash_light">Dispozitivul nu acceptă luminile blițului și va afișa automat ecranul</string>
+  <string name="seconds">%1$d Secunde</string>
+  <plurals name="minute">
+    <item quantity="other">%1$d Minute</item>
+  </plurals>
+  <string name="never">Niciodată</string>
+  <string name="auto_close">Opriți automat</string>
+  <string name="calibration_message">Puteți să stați departe de sursa de interferență a câmpului magnetic și urmați instrucțiunile pentru a finaliza calibrarea compasului</string>
+  <string name="the_device_compass_is_not_available">Compasul dispozitivului nu este disponibil</string>
+  <string name="recover_billing_completed">Finalizat. Dacă aveți întrebări, verificați rețeaua dvs. sau verificați comanda dvs. Google Play și încercați din nou. Vă mulțumim! </string>
+  <string name="processing_please_wait">Procesare … Vă rugăm să așteptați.</string>
+  <string name="billing_set_up_failed_message">Nu se poate porni. Asigurați-vă că jocul Google funcționează corect.</string>
+  <string name="purchase_success">Achiziționați succesul</string>
+  <string name="purchase_failed">Achiziția a eșuat</string>
+  <string name="notification_hint_on">Atingeți pentru a activa lumina</string>
+  <string name="notification_hint_off">Apăsați pentru a opri lumina</string>
+  <string name="title_setting">Setări</string>
+  <string name="setting_primary_title_launch_open">Automată activată</string>
+  <string name="setting_secondary_title_launch_open">Porniți lanterna la pornire</string>
+  <string name="setting_primary_title_keep_open">Lanterna rămâne aprinsă</string>
+  <string name="setting_secondary_title_keep_open">Păstrați-vă după blocarea ecranului</string>
+  <string name="purchase_shake_open">Agitați pentru a activa / dezactiva lanterna</string>
+  <string name="setting_primary_title_shake_open">Se agită pentru a comuta</string>
+  <string name="setting_secondary_title_shake_open">Scuturați telefonul pentru a activa / dezactiva lanterna</string>
+  <string name="setting_primary_title_notification">Bara de instrumente de notificare comută</string>
+  <string name="setting_secondary_title_notification">Comandă rapidă pentru pornirea / oprirea lanternei</string>
+  <string name="setting_primary_title_battery_control">Controlul puterii</string>
+  <string name="setting_secondary_title_battery_control">Avertizare baterie scăzută sub %1$d%%</string>
+  <string name="setting_primary_title_close_time">Opriți automat</string>
+  <string name="setting_secondary_title_close_time">Opriți lanterna după o perioadă de timp</string>
+  <string name="title_about">Despre</string>
+  <string name="about_feedback">Feedback-ul</string>
+  <string name="about_rate">Ratează-ne</string>
+  <string name="about_privacy_policy">Politica de confidențialitate</string>
+  <string name="billing_remove_ads">Eliminați AD</string>
+  <string name="billing_shark">Se agită pentru a comuta lanterna</string>
+  <string name="billing_notification">Bara de instrumente pentru notificare pentru a activa / dezactiva lanterna</string>
+  <string name="purchase_billing">$1.99</string>
+  <string name="recover_billing">Restabili</string>
+  <string name="dialog_low_power_title">Atenţie!</string>
+  <string name="dialog_low_power_message">Bateria este mai mică decât procentul minim setat. Pornește lanterna oricum?</string>
+  <string name="dialog_low_power_close">Opriți</string>
+  <string name="dialog_low_power_open">A ramana la curent</string>
+  <string name="common_dialog_title_hint">Atenţie</string>
+  <string name="dialog_camera_permission_title">Deschideți permisiunile pentru lanternă</string>
+  <string name="dialog_camera_permission_message">Nu are permisiunea de a utiliza lanterna care este integrată cu aparatul foto de către producătorul dispozitivului. Acordați permisiunea camerei.</string>
+  <string name="dialog_camera_permission_positive">Deschis</string>
+  <string name="dialog_camera_permission_granted_message">Permisiunea acordată! Începeți excursia cu lanterna!</string>
+  <string name="dialog_camera_permission_granted_positive">Start</string>
+  <string name="dialog_no_flashlight_message">Acest dispozitiv nu are un echipament disponibil pentru lanterne. Puteți folosi luminile ecranului în schimb.</string>
+  <string name="dialog_no_flashlight_negative">Stiu</string>
+  <string name="common_screen_light">Lumina ecranului</string>
+  <string name="dialog_camera_occupied_positive">Stiu</string>
+  <string name="dialog_camera_occupied_message">Nu se poate activa lanterna deoarece hardware-ul este ocupat. Verificați și opriți alte aplicații care ocupă lanterna.</string>
+  <string name="setting_primary_title_share">Acțiune</string>
+  <string name="setting_secondary_title_share">Cea mai bună lanternă, atingeți-o pentru a partaja cu prietenii</string>
+  <string name="setting_share_hint">Copiați cu succes, puteți să lipiți direct</string>
+  <string name="setting_secondary_title_faq">Articolele obișnuite și răspunsurile la întrebările corespunzătoare</string>
+  <string name="dialog_no_flashlight_title">Lanterna nu este disponibilă</string>
+  <string name="dialog_no_flashlight_message_no_flashlight">Lanterna acestui aparat este deteriorată sau nu există nici o lanternă</string>
+  <string name="dialog_no_flashlight_message_screen_light">De asemenea, puteți utiliza lumina ecranului</string>
+  <string name="dialog_no_flashlight_positive">Utilizați lumina ecranului</string>
+  <string name="title_faq">FAQ</string>
+  <string-array name="faq_question">
+    <item>De ce lanterna mea nu funcționează sau strobe tot timpul?</item>
+    <item>De ce pot folosi numai lumina ecranului?</item>
+    <item>De ce lanterna este oprită în mod anormal?</item>
+    <item>Cum de a schimba culoarea luminii?</item>
+    <item>De ce se consumă rapid viteza bateriei și temperatura ridicată a dispozitivului?</item>
+    <item>De ce este inexactă busola?</item>
+    <item>De ce nu pot folosi harta în mod corespunzător?</item>
+  </string-array>
+  <string-array name="faq_answer">
+    <item>
+Dacă lanterna nu funcționează, aceasta poate fi cauzată de următoarele motive:\n- Lanterna a fost strobing tot timpul, posibil, deoarece modul strobe este pornit. Pași pentru a dezactiva modul strobe: Înapoi la pagina de pornire → Verificați poziția butonului sub [SOS, 0 ~ 10] → Trageți butonul sub numărul 0;\n- Deschisă altă aplicație pentru lanternă sau aplicație pentru camere foto în același timp, închideți această aplicație;\n- Nu permite permisiunea camerei, lanterna necesită permisiunea camerei pentru a aprinde lumina. Pași pentru a permite permisiunea camerei: Înapoi la pagina principală → Faceți clic pe butonul On / Off → Permiteți permisiunile camerei foto în fereastra pop-up;\n- Lanterna acestui aparat este deteriorată. De asemenea, puteți utiliza lumina ecranului. Pași pentru utilizarea luminii ecranului: Înapoi la pagina de pornire → Faceți clic pe butonul de lumină de ecran din colțul din dreapta jos.
+    </item>
+    <item>
+Lanterna acestui aparat este deteriorată sau nu există nici o lanternă. De asemenea, puteți utiliza lumina ecranului. Pași pentru utilizarea luminii ecranului: Înapoi la pagina de pornire → Faceți clic pe butonul de lumină de ecran din colțul din dreapta jos.
+    </item>
+    <item>
+Dacă descoperiți că lanterna este oprită în mod anormal, verificați următoarele setări:\n- Lanterna rămâne. Dacă opriți funcționarea lanternei, lanterna se poate stinge în timpul ecranului de blocare;\n- Dezactivat automat. Dacă activați oprirea automată, lanterna se va opri automat după ora setată. Dacă nu doriți să opriți lanterna automat, asigurați-vă că setarea de oprire automată este "Never";\n- Shake pentru a comuta. Dacă activați mișcarea pentru a schimba setările lanternei, lanterna se va activa / dezactiva automat când se detectează o agitare mare a dispozitivului. Dacă nu doriți să activați / dezactivați lanterna atunci când tremurați, opriți această setare .
+    </item>
+    <item>
+Din nefericire, din cauza limitărilor hardware ale dispozitivului, culoarea blitz-ului nu poate fi schimbată, doar culoarea luminii ecranului poate fi schimbată. Pașii pentru a schimba culoarea luminii ecranului: Înapoi la pagina de pornire → Faceți clic pe butonul pentru lumina ecranului În colțul din dreapta jos → Culoarea luminii se modifică prin ajustarea nuanței (cercului), saturației (prima linie) și luminozității (a doua linia).
+    </item>
+    <item>
+Dacă viteza bateriei a fost consumată rapid și temperatura dispozitivului este ridicată, efectuați următoarele setări:\n- Dacă consumul de baterii este prea rapid, utilizați caracteristica de control al alimentării pentru a proteja bateria. Pași pentru activarea comenzii de alimentare: Accesați pagina de setări → Porniți comanda de alimentare → Avertizare baterie descărcată → OK.\n- Dacă temperatura dispozitivului este ridicată. De asemenea, puteți utiliza lumina ecranului. Pași pentru utilizarea luminii ecranului: Înapoi la pagina de pornire → Faceți clic pe butonul de lumină de ecran din colțul din dreapta jos.
+    </item>
+    <item>
+Dacă busola dvs. este inexactă, aceasta se poate datora următoarelor motive:\n- În apropierea dispozitivului există interferențe de câmp magnetic. Rămâneți departe de interferențele magnetice și finalizați calibrarea compasului. Pasii pentru calibrarea busolei: Reveniți la pagina de pornire → Faceți clic pe pictograma "?" Din colțul din dreapta sus al busolei pentru a începe calibrarea busolei → Urmați instrucțiunile pentru a finaliza compasul etalonare; .Staps pentru calibrarea busolei:\n- Datorită limitărilor hardware ale dispozitivului, busola nu funcționează, puteți încerca să utilizați harta pentru a determina locația. Pasii pentru deschiderea hărții: Înapoi la pagina de pornire → Faceți clic pe butonul compass pentru a deschide harta → Deschideți permisiunea de localizare utilizați harta.
+    </item>
+    <item>
+Dacă harta dvs. nu funcționează, verificați următoarele setări:\n- Nu ați permis permisiunea de locație. Pași pentru a deschide permisiunea de locație: Înapoi la pagina de pornire → Faceți clic pe busolă pentru a deschide harta → Permiteți permisiunea de locație în fereastra de permisiune a aplicației pop-up;\n- Utilizați harta pentru a activa rețeaua, verificați dacă rețeaua actuală este normală;\n- Dacă nu există nicio problemă cu setările de mai sus, îmi pare foarte rău, dispozitivul dvs. nu acceptă direcționarea sau Există o anomalie în poziționare și harta nu poate fi folosită în mod normal.
+    </item>
+  </string-array>
+  <string name="title_feedback">Nesatisfacut?</string>
+  <string name="dialog_feedback_message_faq">Au probleme întâmpinate în timpul utilizării? Găsiți soluții în FAQ.</string>
+  <string name="dialog_feedback_message_feedback">Problema nu este rezolvată? Vă rugăm să oferiți mai multe detalii despre această problemă.</string>
+  <string name="dialog_feedback_positive">Parere</string>
+  <string name="dialog_request_permission_title">Aveți nevoie de permisiunea camerei</string>
+  <string name="dialog_request_permission_message">Lanterna are nevoie de permisiunea camerei pentru a vă oferi un serviciu de lanternă. Lanterna nu vă va invada intimitatea, vă rugăm să permiteți permisiunea camerei.</string>
+  <string name="dialog_request_permission_positive">inteles</string>
+  <string name="dialog_rate_us_title">Ne evalua</string>
+  <string name="dialog_rate_us_message_review">Dacă vă place lanterna, vă rugăm să luați în considerare să ne faceți o recenzie.</string>
+  <string name="dialog_rate_us_message_rate">Alege:</string>
+  <string name="dialog_rate_us_positive">A depune</string>
+  <string name="update_dialog_title_1">Funcție nouă lansată!</string>
+  <string name="update_dialog_title_2">Te rog actualizează!</string>
+  <string name="update_dialog_title_3">Actualizați și continuați</string>
+  <string name="update_dialog_content_1">Vrei să vezi ceva nou? Doar actualizați și aflați! Vă mulțumim pentru utilizare!</string>
+  <string name="update_dialog_content_2">Am remediat câteva erori potențiale! Actualizarea imediată este recomandată cu tărie!</string>
+  <string name="update_dialog_content_3">Această aplicație întâmpină o problemă gravă, ar trebui să actualizați pentru a continua sau a renunța! Istoricul dvs. istoric va persista!  Scuze pentru neplăceri. Ne-am angajat să creăm cea mai bună aplicație pentru tine!</string>
+  <string name="update_dialog_cancel">Anulare</string>
+  <string name="update_dialog_update">Actualizați</string>
+  <string name="update_dialog_quit">Părăsi</string>
+  <string name="dialog_grant_permission_message">Lanterna are nevoie de permisiunea camerei pentru a vă oferi un serviciu de lanternă. Lanterna nu vă va invada intimitatea, vă rugăm să permiteți permisiunea camerei</string>
+  <string name="dialog_grant_permission_positive">Acorda</string>
+  <string name="dialog_grant_permission_negative">Anulare</string>
+</resources>

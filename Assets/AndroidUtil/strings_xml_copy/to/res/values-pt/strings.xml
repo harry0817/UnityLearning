@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns0="http://schemas.android.com/tools" ns0:locale="pt">
+  <string name="app_name">Paciência</string>
+  <string name="score_label">Pontos</string>
+  <string name="time_label">Tempo</string>
+  <string name="move_label">Movi</string>
+  <string name="auto_complete_title">Auto Completar</string>
+  <string name="setting">Definições</string>
+  <string name="newgame">Jogar</string>
+  <string name="hint_btn">Dicas</string>
+  <string name="undo">Desfazer</string>
+  <string name="hint_no_move">Nenhum movimento útil encontrado</string>
+  <string name="hintmove">Dicas</string>
+  <string name="themes">Temas</string>
+  <string name="play_action_random_deal">Jogo Aleatório</string>
+  <string name="play_action_winning_deal">Jogo Vitorioso</string>
+  <string name="play_action_replay">Repetir Jogo</string>
+  <string name="cancel">Cancelar</string>
+  <string name="setting_ok">OK</string>
+  <string name="statistics">Estatísticas</string>
+  <string name="setting_draw3_mode">3 Cartas</string>
+  <string name="setting_sound">Som</string>
+  <string name="setting_times">Tempo/Movimentos</string>
+  <string name="setting_orientation">Orientação</string>
+  <string name="setting_hints">Dicas Automáticas</string>
+  <string name="setting_tapmove">Toque para mover</string>
+  <string name="help_rules">Como Jogar</string>
+  <string name="setting_draw1">1 Carta</string>
+  <string name="setting_draw3">3 Cartas</string>
+  <string name="setting_score_anim">Efeito da contagem</string>
+  <string name="setting_privacy_policy">Política de privacidade</string>
+  <string name="setting_language">Língua</string>
+  <string name="stat_won">Partidas Ganhas</string>
+  <string name="stat_lose">Partidas Perdidas</string>
+  <string name="stat_swtime">Menor Tempo de Vitória</string>
+  <string name="stat_lwtime">Maior Tempo de Vitória</string>
+  <string name="stat_awtime">Tempo de Vitória Médio</string>
+  <string name="stat_fwmove">Menor Número de Movimentos</string>
+  <string name="stat_mwmove">Maior Número de Movimentos</string>
+  <string name="stat_nundo">Vitórias Sem Refazer</string>
+  <string name="stat_hscroe">Pontuação Máxima</string>
+  <string name="reset_stat">Reiniciar</string>
+  <string name="yes">Sim</string>
+  <string name="mode_message">Dificuldade do jogo vai mudar no próximo jogo novo</string>
+  <string name="dialog_close">Fechar</string>
+  <string name="theme">Temas</string>
+  <string name="dialog_theme_cardback">Versos</string>
+  <string name="dialog_theme_gameback">Fundo</string>
+  <string name="dialog_theme_card">Frentes</string>
+  <string name="dialog_theme_hint_no_permission">Sem permissão</string>
+  <string name="dialog_purchase_image_hint">Parabéns, senhor. você obteve:</string>
+  <string name="dialog_reward_message">Não há moedas suficientes! Assistir a um pequeno vídeo para obter %1$d moedas?</string>
+  <string name="dialog_add_coin_title">Parabéns, você tem:</string>
+  <string name="update_available">Atualização TOT ea versão mais recente?</string>
+  <string name="dialog_quit_message">Tem certeza de sair?</string>
+  <string name="dialog_quit_btn_positive">@string/yes</string>
+  <string name="confirm_reset_game_stat">Você deseja apagar suas estatísticas?</string>
+  <string name="notification_push">Clique-me para abrir o jogo!</string>
+  <string name="notification_ticker">Voltar para o solitário por diversão!</string>
+  <string name="done">Pronto</string>
+  <string name="hint_recycle_card">Reciclar cartas restantes</string>
+  <string name="hint_draw_card">Cavar</string>
+  <string name="message_no_hint_use_magic">Nenhum movimento útil detectado. Quer usar a magia?</string>
+  <string name="left_hand_mode">À Esquerda</string>
+  <string name="congratulationsAnimation">Tela de Parabéns</string>
+  <string name="title_information">Informações</string>
+  <string name="invite_rate_title">Gostando do jogo?</string>
+  <string name="invite_rate_message">Sua classificação nos ajuda a fazer o melhor jogo possível!</string>
+  <string name="invite_rate_submit">Enviar</string>
+  <string name="invite_rate_title_gratitude_google_play">Obrigado!</string>
+  <string name="invite_rate_gratitude_google_play_message">Obrigado pelo seu apoio!</string>
+  <string name="invite_rate_gratitude_google_play_positive">Okey</string>
+  <string name="invite_rate_title_email">Feedback</string>
+  <string name="invite_rate_email_message">Nós realmente valorizamos seus pensamentos! Você pode ajudar enviando-nos algum feedback?</string>
+  <string name="invite_rate_email_positive">Ir</string>
+  <string name="invite_rate_title_gratitude_email">Obrigado!</string>
+  <string name="invite_rate_gratitude_email_message">Seu feedback nos ajuda a fornecer atualizações para o jogo.</string>
+  <string name="invite_rate_gratitude_email_positive">Okey</string>
+  <string name="invite_rate_google_message">Poderia você por favor tomar um momento para classificar-nos no Google Play?</string>
+  <string name="invite_rate_button_positive">Certeza!</string>
+  <string name="rule_0_text">
+    Klondike Solitaire usa um baralho de cartas padrão 52 de cartões de jogo sem Jokers.
+    O objetivo do jogo é expor todos os cartões e movê-los para as estacas da Fundação. Estas pilhas são construídas para cima em terno de ases para reis.
+  </string>
+  <string name="rule_1_text">
+    Há 7 colunas do tabuleiro que são construídas para baixo (em Rank decrescente, de reis a Ases) em cores alternadas (vermelho, preto). Qualquer coluna vazia só pode ser preenchido com um rei ou uma pilha de cartas com um rei no topo.
+  </string>
+  <string name="rule_2_text">
+    As pilhas parciais ou completas podem ser movidos de uma coluna a outra se são construídas para baixo por cores alternativas e pela classificação de diminuição. Expor cartões de face para baixo no tabuleiro para encontrar cartões que você precisa.
+  </string>
+  <string name="rule_3_text">
+    Mover um cartão é fácil, basta tocar um cartão e arrastá-lo. Selecionando um cartão também seleciona todos os cartões empilhados abaixo.
+  </string>
+  <string name="rule_4_text">
+    Toque no estoque para mover 1 ou 3 Card (s) para o lixo. Você pode mover a placa superior da pilha waste a todo o local legal nas pilhas da Fundação ou nas colunas do tabuleiro. Se o estoque se esgota, toque em seu contorno para lidar novamente.
+  </string>
+  <string name="rule_4_restock">Reabastecer</string>
+  <string name="rule_5_text">
+    Se você ficar preso, toque no botão de dica para uma pequena ajuda.
+  </string>
+  <string name="rule_6_title">
+    Pontuação padrão
+  </string>
+  <string name="rule_6_body">
+    Cada novo jogo começa em 0 pontos. Cada cartão que é movido para a Fundação recebe 10 pontos. Cada cartão que é movido para uma coluna do tabuleiro recebe 5 pontos.
+Cada carta que é virada na coluna do tabuleiro recebe 5 pontos. Mover um cartão das estacas da Fundação é uma perda de 10 pontos. Cada solicitação de desfazer é uma perda de 2 pontos, além dos pontos que são subtraídos de desfazer um movimento. Quando a opção Draw 3 é sobre há uma perda de 20 pontos para cada passagem através da pilha de ações após a terceira passagem. Quando a opção Draw 3 está fora, há uma perda de 100 pontos para cada passagem através da pilha de ações. Apenas para jogos cronometrados: uma perda de 2 pontos por cada 10 segundos de jogo.
+  </string>
+  <string name="rule_7_title">
+    Jogo
+  </string>
+  <string name="rule_7_body">
+    Solitaire ofertas jogos de duas maneiras: aleatório e ganhar. Um negócio aleatório embaralha as cartas aleatoriamente e, conseqüentemente, apenas alguns jogos podem ser ganhos. Um negócio vencedor é garantido para ter pelo menos uma solução vencedora.
+  </string>
+  <string name="common_alert_message_purchase">Comprar este produto para %1$d moedas?</string>
+  <string name="magic_store_no_ad_loaded">Nenhum anúncio carregado</string>
+  <string name="common_not_enough_coin">Não há moedas suficientes</string>
+  <string name="play_action_magic">Vara mágica</string>
+  <string name="victory_title">Parabéns!</string>
+  <string name="victory_bonus">Recompensa</string>
+  <string name="victory_get_bonus">Obter recompensa</string>
+  <string name="victory_watch_video">Assista ao vídeo</string>
+  <string name="victory_new_game">Novo jogo</string>
+  <string name="victory_history_score">histórico</string>
+  <string name="magic_store_title">Loja</string>
+  <string name="game_mode_random">Aleatório</string>
+  <string name="game_mode_winning">Ganhar</string>
+  <string name="daily_bonus_today">Hoje</string>
+  <string name="daily_bonus_tomorrow">Amanhã</string>
+  <string name="daily_bonus_victory_format">%1$d minutos</string>
+  <string name="daily_bonus_day">Dia %1$d</string>
+  <string name="daily_bonus_title">Bónus diários</string>
+  <string name="daily_bonus_btn_claim">Reivindicar</string>
+  <string name="daily_bonus_description">Volte todos os dias para coletar suas recompensas!</string>
+  <string name="daily_bonus_select_massage">Assista a um pequeno vídeo para obter bônus diários  ?</string>
+  <string name="daily_bonus_select_negative">Não</string>
+  <string name="daily_bonus_select_positive">Sim</string>
+  <string name="daily_bonus_victory_result_message">Você vai ganhar %1$d%% mais moedas nos próximos %2$d minutos!</string>
+  <string name="daily_bonus_result_done">Ir</string>
+  <string name="daily_bonus_result_message">Você tem: </string>
+  <string name="no_hint_message_no_magic">Não foram detectados movimentos úteis. Se for aberto um novo jogo?</string>
+  <string name="no_hint_message_guilde">Use Magic Stick para salvar o jogo.</string>
+  <string name="remove_ad">Remover propagandas</string>
+  <string name="purchasing_error_try_again">Erro na compra! Por favor, tente novamente mais tarde!</string>
+  <string name="msg_coin_hint">Compre temas ou magia</string>
+  <string name="purchasing_succeed_remove_ad">Compra bem-sucedida! Anúncios removidos!</string>
+  <string name="daily_challenge">Desafio diário</string>
+  <string name="daily_challenge_start_btn">Desafio inicial</string>
+  <string name="daily_challenge_total_count">Total:</string>
+  <string name="daily_challenge_status_solved">Resolvido</string>
+  <string name="daily_challenge_status_unsolved">Não resolvido</string>
+  <string name="daily_challenge_start_hint">Comece o Desafio Diário</string>
+  <string name="daily_challenge_start_btn_replay">Repetição</string>
+  <string name="daily_challenge_mode">Desafio</string>
+  <string name="msg_remove_cardback">Excluímos dois versos do cartão para cumprir com a política do Google Play. Desculpe pela inconveniência! Você pode personalizar seu cartão de volta com suas próprias fotos!</string>
+  <string name="recover_billing">Restaurar</string>
+</resources>

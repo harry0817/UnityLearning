@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">Flashlight</string>
+  <string name="east">E</string>
+  <string name="west">W</string>
+  <string name="south">S</string>
+  <string name="north">N</string>
+  <string name="south_east">SE</string>
+  <string name="south_west">SW</string>
+  <string name="north_east">NE</string>
+  <string name="north_west">NW</string>
+  <string name="main_color">Колір</string>
+  <string name="main_morse">Морс</string>
+  <string name="morse_transmit">Передати</string>
+  <string name="on">ВКЛ</string>
+  <string name="off">ВИМКНЕНО</string>
+  <string name="morse_your_text">Ваш текст</string>
+  <string name="morse_morse_code">Морзе</string>
+  <string name="permission_location_rationale">Доступ до служби локації потрібен для демонстрації функції \'мого розташування\', яка показує ваше поточне місцезнаходження на карті.</string>
+  <string name="permission_location_denied_message">цього зразка потрібен дозвіл на місцезнаходження для ввімкнення шару \'мого розташування\'. Будь ласка, повторіть спробу та надайте доступ, щоб використовувати місце розташування.\nЯкщо дозвіл назавжди було відхилено, його можна ввімкнути в Системних налаштуваннях &gt; Apps &gt; </string>
+  <string name="no_location_detected">Ніяке місцезнаходження не виявлено. Переконайтеся, що на пристрої ввімкнено місцезнаходження.</string>
+  <string name="locate">Знайдіть</string>
+  <string name="rt_title">Нам потрібний ваш відгук</string>
+  <string name="dialog_rate_message_normal">Вам сподобався наш інструмент Flashlight! Не могли б ви скористатися моментом, щоб оцінити його. Ваша підтримка робить нас кращими. Дякуємо за вашу підтримку!</string>
+  <string name="dialog_rate_positive">Дивовижний</string>
+  <string name="rt_fb">У мене є пропозиції</string>
+  <string name="rt_cancel">Наступного разу</string>
+  <string name="dialog_rate_message_feedback">Відгуки змусять нас надати вам більш якісні послуги.</string>
+  <string name="ok">OK</string>
+  <string name="cancel">Скасувати</string>
+  <string name="no_sending_emails_app">Вибачте, ми не знайшли жодної програми для надсилання електронних листів! Нижче наведена електронна адреса нашого відгуку: \n</string>
+  <string name="no_google_play_app">Вибачте, ми не знайшли жодної програми для відкриття рейтингу вдома!</string>
+  <string name="can_not_open_flash_light">Не вдається відкрити світло спалаху</string>
+  <string name="device_not_support_flash_light">Пристрій не підтримує світловий спалах і автоматично запускає екран</string>
+  <string name="seconds">%1$d Seconds</string>
+  <plurals name="minute">
+    <item quantity="other">%1$d хвилини</item>
+  </plurals>
+  <string name="never">Ніколи</string>
+  <string name="auto_close">Автоматично вимкніть</string>
+  <string name="calibration_message">можете триматися подалі від джерела перешкод магнітного поля та дотримуватися інструкцій, щоб завершити калібрування компаса</string>
+  <string name="the_device_compass_is_not_available">Компас пристрою недоступний</string>
+  <string name="recover_billing_completed">Завершено. Якщо у вас виникли запитання, перевірте свою мережу або перевірте своє замовлення в Google Play і повторіть спробу. Дякую!</string>
+  <string name="processing_please_wait">Обробка … Будь ласка, зачекайте.</string>
+  <string name="billing_set_up_failed_message">Неможливо запустити. Будь ласка, переконайтеся, що програма google працює нормально.</string>
+  <string name="purchase_success">Придбати успіх</string>
+  <string name="purchase_failed">Не вдалося придбати</string>
+  <string name="notification_hint_on">Натисніть, щоб увімкнути світло</string>
+  <string name="notification_hint_off">Натисніть, щоб вимкнути світло</string>
+  <string name="title_setting">Налаштування</string>
+  <string name="setting_primary_title_launch_open">Автоматично включений</string>
+  <string name="setting_secondary_title_launch_open">Увімкніть ліхтарик при запуску</string>
+  <string name="setting_primary_title_keep_open">Ліхтарик залишається на</string>
+  <string name="setting_secondary_title_keep_open">Залишайтеся після блокування екрана</string>
+  <string name="purchase_shake_open">Струсніть, щоб увімкнути</string>
+  <string name="setting_primary_title_shake_open">Струсніть, щоб увімкнути</string>
+  <string name="setting_secondary_title_shake_open">Струсніть телефон, щоб увімкнути / вимкнути ліхтар</string>
+  <string name="setting_primary_title_notification">Перемикати панель сповіщень</string>
+  <string name="setting_secondary_title_notification">Ярлик, щоб увімкнути / вимкнути ліхтарик</string>
+  <string name="setting_primary_title_battery_control">Контроль потужності</string>
+  <string name="setting_secondary_title_battery_control">Попередження низького рівня заряду акумулятора нижче %1$d%%</string>
+  <string name="setting_primary_title_close_time">Автоматично вимкнено</string>
+  <string name="setting_secondary_title_close_time">Вимкніть ліхтарик через деякий час</string>
+  <string name="title_about">Про</string>
+  <string name="about_feedback">Зворотній зв\'язок</string>
+  <string name="about_rate">Оцініть нас</string>
+  <string name="about_privacy_policy">Політика конфіденційності</string>
+  <string name="billing_remove_ads">Видаліть рекламні оголошення</string>
+  <string name="billing_shark">Струсіть, щоб переключити ліхтар</string>
+  <string name="billing_notification">Панель інструментів сповіщення для вмикання / вимикання ліхтарика</string>
+  <string name="purchase_billing">$1.99</string>
+  <string name="recover_billing">Відновити</string>
+  <string name="dialog_low_power_title">Увага!</string>
+  <string name="dialog_low_power_message">Ваша батарея нижча за встановлений мінімальний відсоток. Увімкніть ліхтарик у будь-якому випадку?</string>
+  <string name="dialog_low_power_close">Вимкнути</string>
+  <string name="dialog_low_power_open">Залишатися</string>
+  <string name="common_dialog_title_hint">Увага!</string>
+  <string name="dialog_camera_permission_title">Відкриті дозвіл флагштоку</string>
+  <string name="dialog_camera_permission_message">Не має дозволу на використання ліхтарика, який вбудований у камеру виробником вашого пристрою. Будь ласка, надайте дозволу на камеру.</string>
+  <string name="dialog_camera_permission_positive">ВІДЧИНЕНО</string>
+  <string name="dialog_camera_permission_granted_message">Дозвіл надається! Почніть подорож ліхтариком!</string>
+  <string name="dialog_camera_permission_granted_positive">Почати</string>
+  <string name="dialog_no_flashlight_message">Цей пристрій не має апаратного забезпечення ліхтарика. Замість цього ви можете скористатися екраном.</string>
+  <string name="dialog_no_flashlight_negative">Я знаю</string>
+  <string name="common_screen_light">Екранний світло</string>
+  <string name="dialog_camera_occupied_positive">Я знаю</string>
+  <string name="dialog_camera_occupied_message">Не вдається включити ліхтарик, оскільки апаратне забезпечення займає місце. Будь ласка, перевірте та зупиніть інші додатки, що запускають ліхтарик.</string>
+  <string name="setting_primary_title_share">Частка</string>
+  <string name="setting_secondary_title_share">Кращий ліхтарик, натисніть, щоб поділитися з друзями</string>
+  <string name="setting_share_hint">Копіювати успішно, можна вставити безпосередньо</string>
+  <string name="setting_secondary_title_faq">Загальні проблемні питання та відповіді на відповідні питання</string>
+  <string name="dialog_no_flashlight_title">Ліхтарик недоступний</string>
+  <string name="dialog_no_flashlight_message_no_flashlight">Ліхтар цього пристрою пошкоджений або немає ліхтаря</string>
+  <string name="dialog_no_flashlight_message_screen_light">Замість цього можна також використовувати світло екрана</string>
+  <string name="dialog_no_flashlight_positive">Використовуйте світло екрана</string>
+  <string name="title_faq">FAQ</string>
+  <string-array name="faq_question">
+    <item>Чому мій ліхтарик не працює або не працює весь час?</item>
+    <item>Чому я можу використовувати тільки світло екрана?</item>
+    <item>Чому неефективно вимикається ліхтарик?</item>
+    <item>Як змінити колір світла?</item>
+    <item>Чому швидкість акумулятора швидко споживається, а температура пристрою висока?</item>
+    <item>Чому компас неточний?</item>
+    <item>Чому не можна правильно використовувати карту?</item>
+  </string-array>
+  <string-array name="faq_answer">
+    <item>
+Якщо ліхтарик не працює, це може бути викликано такими причинами:\n- Ліхтарик весь час стробувався, можливо, тому, що ввімкнено режим строб. Кроки для вимкнення стробоскопічного режиму: Повернутися на головну сторінку → Перевірте положення кнопки в розділі [SOS, 0 ~ 10] → Перетягніть кнопку під числом 0;\n- Відкриті інші додатки ліхтарик або додаток камери в той же час, будь ласка, закрийте ці програми;\n- Не дозволяє дозвіл камери, ліхтарик потребує дозволу камери, щоб увімкнути світло. Щоб дозволити дозвіл камери: Повернутися на головну сторінку → Натисніть кнопку ввімк. / Вимк. → Дозволити дозвіл камери у спливаючому вікні;\n- Ліхтарик цього пристрою пошкоджений. Замість цього можна також використовувати світло екрана. Етапи використання світла екрана: Повернутися на головну сторінку → Натисніть кнопку світла екрана в нижньому правому куті.
+    </item>
+    <item>
+Ліхтар цього пристрою пошкоджений або немає ліхтаря. Замість цього можна також використовувати світло екрана. Етапи використання світла екрана: Повернутися на головну сторінку → Натисніть кнопку світла екрана в нижньому правому куті.
+    </item>
+    <item>
+Якщо виявлено, що ліхтарик вимкнено, перевірте наступні параметри:\n- Увімкніть ліхтарик. Якщо вимкнути ліхтарик, ліхтарик може вимкнутися під час блокування екрана;\n- Автоматичне вимкнення. Якщо ви вимкнете автоматичне вимкнення, ліхтарик автоматично вимкнеться після встановленого часу. Якщо ви не бажаєте автоматично вимикати ліхтарик, переконайтеся, що параметр автоматичного вимкнення "Ніколи";\n- Встановіть струс для перемикання. Якщо увімкнути тремтіння для перемикання налаштувань ліхтарика, ліхтарик автоматично вмикається / вимикається, коли буде виявлено велике струшування пристрою. .
+    </item>
+    <item>
+На жаль, через обмеження апаратного забезпечення пристрою, колір спалаху не може бути змінений, тільки колір світла екрана може бути змінений. Етапи зміни кольору підсвічування екрана: Повернутися на головну сторінку → Натисніть кнопку світла екрана У нижньому правому куті → Колір світла змінюється регулюванням відтінку (кола), насиченості (перший рядок) та яскравості рядок).
+    </item>
+    <item>
+Якщо швидкість акумулятора швидко споживається, а температура пристрою висока, виконайте такі налаштування:\n- Якщо заряд акумулятора надто швидкий, використовуйте функцію керування живленням, щоб захистити акумулятор. Кроки для ввімкнення керування живленням: Перейдіть на сторінку налаштувань → Увімкніть керування живленням → Встановіть попередження про низький заряд батареї → OK.\n- Якщо температура пристрою висока. Замість цього можна також використовувати світло екрана. Етапи використання світла екрана: Повернутися на головну сторінку → Натисніть кнопку світла екрана в нижньому правому куті.
+    </item>
+    <item>
+Якщо компас неточний, це може бути пов\'язано з наступними причинами:\n- Навколо пристрою існують перешкоди магнітного поля. Будь ласка, тримайтеся подалі від магнітних перешкод і завершіть калібрування компаса. Стрілочки для калібрування компаса: Поверніться на головну сторінку → Натисніть піктограму "?" У верхньому правому куті компаса, щоб почати калібрування компаса. калібрування;\n- Через обмеження апаратних засобів, компас не працює, ви можете спробувати використати карту для визначення місця розташування. Смужки для відкриття карти: Повернутися на головну сторінку → Натисніть кнопку компаса, щоб відкрити карту → Відкрити дозвіл на місцезнаходження використовувати карту.
+    </item>
+    <item>
+Якщо ваша карта не працює, перевірте такі налаштування:\n- Ви не дозволили дозвіл на місцезнаходження. Дії, щоб відкрити дозвіл на розташування: Повернутися на головну сторінку → Натисніть компас, щоб відкрити карту → Дозволити дозвіл розташування, у вікні дозволу програми;\n- Використовуйте карту необхідно включити мережу, перевірити поточну мережу нормально;\n- Якщо з вищевказаними налаштуваннями немає проблем, мені дуже шкода, що ваш пристрій не підтримує націлювання, або існує невідповідність у позиціонуванні, і карту не можна використовувати нормально.
+    </item>
+  </string-array>
+  <string name="title_feedback">Не задоволений?</string>
+  <string name="dialog_feedback_message_faq">Чи виникають проблеми під час використання? Знайдіть рішення у FAQ.</string>
+  <string name="dialog_feedback_message_feedback">Проблема не вирішена? Зверніться до більш детальної інформації про цю проблему.</string>
+  <string name="dialog_feedback_positive">Зворотній зв\'язок</string>
+  <string name="dialog_request_permission_title">Потрібен дозвіл камери</string>
+  <string name="dialog_request_permission_message">Ліхтарик потребує дозволу камери, щоб надати вам ліхтарик. Ліхтарик не вторгається у вашу конфіденційність, дозвольте дозволу камери.</string>
+  <string name="dialog_request_permission_positive">Зрозуміло</string>
+  <string name="dialog_rate_us_title">Оцініть нас</string>
+  <string name="dialog_rate_us_message_review">Якщо вам подобається ліхтарик, будь ласка, перегляньте нас.</string>
+  <string name="dialog_rate_us_message_rate">Виберіть:</string>
+  <string name="dialog_rate_us_positive">Надіслати</string>
+  <string name="update_dialog_title_1">Вийшла нова функція!</string>
+  <string name="update_dialog_title_2">Будь ласка, оновіть!</string>
+  <string name="update_dialog_title_3">Оновлення та продовження</string>
+  <string name="update_dialog_content_1">Хочете побачити щось нове? Просто оновіть і дізнайтеся! Дякуємо за використання!</string>
+  <string name="update_dialog_content_2">Ми виправили деякі потенційні помилки! Настійно рекомендується оновити!</string>
+  <string name="update_dialog_content_3">У цьому додатку виникає серйозна проблема, вам слід оновити, щоб продовжити або вийти з нього! Ваш запис історії збережеться!  Вибачте за незручності. Ми прагнемо зробити найкраще додаток для вас!</string>
+  <string name="update_dialog_cancel">Скасувати</string>
+  <string name="update_dialog_update">Оновлення</string>
+  <string name="update_dialog_quit">Вийдіть</string>
+  <string name="dialog_grant_permission_message">Ліхтарик потребує дозволу камери, щоб надати вам ліхтарик. Ліхтарик не вторгається у вашу конфіденційність, дозвольте дозволу камери</string>
+  <string name="dialog_grant_permission_positive">Грант</string>
+  <string name="dialog_grant_permission_negative">Скасувати</string>
+</resources>

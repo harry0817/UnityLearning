@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">Flashlight</string>
+  <string name="east">E</string>
+  <string name="west">W</string>
+  <string name="south">S</string>
+  <string name="north">N</string>
+  <string name="south_east">SE</string>
+  <string name="south_west">SW</string>
+  <string name="north_east">NE</string>
+  <string name="north_west">NW</string>
+  <string name="main_color">रंग</string>
+  <string name="main_morse">मोर्स</string>
+  <string name="morse_transmit">संचारित करें</string>
+  <string name="on">ON</string>
+  <string name="off">बंद</string>
+  <string name="morse_your_text">आपका टेक्स्ट</string>
+  <string name="morse_morse_code">मोर्स कोड</string>
+  <string name="permission_location_rationale">\'मेरा स्थान\' सुविधा प्रदर्शित करने के लिए स्थान सेवा तक पहुंच की आवश्यकता है, जो मैप पर आपके वर्तमान स्थान को दिखाता है।</string>
+  <string name="permission_location_denied_message">इस नमूना को \'मेरा स्थान\' परत सक्षम करने के लिए स्थान अनुमति की आवश्यकता है कृपया फिर से प्रयास करें और स्थान का उपयोग करने के लिए पहुंच प्रदान करें।\nयदि अनुमति को स्थायी रूप से अस्वीकार कर दिया गया है, तो इसे सिस्टम सेटिंग &gt; ऐप्स &gt; </string>
+  <string name="no_location_detected">कोई स्थान नहीं मिला सुनिश्चित करें कि डिवाइस पर स्थान सक्षम है।</string>
+  <string name="locate">पता लगाएँ</string>
+  <string name="rt_title">हमें आपकी प्रतिक्रिया की आवश्यकता है</string>
+  <string name="dialog_rate_message_normal">क्या आप हमारे टॉर्चइट उपकरण को पसंद करते हैं! क्या आप इसे रेट करने के लिए एक क्षण ले सकते हैं आपका समर्थन हमें बेहतर कर देता है आपके समर्थन के लिए धन्यवाद!</string>
+  <string name="dialog_rate_positive">अद्भुत</string>
+  <string name="rt_fb">मेरे पास सुझाव है</string>
+  <string name="rt_cancel">अगली बार</string>
+  <string name="dialog_rate_message_feedback">फीडबैक हमें आपको और अधिक गुणवत्ता वाली सेवाएं प्रदान करेगा।</string>
+  <string name="ok">ठीक</string>
+  <string name="cancel">रद्द करें</string>
+  <string name="no_sending_emails_app">क्षमा करें, हम ईमेल भेजने के लिए कोई ऐप नहीं खोज सके! नीचे हमारा फ़ीडबैक ईमेल पता है:\n</string>
+  <string name="no_google_play_app">क्षमा करें, हम रेटिंग के घर को खोलने के लिए कोई ऐप नहीं खोज सके!</string>
+  <string name="can_not_open_flash_light">फ्लैश लाइट नहीं खोल सकता</string>
+  <string name="device_not_support_flash_light">डिवाइस फ्लैश लाइट का समर्थन नहीं करता है और स्वतः स्क्रीन को हल्का करेगा</string>
+  <string name="seconds">%1$d सेकंड</string>
+  <plurals name="minute">
+    <item quantity="other">%1$d मिनट</item>
+  </plurals>
+  <string name="never">कभी नहीं</string>
+  <string name="auto_close">स्वचालित रूप से बंद करें</string>
+  <string name="calibration_message">आप चुंबकीय क्षेत्र के हस्तक्षेप स्रोत से दूर रह सकते हैं और कम्पास अंशांकन को पूरा करने के लिए निर्देशों का पालन कर सकते हैं</string>
+  <string name="the_device_compass_is_not_available">डिवाइस के कंपास उपलब्ध नहीं है</string>
+  <string name="recover_billing_completed"> पूर्ण यदि आपके कोई प्रश्न हैं, तो अपने नेटवर्क की जांच करें या अपने Google Play आदेश की जांच करें और फिर से प्रयास करें। धन्यवाद!</string>
+  <string name="processing_please_wait">प्रोसेसिंग…कृपया प्रतीक्षा करें।</string>
+  <string name="billing_set_up_failed_message">शुरू नहीं किया जा सकता कृपया सुनिश्चित करें कि Google Play ठीक से काम कर रहा है।</string>
+  <string name="purchase_success">सफलता की खरीदारी करें</string>
+  <string name="purchase_failed">खरीदारी विफल</string>
+  <string name="notification_hint_on">प्रकाश चालू करने के लिए टैप करें</string>
+  <string name="notification_hint_off">प्रकाश को बंद करने के लिए टैप करें</string>
+  <string name="title_setting">सेटिंग</string>
+  <string name="setting_primary_title_launch_open">स्वत: चालू</string>
+  <string name="setting_secondary_title_launch_open">स्टार्टअप पर टॉर्च चालू करें</string>
+  <string name="setting_primary_title_keep_open">फ्लैशलाइट पर रहना</string>
+  <string name="setting_secondary_title_keep_open">स्क्रीन लॉक करने के बाद रहें</string>
+  <string name="purchase_shake_open">बंद टॉर्च चालू करने के लिए हिला</string>
+  <string name="setting_primary_title_shake_open">स्विच करने क</string>
+  <string name="setting_secondary_title_shake_open">टॉर्च चालू / बंद करने के लिए अपने फोन को हिलाएं</string>
+  <string name="setting_primary_title_notification">सूचना उपकरण प</string>
+  <string name="setting_secondary_title_notification">टॉर्च चालू / बंद करने के लिए शॉर्टकट</string>
+  <string name="setting_primary_title_battery_control">पावर कंट्रोल</string>
+  <string name="setting_secondary_title_battery_control">%1$d%% नीचे कम बैटरी चेतावनी</string>
+  <string name="setting_primary_title_close_time">स्वचालित बंद</string>
+  <string name="setting_secondary_title_close_time">समय की अवधि के बाद टॉर्च को बंद करें</string>
+  <string name="title_about">के बारे में</string>
+  <string name="about_feedback">प्रतिक्रिया</string>
+  <string name="about_rate">हमें बताएं</string>
+  <string name="about_privacy_policy">गोपनीयता नीतिy</string>
+  <string name="billing_remove_ads">एडीएस निकालें</string>
+  <string name="billing_shark">टॉर्च को स्विच करने के लिए हिलाएं</string>
+  <string name="billing_notification">फ्लैशलाइट को चालू / बंद करने के लिए अधिसूचना टूलबार शॉर्टकट</string>
+  <string name="purchase_billing">$1.99</string>
+  <string name="recover_billing">पुनर्स्थापित</string>
+  <string name="dialog_low_power_title">ध्यान!</string>
+  <string name="dialog_low_power_message">आपकी बैटरी निर्धारित न्यूनतम प्रतिशत से कम है वैसे भी टॉर्च चालू करें?</string>
+  <string name="dialog_low_power_close">बंद करें</string>
+  <string name="dialog_low_power_open">लगे रहो</string>
+  <string name="common_dialog_title_hint">ध्यान</string>
+  <string name="dialog_camera_permission_title">ओपन फ्लैशलाइट अनुमतियां</string>
+  <string name="dialog_camera_permission_message">फ्लैशलाइट का उपयोग करने की अनुमति नहीं है जो आपके डिवाइस निर्माता द्वारा कैमरे के साथ एकीकृत है। कृपया कैमरा अनुमति दें।</string>
+  <string name="dialog_camera_permission_positive">खुला</string>
+  <string name="dialog_camera_permission_granted_message">अनुमति प्रदान की गई! टॉर्च की यात्रा शुरू करो!</string>
+  <string name="dialog_camera_permission_granted_positive">प्रारंभ</string>
+  <string name="dialog_no_flashlight_message">इस डिवाइस में टॉर्च हार्डवेयर उपलब्ध नहीं है आप इसके बजाय स्क्रीन लाइट का उपयोग कर सकते हैं।</string>
+  <string name="dialog_no_flashlight_negative">मुझे पता है</string>
+  <string name="common_screen_light">स्क्रीन लाइट</string>
+  <string name="dialog_camera_occupied_positive">मुझे पता है</string>
+  <string name="dialog_camera_occupied_message">फ्लैशलाइट को चालू नहीं किया जा सकता क्योंकि हार्डवेयर पर कब्जा कर लिया जा रहा है। कृपया अन्य ऐप्स को चेक करें और बंद करें जो कि टॉर्च को छुपाते हैं।</string>
+  <string name="setting_primary_title_share">शेयर</string>
+  <string name="setting_secondary_title_share">सबसे अच्छा टॉर्च, अपने दोस्तों के साथ साझा करने के लिए टैप करें</string>
+  <string name="setting_share_hint">सफलतापूर्वक कॉपी करें, आप सीधे पेस्ट कर सकते हैं</string>
+  <string name="setting_secondary_title_faq">सामान्य समस्या आइटम और संबंधित प्रश्नों के उत्तर</string>
+  <string name="dialog_no_flashlight_title">टॉर्च अनुपलब्ध</string>
+  <string name="dialog_no_flashlight_message_no_flashlight">इस डिवाइस की टॉर्च क्षतिग्रस्त है या कोई टॉर्च नहीं है</string>
+  <string name="dialog_no_flashlight_message_screen_light">आप इसकी जगह स्क्रीन लाइट का भी इस्तेमाल कर सकते हैं</string>
+  <string name="dialog_no_flashlight_positive">स्क्रीन लाइट का इस्तेमाल करें</string>
+  <string name="title_faq">सामान्य प्रश्न</string>
+  <string-array name="faq_question">
+    <item>मेरी टॉर्च हर समय काम या टहल क्यों नहीं रही है?</item>
+    <item>मैं केवल स्क्रीन लाइट का उपयोग क्यों कर सकता हूं?</item>
+    <item>टॉर्च को असामान्य रूप से बंद क्यों किया जाता है?</item>
+    <item>प्रकाश का रंग कैसे बदलें?</item>
+    <item>बैटरी की गति जल्दी और डिवाइस का तापमान अधिक क्यों होता है?</item>
+    <item>कम्पास गलत क्यों है?</item>
+    <item>मानचित्र का सही उपयोग क्यों नहीं कर सकते?</item>
+  </string-array>
+  <string-array name="faq_answer">
+    <item>
+यदि आपका टॉर्च काम नहीं कर रहा है, तो यह निम्नलिखित कारणों से हो सकता है:\n- टॉर्च हर समय टहल रहा है, संभवतः क्योंकि स्ट्रोब मोड चालू है। स्ट्रोब मोड को बंद करने के लिए चरण: मुखपृष्ठ पर वापस जाएं → बटन की स्थिति की जाँच करें [एसओएस, 0 ~ 10] → नंबर 0 के नीचे बटन खींचें;\n- एक ही समय में अन्य टॉर्च अनुप्रयोग या कैमरा अनुप्रयोग खोला, कृपया इन ऐप को बंद करें;\n- कैमरा अनुमति नहीं देता है, टॉर्च को प्रकाश चालू करने के लिए कैमरा अनुमति की आवश्यकता होती है। कैमरा अनुमति देने के लिए चरण: होमपेज पर वापस जाएं → ऑन / ऑफ बटन पर क्लिक करें → पॉप-अप विंडो में कैमरा अनुमति दें;\n- इस उपकरण की टॉर्च क्षतिग्रस्त है। आप इसकी जगह स्क्रीन लाइट का भी इस्तेमाल कर सकते हैं। स्क्रीन लाइट का उपयोग करने के चरण: मुखपृष्ठ पर वापस → निचले दाएं कोने में स्क्रीन लाइट बटन पर क्लिक करें।
+    </item>
+    <item>
+इस डिवाइस की टॉर्च क्षतिग्रस्त है या कोई टॉर्च नहीं है। आप इसकी जगह स्क्रीन लाइट का भी इस्तेमाल कर सकते हैं। स्क्रीन लाइट का उपयोग करने के चरण: मुखपृष्ठ पर वापस → निचले दाएं कोने में स्क्रीन लाइट बटन पर क्लिक करें।
+    </item>
+    <item>
+यदि आप पाते हैं कि टॉर्च असामान्य रूप से बंद हो गया है, तो निम्न सेटिंग्स की जाँच करें:\n- टॉर्च पर रहें। यदि आप टॉर्च की रोशनी को बंद रखते हैं, तो लॉक स्क्रीन के दौरान टॉर्च बंद हो सकती है;\n- स्वचालित बंद। यदि आप स्वचालित बंद करते हैं, तो निर्धारित समय के बाद टॉर्च स्वचालित रूप से बंद हो जाएगी। यदि आप टॉर्च को स्वचालित रूप से बंद नहीं करना चाहते हैं, तो कृपया सुनिश्चित करें कि स्वचालित बंद सेटिंग "कभी नहीं" है;\n- स्विच करने के लिए हिलाएँ। यदि आप फ्लैशलाइट सेटिंग को स्विच करने के लिए शेक ऑन करते हैं, तो डिवाइस के एक बड़े शेक का पता चलने पर टॉर्च अपने आप चालू / बंद हो जाएगी। ।
+    </item>
+    <item>
+दुर्भाग्य से, डिवाइस हार्डवेयर की सीमाओं के कारण, फ्लैश का रंग नहीं बदला जा सकता है, केवल स्क्रीन लाइट का रंग बदला जा सकता है। स्क्रीन लाइट का रंग बदलने के लिए चरण: होमपेज पर वापस जाएं → स्क्रीन लाइट बटन पर क्लिक करें निचले दाएं कोने में → ह्यू (सर्कल), संतृप्ति (पहली पंक्ति), और चमक समायोजित करके प्रकाश का रंग बदल जाता है (दूसरा लाइन)।
+    </item>
+    <item>
+यदि बैटरी की गति जल्दी और डिवाइस का तापमान अधिक हो जाता है, तो निम्न सेटिंग करें:\n- यदि बैटरी की खपत बहुत तेज है, तो बैटरी की सुरक्षा के लिए पावर कंट्रोल फीचर का उपयोग करें। बिजली नियंत्रण चालू करने के लिए चरण: सेटिंग पृष्ठ पर जाएं → पावर नियंत्रण चालू करें → कम बैटरी चेतावनी सेट करें → ठीक है।\n- यदि डिवाइस का तापमान अधिक है। आप इसकी जगह स्क्रीन लाइट का भी इस्तेमाल कर सकते हैं। स्क्रीन लाइट का उपयोग करने के चरण: मुखपृष्ठ पर वापस → निचले दाएं कोने में स्क्रीन लाइट बटन पर क्लिक करें।
+    </item>
+    <item>
+यदि आपका कंपास गलत है, तो यह निम्नलिखित कारणों से हो सकता है:\n- डिवाइस के पास चुंबकीय क्षेत्र का हस्तक्षेप होता है। कृपया चुंबकीय हस्तक्षेप से दूर रहें और कम्पास को कैलिब्रेट करने के लिए कम्पास अंशांकन पूरा करें। कम्पास को कैलिब्रेट करने के लिए। होम पेज पर लौटें। कम्पास अंशांकन शुरू करने के लिए कम्पास के ऊपरी दाएँ कोने में "?" आइकन पर क्लिक करें। कम्पास को पूरा करने के लिए निर्देशों का पालन करें। अंशांकन;; कम्पास को जांचने के लिए तैयार करता है:\n- आपकी डिवाइस हार्डवेयर सीमाओं के कारण, कम्पास काम नहीं करता है, आप स्थान का निर्धारण करने के लिए मानचित्र का उपयोग करने का प्रयास कर सकते हैं। नक्शा खोलने के लिए टैप करें: मुखपृष्ठ पर वापस जाएं → मानचित्र खोलने के लिए कम्पास बटन पर क्लिक करें → स्थान को खोलने की अनुमति दें मानचित्र का उपयोग करें।
+    </item>
+    <item>
+यदि आपका नक्शा काम नहीं करता है, तो निम्नलिखित सेटिंग्स की जाँच करें:\n- आपने स्थान की अनुमति नहीं दी है। स्थान अनुमति खोलने के लिए चरण: मुखपृष्ठ पर वापस जाएं → मानचित्र खोलने के लिए कम्पास पर क्लिक करें → स्थान-अप एप्लिकेशन अनुमति विंडो में स्थान की अनुमति दें;\n- नेटवर्क चालू करने के लिए मानचित्र की आवश्यकता का उपयोग करें, वर्तमान नेटवर्क सामान्य है की जांच करें;\n- यदि उपरोक्त सेटिंग्स में कोई समस्या नहीं है, तो मुझे बहुत खेद है, आपका डिवाइस लक्ष्यीकरण का समर्थन नहीं करता है, या स्थिति में कोई असामान्यता है, और मानचित्र का सामान्य रूप से उपयोग नहीं किया जा सकता है।
+    </item>
+  </string-array>
+  <string name="title_feedback">संतुष्ट नहीं?</string>
+  <string name="dialog_feedback_message_faq">उपयोग के दौरान समस्याओं का सामना करना पड़ा है? एफएक्यू में समाधान खोजें।</string>
+  <string name="dialog_feedback_message_feedback">समस्या हल नहीं हुई है? कृपया समस्या के बारे में अधिक जानकारी का फीडबैक लें।</string>
+  <string name="dialog_feedback_positive">प्रतिक्रिया</string>
+  <string name="dialog_request_permission_title">कैमरा अनुमति चाहिए</string>
+  <string name="dialog_request_permission_message">आपको टॉर्च सेवा प्रदान करने के लिए टॉर्च की आवश्यकता है। टॉर्च आपकी गोपनीयता पर आक्रमण नहीं करेगा, कृपया कैमरा अनुमति दें।</string>
+  <string name="dialog_request_permission_positive">समझ लिया</string>
+  <string name="dialog_rate_us_title">हमें रेटिंग दें</string>
+  <string name="dialog_rate_us_message_review">यदि आप टॉर्च का आनंद लेते हैं तो कृपया हमें एक समीक्षा देने पर विचार करें।</string>
+  <string name="dialog_rate_us_message_rate">चुनें:</string>
+  <string name="dialog_rate_us_positive">जमा करें</string>
+  <string name="update_dialog_title_1">नया फीचर जारी!</string>
+  <string name="update_dialog_title_2">कृपया अद्यतन करें!</string>
+  <string name="update_dialog_title_3">अपडेट और जारी रखें</string>
+  <string name="update_dialog_content_1">कुछ नया देखना चाहते हैं? बस अपडेट करें और पता करें! उपयोग करने के लिए धन्यवाद!</string>
+  <string name="update_dialog_content_2">हमने कुछ संभावित बग तय किए हैं! तत्काल अद्यतन की जोरदार सिफारिश की जाती है!</string>
+  <string name="update_dialog_content_3">यह ऐप कुछ गंभीर समस्या का सामना कर रहा है, आपको इसे जारी रखने या छोड़ने के लिए अपडेट करना चाहिए! आपका इतिहास रिकॉर्ड कायम रहेगा!  असुविधा के लिए खेद है। हम आप के लिए सबसे अच्छा अनुप्रयोग बनाने के लिए प्रतिबद्ध हैं!</string>
+  <string name="update_dialog_cancel">रद्द करना</string>
+  <string name="update_dialog_update">अपडेट करें</string>
+  <string name="update_dialog_quit">छोड़ना</string>
+  <string name="dialog_grant_permission_message">आपको टॉर्च सेवा प्रदान करने के लिए टॉर्च की आवश्यकता है। टॉर्च आपकी गोपनीयता पर आक्रमण नहीं करेगा, कृपया कैमरा अनुमति दें</string>
+  <string name="dialog_grant_permission_positive">अनुदान</string>
+  <string name="dialog_grant_permission_negative">रद्द करना</string>
+</resources>

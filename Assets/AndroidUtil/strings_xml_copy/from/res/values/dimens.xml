@@ -1,0 +1,12 @@
+<resources>
+  <!-- Default screen margins, per the Android Design guidelines. -->
+  <dimen name="height_morse_btn">@dimen/mdp100</dimen>
+  <dimen name="margin_morse_btn">@dimen/mdp40</dimen>
+  <dimen name="padding_morse_input_label_horizontal">@dimen/mdp40</dimen>
+  <dimen name="padding_morse_input_label_vertical">@dimen/mdp30</dimen>
+  <dimen name="text_size_morse_edit_title">@dimen/msp30</dimen>
+  <dimen name="text_size_morse_edit_content">@dimen/msp50</dimen>
+  <dimen name="height_morse_in_edit_content">@dimen/mdp200</dimen>
+  <dimen name="popup_window_count_down_width">160dp</dimen>
+  <dimen name="popup_window_count_down_y_offset">6dp</dimen>
+</resources>

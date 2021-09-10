@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">한 알박이 보석</string>
+  <string name="score_label">점수</string>
+  <string name="time_label">시각</string>
+  <string name="move_label">이동</string>
+  <string name="auto_complete_title">자동 완성</string>
+  <string name="setting">설정</string>
+  <string name="themes">테마</string>
+  <string name="newgame">놀이</string>
+  <string name="hint_btn">힌트</string>
+  <string name="undo">끄르다</string>
+  <string name="hint_no_move">유용한 움직임은 감지되지</string>
+  <string name="hintmove">힌트 이동</string>
+  <string name="play_action_random_deal">임의 거래</string>
+  <string name="play_action_winning_deal">승리 거래</string>
+  <string name="play_action_replay">다시 하다</string>
+  <string name="cancel">취소하다</string>
+  <string name="setting_ok">승인</string>
+  <string name="statistics">통계</string>
+  <string name="setting_draw1">1 그리기</string>
+  <string name="setting_draw3">3 그리기</string>
+  <string name="setting_sound">사운드 컨트롤</string>
+  <string name="setting_times">시각/이동</string>
+  <string name="setting_orientation">잠금 방향</string>
+  <string name="setting_hints">자동 힌트</string>
+  <string name="setting_tapmove">탭 이동</string>
+  <string name="help_rules">규칙</string>
+  <string name="setting_draw3_mode">3 카드</string>
+  <string name="setting_score_anim">점수 효과</string>
+  <string name="setting_privacy_policy">개인정보 보호 정책</string>
+  <string name="setting_language">언어</string>
+  <string name="stat_won">승리</string>
+  <string name="stat_lose">게임 분실</string>
+  <string name="stat_swtime">최단 시간 승리</string>
+  <string name="stat_lwtime">가장 긴 시간 승리</string>
+  <string name="stat_awtime">평균이기는 시간</string>
+  <string name="stat_fwmove">적은 승리로 이동</string>
+  <string name="stat_mwmove">대부분의 승리로 이동</string>
+  <string name="stat_nundo">취소없이 승</string>
+  <string name="stat_hscroe">최고 점수</string>
+  <string name="reset_stat">다시 놓기</string>
+  <string name="yes">예</string>
+  <string name="mode_message">난이도 설정은 다음 새 게임에 적용됩니다</string>
+  <string name="dialog_close">닫기</string>
+  <string name="theme">테마</string>
+  <string name="dialog_theme_cardback">카드 백업합니다</string>
+  <string name="dialog_theme_gameback">배경</string>
+  <string name="dialog_theme_card">카드 얼굴</string>
+  <string name="dialog_theme_hint_no_permission">권한이 없습니다</string>
+  <string name="dialog_purchase_image_hint">축 하 합니다!\n당신은 얻었다:</string>
+  <string name="dialog_reward_message">충분 하지 않은 동전! %1$d 동전을 얻을 수 있는 짧은 동영상을 보고?</string>
+  <string name="dialog_add_coin_title">축 하 합니다, 당신이 있어:</string>
+  <string name="update_available">업데이트 TOT 및 최신 버전?</string>
+  <string name="dialog_quit_message">그만둬?</string>
+  <string name="dialog_quit_btn_positive">@string/yes</string>
+  <string name="confirm_reset_game_stat">게임 통계를 재설정 하시겠습니까?</string>
+  <string name="notification_push">나를 클릭하면 게임이 열립니다!</string>
+  <string name="notification_ticker">재미로 일인 용으로 돌아 가세요!</string>
+  <string name="done">끝난</string>
+  <string name="hint_recycle_card">남은 카드 재활용</string>
+  <string name="hint_draw_card">당기다</string>
+  <string name="message_no_hint_use_magic">유용한 이동이 감지 되지 않았습니다. 당신은 마술을 사용 하 시겠습니까?</string>
+  <string name="left_hand_mode">왼손잡이</string>
+  <string name="congratulationsAnimation">축하 화면</string>
+  <string name="title_information">정보</string>
+  <string name="invite_rate_title">게임을 즐기기?</string>
+  <string name="invite_rate_message">귀하의 평가는 우리가 최고의 게임이 가능 하 게 도와 주세요!</string>
+  <string name="invite_rate_submit">전송</string>
+  <string name="invite_rate_title_gratitude_google_play">감사합니다!</string>
+  <string name="invite_rate_gratitude_google_play_message">당신의 지원을 위한 감사 합니다!</string>
+  <string name="invite_rate_gratitude_google_play_positive">그래</string>
+  <string name="invite_rate_title_email">피드백</string>
+  <string name="invite_rate_email_message">우리는 정말 당신의 생각을 가치! 당신은 저희에 게 약간 의견을 보내서 도울 수 있는가?</string>
+  <string name="invite_rate_email_positive">이동</string>
+  <string name="invite_rate_title_gratitude_email">감사합니다!</string>
+  <string name="invite_rate_gratitude_email_message">귀하의 의견은 우리가 게임에 업데이 트를 제공할 수 있습니다.</string>
+  <string name="invite_rate_gratitude_email_positive">그래</string>
+  <string name="invite_rate_google_message">당신은 Google Play 에 우리를 평가 하는 순간을 걸릴 수 있을까요?</string>
+  <string name="invite_rate_button_positive">확실!</string>
+  <string name="rule_0_text">
+    클론 다이크 솔리테어 조 커 없이 카드 놀이의 표준 52 카드 데크를 사용 합니다.
+    게임의 목적은 모든 카드를 노출 하 고 그들을 기초 더미로 옮기는 것입니다. 이 말뚝은 에이스에서 임금에 게 한 벌에서 위쪽으로 건축 된다.
+  </string>
+  <string name="rule_1_text">
+    색상 (빨강, 검정)을 교대로 반복 하 여 (킹스에서 ace로 내림차순) 아래쪽으로 빌드되는 7 개의 tableau 열이 있습니다. 모든 빈 열은 왕 또는 상단에 국왕과 함께 카드의 더미로 가득 수 있습니다.
+  </string>
+  <string name="rule_2_text">
+    대체 색상으로 작성 되 고 차수를 줄이면 일부 또는 전체 말뚝을 한 열에서 다른 기둥으로 이동할 수 있습니다. 당신이 필요로 하는 카드를 찾기 위해 tableau의 얼굴 다운 카드 노출.
+  </string>
+  <string name="rule_3_text">
+    카드를 이동 하는 것은 간단 합니다, 그냥 카드를 누르고 드래그. 카드를 선택 하면 아래에 쌓인 카드도 모두 선택 됩니다.
+  </string>
+  <string name="rule_4_text">
+    1 또는 3 카드 (들)을 낭비로 이동 하려면 주식을 누르십시오. 폐기물 더미에서 최상위 카드를 기초 말뚝 또는 tableau 열에 있는 법적 위치로 이동할 수 있습니다. 재고가 부족 하면 해당 윤곽을 탭 하 여 다시 처리 합니다.
+  </string>
+  <string name="rule_4_restock">재입고</string>
+  <string name="rule_5_text">
+    당신이 스턱 되 게 얻는 경우에, 약간 도움을 위한 힌트 단추를 두드리십시오.
+  </string>
+  <string name="rule_6_title">
+    표준 점수
+  </string>
+  <string name="rule_6_body">
+    각각 새로운 게임을 0 포인트로 시작 합니다. 재단으로 이동 하는 각 카드는 10 포인트를 받습니다. tableau 열로 이동 하는 각 카드는 5 포인트를 받습니다.
+tableau 열에서 인계 되는 각 카드는 5 포인트를 받습니다. 재단에서 카드 이동 10 포인트의 손실 이다. 각 실행 취소 요청은 이동 취소에서 뺀 점 외에 2 포인트의 손실입니다. 그리기 3 옵션은 세 번째 패스 후 재고 더미를 통해 각 패스에 대 한 20 포인트의 손실이에 있을 때. 그리기 3 옵션이 해제 되 면 재고 더미를 통해 각 패스에 대 한 100 포인트의 손실이 있습니다. 시간 제한 게임 전용: 플레이의 매 10 초 동안 2 점 손실.
+  </string>
+  <string name="rule_7_title">
+    게임
+  </string>
+  <string name="rule_7_body">
+    솔리테어 두 가지 방법으로 게임을 거래: 무작위과 승리. 무작위 거래는 무작위로 카드를 섞이 고 그 결과로 몇몇 게임만이 겨 질 수 있다. 이기는 거래에는 적어도 1 개의 승리 해결책이 있는 것을 보장 된다.
+  </string>
+  <string name="common_alert_message_purchase">%1$d 동전이 제품을 구입?</string>
+  <string name="magic_store_no_ad_loaded">로드 된 광고 없음</string>
+  <string name="common_not_enough_coin">충분 하지 않은 동전</string>
+  <string name="play_action_magic">매직 스틱</string>
+  <string name="victory_title">축!</string>
+  <string name="victory_bonus">보상</string>
+  <string name="victory_get_bonus">보상 받기</string>
+  <string name="victory_watch_video">비디오 보기</string>
+  <string name="victory_new_game">새로운 게임</string>
+  <string name="victory_history_score">기록 기록</string>
+  <string name="magic_store_title">상점</string>
+  <string name="game_mode_random">임의의</string>
+  <string name="game_mode_winning">승리</string>
+  <string name="daily_bonus_today">오늘</string>
+  <string name="daily_bonus_tomorrow">내일</string>
+  <string name="daily_bonus_victory_format">%1$d 분</string>
+  <string name="daily_bonus_day">%1$d 일차</string>
+  <string name="daily_bonus_title">일일 보너스</string>
+  <string name="daily_bonus_btn_claim">주장</string>
+  <string name="daily_bonus_description">매일 돌아와 보상을 받으세요!</string>
+  <string name="daily_bonus_select_massage">일일 보너스  를 얻을 수 있는 짧은 비디오를 시청?</string>
+  <string name="daily_bonus_select_negative">아니요</string>
+  <string name="daily_bonus_select_positive">예</string>
+  <string name="daily_bonus_victory_result_message">당신은 다음 %2$d 분에%1$d%%더 많은 동전을 적립하실 수 있습니다!</string>
+  <string name="daily_bonus_result_done">이동</string>
+  <string name="daily_bonus_result_message">당신이 있어: </string>
+  <string name="no_hint_message_guilde">매직 스틱을 사용 하 여 게임을 저장 합니다.</string>
+  <string name="no_hint_message_no_magic">유용한 움직임이 감지 되지 않았습니다. 새 게임을 여십시오?</string>
+  <string name="remove_ad">광고를 제거하다</string>
+  <string name="purchasing_error_try_again">구매 오류! 나중에 다시 시도하세요!</string>
+  <string name="msg_coin_hint">테마 또는 마법 구매</string>
+  <string name="purchasing_succeed_remove_ad">구매 성공! 광고가 제거되었습니다!</string>
+  <string name="daily_challenge">매일 도전</string>
+  <string name="daily_challenge_start_btn">도전 시작</string>
+  <string name="daily_challenge_total_count">합계:</string>
+  <string name="daily_challenge_status_solved">해결 된</string>
+  <string name="daily_challenge_status_unsolved">미해결</string>
+  <string name="daily_challenge_start_hint">매일 도전 시작</string>
+  <string name="daily_challenge_start_btn_replay">다시 하다</string>
+  <string name="daily_challenge_mode">도전</string>
+  <string name="msg_remove_cardback">Google Play 정책을 준수하기 위해 2 개의 카드 뒷면을 삭제합니다. 불편을 드려 죄송합니다! 당신은 당신의 자신의 사진과 함께 다시 카드를 사용자 정의 할 수 있습니다!</string>
+  <string name="recover_billing">복원</string>
+</resources>

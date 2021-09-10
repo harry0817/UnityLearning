@@ -1,0 +1,202 @@
+<resources>
+  <string name="app_name">Flashlight</string>
+  <string name="east">E</string>
+  <string name="west">W</string>
+  <string name="south">S</string>
+  <string name="north">N</string>
+  <string name="south_east">SE</string>
+  <string name="south_west">SW</string>
+  <string name="north_east">NE</string>
+  <string name="north_west">NW</string>
+  <string name="main_color">Color</string>
+  <string name="main_morse">Morse</string>
+  <string name="morse_transmit">Transmit</string>
+  <string name="on">ON</string>
+  <string name="off">OFF</string>
+  <string name="morse_your_text">Your Text</string>
+  <string name="morse_morse_code">Morse Code</string>
+  <!--    Permissions    -->
+  <string name="permission_location_rationale">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+  <string name="permission_location_denied_message">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; </string>
+  <!-- Google定位 -->
+  <string name="no_location_detected">No location detected. Make sure location is enabled on the device.</string>
+  <string name="locate">Locate</string>
+
+  <string name="rt_title">We need your feedback</string>
+  <string name="dialog_rate_message_normal">Do you like our Flashlight tool! Could you please take a moment to rate it. Your support makes us do better. Thanks for your support!</string>
+  <string name="dialog_rate_positive">Amazing</string>
+  <string name="rt_fb">I have suggestions</string>
+  <string name="rt_cancel">Next time</string>
+  <string name="dialog_rate_message_feedback">Feedback will make us to provide you with more quality services.</string>
+
+  <!-- 权限申请对话框 -->
+
+  <string name="ok">OK</string>
+  <string name="cancel">Cancel</string>
+
+  <string name="no_sending_emails_app">Sorry, we couldn\'t find any app for sending emails! Below are our feedback email address:\n</string>
+  <string name="no_google_play_app">Sorry, we couldn\'t find any app for openning the rating home!</string>
+
+  <string name="can_not_open_flash_light">Can not open flash light</string>
+  <string name="device_not_support_flash_light">The device does not support flash light and will automatically light up the screen</string>
+  <string name="seconds">%1$d Seconds</string>
+
+  <plurals name="minute">
+    <item quantity="one">%1$d Minute</item>
+    <item quantity="other">%1$d Minutes</item>
+  </plurals>
+
+  <string name="never">Never</string>
+  <string name="auto_close">Automatically turn off</string>
+  <string name="calibration_message">You can stay away from the magnetic field interference source and follow the instructions to complete the compass calibration</string>
+  <string name="the_device_compass_is_not_available">The compass of the device is not available</string>
+  <string name="recover_billing_completed">Completed. If you have any questions, check your network or check your Google Play order and try again. Thank you!</string>
+  <string name="processing_please_wait">Processing&#8230;Please waite.</string>
+  <string name="billing_set_up_failed_message">Can not start. Please Make sure google play is working properly.</string>
+  <string name="purchase_shake_open">Shake to turn on/off flashlight</string>
+  <string name="purchase_success">Purchase success</string>
+  <string name="purchase_failed">Purchase failed</string>
+
+  <string name="proportion" translatable="false">%1$d%%</string>
+
+  <string name="setting_off" translatable="false">OFF</string>
+  <string name="notification_hint_on">Tap to turn on the light</string>
+  <string name="notification_hint_off">Tap to turn off the light</string>
+
+  <string name="title_setting">Settings</string>
+  <string name="setting_primary_title_launch_open">Automatic on</string>
+  <string name="setting_secondary_title_launch_open">Turn on flashlight on startup</string>
+  <string name="setting_primary_title_keep_open">Flashlight stay on</string>
+  <string name="setting_secondary_title_keep_open">Stay on after locking the screen</string>
+  <string name="setting_primary_title_shake_open">Shake to switch</string>
+  <string name="setting_secondary_title_shake_open">Shake your phone to turn on/off flashlight</string>
+  <string name="setting_primary_title_notification">Notification toolbar toggle</string>
+  <string name="setting_secondary_title_notification">Shortcut to turn on/off flashlight</string>
+  <string name="setting_primary_title_battery_control">Power control</string>
+  <string name="setting_secondary_title_battery_control">Low battery warning below %1$d%%</string>
+  <string name="setting_primary_title_close_time">Automatic off</string>
+  <string name="setting_secondary_title_close_time">Turn off flashlight after a period of time</string>
+  <string name="title_about">About</string>
+  <string name="about_feedback">Feedback</string>
+  <string name="about_rate">Rate us</string>
+  <string name="about_privacy_policy">Privacy policy</string>
+  <string name="billing_remove_ads">Remove ADs</string>
+  <string name="billing_shark">Shake to switch flashlight</string>
+  <string name="billing_notification">Notification toolbar shortcut to turn on/off flashlight</string>
+  <string name="purchase_billing">$1.99</string>
+  <string name="recover_billing">Restore</string>
+
+  <string name="dialog_low_power_title">Attention!</string>
+  <string name="dialog_low_power_message">Your battery is lower than the set minimum percentage. Turn on flashlight anyway?</string>
+  <string name="dialog_low_power_close">Turn off</string>
+  <string name="dialog_low_power_open">Stay on</string>
+
+  <string name="common_copyright" translatable="false">Copyright 2004-2018 All Right Reserved.</string>
+  <string name="common_version" translatable="false">v%1$s</string>
+  <string name="common_feedback_email_address" translatable="false">mxchenzb@gmail.com</string>
+  <string name="common_privacy_policy_url" translatable="false">"http://peacockphoto.online/support/peacockfoto/flashlight/policy.html"</string>
+
+  <string name="common_dialog_title_hint">Attention</string>
+
+  <string name="dialog_camera_permission_title">Open Flashlight Permissions</string>
+  <string name="dialog_camera_permission_message">Has no permission to use flashlight which is integrated with camera by your device manufacturer. Please grant camera permission.</string>
+  <string name="dialog_camera_permission_positive">Open</string>
+
+  <string name="dialog_camera_permission_granted_message"> Permission granted! Start flashlight trip!</string>
+  <string name="dialog_camera_permission_granted_positive">Start</string>
+
+  <string name="dialog_no_flashlight_message">This device has no available flashlight hardware. You can use the screen light instead.</string>
+  <string name="dialog_no_flashlight_negative">I know</string>
+  <string name="common_screen_light">Screen Light</string>
+
+  <string name="dialog_camera_occupied_positive">I know</string>
+  <string name="dialog_camera_occupied_message">Can not turn on flashlight because hardware is being occupied. Please check and stop other apps that ocupy the flashlight.</string>
+
+  <string name="common_feedback_email_title" translatable="false">Flashlight Feedback</string>
+  <string name="common_feedback_email_text" translatable="false">
+    Following information is valuable for us to identify the problem. Please keep it.\n
+    Brand: %1$s\n
+    Model: %2$s\n
+    OS Version: %3$s\n
+    Country: %4$s\n
+    Language: %5$s\n
+    App Version: %6$s\n
+  </string>
+  <string name="dialog_rating_success" translatable="false">Thanks for your rating!</string>
+  
+  
+  
+ 
+<string name="setting_primary_title_share">Share</string>
+  <string name="setting_secondary_title_share">The best flashlight, tap to share with your friends</string>
+  <string name="setting_share_hint">Copy successfully, you can paste directly</string>
+  <string name="setting_secondary_title_faq">Common problem items and answers to corresponding questions</string>
+
+  <string name="dialog_no_flashlight_title">Flashlight unavailable</string>
+  <string name="dialog_no_flashlight_message_no_flashlight">The flashlight of this device is damaged or there is no flashlight</string>
+  <string name="dialog_no_flashlight_message_screen_light">You can also use screen light instead</string>
+  <string name="dialog_no_flashlight_positive">Use screen light</string>
+
+  <string name="title_faq">FAQ</string>
+  <string-array name="faq_question">
+    <item>Why is my flashlight not working or strobing all the time?</item>
+    <item>Why can I only use the screen light?</item>
+    <item>Why is the flashlight turned off abnormally?</item>
+    <item>How to change the color of light?</item>
+    <item>Why is the speed of the battery consumed quickly and the temperature of the device high?</item>
+    <item>Why is the compass inaccurate?</item>
+    <item>Why can not properly use the map?</item>
+  </string-array>
+  <string-array name="faq_answer">
+    <item>
+If your flashlight is not working, it may be caused by the following reasons:\n- The flashlight has been strobing all the time, possibly because the strobe mode is on. Steps to turn off strobe mode: Back to homepage → Check the position of the button under [SOS,0~10] → Drag the button to under the number 0;\n- Opened other flashlight application or camera application at the same time, please close these app;\n- Does not allow camera permission, the flashlight need camera permission to turn on light. Steps to allow camera permission: Back to homepage → Click the on/off button → Allow camera permissions in the pop-up window;\n- The flashlight of this device is damaged. You can also use screen light instead. Steps to use screen light: Back to homepage → Click the screen light button in the lower right corner.
+    </item>
+    <item>
+The flashlight of this device is damaged or there is no flashlight. You can also use screen light instead. Steps to use screen light: Back to homepage → Click the screen light button in the lower right corner.
+    </item>
+    <item>
+If you find that the flashlight is abnormally turned off, check the following settings:\n- Flashlight stay on. If you turn off flashlight stay on, the flashlight may turn off during the lock screen;\n- Automatic off. If you turn on automatic off, the flashlight will automatically turn off after the set time. If you do not want to turn off the flashlight automatically, please ensure that the automatic off setting is "Never";\n- Shake to switch. If you turn on the shake to switch flashlight setting, the flashlight will be automatically turned on/off when a large shake of the device is detected.If you don\'t want to turn the flashlight on/off by shaking , turn off this setting.
+    </item>
+    <item>
+Unfortunately, due to the limitations of the device hardware, the color of the flash cannot be changed, only the color of the screen light can be changed. Steps to change the color of the screen light: Back to homepage → Click the screen light button In the lower right corner → The color of the light is changed by adjusting the hue (circle), saturation (first line), and brightness (second line).
+    </item>
+    <item>
+If the speed of the battery consumed quickly and the temperature of the device high, make the following settings:\n- If the battery consumption is too fast, use the power control feature to protect the battery. Steps to turn on power control: Go to the settings page → Turn on Power control → Set low battery warning → OK.\n- If the temperature of the device high. You can also use screen light instead. Steps to use screen light: Back to homepage → Click the screen light button in the lower right corner.
+    </item>
+    <item>
+If your compass is inaccurate, it may be due to the following reasons:\n-There is magnetic field interference near the device. Please stay away from magnetic interference and complete the compass calibration.Steps to calibrate the compass:Return to the home page → Click the "?” icon in the upper right corner of the compass to start compass calibration → Follow the instructions to complete the compass calibration;.Steps to calibrate the compass:\n- Due to your device hardware limitations, the compass does not work, you can try to use the map to determine the location.Steps to open the map: Back to homepage → Click the compass button to open the map → Open the location permission to use the map.
+    </item>
+    <item>
+If your map doesn\'t work, check the following settings:\n- You have not allowed the location permission. Steps to open the location permission: Back to homepage → Click the compass to open the map → Allow the location permission, in the pop-up application permission window;\n- Use the map need to turn on the network, check the current network is normal;\n- If There is no problem with the above settings, I am very sorry, your device does not support targeting, or There is an abnormality in the positioning, and the map cannot be used normally.
+    </item>
+  </string-array>
+
+  <string name="title_feedback">Not satisfied?</string>
+  <string name="dialog_feedback_message_faq">Have problems encountered during use? Find solutions in FAQ.</string>
+  <string name="dialog_feedback_message_feedback">Problem is not solved? Please feedback more details about the problem.</string>
+  <string name="dialog_feedback_positive">Feedback</string>
+
+<string name="dialog_request_permission_title">Need camera permission</string>
+<string name="dialog_request_permission_message">The flashlight needs camera permission to provide you with a flashlight service. The flashlight will not invade your privacy, please allow camera permission.</string>
+<string name="dialog_request_permission_positive">Understood</string>
+
+<string name="dialog_rate_us_title">Rate us</string>
+<string name="dialog_rate_us_message_review">If you enjoy the flashlight please consider giving us a review.</string>
+<string name="dialog_rate_us_message_rate">Choose:</string>
+<string name="dialog_rate_us_positive">Submit</string>
+
+
+<string name="dialog_grant_permission_message">The flashlight needs camera permission to provide you with a flashlight service. The flashlight will not invade your privacy, please allow camera permission</string>
+<string name="dialog_grant_permission_positive">Grant</string>
+<string name="dialog_grant_permission_negative">Cancel</string>
+
+  <string name="update_dialog_title_1">New Feature Released!</string>
+  <string name="update_dialog_title_2">Please Update!</string>
+  <string name="update_dialog_title_3">Update and Continue</string>
+  <string name="update_dialog_content_1">Want to see something new? Just update and find out! Thanks for using!</string>
+  <string name="update_dialog_content_2">We have fixed some potential bugs! Immediate update is strongly recommended!</string>
+  <string name="update_dialog_content_3">This app is experiencing some serious problem, you should update to continue or quit! Your history record will persist!\nSorry for the inconvenience. We are committed to make the best app for you!</string>
+  <string name="update_dialog_cancel">Cancel</string>
+  <string name="update_dialog_update">Update</string>
+  <string name="update_dialog_quit">Quit</string>
+</resources>

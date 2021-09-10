@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Solitaire</string>
+  <string name="score_label">Skor</string>
+  <string name="time_label">Waktu</string>
+  <string name="move_label">Bergerak</string>
+  <string name="auto_complete_title">Autocomplete</string>
+  <string name="setting">Pengaturan</string>
+  <string name="themes">Tema</string>
+  <string name="newgame">Bermain</string>
+  <string name="hint_btn">Petunjuk</string>
+  <string name="undo">Membuka</string>
+  <string name="hint_no_move">Tidak bergerak berguna terdeteksi</string>
+  <string name="hintmove">Petunjuk</string>
+  <string name="play_action_random_deal">Kesepakatan acak</string>
+  <string name="play_action_winning_deal">Menang Kesepakatan</string>
+  <string name="play_action_replay">Ulangan</string>
+  <string name="cancel">Membatalkan</string>
+  <string name="setting_ok">Baik</string>
+  <string name="statistics">Statistik</string>
+  <string name="setting_draw1">Menggambar 1</string>
+  <string name="setting_draw3">Menggambar 3</string>
+  <string name="setting_sound">Suara Kontrol</string>
+  <string name="setting_times">Waktu/Bergerak</string>
+  <string name="setting_orientation">Kunci Orientasi</string>
+  <string name="setting_hints">Petunjuk Otomatis</string>
+  <string name="setting_tapmove">Tap Pindah</string>
+  <string name="help_rules">Aturan</string>
+  <string name="setting_draw3_mode">3 Kartu</string>
+  <string name="setting_score_anim">Efek Skor</string>
+  <string name="setting_privacy_policy">Kebijakan Privasi</string>
+  <string name="setting_language">Bahasa</string>
+  <string name="stat_won">Permainan menang</string>
+  <string name="stat_lose">Permainan Hilang</string>
+  <string name="stat_swtime">Shortest Winning Waktu</string>
+  <string name="stat_lwtime">Terpanjang Winning Waktu</string>
+  <string name="stat_awtime">Rata-rata waktu Winning</string>
+  <string name="stat_fwmove">Bergerak Winning Terbanyak</string>
+  <string name="stat_mwmove">Kebanyakan Moves Winning</string>
+  <string name="stat_nundo">Wins Tanpa Undo</string>
+  <string name="stat_hscroe">Skor tertinggi</string>
+  <string name="reset_stat">Ulang</string>
+  <string name="yes">Iya nih</string>
+  <string name="mode_message">Kesulitan Pengaturan akan berlaku di Berikutnya Game Baru</string>
+  <string name="dialog_close">Dekat</string>
+  <string name="theme">Tema</string>
+  <string name="dialog_theme_cardback">Punggung kartu</string>
+  <string name="dialog_theme_gameback">Latar belakang</string>
+  <string name="dialog_theme_card">Wajah kartu</string>
+  <string name="dialog_theme_hint_no_permission">Tidak ada izin</string>
+  <string name="dialog_purchase_image_hint">Selamat!\nAnda mendapatkan:</string>
+  <string name="dialog_reward_message">Tidak cukup uang! Tonton video pendek untuk mendapatkan koin %1$d?</string>
+  <string name="dialog_add_coin_title">Selamat, Anda punya:</string>
+  <string name="update_available">Pembaruan TOT dan versi terbaru?</string>
+  <string name="dialog_quit_message">Apakah Anda yakin untuk berhenti?</string>
+  <string name="dialog_quit_btn_positive">@string/yes</string>
+  <string name="confirm_reset_game_stat">Apakah Anda yakin untuk me-reset statistik permainan?</string>
+  <string name="notification_push">Klik saya untuk membuka permainan!</string>
+  <string name="notification_ticker">Kembali ke solitaire untuk bersenang-senang!</string>
+  <string name="done">lengkap</string>
+  <string name="hint_recycle_card">Daur ulang kartu yang tersisa</string>
+  <string name="hint_draw_card">Seri</string>
+  <string name="message_no_hint_use_magic">Tidak berguna moves terdeteksi. Apakah Anda ingin menggunakan sihir?</string>
+  <string name="left_hand_mode">Kidal</string>
+  <string name="congratulationsAnimation">Selamat layar</string>
+  <string name="title_information">Informasi</string>
+  <string name="invite_rate_title">Menikmati permainan?</string>
+  <string name="invite_rate_message">Penilaian Anda membantu kita membuat permainan terbaik mungkin!</string>
+  <string name="invite_rate_submit">Kirim</string>
+  <string name="invite_rate_title_gratitude_google_play">Terima kasih!</string>
+  <string name="invite_rate_gratitude_google_play_message">Terima kasih atas dukungan Anda!</string>
+  <string name="invite_rate_gratitude_google_play_positive">Oke</string>
+  <string name="invite_rate_title_email">Umpan balik</string>
+  <string name="invite_rate_email_message">Kami benar-benar menghargai pikiran Anda! Anda dapat membantu dengan mengirimkan umpan balik?</string>
+  <string name="invite_rate_email_positive">Pergi</string>
+  <string name="invite_rate_title_gratitude_email">Terima kasih!</string>
+  <string name="invite_rate_gratitude_email_message">Masukan Anda membantu kami menyediakan update ke permainan.</string>
+  <string name="invite_rate_gratitude_email_positive">Oke</string>
+  <string name="invite_rate_google_message">Bisa Anda silahkan luangkan waktu untuk menilai kami di Google Play?</string>
+  <string name="invite_rate_button_positive">Yakin!</string>
+  <string name="rule_0_text">
+    Klondike Solitaire menggunakan standar deck 52 kartu bermain kartu tanpa pelawak.
+    Tujuan dari permainan ini adalah untuk mengekspos semua kartu dan memindahkan mereka ke dalam tumpukan. Tumpukan tersebut dibangun ke atas dalam setelan dari Ace kepada raja.
+  </string>
+  <string name="rule_1_text">
+    Ada 7 kolom Tablo yang dibangun ke bawah (penurunan pangkat, dari raja ke Aces) di bolak-warna (merah, hitam). Setiap kolom kosong hanya akan diisi dengan King atau tumpukan kartu dengan raja di bagian atas.
+  </string>
+  <string name="rule_2_text">
+    Tumpukan parsial atau lengkap dapat dipindahkan dari satu kolom ke lain jika mereka dibangun turun oleh alternatif warna dan penurunan pangkat. Mengekspos kartu wajah-down di Tablo untuk menemukan kartu yang Anda perlukan.
+  </string>
+  <string name="rule_3_text">
+    Memindahkan kartu sangat mudah, hanya tekan kartu dan tarik. Memilih kartu juga memilih semua kartu ditumpuk di bawah ini.
+  </string>
+  <string name="rule_4_text">
+    Ketuk saham untuk memindahkan card(s) 1 atau 3 untuk limbah. Anda dapat memindahkan kartu teratas dari tumpukan sampah untuk setiap lokasi hukum di tiang fondasi atau Tablo kolom. Jika stok habis, sentuh garis besar untuk menangani lagi.
+  </string>
+  <string name="rule_4_restock">Memperlengkapi</string>
+  <string name="rule_5_text">
+    Jika Anda terjebak, tekan tombol hint untuk sedikit bantuan.
+  </string>
+  <string name="rule_6_title">
+    Standar penilaian
+  </string>
+  <string name="rule_6_body">
+    Setiap permainan baru dimulai pada 0 poin. Setiap kartu yang akan dipindahkan ke Yayasan menerima 10 poin. Setiap kartu yang akan dipindahkan ke kolom Tablo menerima 5 poin.
+Setiap kartu yang diserahkan di kolom Tablo menerima 5 poin. Memindahkan kartu dari tumpukan adalah kehilangan 10 poin. Setiap permintaan undo adalah hilangnya 2 poin selain titik-titik yang diambil dari kehancuran yang bergerak. Ketika opsi Draw 3 ada hilangnya 20 poin untuk setiap melewati tumpukan saham setelah lulus ketiga. Ketika opsi Draw 3 tidak aktif ada hilangnya 100 poin untuk setiap melewati tumpukan saham. Untuk waktunya permainan hanya: hilangnya 2 poin untuk setiap 10 detik dari bermain.
+  </string>
+  <string name="rule_7_title">
+    Permainan
+  </string>
+  <string name="rule_7_body">
+    Penawaran Solitaire permainan dalam dua cara: acak dan menang. Kesepakatan acak mengaduk-aduk kartu secara acak dan akibatnya hanya beberapa permainan dapat dimenangkan. Kesepakatan menang dijamin untuk memiliki setidaknya satu solusi pemenang.
+  </string>
+  <string name="common_alert_message_purchase">Membeli produk ini untuk %1$d koin?</string>
+  <string name="magic_store_no_ad_loaded">Tidak ada iklan yang dimuat</string>
+  <string name="common_not_enough_coin">Tidak cukup uang</string>
+  <string name="play_action_magic">Tongkat sihir</string>
+  <string name="victory_title">Ucapan Selamat!</string>
+  <string name="victory_bonus">Hadiah</string>
+  <string name="victory_get_bonus">Mendapatkan hadiah</string>
+  <string name="victory_watch_video">Menonton Video</string>
+  <string name="victory_new_game">Permainan baru</string>
+  <string name="victory_history_score">catatan sejarah</string>
+  <string name="magic_store_title">Toko</string>
+  <string name="game_mode_random">Acak</string>
+  <string name="game_mode_winning">Pemenang</string>
+  <string name="daily_bonus_today">Hari ini</string>
+  <string name="daily_bonus_tomorrow">Besok</string>
+  <string name="daily_bonus_victory_format">%1$d MENIT</string>
+  <string name="daily_bonus_day">Hari %1$d</string>
+  <string name="daily_bonus_title">Bonus harian</string>
+  <string name="daily_bonus_btn_claim">Klaim</string>
+  <string name="daily_bonus_description">Datang kembali setiap hari untuk mengumpulkan hadiah Anda!</string>
+  <string name="daily_bonus_select_massage">Tonton video pendek untuk mendapatkan Bonus harian  ?</string>
+  <string name="daily_bonus_select_negative">Tidak</string>
+  <string name="daily_bonus_select_positive">Ya</string>
+  <string name="daily_bonus_victory_result_message">Anda akan mendapatkan %1$d%% lebih koin dalam %2$d menit!</string>
+  <string name="daily_bonus_result_done">PERGI</string>
+  <string name="daily_bonus_result_message">Anda mendapatkan: </string>
+  <string name="no_hint_message_guilde">Menggunakan tongkat ajaib untuk menyimpan permainan.</string>
+  <string name="no_hint_message_no_magic">Tidak berguna moves terdeteksi. Membuka permainan baru?</string>
+  <string name="remove_ad">Remove Ads</string>
+  <string name="purchasing_error_try_again">Error purchasing! Please try again later!</string>
+  <string name="msg_coin_hint">Purchase themes or magic</string>
+  <string name="purchasing_succeed_remove_ad">Purchase succeeds! Ads removed!</string>
+  <string name="daily_challenge">Tantangan sehari-hari</string>
+  <string name="daily_challenge_start_btn">Mulai Tantangan</string>
+  <string name="daily_challenge_total_count">Total:</string>
+  <string name="daily_challenge_status_solved">Terpecahkan</string>
+  <string name="daily_challenge_status_unsolved">Belum terpecahkan</string>
+  <string name="daily_challenge_start_hint">Mulai Tantangan Harian</string>
+  <string name="daily_challenge_start_btn_replay">Ulangan</string>
+  <string name="daily_challenge_mode">Tantangan</string>
+  <string name="msg_remove_cardback">Kami menghapus 2 punggung kartu untuk mematuhi kebijakan google play. Maaf untuk ketidaknyamanannya! Anda dapat menyesuaikan kartu Anda kembali dengan gambar Anda sendiri!</string>
+  <string name="recover_billing">Kembalikan</string>
+</resources>

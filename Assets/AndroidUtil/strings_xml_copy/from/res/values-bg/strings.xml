@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">Flashlight</string>
+  <string name="east">E</string>
+  <string name="west">W</string>
+  <string name="south">S</string>
+  <string name="north">N</string>
+  <string name="south_east">SE</string>
+  <string name="south_west">SW</string>
+  <string name="north_east">NE</string>
+  <string name="north_west">NW</string>
+  <string name="main_color">Цвят</string>
+  <string name="main_morse">Morse</string>
+  <string name="morse_transmit">Предаване</string>
+  <string name="on">ON</string>
+  <string name="off">OFF</string>
+  <string name="morse_your_text">Вашият текст</string>
+  <string name="morse_morse_code">Morse кодекс</string>
+  <string name="permission_location_rationale">За да се покаже функцията \'моето местоположение\', която показва текущото ви местоположение на картата, е необходим достъп до услугата за местоположение.</string>
+  <string name="permission_location_denied_message">Тази извадка изисква разрешение за местоположението, за да активира слоя \'моето местоположение\'. Моля, опитайте отново и предоставете достъп за използване на местоположението. \nАко разрешението е било отказано окончателно, то може да бъде активирано от системните настройки &gt; Приложения &gt; </string>
+  <string name="no_location_detected">Няма открито местоположение. Уверете се, че местоположението е активирано на устройството.</string>
+  <string name="locate">Намерете</string>
+  <string name="rt_title">Нуждаем се от вашата обратна връзка</string>
+  <string name="dialog_rate_message_normal">Харесвате ли нашето Flashlight инструмент! Бихте ли могли да отделите малко време, за да го оцените. Поддръжката ви ни прави по-добри. Благодарим ви за подкрепата ви!</string>
+  <string name="dialog_rate_positive">Изключително</string>
+  <string name="rt_fb">Имам предложения</string>
+  <string name="rt_cancel">Следващия път</string>
+  <string name="dialog_rate_message_feedback">Обратната връзка ще ни накара да ви предоставим по-качествени услуги.</string>
+  <string name="ok">OK</string>
+  <string name="cancel">Отказ</string>
+  <string name="no_sending_emails_app">За съжаление не можахме да намерим приложение за изпращане на имейли! По-долу е нашият имейл адрес за обратна връзка:\n</string>
+  <string name="no_google_play_app">За съжаление не можехме да намерим никакво приложение за отваряне на рейтинга у дома!</string>
+  <string name="can_not_open_flash_light">Не може да се отвори флаш светкавица</string>
+  <string name="device_not_support_flash_light">Устройството не поддържа светкавицата на светкавицата и автоматично ще светне екрана</string>
+  <string name="seconds">%1$d секунди</string>
+  <plurals name="minute">
+    <item quantity="other">%1$d Минути</item>
+  </plurals>
+  <string name="never">Никога</string>
+  <string name="auto_close">Автоматично изключване</string>
+  <string name="calibration_message">Можете да останете далеч от източника на смущения от магнитното поле и да следвате инструкциите, за да завършите калибрирането на компаса</string>
+  <string name="the_device_compass_is_not_available">Компасът на устройството не е наличен</string>
+  <string name="recover_billing_completed">Завършен. Ако имате въпроси, проверете мрежата си или проверете поръчката си в Google Play и опитайте отново. Благодаря ви!</string>
+  <string name="processing_please_wait">Обработка … Моля, изчакайте.</string>
+  <string name="billing_set_up_failed_message">Не може да се стартира. Моля, уверете се, че Google Play работи правилно.</string>
+  <string name="purchase_success">Покупка успех</string>
+  <string name="purchase_failed">Покупката е неуспешна</string>
+  <string name="notification_hint_on">Докоснете, за да включите светлината</string>
+  <string name="notification_hint_off">Докоснете, за да изключите светлината</string>
+  <string name="title_setting">Настройки</string>
+  <string name="setting_primary_title_launch_open">Автоматично върху</string>
+  <string name="setting_secondary_title_launch_open">Включете фенерче при стартиране</string>
+  <string name="setting_primary_title_keep_open">Фенерче останете на</string>
+  <string name="setting_secondary_title_keep_open">Останете на след заключване на екрана</string>
+  <string name="purchase_shake_open">Разклатете, за да включите</string>
+  <string name="setting_primary_title_shake_open">Разклатете, за да включите</string>
+  <string name="setting_secondary_title_shake_open">Разклатете телефона си, за да включите / изключите фенерчето</string>
+  <string name="setting_primary_title_notification">Превключване на лентата с инструменти за известия</string>
+  <string name="setting_secondary_title_notification">Пряк път към включване / изключване на фенерчето</string>
+  <string name="setting_primary_title_battery_control">Управление на захранването</string>
+  <string name="setting_secondary_title_battery_control">Предупреждение за изтощена батерия под %1$d%%</string>
+  <string name="setting_primary_title_close_time">Автоматично изключване</string>
+  <string name="setting_secondary_title_close_time">Изключете фенерче след определен период от време</string>
+  <string name="title_about">Относно</string>
+  <string name="about_feedback">Обратна връзка</string>
+  <string name="about_rate">Оцени ни</string>
+  <string name="about_privacy_policy">Декларация за поверителност</string>
+  <string name="billing_remove_ads">Премахни рекламите</string>
+  <string name="billing_shark">Разклатете, за да смените фенерчето</string>
+  <string name="billing_notification">Уведомление toolbar за бърз достъп, за да включите / изключите фенерчето</string>
+  <string name="purchase_billing">$1.99</string>
+  <string name="recover_billing">Възстанови</string>
+  <string name="dialog_low_power_title">Внимание!</string>
+  <string name="dialog_low_power_message">Батерията ви е по-ниска от зададения минимален процент. Включете ли фенерчето така или иначе?</string>
+  <string name="dialog_low_power_close">Изключи</string>
+  <string name="dialog_low_power_open">Остани</string>
+  <string name="common_dialog_title_hint">Внимание</string>
+  <string name="dialog_camera_permission_title">Отворете разрешенията на фенерчето</string>
+  <string name="dialog_camera_permission_message">Няма разрешение да използва фенерче, което е интегрирано с камерата от производителя на устройството ви. Моля, дайте разрешение за камерата.</string>
+  <string name="dialog_camera_permission_positive">Отворено</string>
+  <string name="dialog_camera_permission_granted_message">Разрешение е предоставено! Стартирайте фенерче!</string>
+  <string name="dialog_camera_permission_granted_positive">Начало</string>
+  <string name="dialog_no_flashlight_message">Това устройство няма наличен хардуер за фенерче. Вместо това можете да използвате осветлението на екрана.</string>
+  <string name="dialog_no_flashlight_negative">Знам</string>
+  <string name="common_screen_light">Екранна светлина</string>
+  <string name="dialog_camera_occupied_positive">Знам</string>
+  <string name="dialog_camera_occupied_message">Не можете да включите фенерчето, защото хардуерът е зает. Моля, проверете и спрете други приложения, които заемат фенерчето.</string>
+  <string name="setting_primary_title_share">Дял</string>
+  <string name="setting_secondary_title_share">Най-добрият фенер, натиснете, за да споделите с приятелите си</string>
+  <string name="setting_share_hint">Копиране успешно, можете да го поставите директно</string>
+  <string name="setting_secondary_title_faq">Често срещани проблеми и отговори на съответните въпроси</string>
+  <string name="dialog_no_flashlight_title">Фенерчето не е налице</string>
+  <string name="dialog_no_flashlight_message_no_flashlight">Фенерът на това устройство е повреден или няма фенерче</string>
+  <string name="dialog_no_flashlight_message_screen_light">Можете да използвате и светлината на екрана</string>
+  <string name="dialog_no_flashlight_positive">Използвайте светлината на екрана</string>
+  <string name="title_faq">ЧЗВ</string>
+  <string-array name="faq_question">
+    <item>Защо фенерчето ми не работи или непрекъснато мига?</item>
+    <item>Защо мога да използвам само светлината на екрана?</item>
+    <item>Защо фенерчето е изключено необичайно?</item>
+    <item>Как да промените цвета на светлината?</item>
+    <item>Защо скоростта на батерията се изразходва бързо и температурата на устройството е висока?</item>
+    <item>Защо компасът е неточен?</item>
+    <item>Защо не можете да използвате картата правилно?</item>
+  </string-array>
+  <string-array name="faq_answer">
+    <item>
+Ако фенерчето ви не работи, това може да е причинено от следните причини:\n- Фенерът е непрекъснато прелистващ, вероятно защото е включен режимът на стробоскопиране. Стъпки за изключване на режима strobe: Назад към началната страница → Проверете позицията на бутона под [SOS, 0 ~ 10] → Плъзнете бутона до под номер 0;\n- Отворен друг приложение фенерче или приложение на камерата в същото време, моля, затворете тези ап;\n- Не позволява разрешение за камера, фенерчето се нуждае от разрешение на камерата, за да включи светлината. Стъпки за разрешаване на разрешението за камерата: Назад към началната страница → Кликнете върху бутона за включване / изключване → Разрешаване на разрешения за камерата в изскачащия прозорец;\n- Фенерът на това устройство е повреден. Можете да използвате и светлината на екрана. Стъпки за използване на екранната светлина: Назад към началната страница → Кликнете върху бутона за осветяване на екрана в долния десен ъгъл.
+    </item>
+    <item>
+Фенерът на това устройство е повреден или няма фенерче. Можете да използвате и светлината на екрана. Стъпки за използване на екранната светлина: Назад към началната страница → Кликнете върху бутона за осветяване на екрана в долния десен ъгъл.
+    </item>
+    <item>
+Ако установите, че фенерчето е изключено необичайно, проверете следните настройки:\n- Фенерчето остане включен. Ако изключите запалването на фенерчето, фенерчето може да се изключи по време на заключване на екрана;\n- Автоматично изключване. Ако включите автоматичното изключване, фенерчето автоматично ще се изключи след зададеното време. Ако не искате автоматично да изключвате фенерчето, уверете се, че настройката за автоматично изключване е "Никога";\n- Разклатете, за да превключите. Ако включите клатенето, за да включите настройката на фенерчето, фенерчето ще се включи / изключи автоматично, когато се открие голямо разклащане на устройството. Ако не искате да включите / изключите фенерчето чрез разклащане, изключете тази настройка. ,
+    </item>
+    <item>
+За съжаление, поради ограниченията на хардуера на устройството, цветът на светкавицата не може да бъде променен, само цветът на светлината на екрана може да бъде променен. Стъпки за промяна на цвета на екранната светлина: Назад към началната страница → Кликнете върху бутона за осветяване на екрана В долния десен ъгъл → Цветът на светлината се променя чрез регулиране на нюанса (кръга), наситеността (първия ред) и яркостта (секунда) линия).
+    </item>
+    <item>
+Ако скоростта на батерията се консумира бързо и температурата на устройството е висока, направете следните настройки:\n- Ако консумацията на батерията е твърде висока, използвайте функцията за управление на мощността, за да защитите батерията. Стъпки за включване на управлението на захранването: Отидете на страницата с настройки → Включете контрола на захранването → Задайте предупреждение за изтощена батерия → OK.\n- Ако температурата на устройството е висока. Можете да използвате и светлината на екрана. Стъпки за използване на екранната светлина: Назад към началната страница → Кликнете върху бутона за осветяване на екрана в долния десен ъгъл.
+    </item>
+    <item>
+Ако компасът ви е неточен, това може да се дължи на следните причини:\n- В близост до устройството има смущения в магнитното поле. Моля, избягвайте магнитни смущения и завършете калибрирането на компаса. Стъпки за калибриране на компаса: Върнете се на началната страница → Кликнете върху иконата "?" В горния десен ъгъл на компаса, за да започнете калибриране на компаса. калибриране;\n- Поради ограниченията на хардуера на устройството, компасът не работи, можете да опитате да използвате картата, за да определите местоположението. Стъпки за отваряне на картата: Назад към началната страница → Кликнете върху бутона компас, за да отворите картата → Отворете разрешението за местоположение използвайте картата.
+    </item>
+    <item>
+Ако картата ви не работи, проверете следните настройки:\n- Не сте разрешили разрешението за местоположение. Стъпки за отваряне на разрешението за местоположение: Назад към началната страница → Кликнете върху компаса, за да отворите картата → Позволете разрешение за местоположение в прозореца с изскачащи разрешения за приложение;\n- Използвай картата трябва да включиш мрежата, провери текущата мрежа е нормално;\n- Ако няма проблем с горните настройки, много съжалявам, устройството ви не поддържа насочване, или има нередност в позиционирането и картата не може да се използва нормално.
+    </item>
+  </string-array>
+  <string name="title_feedback">Не сте доволни?</string>
+  <string name="dialog_feedback_message_faq">Имате ли проблеми, срещани по време на употреба? Намерете решения в ЧЗВ.</string>
+  <string name="dialog_feedback_message_feedback">Проблемът не е решен? Моля, дайте повече подробности за проблема.</string>
+  <string name="dialog_feedback_positive">Обратна връзка</string>
+  <string name="dialog_request_permission_title">Имате нужда от разрешение за камера</string>
+  <string name="dialog_request_permission_message">Фенерчето се нуждае от разрешение на камерата, за да ви осигури фенерче. Фенерчето няма да наруши личната ви информация, моля, разрешете разрешението на камерата.</string>
+  <string name="dialog_request_permission_positive">Разбрах</string>
+  <string name="dialog_rate_us_title">Оцени ни</string>
+  <string name="dialog_rate_us_message_review">Ако се радвате на фенерчето, моля, помислете за да ни прегледаме.</string>
+  <string name="dialog_rate_us_message_rate">Избирам:</string>
+  <string name="dialog_rate_us_positive">Изпращане</string>
+  <string name="update_dialog_title_1">Издадена е нова функция!</string>
+  <string name="update_dialog_title_2">Моля обновете!</string>
+  <string name="update_dialog_title_3">Актуализирайте и продължете</string>
+  <string name="update_dialog_content_1">Искате ли да видите нещо ново? Просто актуализирайте и разберете! Благодаря за използването!</string>
+  <string name="update_dialog_content_2">Поправихме някои потенциални грешки! Силно се препоръчва актуализация!</string>
+  <string name="update_dialog_content_3">Това приложение изпитва сериозен проблем, трябва да актуализирате, за да продължите или да излезете! Вашият запис в историята ще се запази!  Съжалявам за неудобството. Ние се ангажираме да направим най-доброто приложение за вас!</string>
+  <string name="update_dialog_cancel">Отказ</string>
+  <string name="update_dialog_update">Актуализация</string>
+  <string name="update_dialog_quit">напускам</string>
+  <string name="dialog_grant_permission_message">Фенерчето се нуждае от разрешение на камерата, за да ви осигури фенерче. Фенерчето няма да наруши личната ви информация, моля, разрешете разрешението на камерата</string>
+  <string name="dialog_grant_permission_positive">Грант</string>
+  <string name="dialog_grant_permission_negative">Отказ</string>
+</resources>

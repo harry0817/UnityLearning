@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">Flashlight</string>
+  <string name="east">E</string>
+  <string name="west">W</string>
+  <string name="south">S</string>
+  <string name="north">N</string>
+  <string name="south_east">SE</string>
+  <string name="south_west">SW</string>
+  <string name="north_east">NE</string>
+  <string name="north_west">NW</string>
+  <string name="main_color">Боја</string>
+  <string name="main_morse">Морсе</string>
+  <string name="morse_transmit">Пренеси</string>
+  <string name="on">ОН</string>
+  <string name="off">ОФФ</string>
+  <string name="morse_your_text">Ваш текст</string>
+  <string name="morse_morse_code">Морсе Цоде</string>
+  <string name="permission_location_rationale">Приступ сервисној локацији је потребан да би се приказала функција \'моја локација\' која приказује вашу тренутну локацију на мапи.</string>
+  <string name="permission_location_denied_message">Овај узорак захтева дозволу за локацију да омогући слој \'моја локација\'. Покушајте поново и одобрите приступ да бисте користили локацију.\nАко је дозвола трајно одбијена, она се може омогућити из Систем Сеттингс&gt; Аппс&gt; </string>
+  <string name="no_location_detected">Није пронађена локација. Уверите се да је локација омогућена на уређају.</string>
+  <string name="locate">Пронађи</string>
+  <string name="rt_title">Треба нам ваше повратне информације</string>
+  <string name="dialog_rate_message_normal">Да ли вам се свиђа наш алат за Фласхлигхт! Молим вас, узмите тренутак да оцените то. Ваша подршка нас чини бољи. Хвала на подршци!</string>
+  <string name="dialog_rate_positive">Невероватно</string>
+  <string name="rt_fb">Имам предлоге</string>
+  <string name="rt_cancel">Следећи пут</string>
+  <string name="dialog_rate_message_feedback">Повратне информације ће нас натерати да вам пружимо квалитетније услуге.</string>
+  <string name="ok">Ок</string>
+  <string name="cancel">Откажи</string>
+  <string name="no_sending_emails_app">Жао нам је, нисмо могли наћи никакву апликацију за слање е-порука! Испод су е-маил адресе за повратне информације:\n</string>
+  <string name="no_google_play_app">Жао нам је, нисмо могли наћи никакву апликацију за отварање рејтинга кући!</string>
+  <string name="can_not_open_flash_light">Није могуће отворити светло блица</string>
+  <string name="device_not_support_flash_light">Уређај не подржава светло блица и аутоматски ће засветлети екран</string>
+  <string name="seconds">%1$d Секунди</string>
+  <plurals name="minute">
+    <item quantity="other">%1$d Минутес</item>
+  </plurals>
+  <string name="never">никада</string>
+  <string name="auto_close">Аутоматски искључите</string>
+  <string name="calibration_message">Можете се држати даље од извора сметњи магнетног поља и пратити упутства за комплетирање калибрације компаса</string>
+  <string name="the_device_compass_is_not_available">Компас уређаја није доступан</string>
+  <string name="recover_billing_completed">Завршено. Ако имате било каквих питања, проверите мрежу или проверите поруџбину Гоогле Плаи-а и покушајте поново. Хвала!</string>
+  <string name="processing_please_wait">Обрада…Молимо сачекајте.</string>
+  <string name="billing_set_up_failed_message">Не могу да започнем. Уверите се да Гоогле Плаи ради исправно.</string>
+  <string name="purchase_success">успех куповине</string>
+  <string name="purchase_failed">Куповина није успела</string>
+  <string name="notification_hint_on">Куцните да бисте укључили светло</string>
+  <string name="notification_hint_off">Куцните да бисте искључили светло</string>
+  <string name="title_setting">Подешавања</string>
+  <string name="setting_primary_title_launch_open">Аутоматски укључен</string>
+  <string name="setting_secondary_title_launch_open">Укључите батеријску лампу на почетак рада</string>
+  <string name="setting_primary_title_keep_open">Светиљка остати укључена</string>
+  <string name="setting_secondary_title_keep_open">Наставите након закључавања екрана</string>
+  <string name="purchase_shake_open">Стресите да укључите</string>
+  <string name="setting_primary_title_shake_open">Стресите да укључите</string>
+  <string name="setting_secondary_title_shake_open">Пробајте телефон да укључите / искључите батеријску лампу</string>
+  <string name="setting_primary_title_notification">Пребацивање алатке обавештења</string>
+  <string name="setting_secondary_title_notification">Пречица за укључивање / искључивање лампице</string>
+  <string name="setting_primary_title_battery_control">Повер Цонтрол</string>
+  <string name="setting_secondary_title_battery_control">Упозорење на батерију испод %1$d%%</string>
+  <string name="setting_primary_title_close_time">Аутоматски искључен</string>
+  <string name="setting_secondary_title_close_time">Искључите батеријску лампу након одређеног временског периода</string>
+  <string name="title_about">О томе</string>
+  <string name="about_feedback">Феедбацк</string>
+  <string name="about_rate">Оцените нас</string>
+  <string name="about_privacy_policy">Политика приватности</string>
+  <string name="billing_remove_ads">Уклони АД</string>
+  <string name="billing_shark">Тресните да бисте пребацили батеријску лампу</string>
+  <string name="billing_notification">Пречица са алаткама за нотификацију да бисте укључили / искључили батеријску лампу</string>
+  <string name="purchase_billing">$1.99</string>
+  <string name="recover_billing">Вратите се</string>
+  <string name="dialog_low_power_title">Пажња!</string>
+  <string name="dialog_low_power_message">Батерија је нижа од постављеног минималног процента. Ипак укључите батеријску лампу?</string>
+  <string name="dialog_low_power_close">Искључи</string>
+  <string name="dialog_low_power_open">Остани</string>
+  <string name="common_dialog_title_hint">Пажња</string>
+  <string name="dialog_camera_permission_title">Отворите дозволе за Фласхлигхт</string>
+  <string name="dialog_camera_permission_message">Нема дозволе за коришћење светиљке које је произвођач вашег уређаја интегрисао са фотоапаратом. Молимо да одобрите одобрење камере.</string>
+  <string name="dialog_camera_permission_positive">Отвори</string>
+  <string name="dialog_camera_permission_granted_message">Дозвола одобрена! Покрените светиљку!</string>
+  <string name="dialog_camera_permission_granted_positive">Почетак</string>
+  <string name="dialog_no_flashlight_message">Овај уређај нема расположивог хардвера. Уместо тога можете користити лампу екрана.</string>
+  <string name="dialog_no_flashlight_negative">Знам</string>
+  <string name="common_screen_light">Сцреен Лигхт</string>
+  <string name="dialog_camera_occupied_positive">Знам</string>
+  <string name="dialog_camera_occupied_message">Не могу укључити батеријску лампу јер се хардвер заузима. Проверите и зауставите друге апликације које окућавају батеријску лампу.</string>
+  <string name="setting_primary_title_share">Објави</string>
+  <string name="setting_secondary_title_share">Најбоља светиљка, додирните да бисте поделили са пријатељима</string>
+  <string name="setting_share_hint">Копирај успешно, можете директно да налепите</string>
+  <string name="setting_secondary_title_faq">Уобичајени проблеми и одговори на одговарајућа питања</string>
+  <string name="dialog_no_flashlight_title">Свјетиљка није доступна</string>
+  <string name="dialog_no_flashlight_message_no_flashlight">Свјетиљка овог уређаја је оштећена или нема свјетиљке</string>
+  <string name="dialog_no_flashlight_message_screen_light">Уместо тога можете користити и светло екрана</string>
+  <string name="dialog_no_flashlight_positive">Користите светло екрана</string>
+  <string name="title_faq">ФАК</string>
+  <string-array name="faq_question">
+    <item>Зашто моја батеријска лампа не ради или непрестано трепће?</item>
+    <item>Зашто могу да користим само осветљење екрана?</item>
+    <item>Зашто је батерија неуобичајено искључена?</item>
+    <item>Како промијенити боју свјетла?</item>
+    <item>Зашто се брзина батерије брзо троши, а температура уређаја висока?</item>
+    <item>Зашто је компас нетачан?</item>
+    <item>Зашто не можете правилно користити мапу?</item>
+  </string-array>
+  <string-array name="faq_answer">
+    <item>
+Ако ваша лампа не ради, може бити узрокована сљедећим разлозима:\n- Свјетиљка је стално бљескала, можда због тога што је укључен стробе. Кораци за искључивање начина рада: Повратак на почетну страницу → Провјерите положај гумба под [СОС, 0 ~ 10] → Повуците гумб до броја 0;\n- Отворили другу апликацију бљескалицу или апликацију камере у исто вријеме, молимо затворите ове апликације;\n- Не дозвољава дозволу камере, бљескалици је потребна дозвола камере за укључивање свјетла. Кораци за дозволу камере: Повратак на почетну страницу → Кликните на дугме за укључивање / искључивање → Дозволи дозволе камере у искачућем прозору;\n- Свјетиљка овог уређаја је оштећена. Уместо тога, можете користити и осветљење екрана. Кораци за коришћење светла екрана: Назад на почетну страну → Кликните на дугме за осветљење екрана у доњем десном углу.
+    </item>
+    <item>
+Свјетиљка овог уређаја је оштећена или нема свјетиљке. Уместо тога, можете користити и осветљење екрана. Кораци за коришћење светла екрана: Назад на почетну страну → Кликните на дугме за осветљење екрана у доњем десном углу.
+    </item>
+    <item>
+Ако установите да је лампа ненормално искључена, проверите следећа подешавања:\n- Свјетиљка остаје укључена. Ако искључите батеријску лампицу, блиц се може искључити током закључавања екрана;\n- Аутоматско искључивање. Ако укључите аутоматско искључивање, лампица ће се аутоматски искључити након подешеног времена. Ако не желите да аутоматски искључите лампу, проверите да ли је аутоматско искључивање "Никада";\n- Схаке за пребацивање. Ако укључите подрхтавање да бисте подесили подешавање светиљке, лампица ће се аутоматски укључити / искључити када се открије велики потрес уређаја. Ако не желите укључити / искључити батерију трешњом, искључите ову поставку .
+    </item>
+    <item>
+Нажалост, због ограничења хардвера уређаја, боја бљескалице се не може мијењати, може се промијенити само боја свјетла заслона. Кораци за промену боје светла на екрану: Назад на почетну страну → Кликните на дугме за осветљење екрана У доњем десном углу → Боја светла се мења подешавањем нијансе (круга), засићења (прва линија) и осветљености (друго) линија).
+    </item>
+    <item>
+Ако се брзина батерије брзо потроши, а температура уређаја висока, извршите следећа подешавања:\n- Ако је потрошња батерије пребрза, користите функцију контроле снаге да бисте заштитили батерију. Кораци за укључивање контроле напајања: Идите на страницу са подешавањима → Укључите контролу напајања → Поставите упозорење о празној батерији → ОК.\n- Ако је температура уређаја висока. Уместо тога, можете користити и осветљење екрана. Кораци за коришћење светла екрана: Назад на почетну страну → Кликните на дугме за осветљење екрана у доњем десном углу.
+    </item>
+    <item>
+Ако је компас нетачан, то може бити због следећих разлога:\n- У близини уређаја има сметњи магнетног поља. Молимо вас да се држите подаље од магнетних сметњи и завршите калибрацију компаса. Кораци за калибрирање компаса: Повратак на почетну страницу → Кликните на икону "?" У горњем десном углу компаса да бисте покренули калибрацију компаса. калибрација;\n- Због ограничења хардвера уређаја, компас не ради, можете покушати да користите мапу да бисте одредили локацију. Кораци за отварање мапе: Назад на почетну страницу → Кликните на дугме компаса да бисте отворили мапу → Отворите дозволу локације користите мапу.
+    </item>
+    <item>
+Ако ваша мапа не функционише, проверите следеће поставке:\n- Нисте дозволили дозволу локације. Кораци за отварање дозволе локације: Назад на почетну страницу → Кликните компас да бисте отворили мапу → Дозволите дозволу локације, у прозору са дозволама за апликације;\n- Користите мапу потребно за укључивање мреже, провјерите тренутну мрежу је нормално;\n- Ако нема проблема са горе наведеним поставкама, веома ми је жао, ваш уређај не подржава циљање, или постоји неправилност у позиционирању, а мапа се не може користити нормално.
+    </item>
+  </string-array>
+  <string name="title_feedback">Није задовољан?</string>
+  <string name="dialog_feedback_message_faq">Имате ли проблема приликом употребе? Пронађите решења у ФАК-у.</string>
+  <string name="dialog_feedback_message_feedback">Проблем није решен? Повратне информације о проблему можете добити више.</string>
+  <string name="dialog_feedback_positive">Повратна информација</string>
+  <string name="dialog_request_permission_title">Треба вам дозвола за камеру</string>
+  <string name="dialog_request_permission_message">Бљескалици је потребна дозвола камере да вам пружи услугу бљескалице. Свјетиљка неће упасти у вашу приватност, дозволите дозволу камере.</string>
+  <string name="dialog_request_permission_positive">Примљено к знању</string>
+  <string name="dialog_rate_us_title">Оцените нас</string>
+  <string name="dialog_rate_us_message_review">Ако уживате у батеријској лампи, молимо вас да нам дате преглед.</string>
+  <string name="dialog_rate_us_message_rate">Изаберите:</string>
+  <string name="dialog_rate_us_positive">прихвати</string>
+  <string name="update_dialog_title_1">Објављена нова функција!</string>
+  <string name="update_dialog_title_2">Молимо ажурирајте!</string>
+  <string name="update_dialog_title_3">Ажурирајте и наставите</string>
+  <string name="update_dialog_content_1">Желите да видите нешто ново? Само ажурирајте и сазнајте! Хвала на коришћењу!</string>
+  <string name="update_dialog_content_2">Поправили смо неке потенцијалне грешке! Одмах се препоручује ажурирање!</string>
+  <string name="update_dialog_content_3">Ова апликација има озбиљних проблема, ажурирајте је да бисте наставили или је напустили! Ваш историјски запис ће се задржати!  Жао због непријатности. Посвећени смо да направимо најбољу апликацију за вас!</string>
+  <string name="update_dialog_cancel">Поништити, отказати</string>
+  <string name="update_dialog_update">ажурирање</string>
+  <string name="update_dialog_quit">Одустати</string>
+  <string name="dialog_grant_permission_message">Бљескалици је потребна дозвола камере да вам пружи услугу бљескалице. Свјетиљка неће упасти у вашу приватност, дозволите дозволу камере</string>
+  <string name="dialog_grant_permission_positive">Грант</string>
+  <string name="dialog_grant_permission_negative">Поништити, отказати</string>
+</resources>

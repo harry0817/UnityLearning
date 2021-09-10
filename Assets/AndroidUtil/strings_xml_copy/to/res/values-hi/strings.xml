@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">त्यागी</string>
+  <string name="score_label">स्कोर</string>
+  <string name="time_label">पहर</string>
+  <string name="move_label">चालें</string>
+  <string name="auto_complete_title">स्वत: पूर्ण</string>
+  <string name="setting">सेटिंग्स</string>
+  <string name="themes">विषय-वस्तु</string>
+  <string name="newgame">प्ले</string>
+  <string name="hint_btn">संकेत</string>
+  <string name="undo">पूर्ववत करें</string>
+  <string name="hint_no_move">कोई उपयोगी चाल का पता चला</string>
+  <string name="hintmove">संकेत ले जाएँ</string>
+  <string name="play_action_random_deal">आकस्मिक किया गया सौदा</string>
+  <string name="play_action_winning_deal">जीतने का सौदा</string>
+  <string name="play_action_replay">फिर से खेलना</string>
+  <string name="cancel">रद्द करना</string>
+  <string name="setting_ok">ठीक</string>
+  <string name="statistics">आँकड़े</string>
+  <string name="setting_draw1">ड्रा 1</string>
+  <string name="setting_draw3">ड्रा 3</string>
+  <string name="setting_sound">ध्वनि नियंत्रण</string>
+  <string name="setting_times">पहर/चालें</string>
+  <string name="setting_orientation">उन्मुखीकरण बंद करना</string>
+  <string name="setting_hints">ऑटो संकेत</string>
+  <string name="setting_tapmove">हटो ठोकर</string>
+  <string name="help_rules">नियम</string>
+  <string name="setting_draw3_mode">3 कार्ड</string>
+  <string name="setting_score_anim">स्कोर प्रभाव</string>
+  <string name="setting_privacy_policy">गोपनीयता नीति</string>
+  <string name="setting_language">भाषा</string>
+  <string name="stat_won">खेल जीता</string>
+  <string name="stat_lose">खेलों खो दिया</string>
+  <string name="stat_swtime">कम से कम समय जीतना</string>
+  <string name="stat_lwtime">सबसे लंबे समय तक जीतने के समय</string>
+  <string name="stat_awtime">औसत जीतने के समय</string>
+  <string name="stat_fwmove">कदम की न्यूनतम संख्या</string>
+  <string name="stat_mwmove">सबसे जीतने चालें</string>
+  <string name="stat_nundo">पूर्ववत के बिना जीत</string>
+  <string name="stat_hscroe">उच्चतम स्कोर</string>
+  <string name="reset_stat">रीसेट</string>
+  <string name="yes">हाँ</string>
+  <string name="mode_message">कठिनाई सेटिंग अगली नए खेल में प्रभावी होगा</string>
+  <string name="dialog_close">बंद करे</string>
+  <string name="theme">विषय-वस्तु</string>
+  <string name="dialog_theme_cardback">कार्ड पीठ</string>
+  <string name="dialog_theme_gameback">पृष्ठभूमि</string>
+  <string name="dialog_theme_card">कार्ड चेहरे</string>
+  <string name="dialog_theme_hint_no_permission">कोई अनुमति</string>
+  <string name="dialog_purchase_image_hint">बधाई हो!\nआप मिल गया है:</string>
+  <string name="dialog_reward_message">पर्याप्त नहीं सिक्के! %1$d सिक्के पाने के लिए एक छोटा वीडियो देखें?</string>
+  <string name="dialog_add_coin_title">बधाई हो, तुम मिल गया:</string>
+  <string name="update_available">अद्यतन मुन्ना और नवीनतम संस्करण?</string>
+  <string name="dialog_quit_message">आप छोड़ने के लिए सुनिश्च</string>
+  <string name="dialog_quit_btn_positive">@string/yes</string>
+  <string name="confirm_reset_game_stat">आप खेल के आँकड़े रीसेट करना चाहते हैं?</string>
+  <string name="notification_push">मेरे खेल को खोलने के लिए क्लिक करें!</string>
+  <string name="notification_ticker">मनोरंजन के लिए त्यागी को वापस!</string>
+  <string name="done">पूरा</string>
+  <string name="hint_recycle_card">शेष कार्ड रीसायकल</string>
+  <string name="hint_draw_card">खींचना</string>
+  <string name="message_no_hint_use_magic">कोई उपयोगी चाल का पता लगाया । क्या आप जादू का उपयोग करना चाहते हैं?</string>
+  <string name="left_hand_mode">बयंहत्थे का</string>
+  <string name="congratulationsAnimation">बधाई स्क्रीन</string>
+  <string name="title_information">जानकारी</string>
+  <string name="invite_rate_title">खेल का आनंद ले रहे हैं?</string>
+  <string name="invite_rate_message">आपकी रेटिंग हमें सबसे अच्छा खेल संभव बनाने में मदद करता है!</string>
+  <string name="invite_rate_submit">जमा करें</string>
+  <string name="invite_rate_title_gratitude_google_play">धन्यवाद!</string>
+  <string name="invite_rate_gratitude_google_play_message">अपने समर्थन के लिए धंयवाद!</string>
+  <string name="invite_rate_gratitude_google_play_positive">ठीक है</string>
+  <string name="invite_rate_title_email">प्रतिक्रिया</string>
+  <string name="invite_rate_email_message">हम वास्तव में अपने विचारों को महत्व! आप हमें कुछ प्रतिक्रिया भेजने के द्वारा मदद कर सकते हैं?</string>
+  <string name="invite_rate_email_positive">जाना</string>
+  <string name="invite_rate_title_gratitude_email">धन्यवाद!</string>
+  <string name="invite_rate_gratitude_email_message">आपकी प्रतिक्रिया हमें खेल के लिए अद्यतन प्रदान करने में मदद करता है ।</string>
+  <string name="invite_rate_gratitude_email_positive">ठीक है</string>
+  <string name="invite_rate_google_message">क्या आप कृपया एक पल लेने के लिए हमें Google Play पर दर सकता है?</string>
+  <string name="invite_rate_button_positive">यकीन!</string>
+  <string name="rule_0_text">
+    Klondike त्यागी जोकर बिना ताश खेलने के एक मानक ५२ कार्ड डेक का उपयोग करता है ।
+    खेल का उद्देश्य सभी कार्ड बेनकाब और उन्हें नींव ढेरों में स्थानांतरित करने के लिए है । इन ढेरों इक्के से राजाओं के लिए सूट में ऊपर की ओर बनाया जाता है ।
+  </string>
+  <string name="rule_1_text">
+    वहां 7 झांकी कॉलम है कि नीचे (कम रैंक में, राजाओं से इक्के तक) बारी रंग में (लाल, काला) बनाया जाता है । किसी भी खाली कॉलम केवल एक राजा या शीर्ष पर एक राजा के साथ ताश के पत्तों के ढेर से भरा जा सकता है ।
+  </string>
+  <string name="rule_2_text">
+    आंशिक या पूर्ण बवासीर एक कॉलम से दूसरे में ले जाया जा सकता है अगर वे वैकल्पिक रंग और घटते रैंक के नीचे बनाया जाता है । आप की जरूरत कार्ड को खोजने के लिए झांकी में चेहरा नीचे कार्ड बेनकाब ।
+  </string>
+  <string name="rule_3_text">
+    एक कार्ड चलती आसान है, बस एक कार्ड नल और इसे खींचें । एक कार्ड का चयन भी नीचे ढेर सभी कार्ड का चयन करता है ।
+  </string>
+  <string name="rule_4_text">
+    बर्बाद करने के लिए 1 या 3 कार्ड (ओं) को स्थानांतरित करने के लिए शेयर टैप करें । आप कचरे के ढेर से शीर्ष पत्ता नींव ढेरों या झांकी स्तंभों में किसी भी कानूनी स्थान पर ले जा सकते हैं । यदि स्टॉक समाप्त हो जाता है, तो फिर से डील करने के लिए इसकी बाह्यरेखा टैप करें ।
+  </string>
+  <string name="rule_4_restock">प्रतिशेयर</string>
+  <string name="rule_5_text">
+    आप अटक जाते हैं, एक छोटी सी मदद के लिए संकेत बटन नल.
+  </string>
+  <string name="rule_6_title">
+    मानक स्कोरिंग
+  </string>
+  <string name="rule_6_body">
+    प्रत्येक नए खेल 0 अंक पर बंद शुरू होता है । फाउंडेशन में ले जाई जाने वाली प्रत्येक कार्ड 10 अंक प्राप्त करता है । झांकी स्तंभ में ले जाए जाने वाला प्रत्येक पत्ता 5 अंक प्राप्त करता है ।
+झांकी स्तंभ में चालू होने वाला प्रत्येक पत्ता 5 अंक प्राप्त करता है । नींव ढेरों में से एक पत्ता ले जाएं 10 अंक का नुकसान है । प्रत्येक पूर्ववत अनुरोध एक चाल नाश से मुकर रहे हैं कि अंक के अलावा 2 अंक का एक नुकसान है. जब ड्रा 3 विकल्प पर है वहां तीसरे पास के बाद भंडार ढेर के माध्यम से प्रत्येक पास के लिए 20 अंक का नुकसान है । जब ड्रा 3 विकल्प बंद है वहां भंडार ढेर के माध्यम से प्रत्येक पास के लिए १०० अंक का नुकसान है । केवल समय पर खेल के लिए: खेलने के हर 10 सेकंड के लिए 2 अंक का नुकसान ।
+  </string>
+  <string name="rule_7_title">
+    खेल
+  </string>
+  <string name="rule_7_body">
+    त्यागी सौदों दो मायनों में खेल: यादृच्छिक और जीतना । एक यादृच्छिक सौदा कार्ड बेतरतीब ढंग से फेरबदल और फलस्वरूप केवल कुछ खेल जीता जा सकता है । एक जीत सौदा करने के लिए कम से कम एक जीत समाधान की गारंटी है ।
+  </string>
+  <string name="common_alert_message_purchase">%1$d सिक्कों के लिए इस उत्पाद की खरीद?</string>
+  <string name="magic_store_no_ad_loaded">कोई विज्ञापन लोड नहीं</string>
+  <string name="common_not_enough_coin">पर्याप्त नहीं सिक्के</string>
+  <string name="play_action_magic">मैजिक स्टिक</string>
+  <string name="victory_title">बधाई!</string>
+  <string name="victory_bonus">इनाम</string>
+  <string name="victory_get_bonus">इनाम पाएं</string>
+  <string name="victory_watch_video">घड़ी विज्ञापन</string>
+  <string name="victory_new_game">नया खेल</string>
+  <string name="victory_history_score">इतिहास रिकॉर्ड</string>
+  <string name="magic_store_title">दुकान</string>
+  <string name="game_mode_random">यादृच्छिक</string>
+  <string name="game_mode_winning">जीतने</string>
+  <string name="daily_bonus_today">आज</string>
+  <string name="daily_bonus_tomorrow">कल</string>
+  <string name="daily_bonus_victory_format">%1$d मिनट</string>
+  <string name="daily_bonus_day">दिन %1$d</string>
+  <string name="daily_bonus_title">दैनिक बोनस</string>
+  <string name="daily_bonus_btn_claim">दावा</string>
+  <string name="daily_bonus_description">अपने पुरस्कार इकट्ठा करने के लिए हर दिन वापस आ जाओ!</string>
+  <string name="daily_bonus_select_massage">दैनिक बोनस पाने के लिए एक लघु वीडियो देखें  ?</string>
+  <string name="daily_bonus_select_negative">नहीं</string>
+  <string name="daily_bonus_select_positive">हाँ</string>
+  <string name="daily_bonus_victory_result_message">आप अगले %2$d मिनट में %1$d%% अधिक सिक्के अर्जित करेंगे!</string>
+  <string name="daily_bonus_result_done">जाना</string>
+  <string name="daily_bonus_result_message">आप मिल गया: </string>
+  <string name="no_hint_message_guilde">खेल को बचाने के लिए जादू स्टिक का प्रयोग करें ।</string>
+  <string name="no_hint_message_no_magic">कोई उपयोगी चाल का पता लगाया । कोई नया गेम खोलें?</string>
+  <string name="remove_ad">विज्ञापन हटाएँ</string>
+  <string name="purchasing_error_try_again">खरीदने में त्रुटि! बाद में पुन: प्रयास करें!</string>
+  <string name="msg_coin_hint">खरीद विषयों या जादू</string>
+  <string name="purchasing_succeed_remove_ad">खरीद सफल! विज्ञापन हटा दिए गए!</string>
+  <string name="daily_challenge">दैनिक चुनौती</string>
+  <string name="daily_challenge_start_btn">चैलेंज शुरू करें</string>
+  <string name="daily_challenge_total_count">संपूर्ण:</string>
+  <string name="daily_challenge_status_solved">हल किया</string>
+  <string name="daily_challenge_status_unsolved">न सुलझा हुआ</string>
+  <string name="daily_challenge_start_hint">डेली चैलेंज शुरू करें</string>
+  <string name="daily_challenge_start_btn_replay">फिर से खेलना</string>
+  <string name="daily_challenge_mode">चुनौती</string>
+  <string name="msg_remove_cardback">हम Google Play नीति का पालन करने के लिए 2 कार्ड बैक हटाते हैं। असुविधा के लिए खेद है! आप अपनी खुद की तस्वीरों के साथ कार्ड वापस अनुकूलित कर सकते हैं!</string>
+  <string name="recover_billing">पुनर्स्थापित</string>
+  <string name="recover_billing_completed"> पूर्ण यदि आपके कोई प्रश्न हैं, तो अपने नेटवर्क की जांच करें या अपने Google Play आदेश की जांच करें और फिर से प्रयास करें। धन्यवाद!</string>
+  <string name="recover_billing">पुनर्स्थापित</string>
+</resources>
