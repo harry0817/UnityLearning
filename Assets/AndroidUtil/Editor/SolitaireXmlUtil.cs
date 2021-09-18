@@ -98,4 +98,19 @@ public class SolitaireXmlUtil {
         }
 
     }
+
+    [MenuItem("Solitaire/改文件后缀")]
+    public static void ChangeName() {
+        string from = "10_experiment";
+        string to = "11";
+        var dirPath = Path.Combine(Application.dataPath, "AndroidUtil/change_suffix");
+        var dir = new DirectoryInfo(dirPath);
+        var files = dir.GetFiles();
+        foreach (var file in files) {
+            var fileName = file.FullName;
+            fileName = fileName.Replace(from, to);
+            file.CopyTo(fileName);
+            file.Delete();
+        }
+    }
 }
