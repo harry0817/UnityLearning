@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">Solitaire </string>
-  <string name="score_label">Ghi bàn </string>
+  <string name="score_label">Ghi bàn</string>
   <string name="time_label">Thời gian </string>
   <string name="move_label">Di chuyển </string>
   <string name="auto_complete_title">Tự động hoàn thành </string>
@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">Chế độ chiến thắng </string>
   <string name="play_action_replay">phát lại </string>
   <string name="cancel">Hủy bỏ </string>
+  <string name="tap_to_skip">Nhấn để bỏ qua</string>
   <string name="setting_ok">được </string>
   <string name="statistics">Số liệu thống kê </string>
   <string name="setting_draw1">Vẽ 1 </string>
   <string name="setting_draw3">Vẽ 3 </string>
   <string name="setting_sound">Kiểm soát âm thanh </string>
-  <string name="setting_times">Thời gian / Di chuyển </string>
+  <string name="setting_times">Thời gian / Di chuyển</string>
   <string name="setting_orientation">Định hướng khóa </string>
   <string name="setting_hints">Gợi ý tự động </string>
-  <string name="setting_tapmove">Nhấn Di chuyển </string>
+  <string name="setting_tapmove">Nhấn để di chuyển</string>
   <string name="help_rules">Quy tắc </string>
   <string name="setting_draw3_mode">3 thẻ </string>
-  <string name="setting_score_anim">hiệu ứng Ghi bàn</string>
+  <string name="setting_score_anim">Hiệu ứng chấm điểm</string>
   <string name="setting_privacy_policy">Chính sách bảo mật </string>
   <string name="setting_language">Ngôn ngữ</string>
   <string name="stat_won">Chiến thắng trò chơi </string>
@@ -38,7 +39,7 @@
   <string name="stat_fwmove">Di chuyển chiến thắng ít nhất </string>
   <string name="stat_mwmove">Di chuyển nhiều nhất </string>
   <string name="stat_nundo">Thắng mà không hoàn tác </string>
-  <string name="stat_hscroe">Điểm cao nhất </string>
+  <string name="stat_hscroe">Điểm cao nhất</string>
   <string name="reset_stat">Cài lại </string>
   <string name="yes">Vâng </string>
   <string name="mode_message">Cài đặt khó khăn sẽ có hiệu lực trong trò chơi mới tiếp theo </string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">Bạn có chắc chắn bỏ thuốc lá? </string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">Bạn có chắc chắn để thiết lập lại số liệu thống kê trò chơi? </string>
-  <string name="notification_push">Nhấn vào tôi để mở trò chơi! </string>
-  <string name="notification_ticker">Quay lại solitaire cho vui! </string>
+  <string name="notification_push">Thử thách hàng ngày mới đến! Chơi ngay bây giờ và xem nếu bạn có thể giành chiến thắng!</string>
+  <string name="notification_ticker">Thử thách hàng ngày của Solitaire đến!</string>
   <string name="done">Làm xong </string>
   <string name="hint_draw_card">Vẽ tranh </string>
   <string name="hint_recycle_card">Tái chế thẻ còn lại </string>
@@ -80,6 +81,11 @@
   <string name="invite_rate_gratitude_email_positive">được </string>
   <string name="invite_rate_google_message">Bạn có thể vui lòng dành chút thời gian để đánh giá chúng tôi trên Google Play không? </string>
   <string name="invite_rate_button_positive">Chắc chắn rồi! </string>
+  <string name="invite_rate_special_title">Cảm ơn bạn </string>
+  <string name="invite_rate_special_message" translatable="false">Một số người chơi nói điều này về solitaire. Nếu bạn đồng ý, vui lòng dán nó lên Google Play. Chúng tôi đã sao chép nó vào clipboard của bạn. </string>
+  <string name="invite_rate_bonus_message">Bạn có thể vui lòng dành chút thời gian để đánh giá chúng tôi trên Google Play không? </string>
+  <string name="invite_rate_bonus_button_positive">Sưu tầm </string>
+  <string name="invite_rate_bonus_hint">Phần thưởng</string>
   <string name="rule_0_text">Klondike Solitaire sử dụng bộ bài chơi bài 52 lá tiêu chuẩn mà không cần người pha trò. Mục tiêu của trò chơi là để lộ tất cả các thẻ và di chuyển chúng vào các cọc móng. Những cọc này được xây dựng hướng lên trên phù hợp từ Aces đến Kings. </string>
   <string name="rule_1_text">Có 7 cột tableau được xây dựng xuống (theo thứ hạng giảm dần, từ Kings đến Aces) với các màu xen kẽ (đỏ, đen). Bất kỳ cột trống nào chỉ có thể được lấp đầy bằng một vị Vua hoặc một đống thẻ với một vị Vua ở trên cùng. </string>
   <string name="rule_2_text">Cọc một phần hoặc toàn bộ có thể được di chuyển từ cột này sang cột khác nếu chúng được xây dựng bằng màu thay thế và giảm thứ hạng. Đặt thẻ úp xuống trong tableau để tìm thẻ bạn cần. </string>
@@ -104,6 +110,7 @@
   <string name="magic_store_title">cửa tiệm </string>
   <string name="game_mode_random">Ngẫu nhiên </string>
   <string name="game_mode_winning">Chiến thắng </string>
+  <string name="game_mode_daily_challenge">Thử thách</string>
   <string name="daily_bonus_btn_claim">Yêu cầu </string>
   <string name="daily_bonus_today">Hôm nay </string>
   <string name="daily_bonus_tomorrow">Ngày mai </string>
@@ -117,10 +124,6 @@
   <string name="daily_bonus_victory_result_message">Bạn sẽ kiếm được %1$d%% nhiều tiền hơn trong %2$d tiếp theo! </string>
   <string name="daily_bonus_result_done">ĐI </string>
   <string name="daily_bonus_result_message">Bạn có: </string>
-  <string name="remove_ad">Loại bỏ các quảng cáo</string>
-  <string name="purchasing_error_try_again">Lỗi mua hàng! Vui lòng thử lại sau!</string>
-  <string name="msg_coin_hint">Mua chủ đề hoặc ma thuật</string>
-  <string name="purchasing_succeed_remove_ad">Mua hàng thành công! Quảng cáo đã bị xóa!</string>
   <string name="daily_challenge">Thử thách hằng ngày</string>
   <string name="daily_challenge_start_btn">Bắt đầu thử thách</string>
   <string name="daily_challenge_total_count">Toàn bộ:</string>
@@ -128,7 +131,56 @@
   <string name="daily_challenge_status_unsolved">Chưa giải quyết</string>
   <string name="daily_challenge_start_hint">Bắt đầu thử thách hàng ngày</string>
   <string name="daily_challenge_start_btn_replay">phát lại</string>
-  <string name="daily_challenge_mode">Thử thách</string>
+  <string name="ask_daily_challenge_dialog_content">Thử thách hàng ngày mới đã sẵn sàng! Chơi ngay bây giờ?</string>
+  <string name="ask_daily_challenge_dialog_btn">đồng ý</string>
+  <string name="game_solution_popup_content">Khó có thể chiến thắng? Xem giải pháp tại đây!</string>
+  <string name="no_hint_dialog_solution_popup_content">Không thể chiến thắng? Nhấn vào đây để xem giải pháp!</string>
+  <string name="solution_rewarded_video_hint">Thỏa thuận này có thể thắng được. Xem một đoạn video ngắn để xem giải pháp?</string>
+  <string name="solution_ads_unavailable">Quảng cáo không có sẵn. Vui lòng kiểm tra lại sau một lát.</string>
+  <string name="solution_not_finished_hint">Giải pháp chưa kết thúc. Vẫn muốn ngừng xem?</string>
+  <string name="solution_finished_back_to_game_hint">Bạn đã thấy giải pháp. Bạn có thể chơi lại trò chơi.</string>
+  <string name="solution_finished_hint">Giải pháp đã hoàn thành. Nhấp vào nút Thoát để quay lại hoặc nút Một lần nữa để xem lại.</string>
+  <string name="solution_dialog_btn_quit">Bỏ xem</string>
+  <string name="solution_dialog_btn_continue">Tiếp tục</string>
+  <string name="solution_btn_quit">Thoát</string>
+  <string name="solution_btn_replay">Lần nữa</string>
+  <string name="solution_status_playing">Xem giải pháp</string>
+  <string name="solution_status_finished">Kết thúc giải pháp</string>
+  <string-array name="notification_content">
+    <item>Thử thách hàng ngày đến! Chơi ngay bây giờ và xem nếu bạn có thể giành chiến thắng!</item>
+    <item>Bước ít nhất toàn cầu là %1$s ngày hôm qua. Bạn có thể đánh bại nó?</item>
+    <item>Điểm số toàn cầu cao nhất là %1$s ngày hôm qua. Bạn có thể đánh bại nó?</item>
+    <item>Thời gian tốt nhất toàn cầu là %1$s ngày hôm qua. Bạn có thể đánh bại nó?</item>
+    <item>Bước ít nhất của bạn là %1$s. Bạn có thể phá vỡ kỷ lục không?</item>
+    <item>Điểm số cao nhất của bạn là %1$s. Bạn có thể phá vỡ kỷ lục không?</item>
+    <item>Thời gian tốt nhất của bạn là %1$s. Bạn có thể phá vỡ kỷ lục?</item>
+    <item>Nhiều giao dịch solitaire đang chờ để được giải quyết!</item>
+  </string-array>
+  <string name="notification_ticker_1">Quay lại solitaire cho vui!</string>
+  <string name="notification_ticker_2">Solitaire thách thức hàng ngày đến!</string>
   <string name="msg_remove_cardback">Chúng tôi xóa 2 mặt sau thẻ để tuân thủ chính sách chơi của google. Xin lỗi vì sự bất tiện! Bạn có thể tùy chỉnh thẻ của bạn trở lại với hình ảnh của riêng bạn!</string>
-  <string name="recover_billing">Khôi phục</string>
+  <string name="spider_solitaire">Nhện Solitaire</string>
+  <string name="game_mode_spider_solitaire">Nhện</string>
+  <string name="setting_spider_solitaire_level">Số phù hợp</string>
+  <string name="setting_unlimited_deal">Thỏa thuận không hạn chế</string>
+  <string name="setting_spider_level_1_suit">1 bộ đồ</string>
+  <string name="setting_spider_level_2_suit">2 bộ quần áo</string>
+  <string name="setting_spider_level_4_suit">4 bộ quần áo</string>
+  <string name="statistics_spider_level_1_suit">1 bộ đồ</string>
+  <string name="statistics_spider_level_2_suit">2 bộ quần áo</string>
+  <string name="statistics_spider_level_4_suit">4 bộ quần áo</string>
+  <string name="spider_rule_0_text">Spider Solitaire được chơi với hai bộ bài gồm 52 lá bài. Tùy thuộc vào độ khó, các sàn bao gồm một, hai hoặc bốn bộ quần áo khác nhau.</string>
+  <string name="spider_rule_1_text">Trong Spider, mục tiêu của trò chơi là thu thập tất cả các thẻ vào nền tảng. Một chuỗi các thẻ giảm dần hoàn chỉnh từ King đến Ace của cùng một bộ đồ sẽ được thu thập tự động đến một trong những nền tảng.</string>
+  <string name="spider_rule_2_text">Vào đầu mỗi trò chơi, 10 ngăn xếp với 6 hoặc 5 thẻ được chia cho tableau. Các thẻ còn lại được đặt úp xuống để tạo thành cổ phiếu.</string>
+  <string name="spider_rule_3_text">Nếu bạn hết các bước di chuyển hợp lệ, hãy nhấp vào chứng khoán để xử lý một thẻ cho mỗi cột trong tableau.</string>
+  <string name="spider_rule_4_text">Bạn có thể di chuyển một chuỗi các thẻ giảm dần thành một nhóm sang một cột tableau khác chỉ khi chúng cùng một bộ.</string>
+  <string name="spider_rule_5_text">Khai thác sẽ di chuyển một thẻ hoặc một chuỗi các thẻ cùng loại giảm dần đến một vị trí có thể tự động, trong khi kéo cho phép bạn đặt thủ công.</string>
+  <string name="can_not_deal">Không thể giao dịch thẻ trong khi tableau với cột trống </string>
+  <string name="custom_notification_btn">Thử thách</string>
+  <string name="eye_friendly">Thân thiện với mắt</string>
+  <string name="title_continous_undo_prompt">Bạn có biết?</string>
+  <string name="msg_continous_undo_prompt">Nhấn và giữ nút hoàn tác để hoàn tác liên tiếp.</string>
+  <string name="prompt_msg_sound_off">Lưu ý: Âm thanh của trò chơi đang tắt. Hãy giảm âm lượng thiết bị của bạn để tắt tiếng Quảng cáo.</string>
+  <string name="prompt_msg_orientation_lock_by_system">Lưu ý: Bật tính năng tự động xoay thiết bị của bạn để xoay.</string>
+  <string name="prompt_msg_orientation_lock_by_game">Lưu ý: Bỏ chọn cài đặt "%s" để xoay tự động.</string>
 </resources>

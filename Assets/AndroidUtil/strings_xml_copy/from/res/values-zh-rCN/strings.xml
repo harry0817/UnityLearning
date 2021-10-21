@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="title_continous_undo_prompt">你知道吗？</string><string name="msg_continous_undo_prompt">按住撤销按钮可以连续撤销！</string><string name="prompt_msg_sound_off">提示：游戏音效已关闭，\n如果要关闭广告音乐，请调低设备音量。</string><string name="prompt_msg_orientation_lock_by_system">提示：开启设备自动旋转设置才能旋转屏幕</string><string name="prompt_msg_orientation_lock_by_game">提示：在设置菜单中关闭#才能旋转屏幕</string></resources>

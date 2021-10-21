@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">Solitario</string>
-  <string name="score_label">Punti</string>
+  <string name="score_label">Punto</string>
   <string name="time_label">Tempo</string>
   <string name="move_label">Mosse</string>
   <string name="auto_complete_title">Completamento automatico</string>
@@ -16,6 +16,7 @@
   <string name="play_action_winning_deal">Mano vincente</string>
   <string name="play_action_replay">Ripeti mano</string>
   <string name="cancel">Annulla</string>
+  <string name="tap_to_skip">Tocca per saltare</string>
   <string name="setting_ok">OK</string>
   <string name="statistics">statistiche</string>
   <string name="setting_draw1">Pareggio 1</string>
@@ -24,10 +25,10 @@
   <string name="setting_times">Tempo/Mosse</string>
   <string name="setting_orientation">Orientamento</string>
   <string name="setting_hints">Suggerimenti automatici</string>
-  <string name="setting_tapmove">Tocca per muovere</string>
+  <string name="setting_tapmove">Tocca per spostare</string>
   <string name="help_rules">Regola</string>
   <string name="setting_draw3_mode">3 Carte</string>
-  <string name="setting_score_anim">Effetto del segno</string>
+  <string name="setting_score_anim">Segnare l\'effetto</string>
   <string name="setting_privacy_policy">Informativa sulla privacy</string>
   <string name="setting_language">linguaggio</string>
   <string name="stat_won">Partite vinte</string>
@@ -38,7 +39,7 @@
   <string name="stat_fwmove">Minor numero di mosse</string>
   <string name="stat_mwmove">Più mosse</string>
   <string name="stat_nundo">Vince senza Annulla</string>
-  <string name="stat_hscroe">Punteggi più alti</string>
+  <string name="stat_hscroe">Punteggio più alto</string>
   <string name="reset_stat">Azzera</string>
   <string name="yes">Sì</string>
   <string name="mode_message">Difficoltà impostazione avrà effetto nel successivo Nuova Gioco</string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">Sei sicuro di voler uscire?</string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">Sei sicuro di voler ripristinare statistiche di gioco?</string>
-  <string name="notification_push">Mi Fare clic per aprire il gioco!</string>
-  <string name="notification_ticker">Torna alla solitaire per il divertimento!</string>
+  <string name="notification_push">Arriva la nuova sfida quotidiana! Gioca ora e vedi se riesci a vincere!</string>
+  <string name="notification_ticker">Arriva la sfida quotidiana del solitario!</string>
   <string name="done">fatto</string>
   <string name="hint_recycle_card">Riutilizza le carte rimaste</string>
   <string name="hint_draw_card">Pesca</string>
@@ -78,6 +79,10 @@
   <string name="invite_rate_gratitude_email_positive">Ok</string>
   <string name="invite_rate_google_message">Potresti per favore prendere un momento per darci una vota su Google Play?</string>
   <string name="invite_rate_button_positive">Sicuro!</string>
+  <string name="invite_rate_special_title">Grazie!</string>
+  <string name="invite_rate_bonus_message">Potresti per favore prendere un momento per darci una vota su Google Play?</string>
+  <string name="invite_rate_bonus_button_positive">Raccogliere</string>
+  <string name="invite_rate_bonus_hint">Tasso di ricompensa</string>
   <string name="rule_0_text">
     Klondike Solitaire utilizza un mazzo di carte standard 52 di carta da gioco senza jolly.
     L\'obiettivo del gioco è quello di esporre tutte le carte e spostarli nei pali Fondazione. Questi pali sono costruiti verso l\'alto in abito da assi ai re.
@@ -124,6 +129,7 @@ Ogni carta che viene capovolta nella colonna Tableau riceve 5 punti. Spostare un
   <string name="magic_store_title">Negozio</string>
   <string name="game_mode_random">Casuale</string>
   <string name="game_mode_winning">Vincere</string>
+  <string name="game_mode_daily_challenge">Sfida</string>
   <string name="daily_bonus_today">Oggi</string>
   <string name="daily_bonus_tomorrow">Domani</string>
   <string name="daily_bonus_victory_format">%1$d minuti</string>
@@ -139,10 +145,6 @@ Ogni carta che viene capovolta nella colonna Tableau riceve 5 punti. Spostare un
   <string name="daily_bonus_result_message">Hai: </string>
   <string name="no_hint_message_no_magic">Non è stato rilevato alcun movimento utile. Se aprire un nuovo gioco?</string>
   <string name="no_hint_message_guilde">USA bacchetta magica per salvare il gioco.</string>
-  <string name="remove_ad">Rimuovere gli annunci</string>
-  <string name="purchasing_error_try_again">Errore durante l\'acquisto! Per favore riprova più tardi!</string>
-  <string name="msg_coin_hint">Acquista temi o magia</string>
-  <string name="purchasing_succeed_remove_ad">L\'acquisto è riuscito! Annunci rimossi!</string>
   <string name="daily_challenge">Sfida quotidiana</string>
   <string name="daily_challenge_start_btn">Inizia la sfida</string>
   <string name="daily_challenge_total_count">Totale:</string>
@@ -150,7 +152,56 @@ Ogni carta che viene capovolta nella colonna Tableau riceve 5 punti. Spostare un
   <string name="daily_challenge_status_unsolved">Insoluto</string>
   <string name="daily_challenge_start_hint">Inizia la sfida quotidiana</string>
   <string name="daily_challenge_start_btn_replay">Replay</string>
-  <string name="daily_challenge_mode">Sfida</string>
+  <string name="ask_daily_challenge_dialog_content">La nuova sfida quotidiana è pronta! Gioca adesso?</string>
+  <string name="ask_daily_challenge_dialog_btn">ok</string>
+  <string name="game_solution_popup_content">Difficile da vincere? Vedi la soluzione qui!</string>
+  <string name="no_hint_dialog_solution_popup_content">Impossibile vincere? Clicca qui per vedere la soluzione!</string>
+  <string name="solution_rewarded_video_hint">Questo accordo è vincibile. Guarda un breve video per vedere la soluzione?</string>
+  <string name="solution_ads_unavailable">Annunci non disponibili. Ricontrolla tra poco.</string>
+  <string name="solution_not_finished_hint">La soluzione non è finita Vuoi ancora smettere di guardare?</string>
+  <string name="solution_finished_back_to_game_hint">Hai visto la soluzione. Puoi ripetere il gioco.</string>
+  <string name="solution_finished_hint">La soluzione è terminata Fai clic sul pulsante Esci per tornare indietro o sul pulsante Ancora per guardare di nuovo.</string>
+  <string name="solution_dialog_btn_quit">Smetti di guardare</string>
+  <string name="solution_dialog_btn_continue">Continua</string>
+  <string name="solution_btn_quit">Smettere</string>
+  <string name="solution_btn_replay">Ancora</string>
+  <string name="solution_status_playing">Soluzione di sorveglianza</string>
+  <string name="solution_status_finished">La soluzione termina</string>
+  <string-array name="notification_content">
+    <item>La sfida quotidiana arriva! Gioca ora e vedi se riesci a vincere!</item>
+    <item>Il minimo passo globale è il %1$s ieri. Puoi batterlo?</item>
+    <item>Il punteggio globale più alto è il %1$s ieri. Puoi batterlo?</item>
+    <item>Il miglior tempo globale è il %1$s ieri. Puoi batterlo?</item>
+    <item>Il tuo minimo passo è il %1$s. Riesci a battere il record?</item>
+    <item>Il tuo punteggio più alto è il %1$s. Riesci a battere il record?</item>
+    <item>Il tuo momento migliore è il %1$s. Riesci a battere il record?</item>
+    <item>Altre offerte di solitari sono in attesa di essere risolte!</item>
+  </string-array>
+  <string name="notification_ticker_1">Torna al solitario per divertimento!</string>
+  <string name="notification_ticker_2">La sfida quotidiana del solitario arriva!</string>
   <string name="msg_remove_cardback">Eliminiamo 2 carte sul retro per rispettare la politica di Google Play. Ci dispiace per l\'inconvenienza! Puoi personalizzare il retro della tua carta con le tue foto!</string>
-  <string name="recover_billing">Ripristinare</string>
+  <string name="spider_solitaire">Solitario Spider</string>
+  <string name="game_mode_spider_solitaire">Ragno</string>
+  <string name="setting_spider_solitaire_level">Numero del seme</string>
+  <string name="setting_unlimited_deal">Affare senza restrizioni</string>
+  <string name="setting_spider_level_1_suit">1 seme</string>
+  <string name="setting_spider_level_2_suit">2 semi</string>
+  <string name="setting_spider_level_4_suit">4 semi</string>
+  <string name="statistics_spider_level_1_suit">1 seme</string>
+  <string name="statistics_spider_level_2_suit">2 semi</string>
+  <string name="statistics_spider_level_4_suit">4 semi</string>
+  <string name="spider_rule_0_text">Spider Solitaire si gioca con due mazzi da 52 carte ciascuno. A seconda della difficoltà, i mazzi sono composti da uno, due o quattro semi diversi.</string>
+  <string name="spider_rule_1_text">In Spider, l\'obiettivo del gioco è quello di raccogliere tutte le carte alla fondazione. Una sequenza discendente completa di carte dal Re all\'asso dello stesso seme verrà raccolta automaticamente su una delle basi.</string>
+  <string name="spider_rule_2_text">All\'inizio di ogni partita, al mazzo vengono distribuite 10 pile con 6 o 5 carte. Le carte rimanenti sono poste a faccia in giù per formare il mazzo.</string>
+  <string name="spider_rule_3_text">Se esaurisci le mosse valide, fai clic sullo stock per distribuire una carta per ogni colonna del tableau.</string>
+  <string name="spider_rule_4_text">Puoi spostare una sequenza discendente di carte come gruppo in un\'altra colonna del tableau solo se sono dello stesso seme.</string>
+  <string name="spider_rule_5_text">Toccando si sposta automaticamente una carta o una sequenza discendente di carte dello stesso seme in una posizione possibile, mentre il trascinamento consente di posizionarla manualmente.</string>
+  <string name="can_not_deal">Non può fare carta mentre tableau con colonna vuota</string>
+  <string name="custom_notification_btn">Sfida</string>
+  <string name="eye_friendly">Occhio amichevole</string>
+  <string name="title_continous_undo_prompt">Sai?</string>
+  <string name="msg_continous_undo_prompt">Tenere premuto il pulsante Annulla per annullare consecutivamente.</string>
+  <string name="prompt_msg_sound_off">Nota: l'audio del gioco è disattivato. Abbassa il volume dei tuoi dispositivi per disattivare gli annunci.</string>
+  <string name="prompt_msg_orientation_lock_by_system">Nota: attiva la rotazione automatica del dispositivo per ruotare.</string>
+  <string name="prompt_msg_orientation_lock_by_game">Nota: deselezionare l'impostazione "%s" per ruotare automaticamente.</string>
 </resources>

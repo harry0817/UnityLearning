@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">โหมดชนะ</string>
   <string name="play_action_replay">เล่นใหม่</string>
   <string name="cancel">ยกเลิก</string>
+  <string name="tap_to_skip">แตะเพื่อข้าม</string>
   <string name="setting_ok">ตกลง</string>
   <string name="statistics">สถิติ</string>
   <string name="setting_draw1">วาด 1</string>
   <string name="setting_draw3">วาด 3</string>
   <string name="setting_sound">การควบคุมเสียง</string>
-  <string name="setting_times">เวลา / ขบวนการ</string>
+  <string name="setting_times">เวลา / ย้าย</string>
   <string name="setting_orientation">ล็อคการวางแนว</string>
   <string name="setting_hints">คำแนะนำอัตโนมัติ</string>
-  <string name="setting_tapmove">แตะย้าย</string>
+  <string name="setting_tapmove">แตะเพื่อย้าย</string>
   <string name="help_rules">กฎระเบียบ</string>
   <string name="setting_draw3_mode">3 บัตร</string>
-  <string name="setting_score_anim">ผลคะแนน</string>
+  <string name="setting_score_anim">เกณฑ์การให้คะแนน</string>
   <string name="setting_privacy_policy">นโยบายส่วนบุคคล</string>
   <string name="setting_language">ภาษา</string>
   <string name="stat_won">เกมที่ชนะ</string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">คุณแน่ใจหรือไม่ว่าจะลาออก?</string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">คุณแน่ใจหรือไม่ว่าจะรีเซ็ตสถิติเกม?</string>
-  <string name="notification_push">คลิกฉันเพื่อเปิดเกม!</string>
-  <string name="notification_ticker">กลับไปเล่นไพ่คนเดียวเพื่อความสนุก!</string>
+  <string name="notification_push">ใหม่ความท้าทายรายวันมาถึงแล้ว! เล่นเลยและดูว่าคุณสามารถชนะได้หรือไม่!</string>
+  <string name="notification_ticker">ความท้าทายประจำวันของ Solitaire มาถึงแล้ว!</string>
   <string name="done">เสร็จสิ้น</string>
   <string name="hint_draw_card">วาด</string>
   <string name="hint_recycle_card">รีไซเคิลการ์ดที่เหลือ</string>
@@ -80,6 +81,10 @@
   <string name="invite_rate_gratitude_email_positive">ตกลง</string>
   <string name="invite_rate_google_message">คุณสามารถใช้เวลาสักครู่เพื่อให้คะแนนเราทาง Google Play หรือไม่?</string>
   <string name="invite_rate_button_positive">แน่นอน!</string>
+  <string name="invite_rate_special_title">ขอบคุณ</string>
+  <string name="invite_rate_bonus_message">คุณสามารถใช้เวลาสักครู่เพื่อให้คะแนนเราทาง Google Play หรือไม่?</string>
+  <string name="invite_rate_bonus_button_positive">เก็บ</string>
+  <string name="invite_rate_bonus_hint">รางวัล</string>
   <string name="rule_0_text">Klondike Solitaire ใช้ไพ่สำรับไพ่ 52 ใบมาตรฐานที่ไม่มีโจ๊กเกอร์ วัตถุประสงค์ของเกมคือการเปิดไพ่ทั้งหมดและย้ายเข้าไปในเสาเข็ม กองเหล่านี้ถูกสร้างขึ้นในชุดสูทจาก Aces to Kings</string>
   <string name="rule_1_text">มี 7 คอลัมน์แนวตั้งที่สร้างขึ้นลง (ในลำดับที่ลดลงจาก Kings ถึง Aces) ในสีสลับ (สีแดง, สีดำ) คอลัมน์ใด ๆ ที่ว่างเปล่าสามารถเต็มไปด้วยพระมหากษัตริย์หรือกองไพ่กับกษัตริย์ที่ด้านบนเท่านั้น</string>
   <string name="rule_2_text">เสาเข็มบางส่วนหรือสมบูรณ์สามารถเคลื่อนย้ายได้จากคอลัมน์หนึ่งไปยังอีกคอลัมน์หนึ่งหากมีการสร้างสีอื่น ๆ และลดอันดับลง เปิดเผยการ์ดแบบหล่นลงในภาพเพื่อหาบัตรที่คุณต้องการ</string>
@@ -104,11 +109,8 @@
   <string name="magic_store_title">ร้านขายของ</string>
   <string name="game_mode_random">โหมดสุ่ม</string>
   <string name="game_mode_winning">โหมดชนะ</string>
+  <string name="game_mode_daily_challenge">ท้าทาย</string>
   <string name="daily_bonus_btn_claim">ได้รับ</string>
-  <string name="remove_ad">ลบโฆษณา</string>
-  <string name="purchasing_error_try_again">เกิดข้อผิดพลาดในการซื้อ! กรุณาลองใหม่อีกครั้งในภายหลัง!</string>
-  <string name="msg_coin_hint">ซื้อชุดรูปแบบหรือเวทมนตร์</string>
-  <string name="purchasing_succeed_remove_ad">ซื้อสำเร็จแล้ว! โฆษณาถูกลบ!</string>
   <string name="daily_challenge">ความท้าทายในชีวิตประจำวัน</string>
   <string name="daily_challenge_start_btn">เริ่มท้าทาย</string>
   <string name="daily_challenge_total_count">ทั้งหมด:</string>
@@ -116,7 +118,56 @@
   <string name="daily_challenge_status_unsolved">ยังไม่แก้</string>
   <string name="daily_challenge_start_hint">เริ่มการแข่งขันรายวัน</string>
   <string name="daily_challenge_start_btn_replay">เล่นใหม่</string>
-  <string name="daily_challenge_mode">ท้าทาย</string>
+  <string name="ask_daily_challenge_dialog_content">New Daily Challenge พร้อมแล้ว! เล่นเลยเหรอ?</string>
+  <string name="ask_daily_challenge_dialog_btn">ตกลง</string>
+  <string name="game_solution_popup_content">ยากที่จะชนะ ดูวิธีแก้ปัญหาที่นี่!</string>
+  <string name="no_hint_dialog_solution_popup_content">ไม่สามารถที่จะชนะ คลิกที่นี่เพื่อดูวิธีการแก้ปัญหา!</string>
+  <string name="solution_rewarded_video_hint">ข้อตกลงนี้สามารถชนะได้ ดูวิดีโอสั้น ๆ เพื่อดูวิธีแก้ปัญหาหรือไม่</string>
+  <string name="solution_ads_unavailable">โฆษณาไม่พร้อมใช้งาน โปรดกลับมาใหม่อีกครั้ง</string>
+  <string name="solution_not_finished_hint">วิธีแก้ปัญหายังไม่เสร็จสิ้น ยังต้องการหยุดดูหรือไม่</string>
+  <string name="solution_finished_back_to_game_hint">คุณได้เห็นทางออกแล้ว คุณสามารถเล่นซ้ำเกมได้</string>
+  <string name="solution_finished_hint">โซลูชันเสร็จสิ้นแล้ว คลิกปุ่มออกเพื่อย้อนกลับหรือปุ่มอีกครั้งเพื่อดูอีกครั้ง</string>
+  <string name="solution_dialog_btn_quit">ออกจากการดู</string>
+  <string name="solution_dialog_btn_continue">ต่อ</string>
+  <string name="solution_btn_quit">เลิก</string>
+  <string name="solution_btn_replay">อีกครั้ง</string>
+  <string name="solution_status_playing">โซลูชันการรับชม</string>
+  <string name="solution_status_finished">โซลูชันสิ้นสุดแล้ว</string>
+  <string-array name="notification_content">
+    <item>ความท้าทายรายวันมาถึงแล้ว! เล่นเลยและดูว่าคุณสามารถชนะได้หรือไม่!</item>
+    <item>ขั้นตอนระดับโลกอย่างน้อยปี %1$s คุณเอาชนะได้ไหม</item>
+    <item>คะแนนสูงสุดระดับโลกคือ %1$s เมื่อวานนี้ คุณเอาชนะได้ไหม</item>
+    <item>เวลาทั่วโลกที่ดีที่สุดคือ %1$s เมื่อวาน คุณเอาชนะได้ไหม</item>
+    <item>ก้าวที่น้อยที่สุดของคุณคือ %1$s คุณสามารถทำลายสถิติได้หรือไม่?</item>
+    <item>คะแนนสูงสุดของคุณคือ %1$s คุณสามารถทำลายสถิติได้หรือไม่?</item>
+    <item>เวลาที่ดีที่สุดของคุณคือ %1$s คุณสามารถทำลายสถิติได้หรือไม่?</item>
+    <item>ข้อเสนอเล่นไพ่คนเดียวเพิ่มเติมกำลังรอการแก้ไข!</item>
+  </string-array>
+  <string name="notification_ticker_1">กลับไปเล่นไพ่คนเดียวเพื่อความสนุก!</string>
+  <string name="notification_ticker_2">ความท้าทาย Solitaire รายวันมาถึงแล้ว!</string>
   <string name="msg_remove_cardback">เราลบการ์ด 2 ใบออกเพื่อให้สอดคล้องกับนโยบายของ Google Play ขออภัยในความไม่สะดวก! คุณสามารถปรับแต่งการ์ดกลับด้วยภาพของคุณเอง!</string>
-  <string name="recover_billing">ฟื้นฟู</string>
+  <string name="spider_solitaire">Spider Solitaire</string>
+  <string name="game_mode_spider_solitaire">แมงมุม</string>
+  <string name="setting_spider_solitaire_level">หมายเลขสูท</string>
+  <string name="setting_unlimited_deal">ดีลที่ไม่ จำกัด</string>
+  <string name="setting_spider_level_1_suit">1 ชุด</string>
+  <string name="setting_spider_level_2_suit">2 ชุด</string>
+  <string name="setting_spider_level_4_suit">4 ชุด</string>
+  <string name="statistics_spider_level_1_suit">1 ชุด</string>
+  <string name="statistics_spider_level_2_suit">2 ชุด</string>
+  <string name="statistics_spider_level_4_suit">4 ชุด</string>
+  <string name="spider_rule_0_text">Spider Solitaire เล่นด้วยไพ่สองสำรับ 52 ใบต่อใบ ขึ้นอยู่กับความยากลำบากดาดฟ้าประกอบด้วยชุดหนึ่งสองหรือสี่ชุด</string>
+  <string name="spider_rule_1_text">ในสไปเดอร์เป้าหมายของเกมคือการรวบรวมไพ่ทั้งหมดไปที่มูลนิธิ ลำดับไพ่ที่เรียงจากมากไปน้อยจากคิงถึงเอซของชุดเดียวกันจะถูกรวบรวมไปยังหนึ่งในฐานรากโดยอัตโนมัติ</string>
+  <string name="spider_rule_2_text">ในตอนต้นของแต่ละเกมไพ่ 10 กองที่มีไพ่ 6 หรือ 5 ใบจะถูกแจกให้กับฉาก บัตรที่เหลืออยู่จะถูกคว่ำหน้าลงเพื่อสร้างหุ้น</string>
+  <string name="spider_rule_3_text">หากคุณไม่มีการเคลื่อนไหวที่ถูกต้องคลิกหุ้นเพื่อจัดการหนึ่งใบสำหรับแต่ละคอลัมน์ใน tableau</string>
+  <string name="spider_rule_4_text">คุณสามารถย้ายลำดับไพ่จากกลุ่มลงไปยังคอลัมน์ tableau อื่นได้หากไพ่ชุดเดียวกัน</string>
+  <string name="spider_rule_5_text">การแตะจะเป็นการย้ายไพ่หรือลำดับของไพ่ชุดเดียวกันไปยังตำแหน่งที่เป็นไปได้โดยอัตโนมัติในขณะที่การลากช่วยให้คุณวางด้วยตนเอง</string>
+  <string name="can_not_deal">ไม่สามารถจัดการกับบัตรในขณะที่ tableau กับคอลัมน์ที่ว่างเปล่า </string>
+  <string name="custom_notification_btn">ท้าทาย</string>
+  <string name="eye_friendly">เป็นมิตรกับดวงตา</string>
+  <string name="title_continous_undo_prompt">คุณรู้หรือไม่?</string>
+  <string name="msg_continous_undo_prompt">กดปุ่มเลิกทำค้างไว้เพื่อเลิกทำต่อเนื่อง</string>
+  <string name="prompt_msg_sound_off">หมายเหตุ: เสียงของเกมปิดอยู่ ลดระดับเสียงของอุปกรณ์เพื่อปิดเสียงโฆษณา</string>
+  <string name="prompt_msg_orientation_lock_by_system">หมายเหตุ: เปิดการหมุนอัตโนมัติของอุปกรณ์ของคุณเพื่อหมุน</string>
+  <string name="prompt_msg_orientation_lock_by_game">หมายเหตุ: ยกเลิกการเลือกการตั้งค่า "%s" เพื่อหมุนโดยอัตโนมัติ</string>
 </resources>

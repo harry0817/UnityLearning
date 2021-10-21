@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns0="http://schemas.android.com/tools" ns0:locale="de-rDE">
   <string name="app_name">Solitaire</string>
-  <string name="score_label">Punkte</string>
+  <string name="score_label">Ergebnis</string>
   <string name="time_label">Zeit</string>
   <string name="move_label">Züge</string>
   <string name="auto_complete_title">Automatisch einsammeln</string>
@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">Gewinner-Deal</string>
   <string name="play_action_replay">Wiederholen</string>
   <string name="cancel">Abbrechen</string>
+  <string name="tap_to_skip">Tippen Sie auf, um zu überspringen</string>
   <string name="setting_ok">OK</string>
   <string name="statistics">Statistik</string>
   <string name="setting_draw1">1 Karte</string>
   <string name="setting_draw3">3 Karten</string>
   <string name="setting_sound">Töne</string>
-  <string name="setting_times">Zeit/Züge</string>
+  <string name="setting_times">Zeit / Züge</string>
   <string name="setting_orientation">Ausrichtung</string>
   <string name="setting_hints">Automatische Tipps</string>
-  <string name="setting_tapmove">Tippen, um zu verschieben</string>
+  <string name="setting_tapmove">Zum Verschieben antippen</string>
   <string name="help_rules">Spielanleitung</string>
   <string name="setting_draw3_mode">3 Karten</string>
-  <string name="setting_score_anim">Ergebniseffekt</string>
+  <string name="setting_score_anim">Scoring-Effekt</string>
   <string name="setting_privacy_policy">Datenschutzrichtlinien</string>
   <string name="setting_language">Sprache</string>
   <string name="stat_won">Spiele gewonnen</string>
@@ -38,7 +39,7 @@
   <string name="stat_fwmove">Wenigste Gewinnt Zügen</string>
   <string name="stat_mwmove">Meiste Gewinnt Zügen</string>
   <string name="stat_nundo">Siege ohne Rückgängig machen</string>
-  <string name="stat_hscroe">Beste Wertung</string>
+  <string name="stat_hscroe">Höchste Punktzahl</string>
   <string name="reset_stat">Zurücksetzen</string>
   <string name="yes">Ja</string>
   <string name="mode_message">Schwierigkeitsgrad wird wirksam in Next Neues Spiel</string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">Sind Sie sicher, aufzuhören?</string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">Statistiken zurücksetzen?</string>
-  <string name="notification_push">Klick mich, um das Spiel zu öffnen!</string>
-  <string name="notification_ticker">Zurück zum Solitaire zum Spaß!</string>
+  <string name="notification_push">Neue tägliche Herausforderung kommt! Spielen Sie jetzt und sehen Sie, ob Sie gewinnen können!</string>
+  <string name="notification_ticker">Die tägliche Herausforderung von Solitaire kommt!</string>
   <string name="done">Fertig</string>
   <string name="hint_recycle_card">Verbleibende Karten recyceln</string>
   <string name="hint_draw_card">Ziehen</string>
@@ -78,6 +79,10 @@
   <string name="invite_rate_gratitude_email_positive">Okay</string>
   <string name="invite_rate_google_message">Könnten Sie sich bitte einen Moment Zeit nehmen, um uns auf dem Google Play zu bewerten?</string>
   <string name="invite_rate_button_positive">Sicher!</string>
+  <string name="invite_rate_special_title">Danke!</string>
+  <string name="invite_rate_bonus_message">Könnten Sie sich bitte einen Moment Zeit nehmen, um uns auf dem Google Play zu bewerten?</string>
+  <string name="invite_rate_bonus_button_positive">Sammeln</string>
+  <string name="invite_rate_bonus_hint">Preis Belohnung</string>
   <string name="rule_0_text">
     Klondike Solitaire verwendet ein Standard-52-Kartendeck mit Spielkarten ohne Joker.
     Das Ziel des Spiels ist es, alle Karten aussetzen und verschieben Sie Sie in die Fundament Pfähle. Diese Pfähle sind nach oben in Anzug von ACEs to Kings gebaut.
@@ -124,6 +129,7 @@ Jede Karte, die in der Tableau-Spalte umgedreht wird, erhält 5 Punkte. Verschie
   <string name="magic_store_title">Shop</string>
   <string name="game_mode_random">Zufällige</string>
   <string name="game_mode_winning">Gewinnen</string>
+  <string name="game_mode_daily_challenge">Herausforderung</string>
   <string name="daily_bonus_today">Heute</string>
   <string name="daily_bonus_tomorrow">Morgen</string>
   <string name="daily_bonus_victory_format">%1$d Minuten</string>
@@ -139,10 +145,6 @@ Jede Karte, die in der Tableau-Spalte umgedreht wird, erhält 5 Punkte. Verschie
   <string name="daily_bonus_result_message">Sie haben: </string>
   <string name="no_hint_message_guilde">Verwenden Sie Magic Stick, um das Spiel zu speichern.</string>
   <string name="no_hint_message_no_magic">Keine nützlichen Züge erkannt. Ein neues Spiel eröffnen?</string>
-  <string name="remove_ad">Anzeigen entfernen</string>
-  <string name="purchasing_error_try_again">Fehler beim Kauf! Bitte versuchen Sie es später noch einmal!</string>
-  <string name="msg_coin_hint">Kaufen Sie Themen oder Magie</string>
-  <string name="purchasing_succeed_remove_ad">Kauf erfolgreich! Anzeigen entfernt!</string>
   <string name="daily_challenge">Tägliche Herausforderung</string>
   <string name="daily_challenge_start_btn">Herausforderung starten</string>
   <string name="daily_challenge_total_count">Gesamt:</string>
@@ -150,9 +152,56 @@ Jede Karte, die in der Tableau-Spalte umgedreht wird, erhält 5 Punkte. Verschie
   <string name="daily_challenge_status_unsolved">Ungelöst</string>
   <string name="daily_challenge_start_hint">Starten Sie die tägliche Herausforderung</string>
   <string name="daily_challenge_start_btn_replay">Wiederholung</string>
-  <string name="daily_challenge_mode">Aufforderung</string>
+  <string name="ask_daily_challenge_dialog_content">Die neue tägliche Herausforderung ist fertig! Jetzt spielen?</string>
+  <string name="ask_daily_challenge_dialog_btn">okay</string>
+  <string name="game_solution_popup_content">Schwer zu gewinnen? Sehen Sie die Lösung hier!</string>
+  <string name="no_hint_dialog_solution_popup_content">Kannst du nicht gewinnen? Klicken Sie hier, um die Lösung zu sehen!</string>
+  <string name="solution_rewarded_video_hint">Dieser Deal ist gewinnbar. Sehen Sie sich ein kurzes Video an, um die Lösung zu sehen?</string>
+  <string name="solution_ads_unavailable">Anzeigen nicht verfügbar. Bitte versuchen Sie es später noch einmal.</string>
+  <string name="solution_not_finished_hint">Die Lösung ist noch nicht beendet. Willst du immer noch aufhören zu schauen?</string>
+  <string name="solution_finished_back_to_game_hint">Sie haben die Lösung gesehen. Sie können das Spiel wiederholen.</string>
+  <string name="solution_finished_hint">Lösung ist beendet. Klicken Sie auf die Schaltfläche Beenden, um zurückzukehren, oder auf die Schaltfläche Erneut, um erneut zu sehen.</string>
+  <string name="solution_dialog_btn_quit">Hör auf zu schauen</string>
+  <string name="solution_dialog_btn_continue">Fortsetzen</string>
+  <string name="solution_btn_quit">Verlassen</string>
+  <string name="solution_btn_replay">Nochmal</string>
+  <string name="solution_status_playing">Beobachten Lösung</string>
+  <string name="solution_status_finished">Lösung endet</string>
+  <string-array name="notification_content">
+    <item>Tägliche Herausforderung kommt! Spielen Sie jetzt und sehen Sie, ob Sie gewinnen können!</item>
+    <item>Der kleinste globale Schritt ist gestern %1$s. Kannst du es schlagen?</item>
+    <item>Höchste globale Punktzahl ist %1$s gestern. Kannst du es schlagen?</item>
+    <item>Die beste Weltzeit ist gestern %1$s. Kannst du es schlagen?</item>
+    <item>Ihr kleinster Schritt ist %1$s. Können Sie den Rekord brechen?</item>
+    <item>Ihre höchste Punktzahl ist %1$s. Können Sie den Rekord brechen?</item>
+    <item>Ihre beste Zeit ist %1$s. Können Sie den Rekord brechen?</item>
+    <item>Weitere Solitaire-Deals warten darauf, gelöst zu werden!</item>
+  </string-array>
+  <string name="notification_ticker_1">Zurück zum Solitaire zum Spaß!</string>
+  <string name="notification_ticker_2">Solitaire Daily Challenge ist da!</string>
   <string name="msg_remove_cardback">Wir löschen 2 Kartenrückseiten, um die Google Play-Richtlinien einzuhalten. Entschuldigung für die Unannehmlichkeiten! Sie können Ihre Karte wieder mit Ihren eigenen Bildern anpassen!</string>
-  <string name="recover_billing">Wiederherstellen</string>
-  <string name="recover_billing_completed">Abgeschlossen. Wenn sie irgendwelche fragen haben, überprüfen sie Ihr Netzwerk oder überprüfen sie Ihre Google Play-Bestellung und versuchen sie es erneut. Vielen Dank!</string>
-  <string name="recover_billing">Wiederherstellen</string>
+  <string name="spider_solitaire">Spider Solitaire</string>
+  <string name="game_mode_spider_solitaire">Spinne</string>
+  <string name="setting_spider_solitaire_level">Anzugnummer</string>
+  <string name="setting_unlimited_deal">Uneingeschränkter Deal</string>
+  <string name="setting_spider_level_1_suit">1 Anzug</string>
+  <string name="setting_spider_level_2_suit">2 Anzüge</string>
+  <string name="setting_spider_level_4_suit">4 Anzüge</string>
+  <string name="statistics_spider_level_1_suit">1 Anzug</string>
+  <string name="statistics_spider_level_2_suit">2 Anzüge</string>
+  <string name="statistics_spider_level_4_suit">4 Anzüge</string>
+  <string name="spider_rule_0_text">Spider Solitaire wird mit zwei Decks mit jeweils 52 Karten gespielt. Je nach Schwierigkeitsgrad bestehen die Decks aus einem, zwei oder vier verschiedenen Anzügen.</string>
+  <string name="spider_rule_1_text">In Spider ist das Ziel des Spiels, alle Karten für das Fundament zu sammeln. Eine vollständige absteigende Folge von Karten von König zu Ass derselben Farbe wird automatisch bei einer der Stiftungen gesammelt.</string>
+  <string name="spider_rule_2_text">Zu Beginn jedes Spiels werden dem Stapel 10 Stapel mit 6 oder 5 Karten ausgeteilt. Die restlichen Karten werden verdeckt abgelegt, um den Vorrat zu bilden.</string>
+  <string name="spider_rule_3_text">Wenn Sie keine gültigen Züge mehr haben, klicken Sie auf den Vorrat, um eine Karte für jede Spalte im Tableau auszugeben.</string>
+  <string name="spider_rule_4_text">Sie können eine absteigende Folge von Karten als Gruppe nur dann in eine andere Tableau-Spalte verschieben, wenn sie dieselbe Farbe haben.</string>
+  <string name="spider_rule_5_text">Durch Tippen wird eine Karte oder eine absteigende Folge von Karten derselben Farbe automatisch an einen möglichen Ort verschoben, während Sie durch Ziehen manuell platzieren können.</string>
+  <string name="can_not_deal">Kann nicht Karten während Tableau mit leerer Säule behandeln</string>
+  <string name="custom_notification_btn">Herausforderung</string>
+  <string name="eye_friendly">Augenfreundlich</string>
+  <string name="title_continous_undo_prompt">Wissen Sie?</string>
+  <string name="msg_continous_undo_prompt">Halten Sie die Rückgängig-Taste gedrückt, um nacheinander rückgängig zu machen.</string>
+  <string name="prompt_msg_sound_off">Hinweis: Der Ton des Spiels ist ausgeschaltet. Verringern Sie die Lautstärke Ihrer Geräte, um die Werbung stummzuschalten.</string>
+  <string name="prompt_msg_orientation_lock_by_system">Hinweis: Aktivieren Sie die automatische Drehung Ihres Geräts, um es zu drehen.</string>
+  <string name="prompt_msg_orientation_lock_by_game">Hinweis: Deaktivieren Sie die Einstellung "%s", um automatisch zu rotieren.</string>
 </resources>

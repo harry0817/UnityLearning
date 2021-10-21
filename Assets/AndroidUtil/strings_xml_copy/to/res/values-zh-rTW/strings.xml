@@ -16,6 +16,7 @@
   <string name="play_action_winning_deal">活局遊戲</string>
   <string name="play_action_replay">重玩本局</string>
   <string name="cancel">取消</string>
+  <string name="tap_to_skip">點擊跳過動畫</string>
   <string name="setting_ok">好</string>
   <string name="setting_draw1">一張</string>
   <string name="setting_draw3">三張</string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">您確定要退出嗎？</string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">您確定重置統計記錄嗎？</string>
-  <string name="notification_push">點我進入遊戲！</string>
-  <string name="notification_ticker">回來玩紙牌吧</string>
+  <string name="notification_push">每日挑戰牌局已更新！快來玩吧！</string>
+  <string name="notification_ticker">紙牌接龍每日挑戰牌局已更新！</string>
   <string name="done">完成</string>
   <string name="hint_recycle_card">牌堆循環利用</string>
   <string name="hint_draw_card">翻牌</string>
@@ -78,6 +79,10 @@
   <string name="invite_rate_gratitude_email_positive">好的</string>
   <string name="invite_rate_google_message">您可以花點時間在谷歌商店中評價我們嗎？</string>
   <string name="invite_rate_button_positive">當然！</string>
+  <string name="invite_rate_special_title">謝謝！</string>
+  <string name="invite_rate_bonus_message">您可以花點時間在谷歌商店中評價我們嗎？</string>
+  <string name="invite_rate_bonus_button_positive">領取</string>
+  <string name="invite_rate_bonus_hint">評價獎勵</string>
   <string name="rule_0_text">
     克朗代克紙牌使用52張標準的不含大小王的撲克牌。 遊戲目標是在收牌區構建四個從A到K同一花色的牌組。
   </string>
@@ -122,6 +127,7 @@
   <string name="magic_store_title">商店</string>
   <string name="game_mode_random">隨機模式</string>
   <string name="game_mode_winning">活局模式</string>
+  <string name="game_mode_daily_challenge">每日挑戰</string>
   <string name="daily_bonus_today">今天</string>
   <string name="daily_bonus_tomorrow">明天</string>
   <string name="daily_bonus_victory_format">%1$d分鐘</string>
@@ -137,10 +143,6 @@
   <string name="daily_bonus_result_message">您獲得了：</string>
   <string name="no_hint_message_no_magic">無有效可移動操作，是否開啟新遊戲？</string>
   <string name="no_hint_message_guilde">使用魔棒來解除困局</string>
-  <string name="remove_ad">移除廣告</string>
-  <string name="purchasing_error_try_again">購買錯誤！請稍後再試！</string>
-  <string name="msg_coin_hint">購買主題或魔棒</string>
-  <string name="purchasing_succeed_remove_ad">購買成功！ 廣告已刪除！</string>
   <string name="daily_challenge">每日挑戰</string>
   <string name="daily_challenge_start_btn">開始挑戰</string>
   <string name="daily_challenge_total_count">歷史記錄:</string>
@@ -148,7 +150,56 @@
   <string name="daily_challenge_status_unsolved">未解開</string>
   <string name="daily_challenge_start_hint">開始每日挑戰</string>
   <string name="daily_challenge_start_btn_replay">重新挑戰</string>
-  <string name="daily_challenge_mode">每日挑戰</string>
+  <string name="ask_daily_challenge_dialog_content">每日挑戰牌局已更新！是否進入？</string>
+  <string name="ask_daily_challenge_dialog_btn">進入</string>
+  <string name="game_solution_popup_content">很難獲勝嗎？點擊這裡查看解法！</string>
+  <string name="no_hint_dialog_solution_popup_content">無法獲勝嗎？點擊這裡查看本局解法！</string>
+  <string name="solution_rewarded_video_hint">本局為活局。是否觀看一段短視頻查看解法？</string>
+  <string name="solution_ads_unavailable">廣告無法加載，請稍候重試</string>
+  <string name="solution_not_finished_hint">解法未播放完，確定退出觀看嗎？</string>
+  <string name="solution_finished_back_to_game_hint">你已看完解法，重玩遊戲試試</string>
+  <string name="solution_finished_hint">解法播放結束。點擊退出觀看按鈕返回游戲或者再看一次按鈕重新播放</string>
+  <string name="solution_dialog_btn_quit">退出觀看</string>
+  <string name="solution_dialog_btn_continue">繼續</string>
+  <string name="solution_btn_quit">退出觀看</string>
+  <string name="solution_btn_replay">再看一次</string>
+  <string name="solution_status_playing">正在播放解法</string>
+  <string name="solution_status_finished">解法播放結束</string>
+  <string-array name="notification_content">
+    <item>每日挑戰已更新！快來接受挑戰吧！</item>
+    <item>昨天全球玩家最少牌局步數是%1$s。你能超過這個成績嗎？</item>
+    <item>昨天全球玩家最高分數是%1$s。你能超過這個成績嗎？</item>
+    <item>昨天全球玩家最佳完成時間是%1$s。你能超過這個成績嗎？</item>
+    <item>目前你的最少牌局步數是%1$s。你能打破這個記錄嗎？</item>
+    <item>目前你的最高分數是%1$s。你能打破這個記錄嗎？</item>
+    <item>目前你的最佳完成時間是%1$s。你能打破這個記錄嗎？</item>
+    <item>更多牌局等著你來解開！</item>
+  </string-array>
+  <string name="notification_ticker_1">暢玩接龍！</string>
+  <string name="notification_ticker_2">新的每日挑戰！</string>
   <string name="msg_remove_cardback">為了遵守谷歌商店政策，我們去掉了2張牌背。造成的不便我們深感抱歉！您可以將相冊中的照片設置為牌背！</string>
-  <string name="recover_billing">恢復購買</string>
+  <string name="spider_solitaire">蜘蛛紙牌</string>
+  <string name="game_mode_spider_solitaire">蜘蛛紙牌</string>
+  <string name="setting_spider_solitaire_level">花色數</string>
+  <string name="setting_unlimited_deal">無限制發牌</string>
+  <string name="setting_spider_level_1_suit">1種</string>
+  <string name="setting_spider_level_2_suit">2種</string>
+  <string name="setting_spider_level_4_suit">4種</string>
+  <string name="statistics_spider_level_1_suit">一種花色</string>
+  <string name="statistics_spider_level_2_suit">二種花色</string>
+  <string name="statistics_spider_level_4_suit">四種花色</string>
+  <string name="spider_rule_0_text">蜘蛛紙牌每局遊戲使用兩副牌。根據難度不同，紙牌包含一種、兩種或四種花色。</string>
+  <string name="spider_rule_1_text">遊戲的目標為通過構建牌“列”收集所有的牌到收牌區。每個從K到A降序排列且花色相同的排列會自動收集到收牌區。</string>
+  <string name="spider_rule_2_text">遊戲開始時，玩牌區會有10列牌，每列6或5張牌。剩餘的牌背面朝上放置到發牌區中。</string>
+  <string name="spider_rule_3_text">無牌可以移動時，可以點擊發牌區發一組新牌。</string>
+  <string name="spider_rule_4_text">降序排列且花色相同的一組牌可以作為一個整體一起移動。</string>
+  <string name="spider_rule_5_text">點擊移動一張牌或一組降序排列且花色相同的牌會自動選擇落牌點，拖動則允許您自由放置到任何符合規則的位置。</string>
+  <string name="can_not_deal">牌桌上有空列時不能發牌</string>
+  <string name="custom_notification_btn">挑戰</string>
+  <string name="eye_friendly">眼睛友好</string>
+  <string name="title_continous_undo_prompt">你知道嗎？</string>
+  <string name="msg_continous_undo_prompt">按住撤銷按鈕可以連續撤銷！</string>
+  <string name="prompt_msg_sound_off">提示：遊戲音效已關閉，\n如果要關閉廣告音樂，請調低設備音量。</string>
+  <string name="prompt_msg_orientation_lock_by_system">提示：開啟設備自動旋轉設置才能旋轉屏幕</string>
+  <string name="prompt_msg_orientation_lock_by_game">提示：在設置菜單中關閉"%s"才能旋轉屏幕</string>
 </resources>

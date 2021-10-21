@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">سوليتير</string>
-  <string name="score_label">درجات</string>
+  <string name="score_label">أحرز هدفا</string>
   <string name="time_label">زمن</string>
   <string name="move_label">التحركات</string>
   <string name="auto_complete_title">إكمال تلقائي</string>
@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">وضع الفوز</string>
   <string name="play_action_replay">إعادة</string>
   <string name="cancel">إلغاء</string>
+  <string name="tap_to_skip">اضغط لتخطي</string>
   <string name="setting_ok">حسنا</string>
   <string name="statistics">الإحصاء</string>
   <string name="setting_draw1">ارسم ١</string>
   <string name="setting_draw3">ارسم ٣</string>
   <string name="setting_sound">التحكم الصوتي</string>
-  <string name="setting_times">مرة / التحزمن</string>
+  <string name="setting_times">الوقت / التحركات</string>
   <string name="setting_orientation">الجانب الآخر للعملة</string>
   <string name="setting_hints">تلميحات تلقائية</string>
-  <string name="setting_tapmove">انقر على نقل</string>
+  <string name="setting_tapmove">اضغط لتحريك</string>
   <string name="help_rules">قواعد</string>
   <string name="setting_draw3_mode">٣ طاقات</string>
-  <string name="setting_score_anim">تأثير النتيجة</string>
+  <string name="setting_score_anim">تأثير التهديف</string>
   <string name="setting_privacy_policy">سياسة خاصة</string>
   <string name="setting_language">لغة</string>
   <string name="stat_won">ألعاب فاز</string>
@@ -38,7 +39,7 @@
   <string name="stat_fwmove">أقل فوز الحركات</string>
   <string name="stat_mwmove">معظم الحركات الفائزة</string>
   <string name="stat_nundo">يفوز دون تراجع</string>
-  <string name="stat_hscroe">أعلى الدرجات</string>
+  <string name="stat_hscroe">أعلى نتيجة</string>
   <string name="reset_stat">إعادة تعيين</string>
   <string name="yes">نعم فعلا</string>
   <string name="mode_message">سيبدأ تطبيق إعدادات الصعوبة في اللعبة الجديدة التالية</string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">هل أنت متأكد من الإقلاع؟</string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">هل أنت متأكد من إعادة ضبط إحصائيات اللعبة؟</string>
-  <string name="notification_push">انقر فوق لي لفتح اللعبة!</string>
-  <string name="notification_ticker">العودة إلى سوليتير للمتعة!</string>
+  <string name="notification_push">تحدي يومي جديد يصل! العبها الآن وشاهد ما إذا كنت تستطيع الفوز!</string>
+  <string name="notification_ticker">التحدي اليومي لسوليتير يصل!</string>
   <string name="done">فعله</string>
   <string name="hint_draw_card">رسم</string>
   <string name="hint_recycle_card">إعادة تدوير البطاقات المتبقية</string>
@@ -80,6 +81,10 @@
   <string name="invite_rate_gratitude_email_positive">حسنا</string>
   <string name="invite_rate_google_message">هل يمكنك قضاء بعض الوقت لتقييمنا على Google Play؟</string>
   <string name="invite_rate_button_positive">بالتأكيد!</string>
+  <string name="invite_rate_special_title">شكرا لكم</string>
+  <string name="invite_rate_bonus_message">هل يمكنك قضاء بعض الوقت لتقييمنا على Google Play؟</string>
+  <string name="invite_rate_bonus_button_positive">تجميع</string>
+  <string name="invite_rate_bonus_hint">مكافأة معدل</string>
   <string name="rule_0_text">يستخدم كلوندايك سوليتير سطح السفينة القياسية 52 بطاقة من أوراق اللعب دون جوكرز. الهدف من اللعبة هو كشف جميع البطاقات ونقلها إلى أكوام الأساس. بنيت هذه الأكوام في الاتجاه الصعودي في الدعوى من Aces إلى الملوك.</string>
   <string name="rule_1_text">توجد 7 أعمدة تابلت مبنية للأسفل (في ترتيب تنازلي ، من الملوك إلى الآسات) في ألوان متناوبة (أحمر ، أسود). يمكن ملء أي عمود فارغ فقط بملك أو كومة من البطاقات مع ملك في الأعلى.</string>
   <string name="rule_2_text">يمكن نقل أكوام جزئية أو كاملة من عمود إلى آخر إذا تم بناؤها بواسطة ألوان بديلة ورتبة متناقصة. فضح بطاقات الوجه في اللوحة للعثور على البطاقات التي تحتاجها.</string>
@@ -104,11 +109,8 @@
   <string name="magic_store_title">متجر</string>
   <string name="game_mode_random">عشوائي</string>
   <string name="game_mode_winning">فوز</string>
+  <string name="game_mode_daily_challenge">التحدي</string>
   <string name="daily_bonus_btn_claim">يطالب</string>
-  <string name="remove_ad">ازالة الاعلانات</string>
-  <string name="purchasing_error_try_again">خطأ في الشراء! الرجاء معاودة المحاولة في وقت لاحق!</string>
-  <string name="msg_coin_hint">شراء المواضيع أو السحر</string>
-  <string name="purchasing_succeed_remove_ad">نجاح الشراء! تمت إزالة الإعلانات!</string>
   <string name="daily_challenge">التحدي اليومي</string>
   <string name="daily_challenge_start_btn">ابدأ التحدي</string>
   <string name="daily_challenge_total_count">مجموع:</string>
@@ -116,9 +118,56 @@
   <string name="daily_challenge_status_unsolved">غير محلول</string>
   <string name="daily_challenge_start_hint">بدء التحدي اليومي</string>
   <string name="daily_challenge_start_btn_replay">إعادة</string>
-  <string name="daily_challenge_mode">التحدي</string>
+  <string name="ask_daily_challenge_dialog_content">التحدي اليومي الجديد جاهز! العبها الان</string>
+  <string name="ask_daily_challenge_dialog_btn">حسنا</string>
+  <string name="game_solution_popup_content">من الصعب الفوز؟ انظر الحل هنا!</string>
+  <string name="no_hint_dialog_solution_popup_content">غير قادر على الفوز؟ انقر هنا لرؤية الحل!</string>
+  <string name="solution_rewarded_video_hint">هذه الصفقة قابلة للربح. مشاهدة فيديو قصير لرؤية الحل؟</string>
+  <string name="solution_ads_unavailable">الإعلانات غير متوفرة. يرجى التحقق مرة أخرى في قليلا.</string>
+  <string name="solution_not_finished_hint">الحل لم ينته بعد. لا تزال ترغب في التوقف عن مشاهدة؟</string>
+  <string name="solution_finished_back_to_game_hint">لقد رأيت الحل. يمكنك إعادة اللعبة.</string>
+  <string name="solution_finished_hint">انتهى الحل. انقر فوق الزر "إنهاء" للعودة أو الزر "مرة أخرى" لمشاهدة مرة أخرى.</string>
+  <string name="solution_dialog_btn_quit">إنهاء المشاهدة</string>
+  <string name="solution_dialog_btn_continue">استمر</string>
+  <string name="solution_btn_quit">استقال</string>
+  <string name="solution_btn_replay">مرة أخرى</string>
+  <string name="solution_status_playing">مشاهدة الحل</string>
+  <string name="solution_status_finished">الحل ينتهي</string>
+  <string-array name="notification_content">
+    <item>التحدي اليومي يصل! العبها الآن وشاهد ما إذا كان بإمكانك الفوز!</item>
+    <item>الخطوة العالمية الأقل هي %1$s أمس. يمكنك التغلب عليه؟</item>
+    <item>أعلى درجة عالمية هي %1$s أمس. يمكنك التغلب عليه؟</item>
+    <item>أفضل وقت عالمي هو %1$s أمس. يمكنك التغلب عليه؟</item>
+    <item>خطوتك الأقل هي %1$s. هل يمكنك تحطيم الرقم القياسي؟</item>
+    <item>أعلى درجاتك هي %1$s. هل يمكنك تحطيم الرقم القياسي؟</item>
+    <item>أفضل وقت لديك هو %1$s. هل يمكنك تحطيم الرقم القياسي؟</item>
+    <item>المزيد من الصفقات سوليتير ينتظرون حلها!</item>
+  </string-array>
+  <string name="notification_ticker_1">العودة إلى سوليتير للمتعة!</string>
+  <string name="notification_ticker_2">سوليتير التحدي اليومي يصل!</string>
   <string name="msg_remove_cardback">نقوم بحذف ظهورتي بطاقة للامتثال لسياسة google play. آسف للإزعاج! يمكنك تخصيص بطاقة لك مرة أخرى مع الصور الخاصة بك!</string>
-  <string name="recover_billing">استعادة</string>
-  <string name="recover_billing_completed">منجز. إذا كانت لديك أية أسئلة، فتحقق من الشبكة أو تحقق من طلب غوغل بلاي وحاول مرة أخرى. شكرا لكم!</string>
-  <string name="recover_billing">استعادة</string>
+  <string name="spider_solitaire">سوليتير العنكبوت</string>
+  <string name="game_mode_spider_solitaire">العنكبوت</string>
+  <string name="setting_spider_solitaire_level">رقم البدلة</string>
+  <string name="setting_unlimited_deal">صفقة غير مقيدة</string>
+  <string name="setting_spider_level_1_suit">1 بدلة</string>
+  <string name="setting_spider_level_2_suit">2 بدلات</string>
+  <string name="setting_spider_level_4_suit">4 بدلات</string>
+  <string name="statistics_spider_level_1_suit">1 بدلة</string>
+  <string name="statistics_spider_level_2_suit">2 بدلات</string>
+  <string name="statistics_spider_level_4_suit">4 بدلات</string>
+  <string name="spider_rule_0_text">يتم لعب Spider Solitaire مع مجموعتين من 52 بطاقة لكل منهما. بناءً على الصعوبة ، تتكون الطوابق من بدلة أو اثنتين أو أربع مجموعات مختلفة.</string>
+  <string name="spider_rule_1_text">في العنكبوت ، الهدف من اللعبة هو جمع كل البطاقات للمؤسسة. سيتم تجميع تسلسل تنازلي كامل للبطاقات من King إلى Ace من نفس المجموعة إلى أحد المؤسسات تلقائيًا.</string>
+  <string name="spider_rule_2_text">في بداية كل لعبة ، يتم توزيع 10 مكدسات مع 6 أو 5 بطاقات على اللوحة. يتم وضع البطاقات المتبقية لأسفل لتشكيل المخزون.</string>
+  <string name="spider_rule_3_text">إذا نفدت منك التحركات الصالحة ، فانقر فوق السهم لتوزيع بطاقة واحدة لكل عمود في اللوحة.</string>
+  <string name="spider_rule_4_text">يمكنك نقل تسلسل تنازلي من البطاقات كمجموعة إلى عمود لوحة آخر فقط إذا كانت من نفس المجموعة.</string>
+  <string name="spider_rule_5_text">يؤدي النقر على تحريك بطاقة أو تسلسل تنازلي للبطاقات من نفس المجموعة إلى موقع محتمل تلقائيًا ، بينما يتيح لك السحب وضعها يدويًا.</string>
+  <string name="can_not_deal">لا يمكن التعامل مع البطاقة بينما اللوح بعمود فارغ</string>
+  <string name="custom_notification_btn">التحدي</string>
+  <string name="eye_friendly">صديقة للعين</string>
+  <string name="title_continous_undo_prompt">هل تعرف؟</string>
+  <string name="msg_continous_undo_prompt">اضغط مع الاستمرار على زر التراجع للتراجع المتتالي.</string>
+  <string name="prompt_msg_sound_off">ملاحظة: صوت اللعبة متوقف. قم بخفض مستوى صوت أجهزتك لكتم صوت الإعلانات.</string>
+  <string name="prompt_msg_orientation_lock_by_system">ملاحظة: قم بتشغيل التدوير التلقائي لجهازك للتدوير.</string>
+  <string name="prompt_msg_orientation_lock_by_game">ملاحظة: قم بإلغاء تحديد "%s" إعداد للتدوير تلقائيًا.</string>
 </resources>

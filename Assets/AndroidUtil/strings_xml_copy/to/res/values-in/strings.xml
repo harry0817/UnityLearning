@@ -16,6 +16,7 @@
   <string name="play_action_winning_deal">Menang Kesepakatan</string>
   <string name="play_action_replay">Ulangan</string>
   <string name="cancel">Membatalkan</string>
+  <string name="tap_to_skip">Ketuk untuk Melewati</string>
   <string name="setting_ok">Baik</string>
   <string name="statistics">Statistik</string>
   <string name="setting_draw1">Menggambar 1</string>
@@ -24,10 +25,10 @@
   <string name="setting_times">Waktu/Bergerak</string>
   <string name="setting_orientation">Kunci Orientasi</string>
   <string name="setting_hints">Petunjuk Otomatis</string>
-  <string name="setting_tapmove">Tap Pindah</string>
+  <string name="setting_tapmove">Ketuk untuk Pindah</string>
   <string name="help_rules">Aturan</string>
   <string name="setting_draw3_mode">3 Kartu</string>
-  <string name="setting_score_anim">Efek Skor</string>
+  <string name="setting_score_anim">Efek Penilaian</string>
   <string name="setting_privacy_policy">Kebijakan Privasi</string>
   <string name="setting_language">Bahasa</string>
   <string name="stat_won">Permainan menang</string>
@@ -38,7 +39,7 @@
   <string name="stat_fwmove">Bergerak Winning Terbanyak</string>
   <string name="stat_mwmove">Kebanyakan Moves Winning</string>
   <string name="stat_nundo">Wins Tanpa Undo</string>
-  <string name="stat_hscroe">Skor tertinggi</string>
+  <string name="stat_hscroe">Highest Score</string>
   <string name="reset_stat">Ulang</string>
   <string name="yes">Iya nih</string>
   <string name="mode_message">Kesulitan Pengaturan akan berlaku di Berikutnya Game Baru</string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">Apakah Anda yakin untuk berhenti?</string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">Apakah Anda yakin untuk me-reset statistik permainan?</string>
-  <string name="notification_push">Klik saya untuk membuka permainan!</string>
-  <string name="notification_ticker">Kembali ke solitaire untuk bersenang-senang!</string>
+  <string name="notification_push">New Daily Challenge arrives! Play it now and see if you can win!</string>
+  <string name="notification_ticker">Daily challenge of Solitaire arrives!</string>
   <string name="done">lengkap</string>
   <string name="hint_recycle_card">Daur ulang kartu yang tersisa</string>
   <string name="hint_draw_card">Seri</string>
@@ -78,6 +79,10 @@
   <string name="invite_rate_gratitude_email_positive">Oke</string>
   <string name="invite_rate_google_message">Bisa Anda silahkan luangkan waktu untuk menilai kami di Google Play?</string>
   <string name="invite_rate_button_positive">Yakin!</string>
+  <string name="invite_rate_special_title">Terima kasih!</string>
+  <string name="invite_rate_bonus_message">Bisa Anda silahkan luangkan waktu untuk menilai kami di Google Play?</string>
+  <string name="invite_rate_bonus_button_positive">Mengumpulkan</string>
+  <string name="invite_rate_bonus_hint">TINGKAT UPAH</string>
   <string name="rule_0_text">
     Klondike Solitaire menggunakan standar deck 52 kartu bermain kartu tanpa pelawak.
     Tujuan dari permainan ini adalah untuk mengekspos semua kartu dan memindahkan mereka ke dalam tumpukan. Tumpukan tersebut dibangun ke atas dalam setelan dari Ace kepada raja.
@@ -124,6 +129,7 @@ Setiap kartu yang diserahkan di kolom Tablo menerima 5 poin. Memindahkan kartu d
   <string name="magic_store_title">Toko</string>
   <string name="game_mode_random">Acak</string>
   <string name="game_mode_winning">Pemenang</string>
+  <string name="game_mode_daily_challenge">Tantangan</string>
   <string name="daily_bonus_today">Hari ini</string>
   <string name="daily_bonus_tomorrow">Besok</string>
   <string name="daily_bonus_victory_format">%1$d MENIT</string>
@@ -139,10 +145,6 @@ Setiap kartu yang diserahkan di kolom Tablo menerima 5 poin. Memindahkan kartu d
   <string name="daily_bonus_result_message">Anda mendapatkan: </string>
   <string name="no_hint_message_guilde">Menggunakan tongkat ajaib untuk menyimpan permainan.</string>
   <string name="no_hint_message_no_magic">Tidak berguna moves terdeteksi. Membuka permainan baru?</string>
-  <string name="remove_ad">Remove Ads</string>
-  <string name="purchasing_error_try_again">Error purchasing! Please try again later!</string>
-  <string name="msg_coin_hint">Purchase themes or magic</string>
-  <string name="purchasing_succeed_remove_ad">Purchase succeeds! Ads removed!</string>
   <string name="daily_challenge">Tantangan sehari-hari</string>
   <string name="daily_challenge_start_btn">Mulai Tantangan</string>
   <string name="daily_challenge_total_count">Total:</string>
@@ -150,7 +152,56 @@ Setiap kartu yang diserahkan di kolom Tablo menerima 5 poin. Memindahkan kartu d
   <string name="daily_challenge_status_unsolved">Belum terpecahkan</string>
   <string name="daily_challenge_start_hint">Mulai Tantangan Harian</string>
   <string name="daily_challenge_start_btn_replay">Ulangan</string>
-  <string name="daily_challenge_mode">Tantangan</string>
+  <string name="ask_daily_challenge_dialog_content">New Daily Challenge is ready! Play it now?</string>
+  <string name="ask_daily_challenge_dialog_btn">OK</string>
+  <string name="game_solution_popup_content">Susah menang? Lihat solusinya di sini!</string>
+  <string name="no_hint_dialog_solution_popup_content">Tidak bisa menang? Klik di sini untuk melihat solusinya!</string>
+  <string name="solution_rewarded_video_hint">Kesepakatan ini dapat dimenangkan. Tonton video pendek untuk melihat solusinya?</string>
+  <string name="solution_ads_unavailable">Iklan tidak tersedia. Silakan periksa kembali sedikit.</string>
+  <string name="solution_not_finished_hint">Solusinya belum selesai. Masih ingin berhenti menonton?</string>
+  <string name="solution_finished_back_to_game_hint">Anda telah melihat solusinya. Anda dapat memutar ulang permainan.</string>
+  <string name="solution_finished_hint">Solusi telah selesai. Klik tombol Keluar untuk kembali atau tombol Lagi untuk menonton lagi.</string>
+  <string name="solution_dialog_btn_quit">Berhenti Menonton</string>
+  <string name="solution_dialog_btn_continue">Terus</string>
+  <string name="solution_btn_quit">Berhenti</string>
+  <string name="solution_btn_replay">Lagi</string>
+  <string name="solution_status_playing">Solusi Menonton</string>
+  <string name="solution_status_finished">Solusi Berakhir</string>
+  <string-array name="notification_content">
+    <item>Tantangan harian tiba! Mainkan sekarang dan lihat apakah Anda bisa menang!</item>
+    <item>Langkah global terkecil adalah %1$s kemarin. Bisakah kamu mengalahkannya?</item>
+    <item>Skor global tertinggi adalah %1$s kemarin. Bisakah kamu mengalahkannya?</item>
+    <item>Waktu global terbaik adalah %1$s kemarin. Bisakah kamu mengalahkannya?</item>
+    <item>Langkah terkecil Anda adalah %1$s. Bisakah Anda memecahkan rekor?</item>
+    <item>Skor tertinggi Anda adalah %1$s. Bisakah Anda memecahkan rekor?</item>
+    <item>Waktu terbaik Anda adalah %1$s. Bisakah Anda memecahkan rekor?</item>
+    <item>Lebih banyak penawaran solitaire sedang menunggu untuk diselesaikan!</item>
+  </string-array>
+  <string name="notification_ticker_1">Kembali ke solitaire untuk bersenang-senang!</string>
+  <string name="notification_ticker_2">Tantangan Solitaire Harian tiba!</string>
   <string name="msg_remove_cardback">Kami menghapus 2 punggung kartu untuk mematuhi kebijakan google play. Maaf untuk ketidaknyamanannya! Anda dapat menyesuaikan kartu Anda kembali dengan gambar Anda sendiri!</string>
-  <string name="recover_billing">Kembalikan</string>
+  <string name="spider_solitaire">Spider Solitaire</string>
+  <string name="game_mode_spider_solitaire">Laba-laba</string>
+  <string name="setting_spider_solitaire_level">Nomor Jas</string>
+  <string name="setting_unlimited_deal">Kesepakatan Tidak Terbatas</string>
+  <string name="setting_spider_level_1_suit">1 Jas</string>
+  <string name="setting_spider_level_2_suit">2 Setelan</string>
+  <string name="setting_spider_level_4_suit">4 Jas</string>
+  <string name="statistics_spider_level_1_suit">1 Jas</string>
+  <string name="statistics_spider_level_2_suit">2 Setelan</string>
+  <string name="statistics_spider_level_4_suit">4 Jas</string>
+  <string name="spider_rule_0_text">Spider Solitaire dimainkan dengan dua deck masing-masing 52 kartu. Tergantung pada kesulitannya, deck terdiri dari satu, dua atau empat jenis yang berbeda.</string>
+  <string name="spider_rule_1_text">Di Spider, tujuan permainan ini adalah mengumpulkan semua kartu ke yayasan. Urutan kartu yang turun secara lengkap dari King ke Ace dengan jenis yang sama akan dikumpulkan ke salah satu fondasi secara otomatis.</string>
+  <string name="spider_rule_2_text">Di awal setiap pertandingan, 10 tumpukan dengan 6 atau 5 kartu dibagikan ke tablo. Kartu yang tersisa ditempatkan menghadap ke bawah untuk membentuk stok.</string>
+  <string name="spider_rule_3_text">Jika Anda kehabisan langkah yang valid, klik stok untuk memberikan satu kartu untuk setiap kolom di tablo.</string>
+  <string name="spider_rule_4_text">Anda dapat memindahkan urutan kartu yang menurun sebagai grup ke kolom tablo hanya jika kartu tersebut memiliki jenis yang sama.</string>
+  <string name="spider_rule_5_text">Mengetuk memindahkan kartu atau urutan kartu yang menurun dengan jenis yang sama ke lokasi yang memungkinkan secara otomatis, sementara menyeret memungkinkan Anda menempatkan secara manual.</string>
+  <string name="can_not_deal">Tidak bisa menangani kartu sementara tablo dengan kolom kosong</string>
+  <string name="custom_notification_btn">Tantangan</string>
+  <string name="eye_friendly">Ramah Mata</string>
+  <string name="title_continous_undo_prompt">Apakah Anda tahu?</string>
+  <string name="msg_continous_undo_prompt">Tekan dan tahan tombol undo untuk membatalkan berturut-turut.</string>
+  <string name="prompt_msg_sound_off">Catatan: Suara permainan mati. Kecilkan volume perangkat Anda untuk menonaktifkan Iklan.</string>
+  <string name="prompt_msg_orientation_lock_by_system">Catatan: Nyalakan rotasi otomatis perangkat Anda untuk memutar.</string>
+  <string name="prompt_msg_orientation_lock_by_game">Catatan: Batalkan pilihan "%s" pengaturan untuk memutar secara otomatis.</string>
 </resources>

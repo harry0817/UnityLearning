@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">Πασιέντζα</string>
-  <string name="score_label">σκορ</string>
+  <string name="score_label">Σκορ</string>
   <string name="time_label">χρόνος</string>
   <string name="move_label">Μετακινεί</string>
   <string name="auto_complete_title">Αυτόματη ολοκλήρωση</string>
@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">Νικηφόρα συμφωνία</string>
   <string name="play_action_replay">Επανάληψη</string>
   <string name="cancel">Ματαίωση</string>
+  <string name="tap_to_skip">Πατήστε για να παραλείψετε</string>
   <string name="setting_ok">Εντάξει</string>
   <string name="statistics">Στατιστική</string>
   <string name="setting_draw1">Σχεδίαση 1</string>
   <string name="setting_draw3">Σχεδίαση 3</string>
   <string name="setting_sound">Έλεγχος ήχου</string>
-  <string name="setting_times">Χρόνοι / Μετακινήσεις</string>
+  <string name="setting_times">Χρόνος / Μετακινήσεις</string>
   <string name="setting_orientation">Κλείδωμα προσανατολισμού</string>
   <string name="setting_hints">Αυτόματες συμβουλές</string>
-  <string name="setting_tapmove">Πατήστε Μετακίνηση</string>
+  <string name="setting_tapmove">Πατήστε για Μετακίνηση</string>
   <string name="help_rules">Κανόνες</string>
   <string name="setting_draw3_mode">3 Κάρτες</string>
-  <string name="setting_score_anim">Αποτέλεσμα βαθμολογίας</string>
+  <string name="setting_score_anim">Αποτέλεσμα βαθμολόγησης</string>
   <string name="setting_privacy_policy">Πολιτική Απορρήτου</string>
   <string name="setting_language">Γλώσσα</string>
   <string name="stat_won">Παιχνίδια κέρδισε</string>
@@ -38,7 +39,7 @@
   <string name="stat_fwmove">Λιγότερες νίκες κινήσεις</string>
   <string name="stat_mwmove">Οι περισσότερες κινήσεις</string>
   <string name="stat_nundo">Κερδίζει χωρίς αναίρεση</string>
-  <string name="stat_hscroe">υψηλότερο σκόρ</string>
+  <string name="stat_hscroe">Υψηλότερο σκόρ</string>
   <string name="reset_stat">Επαναφορά</string>
   <string name="yes">Ναί</string>
   <string name="mode_message">Η ρύθμιση δυσκολίας θα τεθεί σε ισχύ στο επόμενο νέο παιχνίδι</string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">Είστε σίγουροι ότι θα σταματήσετε;</string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">Είστε σίγουροι για την επαναφορά των στατιστικών παιχνιδιών;</string>
-  <string name="notification_push">Κάντε κλικ μου για να ανοίξετε το παιχνίδι!</string>
-  <string name="notification_ticker">Πίσω στην πασαρέλα για διασκέδαση!</string>
+  <string name="notification_push">Η νέα Daily Challenge φτάνει! Παίξτε τώρα και δείτε εάν μπορείτε να κερδίσετε!</string>
+  <string name="notification_ticker">Η καθημερινή πρόκληση του Solitaire φτάνει!</string>
   <string name="done">Εγινε</string>
   <string name="hint_draw_card">Σχεδιάζω</string>
   <string name="hint_recycle_card">Ανακυκλώστε τις υπόλοιπες κάρτες</string>
@@ -80,6 +81,10 @@
   <string name="invite_rate_gratitude_email_positive">Εντάξει</string>
   <string name="invite_rate_google_message">Θα μπορούσατε να διαλέξετε κάποια στιγμή για να μας αξιολογήσετε στο Google Play;</string>
   <string name="invite_rate_button_positive">Σίγουρος!</string>
+  <string name="invite_rate_special_title">Ευχαριστώ</string>
+  <string name="invite_rate_bonus_message">Θα μπορούσατε να διαλέξετε κάποια στιγμή για να μας αξιολογήσετε στο Google Play;</string>
+  <string name="invite_rate_bonus_button_positive">Συλλέγω</string>
+  <string name="invite_rate_bonus_hint">Ανταμοιβή</string>
   <string name="rule_0_text">Το Klondike Solitaire χρησιμοποιεί ένα τυποποιημένο κατάστρωμα 52 καρτών παιχνιδιού χωρίς τζόκερ. Ο στόχος του παιχνιδιού είναι να εκθέσει όλα τα χαρτιά και να τα μετακινήσει στους σωρούς των θεμελίων. Αυτοί οι σωροί είναι χτισμένοι προς τα πάνω σε κοστούμι από τους άσσους στους βασιλιάδες.</string>
   <string name="rule_1_text">Υπάρχουν 7 στήλες tableau που είναι χτισμένες προς τα κάτω (σε φθίνουσα σειρά, από Kings σε Aces) σε εναλλασσόμενα χρώματα (κόκκινο, μαύρο). Οποιαδήποτε κενή στήλη μπορεί να πληρωθεί μόνο με ένα βασιλιά ή ένα σωρό καρτών με έναν βασιλιά στην κορυφή.</string>
   <string name="rule_2_text">Μερικοί ή πλήρεις σωροί μπορούν να μετακινηθούν από τη μια στήλη στην άλλη αν είναι κατασκευασμένοι από εναλλασσόμενα χρώματα και μειούμενη κατάταξη. Εκθέστε τις κάρτες με την όψη προς τα κάτω στο tableau για να βρείτε τις κάρτες που χρειάζεστε.</string>
@@ -104,11 +109,8 @@
   <string name="magic_store_title">Κατάστημα</string>
   <string name="game_mode_random">Τυχαίος</string>
   <string name="game_mode_winning">Νικηφόρα</string>
+  <string name="game_mode_daily_challenge">Πρόκληση</string>
   <string name="daily_bonus_btn_claim">απαίτηση</string>
-  <string name="remove_ad">Αφαίρεσε τις διαφημίσεις</string>
-  <string name="purchasing_error_try_again">Σφάλμα αγοράς! Παρακαλώ δοκιμάστε ξανά αργότερα!</string>
-  <string name="msg_coin_hint">Αγοράστε θέματα ή μαγεία</string>
-  <string name="purchasing_succeed_remove_ad">Η αγορά επιτυγχάνει! Οι διαφημίσεις έχουν καταργηθεί!</string>
   <string name="daily_challenge">Καθημερινή πρόκληση</string>
   <string name="daily_challenge_start_btn">Ξεκινήστε την πρόκληση</string>
   <string name="daily_challenge_total_count">Σύνολο:</string>
@@ -116,9 +118,56 @@
   <string name="daily_challenge_status_unsolved">Αλυτος</string>
   <string name="daily_challenge_start_hint">Ξεκινήστε την Καθημερινή Πρόκληση</string>
   <string name="daily_challenge_start_btn_replay">Επανάληψη</string>
-  <string name="daily_challenge_mode">Πρόκληση</string>
+  <string name="ask_daily_challenge_dialog_content">Η νέα Daily Challenge είναι έτοιμη! Παίξτε τώρα;</string>
+  <string name="ask_daily_challenge_dialog_btn">Εντάξει</string>
+  <string name="game_solution_popup_content">Είναι δύσκολο να κερδίσεις; Δείτε την λύση εδώ!</string>
+  <string name="no_hint_dialog_solution_popup_content">Δεν είναι δυνατή η κατάκτηση; Κάντε κλικ εδώ για να δείτε τη λύση!</string>
+  <string name="solution_rewarded_video_hint">Αυτή η συμφωνία είναι κερδοφόρα. Παρακολουθήστε ένα σύντομο βίντεο για να δείτε τη λύση;</string>
+  <string name="solution_ads_unavailable">Οι διαφημίσεις δεν είναι διαθέσιμες. Ελέγξτε λίγο.</string>
+  <string name="solution_not_finished_hint">Η λύση δεν έχει ολοκληρωθεί. Ακόμα θέλετε να σταματήσετε να παρακολουθείτε;</string>
+  <string name="solution_finished_back_to_game_hint">Έχετε δει τη λύση. Μπορείτε να επαναλάβετε το παιχνίδι.</string>
+  <string name="solution_finished_hint">Η λύση έχει τελειώσει. Κάντε κλικ στο πλήκτρο Quit για να επιστρέψετε ή στο κουμπί Again για ξανά.</string>
+  <string name="solution_dialog_btn_quit">Κλείστε την παρακολούθηση</string>
+  <string name="solution_dialog_btn_continue">Να συνεχίσει</string>
+  <string name="solution_btn_quit">Εγκαταλείπω</string>
+  <string name="solution_btn_replay">Πάλι</string>
+  <string name="solution_status_playing">Παρακολουθήστε τη λύση</string>
+  <string name="solution_status_finished">Λύση λήγει</string>
+  <string-array name="notification_content">
+    <item>Η καθημερινή πρόκληση φτάνει! Παίξτε τώρα και δείτε εάν μπορείτε να κερδίσετε!</item>
+    <item>Το λιγότερο παγκόσμιο βήμα είναι %1$s χθες. Μπορείς να το νικήσεις?</item>
+    <item>Το υψηλότερο παγκόσμιο σκορ είναι %1$s χθες. Μπορείς να το νικήσεις?</item>
+    <item>Ο καλύτερος παγκόσμιος χρόνος είναι %1$s χθες. Μπορείς να το νικήσεις?</item>
+    <item>Το ελάχιστο βήμα σας είναι %1$s. Μπορείτε να σπάσετε το ρεκόρ;</item>
+    <item>Το υψηλότερο αποτέλεσμά σας είναι %1$s. Μπορείτε να σπάσετε το ρεκόρ;</item>
+    <item>Ο καλύτερος χρόνος σας είναι %1$s. Μπορείτε να σπάσετε το ρεκόρ;</item>
+    <item>Περισσότερες συμφωνίες πασιέντζας περιμένουν να λυθούν!</item>
+  </string-array>
+  <string name="notification_ticker_1">Πίσω στην πασαρέλα για διασκέδαση!</string>
+  <string name="notification_ticker_2">Πασιέντζα Η καθημερινή πρόκληση φτάνει!</string>
   <string name="msg_remove_cardback">Διαγράψαμε δύο πλάτες καρτών για να συμμορφωθούμε με την πολιτική Google Play. Συγγνώμη για την ταλαιπωρία! Μπορείτε να προσαρμόσετε την κάρτα σας πίσω με τις δικές σας φωτογραφίες!</string>
-  <string name="recover_billing">Επαναφέρω</string>
-  <string name="recover_billing_completed">Ολοκληρώθηκε. Εάν έχετε οποιεσδήποτε ερωτήσεις, ελέγξτε το δίκτυό σας ή ελέγξτε την παραγγελία σας στο Google Play και δοκιμάστε ξανά. Ευχαριστώ!</string>
-  <string name="recover_billing">Επαναφέρω</string>
+  <string name="spider_solitaire">Αράχνη πασιέντζα</string>
+  <string name="game_mode_spider_solitaire">Αράχνη</string>
+  <string name="setting_spider_solitaire_level">Αριθμός κοστουμιού</string>
+  <string name="setting_unlimited_deal">Απεριόριστη συμφωνία</string>
+  <string name="setting_spider_level_1_suit">1 κοστούμι</string>
+  <string name="setting_spider_level_2_suit">2 κοστούμια</string>
+  <string name="setting_spider_level_4_suit">4 κοστούμια</string>
+  <string name="statistics_spider_level_1_suit">1 κοστούμι</string>
+  <string name="statistics_spider_level_2_suit">2 κοστούμια</string>
+  <string name="statistics_spider_level_4_suit">4 κοστούμια</string>
+  <string name="spider_rule_0_text">Το Spider Solitaire παίζεται με δύο τράπουλες 52 φύλλων το καθένα. Ανάλογα με τη δυσκολία, τα καταστρώματα αποτελούνται από ένα, δύο ή τέσσερα διαφορετικά κοστούμια.</string>
+  <string name="spider_rule_1_text">Στο Spider, ο στόχος του παιχνιδιού είναι η συλλογή όλων των καρτών στο ίδρυμα. Μια πλήρης φθίνουσα ακολουθία καρτών από King to Ace του ίδιου χρώματος θα συλλέγεται αυτόματα σε ένα από τα θεμέλια.</string>
+  <string name="spider_rule_2_text">Στην αρχή κάθε παιχνιδιού, 10 στοίβες με 6 ή 5 φύλλα μοιράζονται στο τραπέζι. Τα υπόλοιπα φύλλα τοποθετούνται κλειστά για να σχηματίσουν το απόθεμα.</string>
+  <string name="spider_rule_3_text">Αν δεν έχετε έγκυρες κινήσεις, κάντε κλικ στο απόθεμα για να μοιράσετε ένα φύλλο για κάθε στήλη στο τραπέζι.</string>
+  <string name="spider_rule_4_text">Μπορείτε να μετακινήσετε μια φθίνουσα ακολουθία καρτών ως ομάδα σε άλλη στήλη πίνακα μόνο εάν είναι του ίδιου χρώματος.</string>
+  <string name="spider_rule_5_text">Το άγγιγμα μετακινεί μια κάρτα ή μια φθίνουσα ακολουθία καρτών του ίδιου χρώματος σε μια πιθανή τοποθεσία αυτόματα, ενώ η μεταφορά σας επιτρέπει να τοποθετήσετε χειροκίνητα.</string>
+  <string name="can_not_deal">Δεν είναι δυνατή η επεξεργασία της κάρτας ενώ είναι τραπέζι με κενή στήλη </string>
+  <string name="custom_notification_btn">Πρόκληση</string>
+  <string name="eye_friendly">Φιλικό για τα μάτια</string>
+  <string name="title_continous_undo_prompt">Γνωρίζεις?</string>
+  <string name="msg_continous_undo_prompt">Πατήστε παρατεταμένα το κουμπί αναίρεσης για διαδοχική αναίρεση.</string>
+  <string name="prompt_msg_sound_off">Σημείωση: Ο ήχος του παιχνιδιού είναι απενεργοποιημένος. Μειώστε την ένταση των συσκευών σας για σίγαση των διαφημίσεων.</string>
+  <string name="prompt_msg_orientation_lock_by_system">Σημείωση: Ενεργοποιήστε την αυτόματη περιστροφή της συσκευής σας για περιστροφή.</string>
+  <string name="prompt_msg_orientation_lock_by_game">Σημείωση: Καταργήστε την επιλογή "%s" ρύθμισης για αυτόματη περιστροφή.</string>
 </resources>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">Solitaire</string>
-  <string name="score_label">Scores</string>
+  <string name="score_label">Score</string>
   <string name="time_label">Tid</string>
   <string name="move_label">Trin</string>
   <string name="auto_complete_title">Auto Komplet</string>
@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">Vindende Deal </string>
   <string name="play_action_replay">Replay </string>
   <string name="cancel">Afbestille </string>
+  <string name="tap_to_skip">Tryk for at springe over</string>
   <string name="setting_ok">Okay </string>
   <string name="statistics">Statistik </string>
   <string name="setting_draw1">Tegn 1 </string>
   <string name="setting_draw3">Tegn 3 </string>
   <string name="setting_sound">Lydstyring </string>
-  <string name="setting_times">Tid/Bevægelser </string>
+  <string name="setting_times">Tid / Flytter</string>
   <string name="setting_orientation">Lås orientering </string>
   <string name="setting_hints">Auto Tip </string>
-  <string name="setting_tapmove">Tryk på Flyt </string>
+  <string name="setting_tapmove">Tryk på for at flytte</string>
   <string name="help_rules">Regler </string>
   <string name="setting_draw3_mode">3 kort </string>
-  <string name="setting_score_anim">Score Effekt </string>
+  <string name="setting_score_anim">Scoring Effekt</string>
   <string name="setting_privacy_policy">Fortrolighedspolitik </string>
   <string name="setting_language">Sprog</string>
   <string name="stat_won">Spil vundet </string>
@@ -38,7 +39,7 @@
   <string name="stat_fwmove">Færste vindende bevægelser </string>
   <string name="stat_mwmove">Mest vindende bevægelser </string>
   <string name="stat_nundo">Vinder uden fortrydelse </string>
-  <string name="stat_hscroe">Højeste Scores </string>
+  <string name="stat_hscroe">Højeste score</string>
   <string name="reset_stat">Nulstil </string>
   <string name="yes">Ja </string>
   <string name="mode_message">Sværhedsindstilling træder i kraft i Next New Game </string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">Er du sikker på at holde op? </string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">Er du sikker på at nulstille spilstatistik? </string>
-  <string name="notification_push">Klik mig for at åbne spillet! </string>
-  <string name="notification_ticker">Tilbage til kabal for sjov! </string>
+  <string name="notification_push">Ny daglig udfordring kommer! Spil det nu, og se om du kan vinde!</string>
+  <string name="notification_ticker">Den daglige udfordring for Solitaire ankommer!</string>
   <string name="done">Færdig </string>
   <string name="hint_draw_card">Tegne </string>
   <string name="hint_recycle_card">Genbrug resterende kort </string>
@@ -80,6 +81,11 @@
   <string name="invite_rate_gratitude_email_positive">Okay </string>
   <string name="invite_rate_google_message">Kan du tage et øjeblik til at bedømme os på Google Play? </string>
   <string name="invite_rate_button_positive">Jo da! </string>
+  <string name="invite_rate_special_title">tak skal du have </string>
+  <string name="invite_rate_special_message" translatable="false">Nogle spiller siger det om solitaire. Hvis du er enig, skal du indsætte det på Google Play. Vi har allerede kopieret det til dit udklipsholder. </string>
+  <string name="invite_rate_bonus_message">Kan du tage et øjeblik til at bedømme os på Google Play? </string>
+  <string name="invite_rate_bonus_button_positive">Indsamle </string>
+  <string name="invite_rate_bonus_hint">Belønning </string>
   <string name="rule_0_text">Klondike Solitaire bruger et standard 52 kortspil med spillekort uden jokere. Formålet med spillet er at udsætte alle kort og flytte dem ind i fundamentet bunker. Disse bunker er opbygget i pakke fra ess til konger. </string>
   <string name="rule_1_text">Der er 7 tableau kolonner, der er bygget nedad (i faldende rang, fra konger til ess) i vekslende farver (rød, sort). Enhver tom kolonne kan kun fyldes med en konge eller en bunke kort med en konge øverst. </string>
   <string name="rule_2_text">Delvise eller komplette bunker kan flyttes fra en kolonne til en anden, hvis de er bygget op af alternative farver og faldende rang. Udsæt ansigt-down kort i tableau for at finde kort, du har brug for. </string>
@@ -104,6 +110,7 @@
   <string name="magic_store_title">Butik </string>
   <string name="game_mode_random">Tilfældig </string>
   <string name="game_mode_winning">Vinder </string>
+  <string name="game_mode_daily_challenge">Udfordring</string>
   <string name="daily_bonus_btn_claim">Påstand </string>
   <string name="daily_bonus_today">I dag </string>
   <string name="daily_bonus_tomorrow">I morgen </string>
@@ -117,10 +124,6 @@
   <string name="daily_bonus_victory_result_message">Du vil tjene %1$d%% flere mønter i de næste %2$d minutter! </string>
   <string name="daily_bonus_result_done">GÅ </string>
   <string name="daily_bonus_result_message">Du har: </string>
-  <string name="remove_ad">Fjern annoncer</string>
-  <string name="purchasing_error_try_again">Fejl ved køb! Prøv igen senere!</string>
-  <string name="msg_coin_hint">Køb temaer eller magi</string>
-  <string name="purchasing_succeed_remove_ad">Køb lykkes! Annoncer fjernet!</string>
   <string name="daily_challenge">Daglig Udfordring</string>
   <string name="daily_challenge_start_btn">Start Udfordring</string>
   <string name="daily_challenge_total_count">I alt:</string>
@@ -128,9 +131,56 @@
   <string name="daily_challenge_status_unsolved">uløst</string>
   <string name="daily_challenge_start_hint">Start Daglig Udfordring</string>
   <string name="daily_challenge_start_btn_replay">Replay</string>
-  <string name="daily_challenge_mode">Udfordring</string>
+  <string name="ask_daily_challenge_dialog_content">Ny daglig udfordring er klar! Spil det nu?</string>
+  <string name="ask_daily_challenge_dialog_btn">Okay</string>
+  <string name="game_solution_popup_content">Svært at vinde? Se løsningen her!</string>
+  <string name="no_hint_dialog_solution_popup_content">Kan du ikke vinde? Klik her for at se løsningen!</string>
+  <string name="solution_rewarded_video_hint">Denne aftale kan vindes. Se en kort video for at se løsningen?</string>
+  <string name="solution_ads_unavailable">Annoncer er ikke tilgængelige. Kom ind igen.</string>
+  <string name="solution_not_finished_hint">Løsningen er ikke færdig. Vil du stadig stoppe med at se?</string>
+  <string name="solution_finished_back_to_game_hint">Du har set løsningen. Du kan afspille spillet igen.</string>
+  <string name="solution_finished_hint">Løsningen er færdig. Klik på knappen Afslut for at gå tilbage eller knappen igen for at se igen.</string>
+  <string name="solution_dialog_btn_quit">Stop med at se på</string>
+  <string name="solution_dialog_btn_continue">Blive ved</string>
+  <string name="solution_btn_quit">Afslut</string>
+  <string name="solution_btn_replay">Igen</string>
+  <string name="solution_status_playing">Se løsning</string>
+  <string name="solution_status_finished">Løsningen slutter</string>
+  <string-array name="notification_content">
+    <item>Den daglige udfordring ankommer! Spil det nu, og se om du kan vinde!</item>
+    <item>Mindst globale skridt er %1$s i går. Kan du slå det?</item>
+    <item>Højeste globale score er %1$s i går. Kan du slå det?</item>
+    <item>Bedste globale tid er %1$s i går. Kan du slå det?</item>
+    <item>Dit mindste trin er %1$s. Kan du bryde rekorden?</item>
+    <item>Din højeste score er %1$s. Kan du bryde rekorden?</item>
+    <item>Din bedste tid er %1$s. Kan du bryde rekorden?</item>
+    <item>Flere kabale tilbud venter på at blive løst!</item>
+  </string-array>
+  <string name="notification_ticker_1">Tilbage til kabal for sjov!</string>
+  <string name="notification_ticker_2">Solitaire Daily udfordring ankommer!</string>
   <string name="msg_remove_cardback">Vi sletter 2 kortrygge for at overholde google play-politik. Beklager ulejligheden! Du kan tilpasse dit kort tilbage med dine egne billeder!</string>
-  <string name="recover_billing">Gendan</string>
-  <string name="recover_billing_completed">Afsluttet. Hvis du har spørgsmål, skal du tjekke dit netværk eller tjekke din Google Play-ordre, og prøv igen. Tak!</string>
-  <string name="recover_billing">Gendan</string>
+  <string name="spider_solitaire">Spider Solitaire</string>
+  <string name="game_mode_spider_solitaire">edderkop</string>
+  <string name="setting_spider_solitaire_level">Dragtnummer</string>
+  <string name="setting_unlimited_deal">Ubegrænset aftale</string>
+  <string name="setting_spider_level_1_suit">1 Dragt</string>
+  <string name="setting_spider_level_2_suit">2 dragter</string>
+  <string name="setting_spider_level_4_suit">4 dragter</string>
+  <string name="statistics_spider_level_1_suit">1 Dragt</string>
+  <string name="statistics_spider_level_2_suit">2 dragter</string>
+  <string name="statistics_spider_level_4_suit">4 dragter</string>
+  <string name="spider_rule_0_text">Spider Solitaire spilles med to dæk på 52 kort hver. Afhængig af vanskelighederne består dækkene af en, to eller fire forskellige dragter.</string>
+  <string name="spider_rule_1_text">I Spider er målet med spillet at samle alle kort til fundamentet. En komplet faldende sekvens af kort fra King til Ess i samme farve samles automatisk til en af grundlæggelserne.</string>
+  <string name="spider_rule_2_text">I begyndelsen af hvert spil deles 10 stakke med 6 eller 5 kort til tablået. De resterende kort placeres med forsiden ned for at danne bestanden.</string>
+  <string name="spider_rule_3_text">Hvis du løber tør for gyldige træk, skal du klikke på bestanden for at dele et kort for hver kolonne i tablået.</string>
+  <string name="spider_rule_4_text">Du kan kun flytte en faldende sekvens af kort som en gruppe til en anden tableau-søjle, hvis de har samme farve.</string>
+  <string name="spider_rule_5_text">Ved at tappe flytter et kort eller en faldende række af kort i samme farve til et muligt sted automatisk, mens du trækker giver dig mulighed for at placere manuelt.</string>
+  <string name="can_not_deal">Kan ikke håndtere kort mens tableau med tom kolonne </string>
+  <string name="custom_notification_btn">Udfordring</string>
+  <string name="eye_friendly">Øjenvenlig</string>
+  <string name="title_continous_undo_prompt">Ved du?</string>
+  <string name="msg_continous_undo_prompt">Tryk på fortrydsknappen, og hold den nede for at fortryde fortløbende.</string>
+  <string name="prompt_msg_sound_off">Bemærk: Lyden fra spillet er slået fra. Skru ned for lydstyrken på dine enheder for at slå annoncerne fra.</string>
+  <string name="prompt_msg_orientation_lock_by_system">Bemærk: Tænd for automatisk rotation af din enhed for at rotere.</string>
+  <string name="prompt_msg_orientation_lock_by_game">Bemærk: Fravælg "%s" indstilling for at rotere automatisk.</string>
 </resources>

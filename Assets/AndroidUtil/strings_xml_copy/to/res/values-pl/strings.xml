@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">Pasjans</string>
-  <string name="score_label">Wyniki</string>
+  <string name="score_label">Wynik</string>
   <string name="time_label">Czas</string>
   <string name="move_label">Ruchów</string>
   <string name="auto_complete_title">Autouzupełnienie</string>
@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">Zwycięski zakład</string>
   <string name="play_action_replay">Powtórna rozgrywka</string>
   <string name="cancel">Anuluj</string>
+  <string name="tap_to_skip">Stuknij, aby pominąć</string>
   <string name="setting_ok">dobrze</string>
   <string name="statistics">Statystyka</string>
   <string name="setting_draw1">Rysuj 1</string>
   <string name="setting_draw3">Rysuj 3</string>
   <string name="setting_sound">Kontrola dźwięku</string>
-  <string name="setting_times">Czas / Ruchów</string>
+  <string name="setting_times">Czas / ruchy</string>
   <string name="setting_orientation">Zablokuj orientację</string>
   <string name="setting_hints">Automatyczne wskazówki</string>
-  <string name="setting_tapmove">Wybierz Przenieś</string>
+  <string name="setting_tapmove">Dotknij, aby przenieść</string>
   <string name="help_rules">Reguły</string>
   <string name="setting_draw3_mode">3 karty</string>
-  <string name="setting_score_anim">Wynik Efekt</string>
+  <string name="setting_score_anim">Efekt punktacji</string>
   <string name="setting_privacy_policy">Polityka prywatności</string>
   <string name="setting_language">Język</string>
   <string name="stat_won">Gry wygrane</string>
@@ -38,7 +39,7 @@
   <string name="stat_fwmove">Najmniej ruchów</string>
   <string name="stat_mwmove">Większość ruchów</string>
   <string name="stat_nundo">Wygrane bez cofania</string>
-  <string name="stat_hscroe">Najwyższe wyniki</string>
+  <string name="stat_hscroe">Najwyższy wynik</string>
   <string name="reset_stat">Nastawić</string>
   <string name="yes">tak</string>
   <string name="mode_message">Ustawienie trudności zacznie obowiązywać w następnej nowej grze</string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">Czy na pewno chcesz rzucić?</string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">Czy na pewno chcesz zresetować statystyki gry?</string>
-  <string name="notification_push">Kliknij, aby otworzyć grę!</string>
-  <string name="notification_ticker">Powrót do pasjansa dla zabawy!</string>
+  <string name="notification_push">Nadchodzi nowe codzienne wyzwanie! Zagraj teraz i sprawdź, czy możesz wygrać!</string>
+  <string name="notification_ticker">Nadchodzi codzienne wyzwanie Solitaire!</string>
   <string name="done">Gotowe</string>
   <string name="hint_draw_card">rysować</string>
   <string name="hint_recycle_card">Odzyskuj pozostałe karty</string>
@@ -80,6 +81,10 @@
   <string name="invite_rate_gratitude_email_positive">dobrze</string>
   <string name="invite_rate_google_message">Czy możesz poświęcić chwilę, aby ocenić nas w Google Play?</string>
   <string name="invite_rate_button_positive">Pewnie!</string>
+  <string name="invite_rate_special_title">Dziękuję Ci</string>
+  <string name="invite_rate_bonus_message">Czy możesz poświęcić chwilę, aby ocenić nas w Google Play?</string>
+  <string name="invite_rate_bonus_button_positive">Zbierać</string>
+  <string name="invite_rate_bonus_hint">Nagroda</string>
   <string name="rule_0_text">Klondike Solitaire używa standardowej talii 52 kart do gry bez jokerów. Celem gry jest odsłonięcie wszystkich kart i przeniesienie ich do stosów fundamentów. Pale te są budowane w górę w kolorze od Aces do Kings.</string>
   <string name="rule_1_text">Istnieje 7 kolumn tabeli, które są budowane w dół (w malejącej skali, od króli do asów) w naprzemiennych kolorach (czerwony, czarny). Każda pusta kolumna może być wypełniona tylko królem lub stosem kart z królem u góry.</string>
   <string name="rule_2_text">Częściowe lub pełne stosy mogą być przenoszone z jednej kolumny na drugą, jeśli są one budowane na przemian przez kolory i malejącą pozycję. Ujawnij odkryte karty w polu widzenia, aby znaleźć potrzebne karty.</string>
@@ -104,11 +109,8 @@
   <string name="magic_store_title">Sklep</string>
   <string name="game_mode_random">Losowy</string>
   <string name="game_mode_winning">Zwycięski</string>
+  <string name="game_mode_daily_challenge">Wyzwanie</string>
   <string name="daily_bonus_btn_claim">roszczenie</string>
-  <string name="remove_ad">Usuń reklamy</string>
-  <string name="purchasing_error_try_again">Błąd zakupu! Spróbuj ponownie później!</string>
-  <string name="msg_coin_hint">Kup motywy lub magię</string>
-  <string name="purchasing_succeed_remove_ad">Zakup się udaje! Reklamy usunięte!</string>
   <string name="daily_challenge">Wyzwanie dnia</string>
   <string name="daily_challenge_start_btn">Rozpocznij wyzwanie</string>
   <string name="daily_challenge_total_count">Całkowity:</string>
@@ -116,7 +118,56 @@
   <string name="daily_challenge_status_unsolved">Nierozwiązany</string>
   <string name="daily_challenge_start_hint">Rozpocznij codzienne wyzwanie</string>
   <string name="daily_challenge_start_btn_replay">Powtórna rozgrywka</string>
-  <string name="daily_challenge_mode">Wyzwanie</string>
+  <string name="ask_daily_challenge_dialog_content">Nowe codzienne wyzwanie jest gotowe! Zagraj teraz?</string>
+  <string name="ask_daily_challenge_dialog_btn">dobrze</string>
+  <string name="game_solution_popup_content">Trudno wygrać? Zobacz rozwiązanie tutaj!</string>
+  <string name="no_hint_dialog_solution_popup_content">Nie możesz wygrać? Kliknij tutaj, aby zobaczyć rozwiązanie!</string>
+  <string name="solution_rewarded_video_hint">Ta oferta jest do wygrania. Obejrzyj krótki film, aby zobaczyć rozwiązanie?</string>
+  <string name="solution_ads_unavailable">Reklamy niedostępne. Sprawdź ponownie za chwilę.</string>
+  <string name="solution_not_finished_hint">Rozwiązanie nie zostało zakończone. Nadal chcesz przestać oglądać?</string>
+  <string name="solution_finished_back_to_game_hint">Widziałeś rozwiązanie. Możesz odtworzyć grę.</string>
+  <string name="solution_finished_hint">Rozwiązanie zostało zakończone. Kliknij przycisk Zakończ, aby wrócić, lub przycisk Ponownie, aby obejrzeć ponownie.</string>
+  <string name="solution_dialog_btn_quit">Przestań oglądać</string>
+  <string name="solution_dialog_btn_continue">dalej</string>
+  <string name="solution_btn_quit">Porzucić</string>
+  <string name="solution_btn_replay">Jeszcze raz</string>
+  <string name="solution_status_playing">Oglądanie rozwiązania</string>
+  <string name="solution_status_finished">Rozwiązanie się kończy</string>
+  <string-array name="notification_content">
+    <item>Nadchodzi codzienne wyzwanie! Zagraj teraz i sprawdź, czy możesz wygrać!</item>
+    <item>Najmniej globalnym krokiem jest wczoraj %1$s. Przebijesz to?</item>
+    <item>Najwyższy wynik globalny to wczoraj %1$s. Przebijesz to?</item>
+    <item>Najlepszy czas na świecie to wczoraj %1$s. Przebijesz to?</item>
+    <item>Twój najmniejszy krok to %1$s. Czy możesz pobić rekord?</item>
+    <item>Twój najwyższy wynik to %1$s. Czy możesz pobić rekord?</item>
+    <item>Najlepszy czas to %1$s. Czy możesz pobić rekord?</item>
+    <item>Więcej ofert pasjansa czeka na rozwiązanie!</item>
+  </string-array>
+  <string name="notification_ticker_1">Wróć do pasjansa dla zabawy!</string>
+  <string name="notification_ticker_2">Nadchodzi codzienne wyzwanie Solitaire!</string>
   <string name="msg_remove_cardback">Usuwamy 2 rewersy kart, aby zachować zgodność z zasadami Google Play. Przepraszam za niedogodności! Możesz spersonalizować swoją kartę z własnymi zdjęciami!</string>
-  <string name="recover_billing">Przywróć</string>
+  <string name="spider_solitaire">Spider Solitaire</string>
+  <string name="game_mode_spider_solitaire">Pająk</string>
+  <string name="setting_spider_solitaire_level">Numer kombinezonu</string>
+  <string name="setting_unlimited_deal">Nieograniczona oferta</string>
+  <string name="setting_spider_level_1_suit">1 garnitur</string>
+  <string name="setting_spider_level_2_suit">2 garnitury</string>
+  <string name="setting_spider_level_4_suit">4 kolory</string>
+  <string name="statistics_spider_level_1_suit">1 garnitur</string>
+  <string name="statistics_spider_level_2_suit">2 garnitury</string>
+  <string name="statistics_spider_level_4_suit">4 kolory</string>
+  <string name="spider_rule_0_text">W pasjansa pająka gra się dwoma taliami po 52 karty. W zależności od poziomu trudności talie składają się z jednego, dwóch lub czterech różnych kolorów.</string>
+  <string name="spider_rule_1_text">W Spider celem gry jest zebranie wszystkich kart do fundacji. Cała malejąca sekwencja kart od króla do asa tego samego koloru zostanie automatycznie zebrana na jednym z fundamentów.</string>
+  <string name="spider_rule_2_text">Na początku każdej gry na stole układanych jest 10 stosów z 6 lub 5 kartami. Pozostałe karty należy umieścić zakryte, tworząc stos.</string>
+  <string name="spider_rule_3_text">Jeśli zabraknie ważnych ruchów, kliknij na akcje, aby rozdać jedną kartę dla każdej kolumny w tabeli.</string>
+  <string name="spider_rule_4_text">Możesz przenieść malejącą sekwencję kart jako grupę do innej kolumny na stole, tylko jeśli są w tym samym kolorze.</string>
+  <string name="spider_rule_5_text">Stuknięcie automatycznie przenosi kartę lub malejącą sekwencję kart tego samego koloru do możliwej lokalizacji, podczas gdy przeciąganie umożliwia ręczne umieszczanie.</string>
+  <string name="can_not_deal">Nie można rozdawać kart podczas tabeli z pustą kolumną </string>
+  <string name="custom_notification_btn">Wyzwanie</string>
+  <string name="eye_friendly">Przyjazny dla oczu</string>
+  <string name="title_continous_undo_prompt">Czy wiesz?</string>
+  <string name="msg_continous_undo_prompt">Naciśnij i przytrzymaj przycisk cofania, aby cofnąć kolejne.</string>
+  <string name="prompt_msg_sound_off">Uwaga: dźwięk w grze jest wyłączony. Zmniejsz głośność urządzeń, aby wyciszyć reklamy.</string>
+  <string name="prompt_msg_orientation_lock_by_system">Uwaga: włącz automatyczne obracanie urządzenia do obracania.</string>
+  <string name="prompt_msg_orientation_lock_by_game">Uwaga: Usuń zaznaczenie ustawienia "%s", aby obracać się automatycznie.</string>
 </resources>

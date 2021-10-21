@@ -7,7 +7,7 @@
   <string name="auto_complete_title">自動補完</string>
   <string name="setting">設定</string>
   <string name="themes">テーマ</string>
-  <string name="newgame">ゲーム</string>
+  <string name="newgame">新しいゲーム</string>
   <string name="hint_btn">ヒント</string>
   <string name="undo">戻る</string>
   <string name="hint_no_move">有効移動がありません。</string>
@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">正解ありモード</string>
   <string name="play_action_replay">リプレイ</string>
   <string name="cancel">キャンセル</string>
+  <string name="tap_to_skip">スキップする</string>
   <string name="setting_ok">OK</string>
   <string name="statistics">統計</string>
   <string name="setting_draw1">カード1枚</string>
   <string name="setting_draw3">カード3枚</string>
   <string name="setting_sound">サウンド</string>
-  <string name="setting_times">時間/移動</string>
+  <string name="setting_times">時間/動き</string>
   <string name="setting_orientation">オリエンテーション</string>
   <string name="setting_hints">オートヒント</string>
-  <string name="setting_tapmove">タップで動く</string>
+  <string name="setting_tapmove">タップして移動</string>
   <string name="help_rules">ルール</string>
   <string name="setting_draw3_mode">カード3枚</string>
-  <string name="setting_score_anim">スコアアニメーション</string>
+  <string name="setting_score_anim">得点効果</string>
   <string name="setting_privacy_policy">プライバシーポリシー</string>
   <string name="setting_language">言語</string>
   <string name="stat_won">クリア回数</string>
@@ -38,7 +39,7 @@
   <string name="stat_fwmove">クリア最小移動回数</string>
   <string name="stat_mwmove">クリア最大移動回数</string>
   <string name="stat_nundo">戻るなしでクリア回数</string>
-  <string name="stat_hscroe">ハイスコア</string>
+  <string name="stat_hscroe">最高得点</string>
   <string name="reset_stat">リセット</string>
   <string name="yes">はい</string>
   <string name="mode_message">難易度設定は、次の新しいゲームで有効になります</string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">ゲームを終了しますか？</string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">成績表をすべてゼロにリセットしますか？</string>
-  <string name="notification_push">クリックしてゲームを開く</string>
-  <string name="notification_ticker">ソリティアに戻る！</string>
+  <string name="notification_push">新しいデイリーチャレンジが到着します！ 今すぐプレイして、勝てるかどうか確かめてください！</string>
+  <string name="notification_ticker">ソリティアの毎日の挑戦が到着します！</string>
   <string name="done">完了</string>
   <string name="hint_recycle_card">もう一度めくります。</string>
   <string name="hint_draw_card">ドロー</string>
@@ -78,6 +79,10 @@
   <string name="invite_rate_gratitude_email_positive">わかりました</string>
   <string name="invite_rate_google_message">あなたは Google Play で私たちを評価するために時間を割いてもらえますか?</string>
   <string name="invite_rate_button_positive">もちろん！</string>
+  <string name="invite_rate_special_title">感謝する！</string>
+  <string name="invite_rate_bonus_message">あなたは Google Play で私たちを評価するために時間を割いてもらえますか?</string>
+  <string name="invite_rate_bonus_button_positive">収集</string>
+  <string name="invite_rate_bonus_hint">レート報酬</string>
   <string name="rule_0_text">
     並べられたカードを数字の順番で列を移動させながら、同じマークのAからKの順番に並べかえることができたらゲームクリアです。
   </string>
@@ -122,6 +127,7 @@
   <string name="magic_store_title">ショップ</string>
   <string name="game_mode_random">ランダム</string>
   <string name="game_mode_winning">正解あり</string>
+  <string name="game_mode_daily_challenge">挑戦</string>
   <string name="daily_bonus_today">本日は</string>
   <string name="daily_bonus_tomorrow">明日</string>
   <string name="daily_bonus_victory_format">%1$d 分</string>
@@ -137,10 +143,6 @@
   <string name="daily_bonus_result_message">あなたが得た: </string>
   <string name="no_hint_message_guilde">魔法棒使用して、ゲームを保存します。</string>
   <string name="no_hint_message_no_magic">これ以上は動けません。新しいゲームを開始しますか？</string>
-  <string name="remove_ad">広告を削除</string>
-  <string name="purchasing_error_try_again">購入エラー！ 後でもう一度やり直してください！</string>
-  <string name="msg_coin_hint">テーマまたは魔法を購入する</string>
-  <string name="purchasing_succeed_remove_ad">購入が成功しました！ 広告を削除しました！</string>
   <string name="daily_challenge">毎日の挑戦</string>
   <string name="daily_challenge_start_btn">チャレンジを開始</string>
   <string name="daily_challenge_total_count">合計：</string>
@@ -148,7 +150,56 @@
   <string name="daily_challenge_status_unsolved">未解決</string>
   <string name="daily_challenge_start_hint">デイリーチャレンジを開始</string>
   <string name="daily_challenge_start_btn_replay">リプレイ</string>
-  <string name="daily_challenge_mode">チャレンジ</string>
+  <string name="ask_daily_challenge_dialog_content">新しいデイリーチャレンジの準備ができました！ 今すぐプレイしますか？</string>
+  <string name="ask_daily_challenge_dialog_btn">OK</string>
+  <string name="game_solution_popup_content">勝ちにくい？ こちらで解決策をご覧ください！</string>
+  <string name="no_hint_dialog_solution_popup_content">勝てない？ 解決策を見るにはここをクリックしてください！</string>
+  <string name="solution_rewarded_video_hint">この取引は勝ちです。 短いビデオを見て解決策を確認してください。</string>
+  <string name="solution_ads_unavailable">広告は利用できません。 しばらくしてからもう一度ご確認ください。</string>
+  <string name="solution_not_finished_hint">解決策は完了していません。 視聴を停止したいですか？</string>
+  <string name="solution_finished_back_to_game_hint">あなたは解決策を見ました。 ゲームをリプレイできます。</string>
+  <string name="solution_finished_hint">ソリューションは終了しました。 [終了]ボタンをクリックして戻るか、[もう一度]ボタンをクリックしてもう一度視聴します。</string>
+  <string name="solution_dialog_btn_quit">視聴を終了</string>
+  <string name="solution_dialog_btn_continue">持続する</string>
+  <string name="solution_btn_quit">終了する</string>
+  <string name="solution_btn_replay">再び</string>
+  <string name="solution_status_playing">視聴ソリューション</string>
+  <string name="solution_status_finished">ソリューション終了</string>
+  <string-array name="notification_content">
+    <item>毎日の挑戦が到着します！ 今すぐプレイして、勝つことができるかどうかを確認してください！</item>
+    <item>昨日の最小グローバルステップは%1$sです。 あなたはそれを打つことができますか？</item>
+    <item>昨日の最高スコアは%1$sです。 あなたはそれを打つことができますか？</item>
+    <item>昨日のベストグローバルタイムは%1$sです。 あなたはそれを打つことができますか？</item>
+    <item>あなたの最小ステップは%1$sです。記録を破ることができますか？</item>
+    <item>最高得点は%1$sです。記録を更新できますか？</item>
+    <item>あなたのベストタイムは%1$sです。記録を破ることができますか？</item>
+    <item>より多くのソリティア取引が解決されるのを待っています！</item>
+  </string-array>
+  <string name="notification_ticker_1">ソリティアに戻って楽しみましょう！</string>
+  <string name="notification_ticker_2">ソリティアデイリーチャレンジが登場！</string>
   <string name="msg_remove_cardback">Google Playポリシーに準拠するため、2つのカードバックを削除します。 ご不便おかけしてすみません！ 自分の写真でカードバックをカスタマイズできます！</string>
-  <string name="recover_billing">復元</string>
+  <string name="spider_solitaire">スパイダーソリティア</string>
+  <string name="game_mode_spider_solitaire">クモ</string>
+  <string name="setting_spider_solitaire_level">スーツ番号</string>
+  <string name="setting_unlimited_deal">無制限の取引</string>
+  <string name="setting_spider_level_1_suit">1スーツ</string>
+  <string name="setting_spider_level_2_suit">2スーツ</string>
+  <string name="setting_spider_level_4_suit">4スーツ</string>
+  <string name="statistics_spider_level_1_suit">1スーツ</string>
+  <string name="statistics_spider_level_2_suit">2スーツ</string>
+  <string name="statistics_spider_level_4_suit">4スーツ</string>
+  <string name="spider_rule_0_text">スパイダーソリティアは、それぞれ52枚のカードの2組のデッキでプレイされます。 難易度に応じて、デッキは1つ、2つ、または4つの異なるスーツで構成されます。</string>
+  <string name="spider_rule_1_text">スパイダーでは、ゲームの目標はすべてのカードを財団に集めることです。 同じスーツのキングからエースまでのカードの完全な降順のシーケンスは、いずれかのファンデーションに自動的に収集されます。</string>
+  <string name="spider_rule_2_text">各ゲームの開始時に、6枚または5枚のカードで構成される10スタックがタブローに配られます。 残りのカードは裏向きに置かれ、ストックを形成します。</string>
+  <string name="spider_rule_3_text">有効な動きがなくなった場合は、在庫をクリックして、タブローの列ごとに1枚のカードを配ります。</string>
+  <string name="spider_rule_4_text">同じ降順のカードである場合にのみ、カードの降順をグループとして別のタブロー列に移動できます。</string>
+  <string name="spider_rule_5_text">タップすると、カードまたは同じスートのカードの降順のシーケンスが可能な場所に自動的に移動し、ドラッグすると手動で配置できます。</string>
+  <string name="can_not_deal">空の列があるタブロー時にカードを扱うことはできません</string>
+  <string name="custom_notification_btn">挑戦</string>
+  <string name="eye_friendly">目に優しい</string>
+  <string name="title_continous_undo_prompt">あなたは知っていますか？</string>
+  <string name="msg_continous_undo_prompt">元に戻すには、元に戻すボタンを押し続けます。</string>
+  <string name="prompt_msg_sound_off">注：ゲームのサウンドがオフになっています。デバイスの音量を下げて、広告をミュートします。</string>
+  <string name="prompt_msg_orientation_lock_by_system">注：回転するには、デバイスの自動回転をオンにしてください。</string>
+  <string name="prompt_msg_orientation_lock_by_game">注：自動的に回転するには、"%s"設定の選択を解除します。</string>
 </resources>

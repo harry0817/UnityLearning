@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">Косынка</string>
-  <string name="score_label">Счет</string>
+  <string name="score_label">Гол</string>
   <string name="time_label">Время</string>
   <string name="move_label">Ходов</string>
   <string name="auto_complete_title">Автозаполнение</string>
@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">Выигрышный пасьянс</string>
   <string name="play_action_replay">Повторить пасьянс</string>
   <string name="cancel">Отмена</string>
+  <string name="tap_to_skip">Нажмите, чтобы пропустить</string>
   <string name="setting_ok">ОК</string>
   <string name="statistics">Статистика</string>
   <string name="setting_draw1">1 Карта</string>
   <string name="setting_draw3">3 Карты</string>
   <string name="setting_sound">Звуки</string>
-  <string name="setting_times">Время/Ходы</string>
+  <string name="setting_times">Время/Ходов</string>
   <string name="setting_orientation">Ориентация</string>
   <string name="setting_hints">Автоподсказки</string>
-  <string name="setting_tapmove">нажмите двигаться</string>
+  <string name="setting_tapmove">Нажмите, чтобы переместить</string>
   <string name="help_rules">Правила Игры</string>
   <string name="setting_draw3_mode">3 Карты</string>
-  <string name="setting_score_anim">Эффект партитуры</string>
+  <string name="setting_score_anim">Эффект скоринга</string>
   <string name="setting_privacy_policy">Конфиденциальности</string>
   <string name="setting_language">язык</string>
   <string name="stat_won">Выиграно игр</string>
@@ -38,7 +39,7 @@
   <string name="stat_fwmove">Наименьшее количество ходов</string>
   <string name="stat_mwmove">Большинство ходов</string>
   <string name="stat_nundo">Выиграно без отмены хода</string>
-  <string name="stat_hscroe">Рекорд</string>
+  <string name="stat_hscroe">Наивысшая оценка</string>
   <string name="reset_stat">Сброс</string>
   <string name="yes">да</string>
   <string name="mode_message">Сложность настройки вступят в силу в Следующая Новая игра</string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">Вы уверены, что бросить?</string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">Сбросить игровую статистику?</string>
-  <string name="notification_push">Нажмите меня, чтобы открыть игру!</string>
-  <string name="notification_ticker">Назад к пасьянса для удовольствия!</string>
+  <string name="notification_push">Новый Ежедневный вызов прибывает! Сыграйте сейчас и посмотрите, сможете ли вы выиграть!</string>
+  <string name="notification_ticker">Ежедневный вызов пасьянса прибывает!</string>
   <string name="done">ОК</string>
   <string name="hint_recycle_card">Перетасовать оставшиеся карты</string>
   <string name="hint_draw_card">Сдать карты</string>
@@ -78,6 +79,10 @@
   <string name="invite_rate_gratitude_email_positive">Хорошо</string>
   <string name="invite_rate_google_message">Не могли бы вы воспользоваться моментом, чтобы оценить нас на Google Play?</string>
   <string name="invite_rate_button_positive">Уверен!</string>
+  <string name="invite_rate_special_title">Спасибо!</string>
+  <string name="invite_rate_bonus_message">Не могли бы вы воспользоваться моментом, чтобы оценить нас на Google Play?</string>
+  <string name="invite_rate_bonus_button_positive">Собирать</string>
+  <string name="invite_rate_bonus_hint">Оцените вознаграждение</string>
   <string name="rule_0_text">
     Косынка использует стандартный 52 карточная колода игральных карт без джокеров.
     Цель игры состоит в том, чтобы раскрыть все карты и переместить их в фундамент свай. Эти сваи строятся вверх в костюме от тузов до королей.
@@ -124,6 +129,7 @@
   <string name="magic_store_title">Магазин</string>
   <string name="game_mode_random">Случайных</string>
   <string name="game_mode_winning">Победы</string>
+  <string name="game_mode_daily_challenge">Испытание</string>
   <string name="daily_bonus_today">Сегодня</string>
   <string name="daily_bonus_tomorrow">Завтра</string>
   <string name="daily_bonus_victory_format">%1$d минут</string>
@@ -139,10 +145,6 @@
   <string name="daily_bonus_result_message">Вы получили: </string>
   <string name="no_hint_message_no_magic">Не обнаружено никаких полезных ходов. Чтобы открыть новую игру?</string>
   <string name="no_hint_message_guilde">Используйте волшебную палочку, чтобы сохранить игру.</string>
-  <string name="remove_ad">Удалить рекламу</string>
-  <string name="purchasing_error_try_again">Ошибка покупки! Пожалуйста, повторите попытку позже!</string>
-  <string name="msg_coin_hint">Покупка тем или магии</string>
-  <string name="purchasing_succeed_remove_ad">Покупка удалась! Реклама удалена!</string>
   <string name="daily_challenge">Ежедневное испытание</string>
   <string name="daily_challenge_start_btn">Начать испытание</string>
   <string name="daily_challenge_total_count">Всего:</string>
@@ -150,7 +152,56 @@
   <string name="daily_challenge_status_unsolved">нерешенный</string>
   <string name="daily_challenge_start_hint">Начать ежедневный вызов</string>
   <string name="daily_challenge_start_btn_replay">переигровка</string>
-  <string name="daily_challenge_mode">Вызов</string>
+  <string name="ask_daily_challenge_dialog_content">Новый Daily Challenge готов! Играть сейчас?</string>
+  <string name="ask_daily_challenge_dialog_btn">Хорошо</string>
+  <string name="game_solution_popup_content">Тяжело победить? Смотрите решение здесь!</string>
+  <string name="no_hint_dialog_solution_popup_content">Невозможно победить? Нажмите здесь, чтобы увидеть решение!</string>
+  <string name="solution_rewarded_video_hint">Эта сделка выгодна. Смотреть короткое видео, чтобы увидеть решение?</string>
+  <string name="solution_ads_unavailable">Объявления недоступны. Пожалуйста, зайдите немного.</string>
+  <string name="solution_not_finished_hint">Решение не закончено. Все еще хотите перестать смотреть?</string>
+  <string name="solution_finished_back_to_game_hint">Вы видели решение. Вы можете воспроизвести игру.</string>
+  <string name="solution_finished_hint">Решение закончено. Нажмите кнопку «Выйти», чтобы вернуться, или кнопку «Снова», чтобы посмотреть снова.</string>
+  <string name="solution_dialog_btn_quit">Выйти из просмотра</string>
+  <string name="solution_dialog_btn_continue">Продолжить</string>
+  <string name="solution_btn_quit">Уволиться</string>
+  <string name="solution_btn_replay">Опять таки</string>
+  <string name="solution_status_playing">Смотреть решение</string>
+  <string name="solution_status_finished">Решение заканчивается</string>
+  <string-array name="notification_content">
+    <item>Ежедневный вызов приходит! Сыграйте сейчас и посмотрите, сможете ли вы выиграть!</item>
+    <item>Наименее глобальный шаг - %1$s вчера. Вы можете победить это?</item>
+    <item>Наивысший мировой балл - %1$s вчера Вы можете победить это?</item>
+    <item>Лучшее мировое время - %1$s вчера. Вы можете победить это?</item>
+    <item>Ваш наименьший шаг - %1$s. Можете ли вы побить рекорд?</item>
+    <item>Ваш лучший результат - %1$s. Можете ли вы побить рекорд?</item>
+    <item>Ваше лучшее время - %1$s. Вы можете побить рекорд?</item>
+    <item>Больше пасьянсов ждут своего решения!</item>
+  </string-array>
+  <string name="notification_ticker_1">Вернуться к пасьянсу для удовольствия!</string>
+  <string name="notification_ticker_2">Пасьянс Ежедневное испытание прибывает!</string>
   <string name="msg_remove_cardback">Мы удаляем 2 карточки обратно в соответствии с политикой Google Play. Приносим извинения за неудобства! Вы можете настроить свою карту обратно с вашими собственными фотографиями!</string>
-  <string name="recover_billing">Восстановление</string>
+  <string name="spider_solitaire">Пасьянс Паук</string>
+  <string name="game_mode_spider_solitaire">паук</string>
+  <string name="setting_spider_solitaire_level">Номер костюма</string>
+  <string name="setting_unlimited_deal">Неограниченная сделка</string>
+  <string name="setting_spider_level_1_suit">1 костюм</string>
+  <string name="setting_spider_level_2_suit">2 костюма</string>
+  <string name="setting_spider_level_4_suit">4 костюма</string>
+  <string name="statistics_spider_level_1_suit">1 костюм</string>
+  <string name="statistics_spider_level_2_suit">2 костюма</string>
+  <string name="statistics_spider_level_4_suit">4 костюма</string>
+  <string name="spider_rule_0_text">Пасьянс «Паук» разыгрывается двумя колодами по 52 карты в каждой. В зависимости от сложности колоды состоят из одной, двух или четырех разных мастей.</string>
+  <string name="spider_rule_1_text">В игре Spider цель игры - собрать все карты до основания. Полная нисходящая последовательность карт от короля до туза одной масти будет автоматически собрана в одну из основ.</string>
+  <string name="spider_rule_2_text">В начале каждой игры на стол раздаются 10 стопок с 6 или 5 картами. Остальные карты кладутся лицевой стороной вниз, чтобы сформировать колоду.</string>
+  <string name="spider_rule_3_text">Если у вас закончились допустимые ходы, нажмите на колоду, чтобы сдать одну карту для каждого столбца в таблице.</string>
+  <string name="spider_rule_4_text">Вы можете переместить нисходящую последовательность карт как группу в другой столбец таблицы, только если они одной масти.</string>
+  <string name="spider_rule_5_text">Нажатие перемещает карту или нисходящую последовательность карт одной масти в возможное место автоматически, а перетаскивание позволяет разместить вручную.</string>
+  <string name="can_not_deal">Невозможно нанести карту, пока таблица с пустой колонкой</string>
+  <string name="custom_notification_btn">Испытание</string>
+  <string name="eye_friendly">Приятный для глаз</string>
+  <string name="title_continous_undo_prompt">Вы знаете?</string>
+  <string name="msg_continous_undo_prompt">Нажмите и удерживайте кнопку отмены для последовательной отмены.</string>
+  <string name="prompt_msg_sound_off">Примечание. Звук в игре отключен. Убавьте громкость на своих устройствах, чтобы отключить рекламу.</string>
+  <string name="prompt_msg_orientation_lock_by_system">Примечание. Включите автоповорот устройства, чтобы повернуть его.</string>
+  <string name="prompt_msg_orientation_lock_by_game">Примечание. Отмените выбор параметра "%s" для автоматического поворота.</string>
 </resources>

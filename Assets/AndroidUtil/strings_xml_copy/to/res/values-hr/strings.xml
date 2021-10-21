@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">Pasijans </string>
-  <string name="score_label">rezultati </string>
+  <string name="score_label">Postići</string>
   <string name="time_label">Vrijeme </string>
   <string name="move_label">potezi </string>
   <string name="auto_complete_title">Automatsko dovršavanje </string>
@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">Pobjednički mod </string>
   <string name="play_action_replay">ponovo odigrati </string>
   <string name="cancel">Otkazati </string>
+  <string name="tap_to_skip">Dodirnite za preskakanje</string>
   <string name="setting_ok">u redu </string>
   <string name="statistics">statistika </string>
   <string name="setting_draw1">Nacrtaj 1 </string>
   <string name="setting_draw3">Nacrtaj 3 </string>
   <string name="setting_sound">Kontrola zvuka </string>
-  <string name="setting_times">Vrijeme/Potezi </string>
+  <string name="setting_times">Vrijeme / Potezi</string>
   <string name="setting_orientation">Smjer zaključavanja</string>
   <string name="setting_hints">Auto Savjeti </string>
-  <string name="setting_tapmove">Dodirnite Premjesti </string>
+  <string name="setting_tapmove">Dodirnite za pomicanje</string>
   <string name="help_rules">pravila </string>
   <string name="setting_draw3_mode">3 kartice </string>
-  <string name="setting_score_anim">Učinak rezultata </string>
+  <string name="setting_score_anim">Efekt bodovanja</string>
   <string name="setting_privacy_policy">Pravila o privatnosti </string>
   <string name="setting_language">Jezik</string>
   <string name="stat_won">Igre su osvojene </string>
@@ -38,7 +39,7 @@
   <string name="stat_fwmove">Najmanji pobjednički potezi </string>
   <string name="stat_mwmove">Najveći potezi </string>
   <string name="stat_nundo">Osvaja bez poništavanja </string>
-  <string name="stat_hscroe">Najviši rezultati </string>
+  <string name="stat_hscroe">Najviši rezultat</string>
   <string name="reset_stat">Reset </string>
   <string name="yes">Da </string>
   <string name="mode_message">Poteškoća Postavka će stupiti na snagu u sljedećoj novoj igri </string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">Jeste li sigurni da odustate? </string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">Jeste li sigurni da vratite statistiku igre? </string>
-  <string name="notification_push">Kliknite me za otvaranje igre! </string>
-  <string name="notification_ticker">Natrag na pasijal za zabavu! </string>
+  <string name="notification_push">Stiže novi dnevni izazov! Igrajte ga sada i vidite možete li pobijediti!</string>
+  <string name="notification_ticker">Svakodnevno stiže Solitaireov izazov!</string>
   <string name="done">Gotovo </string>
   <string name="hint_draw_card">crtati </string>
   <string name="hint_recycle_card">Reciklirajte preostale kartice </string>
@@ -80,6 +81,11 @@
   <string name="invite_rate_gratitude_email_positive">u redu </string>
   <string name="invite_rate_google_message">Možete li nas potrajati trenutak da nas ocijenite na Google Play? </string>
   <string name="invite_rate_button_positive">Naravno! </string>
+  <string name="invite_rate_special_title">Hvala vam </string>
+  <string name="invite_rate_special_message" translatable="false">Neki igrač kaže o solitaireu. Ako se slažete, zalijepite ga na Google Play. Već smo je kopirali u vaš međuspremnik. </string>
+  <string name="invite_rate_bonus_message">Možete li nas potrajati trenutak da nas ocijenite na Google Play? </string>
+  <string name="invite_rate_bonus_button_positive">Skupljati </string>
+  <string name="invite_rate_bonus_hint">Nagrada</string>
   <string name="rule_0_text">Klondike Solitaire koristi standardnu 52 kartonsku palu igranih karata bez jokera. Cilj igre je izlagati sve kartice i premjestiti ih u pilote temelja. Ovi piloti su izgrađeni prema gore u odijelu od Aces to Kings. </string>
   <string name="rule_1_text">Postoji 7 tablica stupaca koji su izgrađeni prema dolje (u padu rang, od kraljeva do asa) u izmjeničnim bojama (crvena, crna). Svaki prazni stup može se napuniti samo s kraljem ili hrpom karata s kraljem na vrhu. </string>
   <string name="rule_2_text">Djelomični ili potpuni piloti mogu se premjestiti iz jednog stupca u drugu ako su izgrađeni dolje alternativnim bojama i smanjenjem položaja. Izložite kartice licem prema dolje u tablici kako biste pronašli potrebne kartice. </string>
@@ -104,6 +110,7 @@
   <string name="magic_store_title">Dućan </string>
   <string name="game_mode_random">slučajan </string>
   <string name="game_mode_winning">Pobjednički </string>
+  <string name="game_mode_daily_challenge">izazov</string>
   <string name="daily_bonus_btn_claim">Zahtjev </string>
   <string name="daily_bonus_today">Danas </string>
   <string name="daily_bonus_tomorrow">Sutra </string>
@@ -117,10 +124,6 @@
   <string name="daily_bonus_victory_result_message">Zaradit ćete %1$d%% više kovanica u idućih %2$d minuta! </string>
   <string name="daily_bonus_result_done">IĆI </string>
   <string name="daily_bonus_result_message">Imaš: </string>
-  <string name="remove_ad">Makni reklame</string>
-  <string name="purchasing_error_try_again">Pogreška prilikom kupnje! Molimo pokušajte ponovo kasnije!</string>
-  <string name="msg_coin_hint">Kupite teme ili magiju</string>
-  <string name="purchasing_succeed_remove_ad">Kupovina uspijeva! Oglasi su uklonjeni!</string>
   <string name="daily_challenge">Dnevni izazov</string>
   <string name="daily_challenge_start_btn">Započeti Izazov</string>
   <string name="daily_challenge_total_count">ukupno:</string>
@@ -128,7 +131,56 @@
   <string name="daily_challenge_status_unsolved">neriješen</string>
   <string name="daily_challenge_start_hint">Započnite Dnevni Izazov</string>
   <string name="daily_challenge_start_btn_replay">ponovo odigrati</string>
-  <string name="daily_challenge_mode">Izazov</string>
+  <string name="ask_daily_challenge_dialog_content">Novi dnevni izazov je spreman! Igrate li ga sada?</string>
+  <string name="ask_daily_challenge_dialog_btn">u redu</string>
+  <string name="game_solution_popup_content">Teško pobijediti? Pogledajte rješenje ovdje!</string>
+  <string name="no_hint_dialog_solution_popup_content">Ne možete pobijediti? Kliknite ovdje da biste vidjeli rješenje!</string>
+  <string name="solution_rewarded_video_hint">Ovaj posao je dobitni. Pogledajte kratak videozapis da biste vidjeli rješenje?</string>
+  <string name="solution_ads_unavailable">Oglasi nisu dostupni. Ponovno provjerite.</string>
+  <string name="solution_not_finished_hint">Rješenje nije završeno. I dalje želite prestati gledati?</string>
+  <string name="solution_finished_back_to_game_hint">Vidjeli ste rješenje. Možete ponovo reproducirati igru.</string>
+  <string name="solution_finished_hint">Rješenje je završeno. Kliknite gumb Zatvori za povratak ili gumb Opet za ponovno gledanje.</string>
+  <string name="solution_dialog_btn_quit">Prestanite gledati</string>
+  <string name="solution_dialog_btn_continue">Nastaviti</string>
+  <string name="solution_btn_quit">Prestati</string>
+  <string name="solution_btn_replay">Opet</string>
+  <string name="solution_status_playing">Gledanje rješenja</string>
+  <string name="solution_status_finished">Rješenje završava</string>
+  <string-array name="notification_content">
+    <item>Svakodnevno stiže izazov! Igrajte ga sada i vidite možete li pobijediti!</item>
+    <item>Najmanji globalni korak je juče 2011120. Možeš li pobijediti?</item>
+    <item>Najviši svjetski rezultat je juče 2011120. Možeš li pobijediti?</item>
+    <item>Najbolje globalno vrijeme je jučer %1$s. Možeš li pobijediti?</item>
+    <item>Vaš najmanji korak je %1$s. Možete li oboriti rekord?</item>
+    <item>Vaš najviši rezultat je %1$s. Možete li oboriti rekord?</item>
+    <item>Najbolje vam je vrijeme 2011120. Možete li oboriti rekord?</item>
+    <item>Čeka se rješenje više pasijansa!</item>
+  </string-array>
+  <string name="notification_ticker_1">Natrag u pasijans za zabavu!</string>
+  <string name="notification_ticker_2">Pasijalni svakodnevni izazov stiže!</string>
   <string name="msg_remove_cardback">Brisamo dvije poleđine kartice kako bismo udovoljili pravilima google playa. Žao nam je zbog neugodnosti! Možete prilagoditi svoju karticu natrag sa svojim vlastitim slikama!</string>
-  <string name="recover_billing">Vratiti</string>
+  <string name="spider_solitaire">Spider Pasijans</string>
+  <string name="game_mode_spider_solitaire">Pauk</string>
+  <string name="setting_spider_solitaire_level">Broj odijela</string>
+  <string name="setting_unlimited_deal">Neograničena ponuda</string>
+  <string name="setting_spider_level_1_suit">1 odijelo</string>
+  <string name="setting_spider_level_2_suit">2 odijela</string>
+  <string name="setting_spider_level_4_suit">4 odijela</string>
+  <string name="statistics_spider_level_1_suit">1 odijelo</string>
+  <string name="statistics_spider_level_2_suit">2 odijela</string>
+  <string name="statistics_spider_level_4_suit">4 odijela</string>
+  <string name="spider_rule_0_text">Spider Solitaire igra se s dvije palube od po 52 karte. Ovisno o poteškoći, palube se sastoje od jednog, dva ili četiri različita odijela.</string>
+  <string name="spider_rule_1_text">U igri Spider, cilj igre je prikupiti sve karte u temelj. Kompletni silazni niz karata od kralja do asa istog odijela automatski će se prikupiti do jednog od temelja.</string>
+  <string name="spider_rule_2_text">Na početku svake igre 10 stokova sa 6 ili 5 karata podijeljeno je na stol. Preostale kartice stavljaju se licem prema dolje kako bi tvorile zalihe.</string>
+  <string name="spider_rule_3_text">Ako vam ponestane valjanih poteza, kliknite na zalihu da biste poslali po jednu karticu za svaki stupac u tablici.</string>
+  <string name="spider_rule_4_text">Silazni niz karata možete premjestiti kao grupu u drugi stupac tablice samo ako su istog odijela.</string>
+  <string name="spider_rule_5_text">Dodirom se automatski pomiče kartica ili silazni niz kartica istog odijela na moguće mjesto, a povlačenje vam omogućuje ručno postavljanje.</string>
+  <string name="can_not_deal">Kartica se ne može nositi dok se prikazuje prazan stupac </string>
+  <string name="custom_notification_btn">izazov</string>
+  <string name="eye_friendly">Prikladan za oči</string>
+  <string name="title_continous_undo_prompt">Znaš li?</string>
+  <string name="msg_continous_undo_prompt">Pritisnite i držite gumb za poništavanje za uzastopno poništavanje.</string>
+  <string name="prompt_msg_sound_off">Napomena: Zvuk igre je isključen. Smanjite glasnoću uređaja da biste isključili oglase.</string>
+  <string name="prompt_msg_orientation_lock_by_system">Napomena: Uključite automatsko rotiranje uređaja da biste ga rotirali.</string>
+  <string name="prompt_msg_orientation_lock_by_game">Napomena: Poništite odabir "%s" postavke za automatsko rotiranje.</string>
 </resources>

@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">Solitaire </string>
-  <string name="score_label">Skoor </string>
+  <string name="score_label">Skoor</string>
   <string name="time_label">Aeg</string>
   <string name="move_label">Käigud</string>
   <string name="auto_complete_title">Automaatne lõpetamine </string>
@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">Võitja režiim</string>
   <string name="play_action_replay">Replay </string>
   <string name="cancel">Loobu</string>
+  <string name="tap_to_skip">Koputage vahele</string>
   <string name="setting_ok">Okei </string>
   <string name="statistics">Statistika </string>
   <string name="setting_draw1">Joonista 1 </string>
   <string name="setting_draw3">Joonista 3 </string>
   <string name="setting_sound">Heli juhtimine </string>
-  <string name="setting_times">Aeg/Käigud </string>
+  <string name="setting_times">Aeg / liigub</string>
   <string name="setting_orientation">Lukusta suund </string>
   <string name="setting_hints">Auto vihjed </string>
-  <string name="setting_tapmove">Puuduta käsku Liikuda </string>
+  <string name="setting_tapmove">Puudutage, et liikuda</string>
   <string name="help_rules">Reeglid </string>
   <string name="setting_draw3_mode">3 kaarti </string>
-  <string name="setting_score_anim">Hinde mõju </string>
+  <string name="setting_score_anim">Hindamise efekt</string>
   <string name="setting_privacy_policy">Privaatsuspoliitika </string>
   <string name="setting_language">Keel</string>
   <string name="stat_won">Mängud on võidetud </string>
@@ -38,7 +39,7 @@
   <string name="stat_fwmove">Väheseim võitnud käigud </string>
   <string name="stat_mwmove">Enim võitnud käigud </string>
   <string name="stat_nundo">Võidab ilma tühistamata </string>
-  <string name="stat_hscroe">Kõrgeim skoor </string>
+  <string name="stat_hscroe">Kõrgeim skoor</string>
   <string name="reset_stat">Lähtesta </string>
   <string name="yes">Jah </string>
   <string name="mode_message">Raskuste seadmine jõustub Next New Game\'is </string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">Kas olete kindel, et olete surnud? </string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">Kas olete kindlasti mängukogemuse lähtestanud? </string>
-  <string name="notification_push">Mängu avamiseks klõpsake mind! </string>
-  <string name="notification_ticker">Lõbutsege solitaire! </string>
+  <string name="notification_push">Uus Daily Challenge saabub! Mängi seda nüüd ja vaata, kas suudad võita!</string>
+  <string name="notification_ticker">Solitaire igapäevane väljakutse saabub!</string>
   <string name="done">Valmis </string>
   <string name="hint_draw_card">Joonista </string>
   <string name="hint_recycle_card">Jätkake ülejäänud kaarte uuesti </string>
@@ -80,6 +81,11 @@
   <string name="invite_rate_gratitude_email_positive">Okei </string>
   <string name="invite_rate_google_message">Kas võite palun võtta hetk, et hinnata meid Google Plays? </string>
   <string name="invite_rate_button_positive">Muidugi! </string>
+  <string name="invite_rate_special_title">Aitäh </string>
+  <string name="invite_rate_special_message" translatable="false">Mõned mängijad ütlevad seda solitaire kohta. Kui nõustute, siis kleepige see Google Play kaudu. Oleme juba kopeerinud selle oma lõikepuhvrisse. </string>
+  <string name="invite_rate_bonus_message">Kas võite palun võtta hetk, et hinnata meid Google Plays? </string>
+  <string name="invite_rate_bonus_button_positive">Koguge </string>
+  <string name="invite_rate_bonus_hint">Auhind </string>
   <string name="rule_0_text">Klondike Solitaire kasutab mängukaarte ilma jokkerita standardse 52 kaardipakiga. Mängu eesmärk on paljastada kõik kaardid ja viia need vundamendiparte. Need vaiad on üles ehitatud ülikondadest Acesilt kuningadeni. </string>
   <string name="rule_1_text">Seal on 7 tabeli sambaid, mis on ehitatud allapoole (kahanevas järjekorras, kuningadelt Aces\'ile) vahelduvate värvidega (punane, must). Iga tühja veeru saab täita ainult kuningaga või kaartidega, millel on kuningas ülaosas. </string>
   <string name="rule_2_text">Osalisi või täielikke palke saab ühelt veerult teisele teisaldada, kui need on üles ehitatud alternatiivsete värvide ja vähese asetusega. Näidake allapoole suunatud kaarte kaardil, et leida vajalikke kaarte. </string>
@@ -104,6 +110,7 @@
   <string name="magic_store_title">Pood </string>
   <string name="game_mode_random">Juhuslik</string>
   <string name="game_mode_winning">Võitja</string>
+  <string name="game_mode_daily_challenge">Väljakutse</string>
   <string name="daily_bonus_btn_claim">Nõue </string>
   <string name="daily_bonus_today">Täna </string>
   <string name="daily_bonus_tomorrow">Homme </string>
@@ -117,10 +124,6 @@
   <string name="daily_bonus_victory_result_message">Saate teenida %1$d%% rohkem münte järgmise %2$d minutiga! </string>
   <string name="daily_bonus_result_done">GO </string>
   <string name="daily_bonus_result_message">Sul on: </string>
-  <string name="remove_ad">Eemalda reklaamid</string>
-  <string name="purchasing_error_try_again">Viga ostmisel! Palun proovi hiljem uuesti!</string>
-  <string name="msg_coin_hint">Osta teemasid või maagiat</string>
-  <string name="purchasing_succeed_remove_ad">Ostmine õnnestub! Reklaamid eemaldatud!</string>
   <string name="daily_challenge">Igapäevane väljakutse</string>
   <string name="daily_challenge_start_btn">Alustage väljakutset</string>
   <string name="daily_challenge_total_count">Kokku:</string>
@@ -128,6 +131,56 @@
   <string name="daily_challenge_status_unsolved">Lahendamata</string>
   <string name="daily_challenge_start_hint">Alustage igapäevast väljakutset</string>
   <string name="daily_challenge_start_btn_replay">Kordus</string>
-  <string name="daily_challenge_mode">Väljakutse</string>
+  <string name="ask_daily_challenge_dialog_content">Uus igapäevane väljakutse on valmis! Mängi seda nüüd?</string>
+  <string name="ask_daily_challenge_dialog_btn">Okei</string>
+  <string name="game_solution_popup_content">Raske võita? Vaata lahendust siit!</string>
+  <string name="no_hint_dialog_solution_popup_content">Ei saa võita? Lahenduse nägemiseks klõpsake siin!</string>
+  <string name="solution_rewarded_video_hint">See tehing on võidav. Vaadake lahenduse nägemiseks lühikest videot?</string>
+  <string name="solution_ads_unavailable">Reklaamid pole saadaval. Palun kontrollige natuke uuesti.</string>
+  <string name="solution_not_finished_hint">Lahendus pole lõppenud. Kas soovite ikkagi vaatamise lõpetada?</string>
+  <string name="solution_finished_back_to_game_hint">Olete lahendust näinud. Saate mängu uuesti mängida.</string>
+  <string name="solution_finished_hint">Lahendus on lõppenud. Tagasi naasmiseks klõpsake nuppu Lõpeta või uuesti vaatamiseks nuppu Nupp.</string>
+  <string name="solution_dialog_btn_quit">Lõpeta vaatamine</string>
+  <string name="solution_dialog_btn_continue">Jätkake</string>
+  <string name="solution_btn_quit">Lõpeta</string>
+  <string name="solution_btn_replay">Jälle</string>
+  <string name="solution_status_playing">Lahenduse vaatamine</string>
+  <string name="solution_status_finished">Lahendus lõpeb</string>
+  <string-array name="notification_content">
+    <item>Igapäevane väljakutse saabub! Mängi seda nüüd ja vaata, kas suudad võita!</item>
+    <item>Vähim ülemaailmne samm on eile %1$s. Kas sa suudad seda lüüa?</item>
+    <item>Kõrgeim ülemaailmne tulemus on eile %1$s. Kas sa suudad seda lüüa?</item>
+    <item>Parim ülemaailmne aeg on eile %1$s. Kas sa suudad seda lüüa?</item>
+    <item>Teie väikseim samm on %1$s. Kas suudate rekordit purustada?</item>
+    <item>Teie suurim tulemus on %1$s. Kas suudate rekordit purustada?</item>
+    <item>Teie parim aeg on %1$s. Kas suudate rekordit purustada?</item>
+    <item>Veel pasjansitehingud ootavad lahendamist!</item>
+  </string-array>
+  <string name="notification_ticker_1">Tagasi pasjanssi juurde lõbu pärast!</string>
+  <string name="notification_ticker_2">Solitaire saabub igapäevane väljakutse!</string>
   <string name="msg_remove_cardback">Kustutame google Play poliitika järgimiseks 2 kaardi tagakülge. Vabandame ebamugavuste pärast! Saate oma kaardi tagasi omaenda piltidega kohandada!</string>
+  <string name="spider_solitaire">Spider Solitaire</string>
+  <string name="game_mode_spider_solitaire">Ämblik</string>
+  <string name="setting_spider_solitaire_level">Ülikonna number</string>
+  <string name="setting_unlimited_deal">Piiramatu tehing</string>
+  <string name="setting_spider_level_1_suit">1 ülikond</string>
+  <string name="setting_spider_level_2_suit">2 ülikonda</string>
+  <string name="setting_spider_level_4_suit">4 ülikonda</string>
+  <string name="statistics_spider_level_1_suit">1 ülikond</string>
+  <string name="statistics_spider_level_2_suit">2 ülikonda</string>
+  <string name="statistics_spider_level_4_suit">4 ülikonda</string>
+  <string name="spider_rule_0_text">Spider Solitaire\'i mängitakse kahe tekiga, milles on 52 kaarti. Sõltuvalt raskustest koosnevad tekid ühest, kahest või neljast erinevast ülikonnast.</string>
+  <string name="spider_rule_1_text">Spideris on mängu eesmärk koguda kõik kaardid sihtasutusse. Sama masti kuningast ässani kogu laskuv kaardijada kogutakse automaatselt ühte vundamenti.</string>
+  <string name="spider_rule_2_text">Iga mängu alguses jagatakse tabelisse 10 6 või 5 kaardiga virna. Ülejäänud kaardid pannakse aktsia moodustamiseks suunaga allapoole.</string>
+  <string name="spider_rule_3_text">Kui kehtivad käigud lõppevad, klõpsake laos iga tabeli veeru kohta ühe kaardi jagamiseks.</string>
+  <string name="spider_rule_4_text">Laskuvat kaardijada saab rühmana teise tabelikujulisse veergu viia ainult siis, kui need on sama masti.</string>
+  <string name="spider_rule_5_text">Koputades liigub sama masti kaart või kahanev jada automaatselt võimalikku asukohta, samal ajal kui lohistamine võimaldab käsitsi paigutada.</string>
+  <string name="can_not_deal">Tühi veergu ei saa kaardiga kaotada </string>
+  <string name="custom_notification_btn">Väljakutse</string>
+  <string name="eye_friendly">Silmasõbralik</string>
+  <string name="title_continous_undo_prompt">Kas sa tead?</string>
+  <string name="msg_continous_undo_prompt">Järjestikuse tagasivõtmise jaoks vajutage ja hoidke tagasivõtmisnuppu all.</string>
+  <string name="prompt_msg_sound_off">Märkus. Mängu heli on välja lülitatud. Reklaamide vaigistamiseks vähendage oma seadmete helitugevust.</string>
+  <string name="prompt_msg_orientation_lock_by_system">Märkus. Pööramiseks lülitage seadme automaatne pööramine sisse.</string>
+  <string name="prompt_msg_orientation_lock_by_game">Märkus. Automaatseks pööramiseks tühistage säte "%s".</string>
 </resources>

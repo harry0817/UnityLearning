@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">जीतने का सौदा</string>
   <string name="play_action_replay">फिर से खेलना</string>
   <string name="cancel">रद्द करना</string>
+  <string name="tap_to_skip">टैप टू स्किप</string>
   <string name="setting_ok">ठीक</string>
   <string name="statistics">आँकड़े</string>
   <string name="setting_draw1">ड्रा 1</string>
   <string name="setting_draw3">ड्रा 3</string>
   <string name="setting_sound">ध्वनि नियंत्रण</string>
-  <string name="setting_times">पहर/चालें</string>
+  <string name="setting_times">समय / चालें</string>
   <string name="setting_orientation">उन्मुखीकरण बंद करना</string>
   <string name="setting_hints">ऑटो संकेत</string>
-  <string name="setting_tapmove">हटो ठोकर</string>
+  <string name="setting_tapmove">ले जाने के लिए टैप करें</string>
   <string name="help_rules">नियम</string>
   <string name="setting_draw3_mode">3 कार्ड</string>
-  <string name="setting_score_anim">स्कोर प्रभाव</string>
+  <string name="setting_score_anim">स्कोरिंग प्रभाव</string>
   <string name="setting_privacy_policy">गोपनीयता नीति</string>
   <string name="setting_language">भाषा</string>
   <string name="stat_won">खेल जीता</string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">आप छोड़ने के लिए सुनिश्च</string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">आप खेल के आँकड़े रीसेट करना चाहते हैं?</string>
-  <string name="notification_push">मेरे खेल को खोलने के लिए क्लिक करें!</string>
-  <string name="notification_ticker">मनोरंजन के लिए त्यागी को वापस!</string>
+  <string name="notification_push">न्यू डेली चैलेंज आता है! इसे अब खेलें और देखें कि क्या आप जीत सकते हैं!</string>
+  <string name="notification_ticker">सॉलिटेयर की दैनिक चुनौती आती है!</string>
   <string name="done">पूरा</string>
   <string name="hint_recycle_card">शेष कार्ड रीसायकल</string>
   <string name="hint_draw_card">खींचना</string>
@@ -78,6 +79,10 @@
   <string name="invite_rate_gratitude_email_positive">ठीक है</string>
   <string name="invite_rate_google_message">क्या आप कृपया एक पल लेने के लिए हमें Google Play पर दर सकता है?</string>
   <string name="invite_rate_button_positive">यकीन!</string>
+  <string name="invite_rate_special_title">धन्यवाद!</string>
+  <string name="invite_rate_bonus_message">क्या आप कृपया एक पल लेने के लिए हमें Google Play पर दर सकता है?</string>
+  <string name="invite_rate_bonus_button_positive">इकट्ठा</string>
+  <string name="invite_rate_bonus_hint">दर इनाम</string>
   <string name="rule_0_text">
     Klondike त्यागी जोकर बिना ताश खेलने के एक मानक ५२ कार्ड डेक का उपयोग करता है ।
     खेल का उद्देश्य सभी कार्ड बेनकाब और उन्हें नींव ढेरों में स्थानांतरित करने के लिए है । इन ढेरों इक्के से राजाओं के लिए सूट में ऊपर की ओर बनाया जाता है ।
@@ -124,6 +129,7 @@
   <string name="magic_store_title">दुकान</string>
   <string name="game_mode_random">यादृच्छिक</string>
   <string name="game_mode_winning">जीतने</string>
+  <string name="game_mode_daily_challenge">चुनौती</string>
   <string name="daily_bonus_today">आज</string>
   <string name="daily_bonus_tomorrow">कल</string>
   <string name="daily_bonus_victory_format">%1$d मिनट</string>
@@ -139,10 +145,6 @@
   <string name="daily_bonus_result_message">आप मिल गया: </string>
   <string name="no_hint_message_guilde">खेल को बचाने के लिए जादू स्टिक का प्रयोग करें ।</string>
   <string name="no_hint_message_no_magic">कोई उपयोगी चाल का पता लगाया । कोई नया गेम खोलें?</string>
-  <string name="remove_ad">विज्ञापन हटाएँ</string>
-  <string name="purchasing_error_try_again">खरीदने में त्रुटि! बाद में पुन: प्रयास करें!</string>
-  <string name="msg_coin_hint">खरीद विषयों या जादू</string>
-  <string name="purchasing_succeed_remove_ad">खरीद सफल! विज्ञापन हटा दिए गए!</string>
   <string name="daily_challenge">दैनिक चुनौती</string>
   <string name="daily_challenge_start_btn">चैलेंज शुरू करें</string>
   <string name="daily_challenge_total_count">संपूर्ण:</string>
@@ -150,9 +152,56 @@
   <string name="daily_challenge_status_unsolved">न सुलझा हुआ</string>
   <string name="daily_challenge_start_hint">डेली चैलेंज शुरू करें</string>
   <string name="daily_challenge_start_btn_replay">फिर से खेलना</string>
-  <string name="daily_challenge_mode">चुनौती</string>
+  <string name="ask_daily_challenge_dialog_content">न्यू डेली चैलेंज तैयार है! इसे अब खेलें?</string>
+  <string name="ask_daily_challenge_dialog_btn">ठीक</string>
+  <string name="game_solution_popup_content">जीतना मुश्किल? समाधान यहाँ देखें!</string>
+  <string name="no_hint_dialog_solution_popup_content">जीतने में असमर्थ? समाधान देखने के लिए यहाँ क्लिक करें!</string>
+  <string name="solution_rewarded_video_hint">यह सौदा सराहनीय है। समाधान देखने के लिए एक छोटा वीडियो देखें?</string>
+  <string name="solution_ads_unavailable">विज्ञापन अनुपलब्ध हैं। कृपया थोड़ी जाँच करें।</string>
+  <string name="solution_not_finished_hint">समाधान समाप्त नहीं हुआ है। फिर भी देखना बंद करना चाहते हैं?</string>
+  <string name="solution_finished_back_to_game_hint">आपने समाधान देखा है। आप खेल को फिर से खेलना कर सकते हैं।</string>
+  <string name="solution_finished_hint">समाधान समाप्त हो गया है। वापस जाने के लिए क्विट बटन या फिर देखने के लिए फिर से बटन पर क्लिक करें।</string>
+  <string name="solution_dialog_btn_quit">देखना छोड़ दिया</string>
+  <string name="solution_dialog_btn_continue">जारी रखें</string>
+  <string name="solution_btn_quit">छोड़ना</string>
+  <string name="solution_btn_replay">फिर</string>
+  <string name="solution_status_playing">समाधान देखना</string>
+  <string name="solution_status_finished">समाधान समाप्त होता है</string>
+  <string-array name="notification_content">
+    <item>रोज़ आती है चुनौती! इसे अब खेलें और देखें कि क्या आप जीत सकते हैं!</item>
+    <item>कम से कम वैश्विक कदम %1$s कल है। क्या आप इसे हरा सकते हैं?</item>
+    <item>उच्चतम वैश्विक स्कोर कल %1$s है। क्या आप इसे हरा सकते हैं?</item>
+    <item>सर्वश्रेष्ठ वैश्विक समय कल %1$s है। क्या आप इसे हरा सकते हैं?</item>
+    <item>आपका कम से कम कदम %1$s है। क्या आप रिकॉर्ड तोड़ सकते हैं?</item>
+    <item>आपका उच्चतम स्कोर %1$s है। क्या आप रिकॉर्ड तोड़ सकते हैं?</item>
+    <item>आपका सबसे अच्छा समय %1$s है। क्या आप रिकॉर्ड तोड़ सकते हैं?</item>
+    <item>अधिक त्यागी सौदे हल होने की प्रतीक्षा कर रहे हैं!</item>
+  </string-array>
+  <string name="notification_ticker_1">मस्ती के लिए वापस त्यागी!</string>
+  <string name="notification_ticker_2">सॉलिटेयर डेली चैलेंज आता है!</string>
   <string name="msg_remove_cardback">हम Google Play नीति का पालन करने के लिए 2 कार्ड बैक हटाते हैं। असुविधा के लिए खेद है! आप अपनी खुद की तस्वीरों के साथ कार्ड वापस अनुकूलित कर सकते हैं!</string>
-  <string name="recover_billing">पुनर्स्थापित</string>
-  <string name="recover_billing_completed"> पूर्ण यदि आपके कोई प्रश्न हैं, तो अपने नेटवर्क की जांच करें या अपने Google Play आदेश की जांच करें और फिर से प्रयास करें। धन्यवाद!</string>
-  <string name="recover_billing">पुनर्स्थापित</string>
+  <string name="spider_solitaire">मकड़ी त्यागी</string>
+  <string name="game_mode_spider_solitaire">मकड़ी</string>
+  <string name="setting_spider_solitaire_level">सूट नंबर</string>
+  <string name="setting_unlimited_deal">अप्रतिबंधित डील</string>
+  <string name="setting_spider_level_1_suit">1 सूट</string>
+  <string name="setting_spider_level_2_suit">2 सूट</string>
+  <string name="setting_spider_level_4_suit">4 सूट</string>
+  <string name="statistics_spider_level_1_suit">1 सूट</string>
+  <string name="statistics_spider_level_2_suit">2 सूट</string>
+  <string name="statistics_spider_level_4_suit">4 सूट</string>
+  <string name="spider_rule_0_text">स्पाइडर सॉलिटेयर 52 कार्ड प्रत्येक के दो डेक के साथ खेला जाता है। कठिनाई के आधार पर, डेक में एक, दो या चार अलग-अलग सूट होते हैं।</string>
+  <string name="spider_rule_1_text">स्पाइडर में, खेल का लक्ष्य सभी कार्डों को नींव में इकट्ठा करना है। एक ही सूट के राजा से इक्का तक कार्ड का एक पूरा अवरोही क्रम स्वचालित रूप से नींव में से एक में एकत्र किया जाएगा।</string>
+  <string name="spider_rule_2_text">प्रत्येक खेल की शुरुआत में, 6 या 5 कार्ड वाले 10 स्टैक को झांकी से निपटाया जाता है। शेष कार्डों को स्टॉक बनाने के लिए नीचे रखा गया है।</string>
+  <string name="spider_rule_3_text">यदि आप मान्य चाल से बाहर निकलते हैं, तो झांकी में प्रत्येक कॉलम के लिए एक कार्ड से निपटने के लिए स्टॉक पर क्लिक करें।</string>
+  <string name="spider_rule_4_text">आप कार्ड के अवरोही क्रम को एक समूह के रूप में किसी अन्य झांकी कॉलम में ले जा सकते हैं, यदि वे एक ही सूट के हों।</string>
+  <string name="spider_rule_5_text">दोहन एक कार्ड या एक ही स्थान के कार्ड के अवरोही क्रम को स्वचालित रूप से संभव स्थान पर ले जाता है, जबकि ड्रैगिंग आपको मैन्युअल रूप से रखने की अनुमति देता है।</string>
+  <string name="can_not_deal">खाली कॉलम के साथ मेकअप के साथ कार्ड सौदा नहीं कर सकते</string>
+  <string name="custom_notification_btn">चुनौती</string>
+  <string name="eye_friendly">आंखों के अनुकूल</string>
+  <string name="title_continous_undo_prompt">क्या आप जानते हैं?</string>
+  <string name="msg_continous_undo_prompt">पूर्ववत करें बटन को लगातार पूर्ववत करने के लिए दबाकर रखें।</string>
+  <string name="prompt_msg_sound_off">नोट: गेम की ध्वनि बंद है। विज्ञापनों को म्यूट करने के लिए अपने उपकरणों का वॉल्यूम कम करें।</string>
+  <string name="prompt_msg_orientation_lock_by_system">नोट: घुमाने के लिए अपने डिवाइस का ऑटो-रोटेशन चालू करें।</string>
+  <string name="prompt_msg_orientation_lock_by_game">नोट: स्वचालित रूप से घुमाने के लिए "%s" सेटिंग को अचयनित करें।</string>
 </resources>

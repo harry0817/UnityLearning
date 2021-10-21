@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">Solitaire </string>
-  <string name="score_label">Rezultatai </string>
+  <string name="score_label">Rezultatas</string>
   <string name="time_label">Laikas </string>
   <string name="move_label">Judesi </string>
   <string name="auto_complete_title">Auto baigti </string>
@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">Laimėjo režimas </string>
   <string name="play_action_replay">Pakartoti </string>
   <string name="cancel">Atšaukti </string>
+  <string name="tap_to_skip">Palieskite, jei norite praleisti</string>
   <string name="setting_ok">Gerai </string>
   <string name="statistics">Statistika </string>
   <string name="setting_draw1">Atkreipti 1 </string>
   <string name="setting_draw3">Atkreipti 3 </string>
   <string name="setting_sound">Garso kontrolė </string>
-  <string name="setting_times">Laikas / Judesi </string>
+  <string name="setting_times">Laikas / juda</string>
   <string name="setting_orientation">Užrakinti orientaciją </string>
   <string name="setting_hints">Auto patarimai </string>
-  <string name="setting_tapmove">Bakstelėkite Perkelti </string>
+  <string name="setting_tapmove">Bakstelėkite Perkelti</string>
   <string name="help_rules">Taisyklės </string>
   <string name="setting_draw3_mode">3 kortelės </string>
-  <string name="setting_score_anim">Rezultato poveikis </string>
+  <string name="setting_score_anim">Įvertinimo efektas</string>
   <string name="setting_privacy_policy">Privatumo politika </string>
   <string name="setting_language">Lietuvių</string>
   <string name="stat_won">Žaidimai laimėjo </string>
@@ -38,7 +39,7 @@
   <string name="stat_fwmove">Mažiausiai laimingų judesių </string>
   <string name="stat_mwmove">Labiausiai laimingų judesių </string>
   <string name="stat_nundo">Laimė be atmetimo </string>
-  <string name="stat_hscroe">Aukščiausi rezultatai </string>
+  <string name="stat_hscroe">Aukščiausias balas</string>
   <string name="reset_stat">Atstatyti </string>
   <string name="yes">Taip </string>
   <string name="mode_message">Sunkumo nustatymas įsigalios kitame naujame žaidime </string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">Ar tikrai einate? </string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">Ar tikrai norite iš naujo nustatyti žaidimo statistiką? </string>
-  <string name="notification_push">Spustelėkite man, kad atidarytumėte žaidimą! </string>
-  <string name="notification_ticker">Atgal į pasivaikščiojimą! </string>
+  <string name="notification_push">Atėjo naujas „Daily Challenge“! Žaisk dabar ir pažiūrėk, ar gali laimėti!</string>
+  <string name="notification_ticker">Kasdien ateina Solitaire iššūkis!</string>
   <string name="done">padaryta </string>
   <string name="hint_draw_card">Atkreipti </string>
   <string name="hint_recycle_card">Išmeskite likusias korteles </string>
@@ -80,6 +81,11 @@
   <string name="invite_rate_gratitude_email_positive">Gerai </string>
   <string name="invite_rate_google_message">Ar galėtumėte paprašyti laiko įvertinti mus "Google Play"? </string>
   <string name="invite_rate_button_positive">Žinoma! </string>
+  <string name="invite_rate_special_title">Ačiū </string>
+  <string name="invite_rate_special_message" translatable="false">Kai kurie žaidėjai sako apie solitaire. Jei sutinkate, įklijuokite jį "Google Play". Mes jau nukopijuojame jį į jūsų mainų sritį. </string>
+  <string name="invite_rate_bonus_message">Ar galėtumėte paprašyti laiko įvertinti mus "Google Play"? </string>
+  <string name="invite_rate_bonus_button_positive">Surinkti </string>
+  <string name="invite_rate_bonus_hint">Atlygis </string>
   <string name="rule_0_text">"Klondike Solitaire" naudoja standartinį žaidimų kortų 52 kortelių bloką be jokerių. Žaidimo tikslas yra atskleisti visas korteles ir perkelti juos į pamatų polius. Šie poliai yra pastatyti aukštyn kostiumas nuo Aces iki karalių. </string>
   <string name="rule_1_text">Yra 7 lentelių stulpeliai, kurie yra pastatyti žemyn (mažėjančio rango, nuo karalių iki aksų) pakaitomis spalvomis (raudona, juoda). Bet kurį tuščią stulpelį galima užpildyti tik karaliumi arba viršuje su karaliumi krūva kartų. </string>
   <string name="rule_2_text">Daliniai arba pilnieji poliai gali būti perkelti iš vieno stulpelio į kitą, jei jie yra statomi alternatyviomis spalvomis ir mažėja rangas. Norėdami rasti norimas norimas korteles, spauskite ant viršaus esančių kortelių. </string>
@@ -104,6 +110,7 @@
   <string name="magic_store_title">Parduotuvė </string>
   <string name="game_mode_random">Atsitiktinis </string>
   <string name="game_mode_winning">Laimėti </string>
+  <string name="game_mode_daily_challenge">iššūkis</string>
   <string name="daily_bonus_btn_claim">Pretenzija </string>
   <string name="daily_bonus_today">Šiandien </string>
   <string name="daily_bonus_tomorrow">Rytoj </string>
@@ -117,10 +124,6 @@
   <string name="daily_bonus_victory_result_message">Per %2$d minutes gausite %1$d%% daugiau monetų! </string>
   <string name="daily_bonus_result_done">GO </string>
   <string name="daily_bonus_result_message">Tu turi: </string>
-  <string name="remove_ad">Panaikinti reklamas</string>
-  <string name="purchasing_error_try_again">Klaida perkant! Pabandykite dar kartą vėliau!</string>
-  <string name="msg_coin_hint">Įsigykite temas ar magiją</string>
-  <string name="purchasing_succeed_remove_ad">Pirkti pavyksta! Skelbimai pašalinti!</string>
   <string name="daily_challenge">Kasdienis iššūkis</string>
   <string name="daily_challenge_start_btn">Pradėti Iššūkį</string>
   <string name="daily_challenge_total_count">Iš viso:</string>
@@ -128,6 +131,56 @@
   <string name="daily_challenge_status_unsolved">Neišspręsta</string>
   <string name="daily_challenge_start_hint">Pradėkite Kasdienis Iššūkis</string>
   <string name="daily_challenge_start_btn_replay">Pakartoti</string>
-  <string name="daily_challenge_mode">Iššūkis</string>
+  <string name="ask_daily_challenge_dialog_content">Naujas dienos iššūkis yra paruoštas! Žaisk dabar?</string>
+  <string name="ask_daily_challenge_dialog_btn">Gerai</string>
+  <string name="game_solution_popup_content">Sunku laimėti? Peržiūrėkite sprendimą čia!</string>
+  <string name="no_hint_dialog_solution_popup_content">Negalite laimėti? Norėdami pamatyti sprendimą, spustelėkite čia!</string>
+  <string name="solution_rewarded_video_hint">Šis susitarimas yra laimimas. Pažiūrėkite trumpą vaizdo įrašą norėdami pamatyti sprendimą?</string>
+  <string name="solution_ads_unavailable">Skelbimai negalimi. Prašau šiek tiek dar kartą patikrinti.</string>
+  <string name="solution_not_finished_hint">Sprendimas dar nebaigtas. Vis dar norite nustoti žiūrėti?</string>
+  <string name="solution_finished_back_to_game_hint">Jūs matėte sprendimą. Galite pakartoti žaidimą.</string>
+  <string name="solution_finished_hint">Sprendimas baigtas. Spustelėkite mygtuką Baigti, jei norite grįžti, arba mygtuką Vėl, kad vėl žiūrėtumėte.</string>
+  <string name="solution_dialog_btn_quit">Baigti žiūrėti</string>
+  <string name="solution_dialog_btn_continue">Tęsti</string>
+  <string name="solution_btn_quit">Mesti</string>
+  <string name="solution_btn_replay">Vėlgi</string>
+  <string name="solution_status_playing">Stebimas sprendimas</string>
+  <string name="solution_status_finished">Sprendimas baigiasi</string>
+  <string-array name="notification_content">
+    <item>Kasdien ateina iššūkis! Žaisk dabar ir pažiūrėk, ar gali laimėti!</item>
+    <item>Mažiausias pasaulinis žingsnis yra %1$s vakar. Ar gali tai įveikti?</item>
+    <item>Aukščiausias pasaulinis rezultatas yra %1$s vakar. Ar gali tai įveikti?</item>
+    <item>Geriausias pasaulinis laikas yra %1$s vakar. Ar gali tai įveikti?</item>
+    <item>Jūsų mažiausias žingsnis yra %1$s. Ar galite sulaužyti rekordą?</item>
+    <item>Didžiausias jūsų rezultatas yra %1$s. Ar galite sulaužyti rekordą?</item>
+    <item>Geriausias jūsų laikas yra %1$s. Ar galite sulaužyti rekordą?</item>
+    <item>Laukiama dar kelių pasjanso pasiūlymų!</item>
+  </string-array>
+  <string name="notification_ticker_1">Atgal į pasjansą linksmybėms!</string>
+  <string name="notification_ticker_2">Solitaire ateina kasdienis iššūkis!</string>
   <string name="msg_remove_cardback">Ištriname 2 kortelių nugarėles, kad atitiktume „Google Play“ politiką. Atsiprašome už nepatogumus! Savo kortelę galite pritaikyti savo nuotraukoms!</string>
+  <string name="spider_solitaire">Voras Solitaire</string>
+  <string name="game_mode_spider_solitaire">Voras</string>
+  <string name="setting_spider_solitaire_level">Ieškinio numeris</string>
+  <string name="setting_unlimited_deal">Neribotas sandoris</string>
+  <string name="setting_spider_level_1_suit">1 kostiumas</string>
+  <string name="setting_spider_level_2_suit">2 kostiumai</string>
+  <string name="setting_spider_level_4_suit">4 kostiumai</string>
+  <string name="statistics_spider_level_1_suit">1 kostiumas</string>
+  <string name="statistics_spider_level_2_suit">2 kostiumai</string>
+  <string name="statistics_spider_level_4_suit">4 kostiumai</string>
+  <string name="spider_rule_0_text">„Spider Solitaire“ žaidžiamas dviem deniais po 52 kortas. Atsižvelgiant į sunkumą, denius sudaro vienas, du ar keturi skirtingi kostiumai.</string>
+  <string name="spider_rule_1_text">„Spider“ žaidime siekiama surinkti visas kortas į pamatą. Visiškai mažėjanti to paties kostiumo kortelių seka nuo karaliaus iki tūzo bus automatiškai surinkta į vieną iš pamatų.</string>
+  <string name="spider_rule_2_text">Kiekvieno žaidimo pradžioje 10 lentelių su 6 arba 5 kortelėmis išdalijamos prie stalo. Likusios kortelės dedamos puse žemyn, kad suformuotų atsargas.</string>
+  <string name="spider_rule_3_text">Jei pasibaigia galiojantys judesiai, spustelėkite atsargas, kad kiekvienoje lentelės skiltyje būtų viena kortelė.</string>
+  <string name="spider_rule_4_text">Mažėjančią kortų seką galite perkelti kaip grupę į kitą lentelės stulpelį, tik jei jie yra to paties pavyzdžio.</string>
+  <string name="spider_rule_5_text">Bakstelėjimas perkelia kortelę ar mažėjančią to paties kostiumo kortelių seką automatiškai į galimą vietą, o vilkdami galite įdėti rankiniu būdu.</string>
+  <string name="can_not_deal">Negalima spręsti kortelės, kol tableau su tuščiu stulpeliu </string>
+  <string name="custom_notification_btn">iššūkis</string>
+  <string name="eye_friendly">Akims draugiškas</string>
+  <string name="title_continous_undo_prompt">Ar tu žinai?</string>
+  <string name="msg_continous_undo_prompt">Paspauskite ir palaikykite atšaukimo mygtuką, kad anuliuotumėte iš eilės.</string>
+  <string name="prompt_msg_sound_off">Pastaba: žaidimo garsas išjungtas. Jei norite nutildyti skelbimus, sumažinkite įrenginių garsumą.</string>
+  <string name="prompt_msg_orientation_lock_by_system">Pastaba: norėdami pasukti, įjunkite automatinį įrenginio sukimą.</string>
+  <string name="prompt_msg_orientation_lock_by_game">Pastaba: panaikinkite "%s" nustatymo pasirinkimą, kad automatiškai pasuktumėte.</string>
 </resources>

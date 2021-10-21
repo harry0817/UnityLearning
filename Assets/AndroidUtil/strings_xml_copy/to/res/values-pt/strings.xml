@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns0="http://schemas.android.com/tools" ns0:locale="pt">
   <string name="app_name">Paciência</string>
-  <string name="score_label">Pontos</string>
+  <string name="score_label">Ponto</string>
   <string name="time_label">Tempo</string>
   <string name="move_label">Movi</string>
   <string name="auto_complete_title">Auto Completar</string>
@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">Jogo Vitorioso</string>
   <string name="play_action_replay">Repetir Jogo</string>
   <string name="cancel">Cancelar</string>
+  <string name="tap_to_skip">Toque para pular</string>
   <string name="setting_ok">OK</string>
   <string name="statistics">Estatísticas</string>
   <string name="setting_draw3_mode">3 Cartas</string>
   <string name="setting_sound">Som</string>
-  <string name="setting_times">Tempo/Movimentos</string>
+  <string name="setting_times">Hora / Movimentos</string>
   <string name="setting_orientation">Orientação</string>
   <string name="setting_hints">Dicas Automáticas</string>
-  <string name="setting_tapmove">Toque para mover</string>
+  <string name="setting_tapmove">Toque para Mover</string>
   <string name="help_rules">Como Jogar</string>
   <string name="setting_draw1">1 Carta</string>
   <string name="setting_draw3">3 Cartas</string>
-  <string name="setting_score_anim">Efeito da contagem</string>
+  <string name="setting_score_anim">Efeito de pontuação</string>
   <string name="setting_privacy_policy">Política de privacidade</string>
   <string name="setting_language">Língua</string>
   <string name="stat_won">Partidas Ganhas</string>
@@ -38,7 +39,7 @@
   <string name="stat_fwmove">Menor Número de Movimentos</string>
   <string name="stat_mwmove">Maior Número de Movimentos</string>
   <string name="stat_nundo">Vitórias Sem Refazer</string>
-  <string name="stat_hscroe">Pontuação Máxima</string>
+  <string name="stat_hscroe">Maior pontuação</string>
   <string name="reset_stat">Reiniciar</string>
   <string name="yes">Sim</string>
   <string name="mode_message">Dificuldade do jogo vai mudar no próximo jogo novo</string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">Tem certeza de sair?</string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">Você deseja apagar suas estatísticas?</string>
-  <string name="notification_push">Clique-me para abrir o jogo!</string>
-  <string name="notification_ticker">Voltar para o solitário por diversão!</string>
+  <string name="notification_push">Novo desafio diário chega! Jogue agora e veja se você pode ganhar!</string>
+  <string name="notification_ticker">Desafio diário de Paciência chega!</string>
   <string name="done">Pronto</string>
   <string name="hint_recycle_card">Reciclar cartas restantes</string>
   <string name="hint_draw_card">Cavar</string>
@@ -78,6 +79,10 @@
   <string name="invite_rate_gratitude_email_positive">Okey</string>
   <string name="invite_rate_google_message">Poderia você por favor tomar um momento para classificar-nos no Google Play?</string>
   <string name="invite_rate_button_positive">Certeza!</string>
+  <string name="invite_rate_special_title">Obrigado!</string>
+  <string name="invite_rate_bonus_message">Poderia você por favor tomar um momento para classificar-nos no Google Play?</string>
+  <string name="invite_rate_bonus_button_positive">Coletar</string>
+  <string name="invite_rate_bonus_hint">Recompensa da taxa</string>
   <string name="rule_0_text">
     Klondike Solitaire usa um baralho de cartas padrão 52 de cartões de jogo sem Jokers.
     O objetivo do jogo é expor todos os cartões e movê-los para as estacas da Fundação. Estas pilhas são construídas para cima em terno de ases para reis.
@@ -124,6 +129,7 @@ Cada carta que é virada na coluna do tabuleiro recebe 5 pontos. Mover um cartã
   <string name="magic_store_title">Loja</string>
   <string name="game_mode_random">Aleatório</string>
   <string name="game_mode_winning">Ganhar</string>
+  <string name="game_mode_daily_challenge">Desafio</string>
   <string name="daily_bonus_today">Hoje</string>
   <string name="daily_bonus_tomorrow">Amanhã</string>
   <string name="daily_bonus_victory_format">%1$d minutos</string>
@@ -139,10 +145,6 @@ Cada carta que é virada na coluna do tabuleiro recebe 5 pontos. Mover um cartã
   <string name="daily_bonus_result_message">Você tem: </string>
   <string name="no_hint_message_no_magic">Não foram detectados movimentos úteis. Se for aberto um novo jogo?</string>
   <string name="no_hint_message_guilde">Use Magic Stick para salvar o jogo.</string>
-  <string name="remove_ad">Remover propagandas</string>
-  <string name="purchasing_error_try_again">Erro na compra! Por favor, tente novamente mais tarde!</string>
-  <string name="msg_coin_hint">Compre temas ou magia</string>
-  <string name="purchasing_succeed_remove_ad">Compra bem-sucedida! Anúncios removidos!</string>
   <string name="daily_challenge">Desafio diário</string>
   <string name="daily_challenge_start_btn">Desafio inicial</string>
   <string name="daily_challenge_total_count">Total:</string>
@@ -150,7 +152,56 @@ Cada carta que é virada na coluna do tabuleiro recebe 5 pontos. Mover um cartã
   <string name="daily_challenge_status_unsolved">Não resolvido</string>
   <string name="daily_challenge_start_hint">Comece o Desafio Diário</string>
   <string name="daily_challenge_start_btn_replay">Repetição</string>
-  <string name="daily_challenge_mode">Desafio</string>
+  <string name="ask_daily_challenge_dialog_content">O novo desafio diário está pronto! Jogá-lo agora?</string>
+  <string name="ask_daily_challenge_dialog_btn">Está bem</string>
+  <string name="game_solution_popup_content">Difícil de ganhar? Veja a solução aqui!</string>
+  <string name="no_hint_dialog_solution_popup_content">Incapaz de ganhar? Clique aqui para ver a solução!</string>
+  <string name="solution_rewarded_video_hint">Este acordo é ganha. Assista a um pequeno vídeo para ver a solução?</string>
+  <string name="solution_ads_unavailable">Anúncios indisponíveis. Volte um pouco.</string>
+  <string name="solution_not_finished_hint">A solução não terminou. Ainda quer parar de assistir?</string>
+  <string name="solution_finished_back_to_game_hint">Você viu a solução. Você pode repetir o jogo.</string>
+  <string name="solution_finished_hint">Solução concluída. Clique no botão Sair para voltar ou no botão Novamente para assistir novamente.</string>
+  <string name="solution_dialog_btn_quit">Parar de assistir</string>
+  <string name="solution_dialog_btn_continue">Continuar</string>
+  <string name="solution_btn_quit">Sair</string>
+  <string name="solution_btn_replay">Novamente</string>
+  <string name="solution_status_playing">Solução de observação</string>
+  <string name="solution_status_finished">Solução termina</string>
+  <string-array name="notification_content">
+    <item>Desafio diário chega! Jogue agora e veja se você pode ganhar!</item>
+    <item>O passo menos global é %1$s de ontem. Você pode vencê-lo?</item>
+    <item>A maior pontuação global é %1$s de ontem. Você pode vencê-lo?</item>
+    <item>O melhor horário global é %1$s de ontem. Você pode vencê-lo?</item>
+    <item>Seu menor passo é %1$s. Você pode quebrar o recorde?</item>
+    <item>Sua pontuação mais alta é %1$s. Você pode quebrar o recorde?</item>
+    <item>Seu melhor momento é %1$s. Você pode quebrar o recorde?</item>
+    <item>Mais acordos de paciência estão esperando para serem resolvidos!</item>
+  </string-array>
+  <string name="notification_ticker_1">Voltar ao solitário por diversão!</string>
+  <string name="notification_ticker_2">O desafio diário do Solitaire chega!</string>
   <string name="msg_remove_cardback">Excluímos dois versos do cartão para cumprir com a política do Google Play. Desculpe pela inconveniência! Você pode personalizar seu cartão de volta com suas próprias fotos!</string>
-  <string name="recover_billing">Restaurar</string>
+  <string name="spider_solitaire">Paciência Spider</string>
+  <string name="game_mode_spider_solitaire">Aranha</string>
+  <string name="setting_spider_solitaire_level">Número do terno</string>
+  <string name="setting_unlimited_deal">Negócio irrestrito</string>
+  <string name="setting_spider_level_1_suit">1 Terno</string>
+  <string name="setting_spider_level_2_suit">2 Ternos</string>
+  <string name="setting_spider_level_4_suit">4 Ternos</string>
+  <string name="statistics_spider_level_1_suit">1 Terno</string>
+  <string name="statistics_spider_level_2_suit">2 Ternos</string>
+  <string name="statistics_spider_level_4_suit">4 Ternos</string>
+  <string name="spider_rule_0_text">Paciência Spider é jogado com dois baralhos de 52 cartas cada. Dependendo da dificuldade, os baralhos consistem em um, dois ou quatro naipes diferentes.</string>
+  <string name="spider_rule_1_text">No Spider, o objetivo do jogo é coletar todas as cartas até a fundação. Uma sequência descendente completa de cartas de Rei a Ás do mesmo naipe será coletada automaticamente para uma das fundações.</string>
+  <string name="spider_rule_2_text">No início de cada jogo, 10 stacks com 6 ou 5 cartas são distribuídas para o quadro. As cartas restantes são colocadas com a face para baixo para formar o estoque.</string>
+  <string name="spider_rule_3_text">Se você ficar sem movimentos válidos, clique no estoque para distribuir um cartão para cada coluna no quadro.</string>
+  <string name="spider_rule_4_text">Você pode mover uma sequência descendente de cartas como um grupo para outra coluna do quadro apenas se forem do mesmo naipe.</string>
+  <string name="spider_rule_5_text">Tocar move um cartão ou uma sequência descendente de cartões do mesmo naipe para um possível local automaticamente, enquanto arrasta permite que você o coloque manualmente.</string>
+  <string name="can_not_deal">Não é possível distribuir o cartão enquanto o quadro com coluna vazia</string>
+  <string name="custom_notification_btn">Desafio</string>
+  <string name="eye_friendly">Olho amigável</string>
+  <string name="title_continous_undo_prompt">Você sabe?</string>
+  <string name="msg_continous_undo_prompt">Pressione e segure o botão desfazer para desfazer consecutivamente.</string>
+  <string name="prompt_msg_sound_off">Nota: O som do jogo está desligado. Abaixe o volume dos seus dispositivos para silenciar os anúncios.</string>
+  <string name="prompt_msg_orientation_lock_by_system">Nota: Ligue a rotação automática do seu dispositivo para girar.</string>
+  <string name="prompt_msg_orientation_lock_by_game">Nota: Desmarque a configuração "%s" para girar automaticamente.</string>
 </resources>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">Solitaire</string>
-  <string name="score_label">Scoruri</string>
+  <string name="score_label">Scor</string>
   <string name="time_label">Timp</string>
   <string name="move_label">Mișcări</string>
   <string name="auto_complete_title">Completare automată</string>
@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">Afacere castigatoare</string>
   <string name="play_action_replay">Replay</string>
   <string name="cancel">Anulare</string>
+  <string name="tap_to_skip">Atingeți pentru a omite</string>
   <string name="setting_ok">O.K</string>
   <string name="statistics">Statistici</string>
   <string name="setting_draw1">Desenați 1</string>
   <string name="setting_draw3">Desenați 3</string>
   <string name="setting_sound">Control sunet</string>
-  <string name="setting_times">Timp / Mișcări</string>
+  <string name="setting_times">Timp / Mută</string>
   <string name="setting_orientation">Blocare orientare</string>
   <string name="setting_hints">Sugestii auto</string>
-  <string name="setting_tapmove">Atingeți Mutare</string>
+  <string name="setting_tapmove">Atingeți pentru a muta</string>
   <string name="help_rules">reguli</string>
   <string name="setting_draw3_mode">3 carduri</string>
-  <string name="setting_score_anim">Efectul scorului</string>
+  <string name="setting_score_anim">Efectul de scor</string>
   <string name="setting_privacy_policy">Politica de confidentialitate</string>
   <string name="setting_language">Limba</string>
   <string name="stat_won">Jocuri câștigate</string>
@@ -38,7 +39,7 @@
   <string name="stat_fwmove">Cele mai puține mișcări</string>
   <string name="stat_mwmove">Cele mai multe mișcări</string>
   <string name="stat_nundo">Câștigă fără a reveni</string>
-  <string name="stat_hscroe">Cele mai mari scoruri</string>
+  <string name="stat_hscroe">Cel mai mare punctaj</string>
   <string name="reset_stat">restabili</string>
   <string name="yes">da</string>
   <string name="mode_message">Setarea de dificultăți va avea efect în noul joc nou</string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">Sunteți sigur că ați renunțat?</string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">Sigur doriți să resetați statisticile jocurilor?</string>
-  <string name="notification_push">Dă-mi clic pentru a deschide jocul!</string>
-  <string name="notification_ticker">Înapoi la solitaire pentru distracție!</string>
+  <string name="notification_push">Vine noua provocare zilnică! Joacă-l acum și vezi dacă poți câștiga!</string>
+  <string name="notification_ticker">Provocarea zilnică a Solitaire!</string>
   <string name="done">Terminat</string>
   <string name="hint_draw_card">A desena</string>
   <string name="hint_recycle_card">Reciclați cardurile rămase</string>
@@ -80,6 +81,10 @@
   <string name="invite_rate_gratitude_email_positive">O.K</string>
   <string name="invite_rate_google_message">Puteți să vă dați un moment să ne evaluați pe Google Play?</string>
   <string name="invite_rate_button_positive">Sigur!</string>
+  <string name="invite_rate_special_title">Mulțumesc</string>
+  <string name="invite_rate_bonus_message">Puteți să vă dați un moment să ne evaluați pe Google Play?</string>
+  <string name="invite_rate_bonus_button_positive">Colectarea</string>
+  <string name="invite_rate_bonus_hint">Recompensă</string>
   <string name="rule_0_text">Klondike Solitaire folosește un pachet standard de 52 de cărți de joc fără jokeri. Obiectivul jocului este de a expune toate cărțile și de a le muta în grămezi de fundație. Aceste grămezi sunt construite ascendent în costum de la Aces la Regi.</string>
   <string name="rule_1_text">Există 7 coloane de tablă care sunt construite în jos (în ordine descrescătoare, de la Kings la Aces) în culori alternante (roșu, negru). Orice coloană goală poate fi umplută numai cu un rege sau o grămadă de cărți cu un rege în vârf.</string>
   <string name="rule_2_text">Grupele parțiale sau complete pot fi mutate dintr-o coloană în alta dacă sunt construite în funcție de culori alternative și de gradul descrescător. Expuneți cărțile cu fața în jos în tablou pentru a găsi cărțile de care aveți nevoie.</string>
@@ -104,11 +109,8 @@
   <string name="magic_store_title">Magazin</string>
   <string name="game_mode_random">Întâmplător</string>
   <string name="game_mode_winning">câștigător</string>
+  <string name="game_mode_daily_challenge">Provocare</string>
   <string name="daily_bonus_btn_claim">Revendicare</string>
-  <string name="remove_ad">Elimina anunțurile</string>
-  <string name="purchasing_error_try_again">Eroare la cumpărare! Vă rugăm să încercați din nou mai târziu!</string>
-  <string name="msg_coin_hint">Cumpărați teme sau magie</string>
-  <string name="purchasing_succeed_remove_ad">Achiziția reușește! Anunțurile eliminate</string>
   <string name="daily_challenge">Provocare zilnică</string>
   <string name="daily_challenge_start_btn">Începeți Provocarea</string>
   <string name="daily_challenge_total_count">Total:</string>
@@ -116,7 +118,56 @@
   <string name="daily_challenge_status_unsolved">nedezlegat</string>
   <string name="daily_challenge_start_hint">Începeți provocarea zilnică</string>
   <string name="daily_challenge_start_btn_replay">Reluarea</string>
-  <string name="daily_challenge_mode">Provocare</string>
+  <string name="ask_daily_challenge_dialog_content">Noua provocare zilnică este gata! Joacă-l acum?</string>
+  <string name="ask_daily_challenge_dialog_btn">O.K</string>
+  <string name="game_solution_popup_content">Greu de câștigat? Vezi soluția aici!</string>
+  <string name="no_hint_dialog_solution_popup_content">Nu poți câștiga? Faceți clic aici pentru a vedea soluția!</string>
+  <string name="solution_rewarded_video_hint">Această tranzacție este câștigătoare. Urmăriți un scurt videoclip pentru a vedea soluția?</string>
+  <string name="solution_ads_unavailable">Anunțuri indisponibile. Vă rugăm să reveniți un pic.</string>
+  <string name="solution_not_finished_hint">Soluția nu s-a terminat. Încă vrei să nu te mai uiți?</string>
+  <string name="solution_finished_back_to_game_hint">Ați văzut soluția. Puteți reda jocul.</string>
+  <string name="solution_finished_hint">Soluția s-a terminat. Faceți clic pe butonul Quit pentru a merge înapoi sau butonul Again pentru a urmări din nou.</string>
+  <string name="solution_dialog_btn_quit">Încetează să urmărești</string>
+  <string name="solution_dialog_btn_continue">Continua</string>
+  <string name="solution_btn_quit">Părăsi</string>
+  <string name="solution_btn_replay">Din nou</string>
+  <string name="solution_status_playing">Urmărind soluția</string>
+  <string name="solution_status_finished">Soluția se încheie</string>
+  <string-array name="notification_content">
+    <item>Provine zilnic! Joacă-l acum și vezi dacă poți câștiga!</item>
+    <item>Cel mai mic pas global este ieri %1$s. Îl poți bate?</item>
+    <item>Cel mai mare scor global este ieri %1$s. Îl poți bate?</item>
+    <item>Cel mai bun timp global este ieri %1$s. Îl poți bate?</item>
+    <item>Cel mai mic pas este %1$s. Puteți să înregistrați recordul?</item>
+    <item>Cel mai mare scor al dvs. este %1$s. Puteți să înregistrați recordul?</item>
+    <item>Cel mai bun moment al tău este %1$s. Poți să înregistrezi recordul?</item>
+    <item>Mai multe oferte solitare așteaptă să fie rezolvate!</item>
+  </string-array>
+  <string name="notification_ticker_1">Înapoi la solitaire pentru distracție!</string>
+  <string name="notification_ticker_2">Solitaire Provocarea zilnică ajunge!</string>
   <string name="msg_remove_cardback">Ștergem 2 spatele cărților pentru a respecta politica Google Play. Scuze pentru neplăceri! Vă puteți personaliza cardul înapoi cu propriile imagini!</string>
-  <string name="recover_billing">Restabili</string>
+  <string name="spider_solitaire">Spider Solitaire</string>
+  <string name="game_mode_spider_solitaire">Păianjen</string>
+  <string name="setting_spider_solitaire_level">Numărul costumului</string>
+  <string name="setting_unlimited_deal">Ofertă fără restricții</string>
+  <string name="setting_spider_level_1_suit">1 costum</string>
+  <string name="setting_spider_level_2_suit">2 costume</string>
+  <string name="setting_spider_level_4_suit">4 costume</string>
+  <string name="statistics_spider_level_1_suit">1 costum</string>
+  <string name="statistics_spider_level_2_suit">2 costume</string>
+  <string name="statistics_spider_level_4_suit">4 costume</string>
+  <string name="spider_rule_0_text">Spider Solitaire este jucat cu două pachete de 52 de cărți fiecare. În funcție de dificultate, punțile constau dintr-unul, două sau patru costume diferite.</string>
+  <string name="spider_rule_1_text">În Spider, scopul jocului este de a colecta toate cărțile către fundație. O secvență descendentă completă de cărți de la King la Ace din același costum va fi colectată automat la una dintre fundații.</string>
+  <string name="spider_rule_2_text">La începutul fiecărui joc, 10 stive cu 6 sau 5 cărți sunt distribuite la masa. Cardurile rămase sunt așezate cu fața în jos pentru a forma stocul.</string>
+  <string name="spider_rule_3_text">Dacă rămâneți fără mișcări valide, faceți clic pe stoc pentru a trata o carte pentru fiecare coloană din tabel.</string>
+  <string name="spider_rule_4_text">Puteți muta o secvență descendentă de cărți ca grup într-o altă coloană de tableau doar dacă au același costum.</string>
+  <string name="spider_rule_5_text">Apăsând mutați o carte sau o secvență descendentă de cărți ale aceluiași costum într-o posibilă locație automat, în timp ce glisarea vă permite să plasați manual.</string>
+  <string name="can_not_deal">Nu se poate face carte în timp ce tableau cu coloană goală </string>
+  <string name="custom_notification_btn">Provocare</string>
+  <string name="eye_friendly">Ochi prietenos</string>
+  <string name="title_continous_undo_prompt">Tu stii?</string>
+  <string name="msg_continous_undo_prompt">Apăsați și mențineți apăsat butonul de anulare pentru anulare consecutive.</string>
+  <string name="prompt_msg_sound_off">Notă: Sunetul jocului este dezactivat. Reduceți volumul dispozitivelor dvs. pentru a dezactiva anunțurile.</string>
+  <string name="prompt_msg_orientation_lock_by_system">Notă: Activați rotirea automată a dispozitivului pentru a roti.</string>
+  <string name="prompt_msg_orientation_lock_by_game">Notă: Deselectați setarea "%s" pentru a roti automat.</string>
 </resources>

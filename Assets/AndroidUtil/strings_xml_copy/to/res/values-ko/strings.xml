@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">승리 거래</string>
   <string name="play_action_replay">다시 하다</string>
   <string name="cancel">취소하다</string>
+  <string name="tap_to_skip">탭하여 건너 뛰기</string>
   <string name="setting_ok">승인</string>
   <string name="statistics">통계</string>
   <string name="setting_draw1">1 그리기</string>
   <string name="setting_draw3">3 그리기</string>
   <string name="setting_sound">사운드 컨트롤</string>
-  <string name="setting_times">시각/이동</string>
+  <string name="setting_times">시간 / 이동</string>
   <string name="setting_orientation">잠금 방향</string>
   <string name="setting_hints">자동 힌트</string>
-  <string name="setting_tapmove">탭 이동</string>
+  <string name="setting_tapmove">탭하여 이동</string>
   <string name="help_rules">규칙</string>
   <string name="setting_draw3_mode">3 카드</string>
-  <string name="setting_score_anim">점수 효과</string>
+  <string name="setting_score_anim">채점 효과</string>
   <string name="setting_privacy_policy">개인정보 보호 정책</string>
   <string name="setting_language">언어</string>
   <string name="stat_won">승리</string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">그만둬?</string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">게임 통계를 재설정 하시겠습니까?</string>
-  <string name="notification_push">나를 클릭하면 게임이 열립니다!</string>
-  <string name="notification_ticker">재미로 일인 용으로 돌아 가세요!</string>
+  <string name="notification_push">새로운 일일 도전이 도착합니다! 지금 플레이하고 이길 수 있는지 확인하십시오!</string>
+  <string name="notification_ticker">솔리테어의 일일 도전이 도착합니다!</string>
   <string name="done">끝난</string>
   <string name="hint_recycle_card">남은 카드 재활용</string>
   <string name="hint_draw_card">당기다</string>
@@ -78,6 +79,10 @@
   <string name="invite_rate_gratitude_email_positive">그래</string>
   <string name="invite_rate_google_message">당신은 Google Play 에 우리를 평가 하는 순간을 걸릴 수 있을까요?</string>
   <string name="invite_rate_button_positive">확실!</string>
+  <string name="invite_rate_special_title">감사합니다!</string>
+  <string name="invite_rate_bonus_message">당신은 Google Play 에 우리를 평가 하는 순간을 걸릴 수 있을까요?</string>
+  <string name="invite_rate_bonus_button_positive">수집</string>
+  <string name="invite_rate_bonus_hint">요금 보상</string>
   <string name="rule_0_text">
     클론 다이크 솔리테어 조 커 없이 카드 놀이의 표준 52 카드 데크를 사용 합니다.
     게임의 목적은 모든 카드를 노출 하 고 그들을 기초 더미로 옮기는 것입니다. 이 말뚝은 에이스에서 임금에 게 한 벌에서 위쪽으로 건축 된다.
@@ -124,6 +129,7 @@ tableau 열에서 인계 되는 각 카드는 5 포인트를 받습니다. 재�
   <string name="magic_store_title">상점</string>
   <string name="game_mode_random">임의의</string>
   <string name="game_mode_winning">승리</string>
+  <string name="game_mode_daily_challenge">도전</string>
   <string name="daily_bonus_today">오늘</string>
   <string name="daily_bonus_tomorrow">내일</string>
   <string name="daily_bonus_victory_format">%1$d 분</string>
@@ -139,10 +145,6 @@ tableau 열에서 인계 되는 각 카드는 5 포인트를 받습니다. 재�
   <string name="daily_bonus_result_message">당신이 있어: </string>
   <string name="no_hint_message_guilde">매직 스틱을 사용 하 여 게임을 저장 합니다.</string>
   <string name="no_hint_message_no_magic">유용한 움직임이 감지 되지 않았습니다. 새 게임을 여십시오?</string>
-  <string name="remove_ad">광고를 제거하다</string>
-  <string name="purchasing_error_try_again">구매 오류! 나중에 다시 시도하세요!</string>
-  <string name="msg_coin_hint">테마 또는 마법 구매</string>
-  <string name="purchasing_succeed_remove_ad">구매 성공! 광고가 제거되었습니다!</string>
   <string name="daily_challenge">매일 도전</string>
   <string name="daily_challenge_start_btn">도전 시작</string>
   <string name="daily_challenge_total_count">합계:</string>
@@ -150,7 +152,56 @@ tableau 열에서 인계 되는 각 카드는 5 포인트를 받습니다. 재�
   <string name="daily_challenge_status_unsolved">미해결</string>
   <string name="daily_challenge_start_hint">매일 도전 시작</string>
   <string name="daily_challenge_start_btn_replay">다시 하다</string>
-  <string name="daily_challenge_mode">도전</string>
+  <string name="ask_daily_challenge_dialog_content">새로운 일일 도전이 준비되었습니다! 지금 플레이?</string>
+  <string name="ask_daily_challenge_dialog_btn">승인</string>
+  <string name="game_solution_popup_content">이기기가 어렵습니까? 여기에 해결책을보십시오!</string>
+  <string name="no_hint_dialog_solution_popup_content">이길 수 없습니까? 해결책을 보려면 여기를 클릭하십시오!</string>
+  <string name="solution_rewarded_video_hint">이 거래는 이길 수 있습니다. 해결책을보기 위해 짧은 비디오를 보시겠습니까?</string>
+  <string name="solution_ads_unavailable">광고를 사용할 수 없습니다. 잠시 후 다시 확인하십시오.</string>
+  <string name="solution_not_finished_hint">솔루션이 완료되지 않았습니다. 아직도보고 싶지 않습니까?</string>
+  <string name="solution_finished_back_to_game_hint">당신은 해결책을 보았습니다. 게임을 재생할 수 있습니다.</string>
+  <string name="solution_finished_hint">해결책이 끝났습니다. 돌아가려면 종료 버튼을 클릭하고 다시 보려면 다시 버튼을 클릭하십시오.</string>
+  <string name="solution_dialog_btn_quit">시청 종료</string>
+  <string name="solution_dialog_btn_continue">계속하다</string>
+  <string name="solution_btn_quit">떠나다</string>
+  <string name="solution_btn_replay">다시</string>
+  <string name="solution_status_playing">시청 솔루션</string>
+  <string name="solution_status_finished">솔루션 끝</string>
+  <string-array name="notification_content">
+    <item>매일 도전이 도착합니다! 지금 플레이하고 이길 수 있는지 확인하십시오!</item>
+    <item>최소 글로벌 단계는 어제 %1$s입니다. 당신은 그것을 이길 수 있습니까?</item>
+    <item>어제 세계 최고 점수는 %1$s입니다. 당신은 그것을 이길 수 있습니까?</item>
+    <item>어제 세계 최고의 시간은 %1$s입니다. 당신은 그것을 이길 수 있습니까?</item>
+    <item>최소 단계는 %1$s입니다. 기록을 깰 수 있습니까?</item>
+    <item>최고 점수는 %1$s입니다. 기록을 깰 수 있습니까?</item>
+    <item>가장 좋은 시간은 %1$s입니다. 기록을 깰 수 있습니까?</item>
+    <item>더 많은 솔리테어 거래가 해결되기를 기다리고 있습니다!</item>
+  </string-array>
+  <string name="notification_ticker_1">재미를 위해 솔리테어로 돌아 가기!</string>
+  <string name="notification_ticker_2">솔리테어 데일리 챌린지 도착!</string>
   <string name="msg_remove_cardback">Google Play 정책을 준수하기 위해 2 개의 카드 뒷면을 삭제합니다. 불편을 드려 죄송합니다! 당신은 당신의 자신의 사진과 함께 다시 카드를 사용자 정의 할 수 있습니다!</string>
-  <string name="recover_billing">복원</string>
+  <string name="spider_solitaire">거미 솔리테어</string>
+  <string name="game_mode_spider_solitaire">거미</string>
+  <string name="setting_spider_solitaire_level">정장 번호</string>
+  <string name="setting_unlimited_deal">무제한 거래</string>
+  <string name="setting_spider_level_1_suit">1 벌</string>
+  <string name="setting_spider_level_2_suit">2 벌</string>
+  <string name="setting_spider_level_4_suit">4 벌</string>
+  <string name="statistics_spider_level_1_suit">1 벌</string>
+  <string name="statistics_spider_level_2_suit">2 벌</string>
+  <string name="statistics_spider_level_4_suit">4 벌</string>
+  <string name="spider_rule_0_text">스파이더 카드 놀이는 각각 52 장의 카드 2 장을 가지고 있습니다. 난이도에 따라 데크는 1, 2 또는 4 개의 다른 슈트로 구성됩니다.</string>
+  <string name="spider_rule_1_text">스파이더에서 게임의 목표는 재단에 모든 카드를 수집하는 것입니다. 동일한 수트의 킹에서 에이스까지 완전한 내림차순 카드가 자동으로 기초 중 하나에 수집됩니다.</string>
+  <string name="spider_rule_2_text">각 게임이 시작될 때, 6 장 또는 5 장의 카드로 10 장의 스택이 tableau에 처리됩니다. 남은 카드는 아래로 향하게하여 스톡을 형성합니다.</string>
+  <string name="spider_rule_3_text">유효한 이동이 없으면 주식을 클릭하여 tableau의 각 열에 대해 하나의 카드를 처리하십시오.</string>
+  <string name="spider_rule_4_text">내림차순 카드를 그룹으로하여 같은 정장 인 경우에만 다른 tableau 열로 이동할 수 있습니다.</string>
+  <string name="spider_rule_5_text">두드리면 카드 또는 동일한 카드의 내림차순 시퀀스가 가능한 위치로 자동 이동하지만 드래그하면 수동으로 배치 할 수 있습니다.</string>
+  <string name="can_not_deal">빈 열이있는 탁자가있는 동안 카드를 처리 할 수 없습니다</string>
+  <string name="custom_notification_btn">도전</string>
+  <string name="eye_friendly">눈 친화적</string>
+  <string name="title_continous_undo_prompt">아세요?</string>
+  <string name="msg_continous_undo_prompt">연속적으로 실행 취소하려면 실행 취소 버튼을 길게 누릅니다.</string>
+  <string name="prompt_msg_sound_off">참고: 게임 사운드가 꺼져 있습니다. 광고를 음소거하려면 기기의 볼륨을 줄이세요.</string>
+  <string name="prompt_msg_orientation_lock_by_system">참고: 회전하려면 장치의 자동 회전을 켜십시오.</string>
+  <string name="prompt_msg_orientation_lock_by_game">참고: 자동으로 회전하려면 "%s" 설정을 선택 해제하십시오.</string>
 </resources>

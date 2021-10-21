@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">Szoliter </string>
-  <string name="score_label">Pontszám </string>
+  <string name="score_label">Pontszám</string>
   <string name="time_label">Idő </string>
-  <string name="move_label">mozog </string>
-  <string name="auto_complete_title">Auto Complete </string>
+  <string name="move_label">Mozog </string>
+  <string name="auto_complete_title">Automatikus Befejezés</string>
   <string name="setting">Beállítások </string>
   <string name="themes">Témák </string>
   <string name="newgame">Játék </string>
@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">Nyertes mód</string>
   <string name="play_action_replay">Visszajátszás </string>
   <string name="cancel">Megszünteti </string>
+  <string name="tap_to_skip">Érintse meg az Ugrás lehetőséget</string>
   <string name="setting_ok">rendben </string>
   <string name="statistics">Statisztika </string>
   <string name="setting_draw1">Rajzolj 1-et </string>
   <string name="setting_draw3">Rajzolj 3 </string>
   <string name="setting_sound">Hangvezérlés </string>
-  <string name="setting_times">Idő / Mozog </string>
+  <string name="setting_times">Idő / Mozog</string>
   <string name="setting_orientation">Az orientáció zárolása </string>
   <string name="setting_hints">Automatikus tanácsok </string>
-  <string name="setting_tapmove">Kattintson ide a mozgáshoz</string>
+  <string name="setting_tapmove">Érintse meg az Áthelyezés lehetőséget</string>
   <string name="help_rules">szabályok </string>
   <string name="setting_draw3_mode">3 kártya </string>
-  <string name="setting_score_anim">Pontos hatás </string>
+  <string name="setting_score_anim">Pontozási hatás</string>
   <string name="setting_privacy_policy">Adatvédelmi irányelvek </string>
   <string name="setting_language">Nyelv</string>
   <string name="stat_won">Megnyert játékok </string>
@@ -38,7 +39,7 @@
   <string name="stat_fwmove">Kevés nyertes mozog </string>
   <string name="stat_mwmove">A legtöbb nyertes mozog </string>
   <string name="stat_nundo">Megnyerés nélkül nyer </string>
-  <string name="stat_hscroe">Legmagasabb pontszám </string>
+  <string name="stat_hscroe">Legmagasabb pontszám</string>
   <string name="reset_stat">Visszaállítás </string>
   <string name="yes">Igen </string>
   <string name="mode_message">Nehézség A beállítás a következő új játékban lép érvénybe </string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">Biztos, hogy kilépsz? </string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">Biztos, hogy visszaállítja a játékstatisztikákat? </string>
-  <string name="notification_push">Kattints ide a játék megnyitásához! </string>
-  <string name="notification_ticker">Vissza a pasziánál szórakozásért! </string>
+  <string name="notification_push">Megérkezett az új Daily Challenge! Játszd le most, és nézd meg, lehet-e nyerni!</string>
+  <string name="notification_ticker">Megérkezik a pasziánsz napi kihívása!</string>
   <string name="done">Kész </string>
   <string name="hint_draw_card">Húz </string>
   <string name="hint_recycle_card">Újrahasznosít</string>
@@ -80,6 +81,11 @@
   <string name="invite_rate_gratitude_email_positive">rendben </string>
   <string name="invite_rate_google_message">Kérem, várjon egy pillanatra, hogy értékeljen minket a Google Playen? </string>
   <string name="invite_rate_button_positive">Biztos! </string>
+  <string name="invite_rate_special_title">Köszönöm </string>
+  <string name="invite_rate_special_message" translatable="false">Néhány játékos ezt mondja a pasziánszról. Ha egyetért, kérjük, illessze be a Google Playre. Már átmásoltuk a vágólapra. </string>
+  <string name="invite_rate_bonus_message">Kérem, várjon egy pillanatra, hogy értékeljen minket a Google Playen? </string>
+  <string name="invite_rate_bonus_button_positive">Gyűjt </string>
+  <string name="invite_rate_bonus_hint">Jutalom</string>
   <string name="rule_0_text">A Klondike Solitaire kártyák szabványos 52 kártyacsomagját használják kártyák nélkül. A játék célja, hogy kirakja az összes kártyát és áthelyezi őket az alapítványi cölöpökbe. Ezek a cölöpök felfelé épülnek az Aces to Kings-ből. </string>
   <string name="rule_1_text">Jelenleg 7 táblázatos oszlop van, amelyek lefelé (csökkenő sorrendben, a királyoktól az ászokig) váltakozó színekben (vörös, fekete) vannak építve. Bármely üres oszlopot csak egy királlyal vagy egy halom kártyával lehet feltölteni, ahol egy király van a tetején. </string>
   <string name="rule_2_text">Részleges vagy komplett cölöpök áthelyezhetők egyik oszlopról a másikra, ha alternatív színek és csökkenő rangsorok épülnek fel. Kihúzza az arcra lefelé mutató kártyákat a táblázatban, hogy megtalálja a szükséges kártyákat. </string>
@@ -104,6 +110,7 @@
   <string name="magic_store_title">Üzlet </string>
   <string name="game_mode_random">Véletlen </string>
   <string name="game_mode_winning">Nyerő </string>
+  <string name="game_mode_daily_challenge">Kihívás</string>
   <string name="daily_bonus_btn_claim">Követelés </string>
   <string name="daily_bonus_today">Ma </string>
   <string name="daily_bonus_tomorrow">Holnap </string>
@@ -117,10 +124,6 @@
   <string name="daily_bonus_victory_result_message">Több %1$d%% több érmét keresel a következő %2$d perc alatt! </string>
   <string name="daily_bonus_result_done">MEGY </string>
   <string name="daily_bonus_result_message">Neked van: </string>
-  <string name="remove_ad">Hirdetések eltávolítása</string>
-  <string name="purchasing_error_try_again">Hiba történt a vásárlás során! Kérlek, próbáld újra később!</string>
-  <string name="msg_coin_hint">Vásároljon témákat vagy varázslatot</string>
-  <string name="purchasing_succeed_remove_ad">A vásárlás sikeres! A hirdetések eltávolítva!</string>
   <string name="daily_challenge">Napi Kihívás</string>
   <string name="daily_challenge_start_btn">Kihívás Indítása</string>
   <string name="daily_challenge_total_count">Teljes:</string>
@@ -128,7 +131,56 @@
   <string name="daily_challenge_status_unsolved">Megoldatlan</string>
   <string name="daily_challenge_start_hint">Indítsa el a Napi Kihívást</string>
   <string name="daily_challenge_start_btn_replay">Visszajátszás</string>
-  <string name="daily_challenge_mode">Kihívás</string>
+  <string name="ask_daily_challenge_dialog_content">Az új Daily Challenge készen áll! Játszd most?</string>
+  <string name="ask_daily_challenge_dialog_btn">rendben</string>
+  <string name="game_solution_popup_content">Nehéz nyerni? Lásd itt a megoldást!</string>
+  <string name="no_hint_dialog_solution_popup_content">Nem tudsz nyerni? Kattintson ide a megoldás megtekintéséhez!</string>
+  <string name="solution_rewarded_video_hint">Ez az üzlet nyerhető. Nézzen meg egy rövid videót a megoldás megtekintéséhez?</string>
+  <string name="solution_ads_unavailable">A hirdetések nem érhetők el. Kérjük, nézz vissza egy kicsit.</string>
+  <string name="solution_not_finished_hint">A megoldás még nem fejeződött be. Mégis szeretné abbahagyni a nézést?</string>
+  <string name="solution_finished_back_to_game_hint">Látta a megoldást. Lejátszhatod a játékot.</string>
+  <string name="solution_finished_hint">A megoldás befejeződött. Kattintson a Kilépés gombra a visszatéréshez, vagy az Újra gombra az újbóli megtekintéshez.</string>
+  <string name="solution_dialog_btn_quit">Kilépés a nézésből</string>
+  <string name="solution_dialog_btn_continue">Folytatni</string>
+  <string name="solution_btn_quit">quit</string>
+  <string name="solution_btn_replay">Újra</string>
+  <string name="solution_status_playing">Nézem a megoldást</string>
+  <string name="solution_status_finished">A megoldás véget ér</string>
+  <string-array name="notification_content">
+    <item>Napi kihívás érkezik! Játszd le most, és nézd meg, lehet-e nyerni!</item>
+    <item>A legkisebb globális lépés tegnap a %1$s. Le tudod győzni?</item>
+    <item>A legmagasabb globális pontszám tegnap %1$s. Le tudod győzni?</item>
+    <item>A legjobb globális idő tegnap %1$s. Le tudod győzni?</item>
+    <item>A legkevesebb lépés a %1$s. Tudod megtörni a rekordot?</item>
+    <item>A legmagasabb pontszámod %1$s. Meg tudja-e törni a rekordot?</item>
+    <item>A legjobb idő: %1$s. Megszerezheti a rekordot?</item>
+    <item>További pasziánsz ajánlatok várnak megoldásra!</item>
+  </string-array>
+  <string name="notification_ticker_1">Vissza a pasziánszhoz szórakozásból!</string>
+  <string name="notification_ticker_2">Pasziánsz Napi kihívás érkezik!</string>
   <string name="msg_remove_cardback">2 kártya hátulját töröljük, hogy megfeleljen a Google Play Szabályzatnak. Elnézést a kellemetlenségért! Testreszabhatja a kártyáját saját képeivel!</string>
-  <string name="recover_billing">Visszaad</string>
+  <string name="spider_solitaire">Spider Solitaire</string>
+  <string name="game_mode_spider_solitaire">Pók</string>
+  <string name="setting_spider_solitaire_level">Öltöny száma</string>
+  <string name="setting_unlimited_deal">Korlátlan ajánlat</string>
+  <string name="setting_spider_level_1_suit">1 ruha</string>
+  <string name="setting_spider_level_2_suit">2 ruha</string>
+  <string name="setting_spider_level_4_suit">4 ruha</string>
+  <string name="statistics_spider_level_1_suit">1 ruha</string>
+  <string name="statistics_spider_level_2_suit">2 ruha</string>
+  <string name="statistics_spider_level_4_suit">4 ruha</string>
+  <string name="spider_rule_0_text">A Spider Solitaire-et két pakliból áll, egyenként 52 lapból. A fedélzetet nehézségektől függően egy, kettő vagy négy különböző öltöny alkotja.</string>
+  <string name="spider_rule_1_text">A Spider játékban a játék célja az összes kártya összegyűjtése az alapítványhoz. Ugyanazon színű királytól ászig terjedő teljes csökkenő kártyasorozatot automatikusan összegyűjtik az egyik alapítványhoz.</string>
+  <string name="spider_rule_2_text">Minden játék elején 10 zseton 6 vagy 5 kártyával kerül a táblára. A fennmaradó kártyákat arccal lefelé helyezzük el, hogy megteremtsük az állományt.</string>
+  <string name="spider_rule_3_text">Ha elfogynak az érvényes mozgalmak, kattintson az állományra, hogy az egyik oszlop a táblán osztozzon.</string>
+  <string name="spider_rule_4_text">Csökkentő kártyasorozatot csoportként mozgathat egy másik tábla oszlopba, ha azonos színűek.</string>
+  <string name="spider_rule_5_text">Ha megérinti, az azonos színű kártyát vagy csökkenő kártyasorozatot automatikusan a lehetséges helyre mozgatja, míg a húzással manuálisan helyezheti el.</string>
+  <string name="can_not_deal">Nem lehet kezelni a kártyát, míg az üres oszlopot </string>
+  <string name="custom_notification_btn">Kihívás</string>
+  <string name="eye_friendly">Szembarát</string>
+  <string name="title_continous_undo_prompt">Tudod?</string>
+  <string name="msg_continous_undo_prompt">Nyomja meg és tartsa lenyomva a visszavonás gombot az egymást követő visszavonáshoz.</string>
+  <string name="prompt_msg_sound_off">Megjegyzés: A játék hangja ki van kapcsolva. Csökkentse az eszközök hangerejét a hirdetések elnémításához.</string>
+  <string name="prompt_msg_orientation_lock_by_system">Megjegyzés: A forgatáshoz kapcsolja be az eszköz automatikus elforgatását.</string>
+  <string name="prompt_msg_orientation_lock_by_game">Megjegyzés: Az automatikus elforgatáshoz törölje a "%s" beállítás kijelölését.</string>
 </resources>

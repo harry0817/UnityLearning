@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">Solitaire </string>
-  <string name="score_label">Rezultati </string>
+  <string name="score_label">Ocena</string>
   <string name="time_label">Čas </string>
   <string name="move_label">Premikov </string>
   <string name="auto_complete_title">Samodejno dokončanje </string>
@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">Zmagovalni način </string>
   <string name="play_action_replay">Ponovitev </string>
   <string name="cancel">Prekliči </string>
+  <string name="tap_to_skip">Tapnite za Preskoči</string>
   <string name="setting_ok">v redu </string>
   <string name="statistics">Statistika </string>
-  <string name="setting_draw1">Draw 1 </string>
-  <string name="setting_draw3">Draw 3 </string>
+  <string name="setting_draw1">1 Kartica </string>
+  <string name="setting_draw3">3 Kartica </string>
   <string name="setting_sound">Zvočni nadzor </string>
-  <string name="setting_times">Čas / Premikov </string>
+  <string name="setting_times">Čas / Premiki</string>
   <string name="setting_orientation">Zaklepanje usmeritve </string>
   <string name="setting_hints">Samodejni namigi </string>
-  <string name="setting_tapmove">Dotaknite se Premakni </string>
+  <string name="setting_tapmove">Tapnite za premikanje</string>
   <string name="help_rules">Pravila </string>
   <string name="setting_draw3_mode">3 kartice </string>
-  <string name="setting_score_anim">rezultat učinek </string>
+  <string name="setting_score_anim">Učinek točkovanja</string>
   <string name="setting_privacy_policy">Politika zasebnosti </string>
   <string name="setting_language">Jezik</string>
   <string name="stat_won">Igre zmagale </string>
@@ -38,7 +39,7 @@
   <string name="stat_fwmove">Najmanj zmagovalnih premikov </string>
   <string name="stat_mwmove">Večina uspešnih premikov </string>
   <string name="stat_nundo">Zmaga brez razveljavitve </string>
-  <string name="stat_hscroe">Najvišji rezultat </string>
+  <string name="stat_hscroe">Najvišja ocena</string>
   <string name="reset_stat">Ponastaviti </string>
   <string name="yes">Ja </string>
   <string name="mode_message">Težava Nastavitev bo začela veljati v naslednji novi igri </string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">Ali ste prepričani, da zapustite? </string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">Ali ste prepričani, da ponastavite statistiko igre? </string>
-  <string name="notification_push">Kliknite na mene, da odprete igro! </string>
-  <string name="notification_ticker">Nazaj na solitaire za zabavo! </string>
+  <string name="notification_push">Prihaja nov dnevni izziv! Igrajte zdaj in preverite, ali lahko zmagate!</string>
+  <string name="notification_ticker">Vsakodnevni izziv pasijansa prispe!</string>
   <string name="done">Končano </string>
   <string name="hint_draw_card">Draw </string>
   <string name="hint_recycle_card">Reciklirajte preostale kartice </string>
@@ -64,7 +65,7 @@
   <string name="left_hand_mode">Levičar </string>
   <string name="congratulationsAnimation">Čestitam Screen </string>
   <string name="title_information">Informacije </string>
-  <string name="no_hint_message_guilde">Uporabite Magic Stick, da shranite posel. </string>
+  <string name="no_hint_message_guilde">Uporabite Magična Palica, da shranite posel. </string>
   <string name="no_hint_message_no_magic">Nobenih uporabnih potez ni zaznano. Odprite novo igro? </string>
   <string name="invite_rate_title">Uživanje v igri? </string>
   <string name="invite_rate_message">Vaša ocena nam bo omogočila najboljšo igro! </string>
@@ -80,6 +81,11 @@
   <string name="invite_rate_gratitude_email_positive">v redu </string>
   <string name="invite_rate_google_message">Ali lahko vzamete trenutek, da nas ocenite v Google Play? </string>
   <string name="invite_rate_button_positive">Seveda! </string>
+  <string name="invite_rate_special_title">Hvala vam </string>
+  <string name="invite_rate_special_message" translatable="false">Nekateri igralci to govorijo o solitaire. Če se strinjate, prosimo, prilepite v Google Play. To smo že kopirali v vašo odložišče. </string>
+  <string name="invite_rate_bonus_message">Ali lahko vzamete trenutek, da nas ocenite v Google Play? </string>
+  <string name="invite_rate_bonus_button_positive">Zbiraj </string>
+  <string name="invite_rate_bonus_hint">Nagrada </string>
   <string name="rule_0_text">Klondike Solitaire uporablja standardno kartico 52 igralnih kart brez jokerjev. Cilj igre je, da vse karte razkrijejo in jih premaknejo v temeljne pilote. Ti kupi so zgrajeni navzgor v obleki od Acesa do kraljev. </string>
   <string name="rule_1_text">Obstaja 7 stolpcev, ki so zgrajeni navzdol (v padajočem položaju, od Kings do Aces) v izmeničnih barvah (rdeča, črna). Vsak prazen stolpec je lahko napolnjen samo s kraljem ali kupom kart z kraljem na vrhu. </string>
   <string name="rule_2_text">Delne ali popolne kopice je mogoče premakniti iz enega stolpca v drugega, če so zgrajene z nadomestnimi barvami in padajočo uvrstitvijo. Izložite obrazne karte navzdol v tabelo, da poiščete karte, ki jih potrebujete. </string>
@@ -94,16 +100,17 @@
   <string name="common_alert_message_purchase">Nakup tega izdelka za %1$d kovancev?</string>
   <string name="magic_store_no_ad_loaded">Ni naložen noben oglas </string>
   <string name="common_not_enough_coin">Ni dovolj kovancev </string>
-  <string name="play_action_magic">Magic Stick </string>
+  <string name="play_action_magic">Magična Palica </string>
   <string name="victory_title">Čestitam! </string>
   <string name="victory_bonus">Nagrada </string>
-  <string name="victory_get_bonus">Get Reward </string>
+  <string name="victory_get_bonus">Zaslužiti Nagrado </string>
   <string name="victory_watch_video">Oglejte si video </string>
   <string name="victory_new_game">Nova igra </string>
   <string name="victory_history_score">zgodovinski zapis </string>
   <string name="magic_store_title">Trgovina </string>
   <string name="game_mode_random">Naključen </string>
   <string name="game_mode_winning">zmagovalni </string>
+  <string name="game_mode_daily_challenge">Izziv</string>
   <string name="daily_bonus_btn_claim">Zahtevaj </string>
   <string name="daily_bonus_today">Danes </string>
   <string name="daily_bonus_tomorrow">Jutri </string>
@@ -117,10 +124,6 @@
   <string name="daily_bonus_victory_result_message">V naslednjih %2$d minutah boste prejeli %1$d%% več kovancev! </string>
   <string name="daily_bonus_result_done">GO </string>
   <string name="daily_bonus_result_message">Ti imaš: </string>
-  <string name="remove_ad">Odstrani oglase</string>
-  <string name="purchasing_error_try_again">Napaka pri nakupu! Prosim poskusite kasneje!</string>
-  <string name="msg_coin_hint">Nakup teme ali čarovnije</string>
-  <string name="purchasing_succeed_remove_ad">Nakup uspe! Oglasi so odstranjeni!</string>
   <string name="daily_challenge">Vsakodnevni Izziv</string>
   <string name="daily_challenge_start_btn">Začeti Izziv</string>
   <string name="daily_challenge_total_count">Skupaj:</string>
@@ -128,6 +131,56 @@
   <string name="daily_challenge_status_unsolved">Nerešeno</string>
   <string name="daily_challenge_start_hint">Začnite Dnevni Izziv</string>
   <string name="daily_challenge_start_btn_replay">Ponovitev</string>
-  <string name="daily_challenge_mode">Izziv</string>
+  <string name="ask_daily_challenge_dialog_content">Nov dnevni izziv je pripravljen! Igraj zdaj?</string>
+  <string name="ask_daily_challenge_dialog_btn">v redu</string>
+  <string name="game_solution_popup_content">Težko zmagati? Oglejte si rešitev tukaj!</string>
+  <string name="no_hint_dialog_solution_popup_content">Ne morete zmagati? Za ogled rešitve kliknite tukaj!</string>
+  <string name="solution_rewarded_video_hint">Ta posel je mogoče dobiti. Oglejte si kratek video za ogled rešitve?</string>
+  <string name="solution_ads_unavailable">Oglasi niso na voljo. Poglejte še malo.</string>
+  <string name="solution_not_finished_hint">Rešitev se še ni končala. Še vedno želite prenehati gledati?</string>
+  <string name="solution_finished_back_to_game_hint">Rešitev ste videli. Igro lahko predvajate.</string>
+  <string name="solution_finished_hint">Rešitev je končana. Kliknite gumb Zaustavi, da se vrnete nazaj, ali pa gumb Znova, da si ogledate še enkrat.</string>
+  <string name="solution_dialog_btn_quit">Nehajte gledati</string>
+  <string name="solution_dialog_btn_continue">Nadaljujte</string>
+  <string name="solution_btn_quit">Prenehati</string>
+  <string name="solution_btn_replay">Ponovno</string>
+  <string name="solution_status_playing">Gledanje rešitve</string>
+  <string name="solution_status_finished">Rešitev se konča</string>
+  <string-array name="notification_content">
+    <item>Prihaja vsakdanji izziv! Igrajte zdaj in preverite, ali lahko zmagate!</item>
+    <item>Najmanjši svetovni korak je včeraj %1$s. Lahko premagate?</item>
+    <item>Najvišji svetovni rezultat je včeraj %1$s. Lahko premagate?</item>
+    <item>Najboljši svetovni čas je včeraj %1$s. Lahko premagate?</item>
+    <item>Vaš najmanjši korak je %1$s. Ali lahko zlomite rekord?</item>
+    <item>Vaš najvišji rezultat je %1$s. Ali lahko zlomite rekord?</item>
+    <item>Vaš najboljši čas je %1$s. Ali lahko zlomite rekord?</item>
+    <item>Čaka nas še več poslov s pasijansi!</item>
+  </string-array>
+  <string name="notification_ticker_1">Nazaj v pasijans za zabavo!</string>
+  <string name="notification_ticker_2">Pasijanski dnevni izziv prihaja!</string>
   <string name="msg_remove_cardback">Izbrišemo 2 hrbtni strani kartic, da se ravnata v skladu s pravilnikom google play. Oprostite za nevšečnosti! Karto lahko prilagodite nazaj s svojimi slikami!</string>
+  <string name="spider_solitaire">Spider Pasijans</string>
+  <string name="game_mode_spider_solitaire">pajek</string>
+  <string name="setting_spider_solitaire_level">Številka obleke</string>
+  <string name="setting_unlimited_deal">Neomejena pogodba</string>
+  <string name="setting_spider_level_1_suit">1 obleka</string>
+  <string name="setting_spider_level_2_suit">2 obleke</string>
+  <string name="setting_spider_level_4_suit">4 obleke</string>
+  <string name="statistics_spider_level_1_suit">1 obleka</string>
+  <string name="statistics_spider_level_2_suit">2 obleke</string>
+  <string name="statistics_spider_level_4_suit">4 obleke</string>
+  <string name="spider_rule_0_text">Spider Solitaire se igra z dvema krojema po 52 kart. Palice so glede na težavnost sestavljene iz ene, dveh ali štirih različnih oblek.</string>
+  <string name="spider_rule_1_text">V igri Spider je cilj igre zbrati vse karte v fundacijo. Popolno padajoče zaporedje kart od kralja do asa iste obleke se bo samodejno zbralo do enega od temeljev.</string>
+  <string name="spider_rule_2_text">Na začetku vsake igre se na mizo razdeli 10 paketov s 6 ali 5 kartami. Preostale karte so postavljene obrnjene navzdol, da tvorijo zalogo.</string>
+  <string name="spider_rule_3_text">Če vam zmanjka veljavnih potez, kliknite zalogo, da razdelite po eno kartico za vsak stolpec v tabeli.</string>
+  <string name="spider_rule_4_text">Spuščajoče zaporedje kart lahko kot skupino premaknete v drug stolpec razpredelnice le, če so v isti obleki.</string>
+  <string name="spider_rule_5_text">Tapkanje samodejno premakne kartico ali padajoče zaporedje kartic iste obleke na možno mesto, medtem ko vlečenje omogoča ročno postavljanje.</string>
+  <string name="can_not_deal">Med tabelo s praznim stolpcem ni mogoče obravnavati kartice </string>
+  <string name="custom_notification_btn">Izziv</string>
+  <string name="eye_friendly">Okolju prijazno</string>
+  <string name="title_continous_undo_prompt">Ali veš?</string>
+  <string name="msg_continous_undo_prompt">Za zaporedno razveljavitev pritisnite in držite gumb za razveljavitev.</string>
+  <string name="prompt_msg_sound_off">Opomba: Zvok igre je izklopljen. Zmanjšajte glasnost naprav, da utišate oglase.</string>
+  <string name="prompt_msg_orientation_lock_by_system">Opomba: Vklopite samodejno vrtenje naprave za vrtenje.</string>
+  <string name="prompt_msg_orientation_lock_by_game">Opomba: Prekličite izbiro nastavitve "%s" za samodejno vrtenje.</string>
 </resources>

@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">Víťazná dohoda</string>
   <string name="play_action_replay">replay</string>
   <string name="cancel">Zrušiť</string>
+  <string name="tap_to_skip">Ťuknutím na tlačidlo Preskočiť</string>
   <string name="setting_ok">OK</string>
   <string name="statistics">štatistika</string>
   <string name="setting_draw1">Kresliť 1</string>
   <string name="setting_draw3">Kresliť 3</string>
   <string name="setting_sound">Ovládanie zvuku</string>
-  <string name="setting_times">čas / pohyby</string>
+  <string name="setting_times">Čas / Moves</string>
   <string name="setting_orientation">Orientácia uzamknutia</string>
   <string name="setting_hints">Auto Tipy</string>
-  <string name="setting_tapmove">Klepnite na Presunúť</string>
+  <string name="setting_tapmove">Ťuknite na položku Presunúť</string>
   <string name="help_rules">pravidlá</string>
   <string name="setting_draw3_mode">3 karty</string>
-  <string name="setting_score_anim">Skóre efekt</string>
+  <string name="setting_score_anim">Bodový efekt</string>
   <string name="setting_privacy_policy">Zásady ochrany osobných údajov</string>
   <string name="setting_language">Jazyk</string>
   <string name="stat_won">Hry vyhrali</string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">Určite skončíte?</string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">Naozaj chcete obnoviť štatistiky hry?</string>
-  <string name="notification_push">Kliknutím na mňa otvorte hru!</string>
-  <string name="notification_ticker">Späť na solitér pre zábavu!</string>
+  <string name="notification_push">Prichádza nová denná výzva! Zahrajte si ju a uvidíte, či môžete vyhrať!</string>
+  <string name="notification_ticker">Prichádza denná výzva pre Solitaire!</string>
   <string name="done">hotový</string>
   <string name="hint_draw_card">kresliť</string>
   <string name="hint_recycle_card">Recyklujte zostávajúce karty</string>
@@ -80,6 +81,10 @@
   <string name="invite_rate_gratitude_email_positive">OK</string>
   <string name="invite_rate_google_message">Mohli by ste nám prosím chvíľku oceniť v službe Google Play?</string>
   <string name="invite_rate_button_positive">Istá!</string>
+  <string name="invite_rate_special_title">Ďakujem</string>
+  <string name="invite_rate_bonus_message">Mohli by ste nám prosím chvíľku oceniť v službe Google Play?</string>
+  <string name="invite_rate_bonus_button_positive">zbierať</string>
+  <string name="invite_rate_bonus_hint">Odmena</string>
   <string name="rule_0_text">Klondike Solitaire používa štandardný balíček 52 kariet hracích kariet bez žolíkov. Cieľom hry je vystaviť všetky karty a presunúť ich do základných hromád. Tieto hromady sú postavené vzostupne v obleku od Aces až Kings.</string>
   <string name="rule_1_text">Existuje 7 tabuliek stĺpcov, ktoré sú postavené smerom nadol (v klesajúcom poradí, od Kings do Aces) v striedajúcich sa farbách (červená, čierna). Akýkoľvek prázdny stĺpec môže byť naplnený iba kráľom alebo hromadou kariet s kráľom na vrchole.</string>
   <string name="rule_2_text">Čiastočné alebo úplné zhromaždenia môžu byť presunuté z jedného stĺpca do druhého, ak sú vytvorené alternatívnymi farbami a klesajúcou hodnosťou. V tabuľke vystavte karty lícom nadol, aby ste našli karty, ktoré potrebujete.</string>
@@ -104,11 +109,8 @@
   <string name="magic_store_title">predajňa</string>
   <string name="game_mode_random">náhodný</string>
   <string name="game_mode_winning">víťazný</string>
+  <string name="game_mode_daily_challenge">Výzva</string>
   <string name="daily_bonus_btn_claim">pohľadávka</string>
-  <string name="remove_ad">Odstrániť reklamy</string>
-  <string name="purchasing_error_try_again">Chyba pri nákupe! Skúste neskôr prosím!</string>
-  <string name="msg_coin_hint">Nákup tém alebo mágie</string>
-  <string name="purchasing_succeed_remove_ad">Nákup bol úspešný! Reklamy odstránené!</string>
   <string name="daily_challenge">Denná výzva</string>
   <string name="daily_challenge_start_btn">Spustite výzvu</string>
   <string name="daily_challenge_total_count">celkom:</string>
@@ -116,7 +118,56 @@
   <string name="daily_challenge_status_unsolved">Nevyriešený</string>
   <string name="daily_challenge_start_hint">Spustite dennú výzvu</string>
   <string name="daily_challenge_start_btn_replay">replay</string>
-  <string name="daily_challenge_mode">Výzva</string>
+  <string name="ask_daily_challenge_dialog_content">Nová denná výzva je pripravená! Zahrajte si to teraz?</string>
+  <string name="ask_daily_challenge_dialog_btn">OK</string>
+  <string name="game_solution_popup_content">Ťažko vyhrať? Pozrite sa na riešenie tu!</string>
+  <string name="no_hint_dialog_solution_popup_content">Nedá sa vyhrať? Kliknutím sem zobrazíte riešenie!</string>
+  <string name="solution_rewarded_video_hint">Táto dohoda je víťazná. Pozrite si krátke video a pozrite si riešenie?</string>
+  <string name="solution_ads_unavailable">Reklamy nie sú k dispozícii. Skúste to znova o chvíľu.</string>
+  <string name="solution_not_finished_hint">Riešenie sa neskončilo. Stále chcete prestať sledovať?</string>
+  <string name="solution_finished_back_to_game_hint">Videli ste riešenie. Môžete hru prehrať.</string>
+  <string name="solution_finished_hint">Riešenie sa skončilo. Kliknutím na tlačidlo Skončiť sa vrátite späť alebo stlačením tlačidla Opäť sa znova pozeráte.</string>
+  <string name="solution_dialog_btn_quit">Ukončite sledovanie</string>
+  <string name="solution_dialog_btn_continue">ďalej</string>
+  <string name="solution_btn_quit">prestať</string>
+  <string name="solution_btn_replay">znovu</string>
+  <string name="solution_status_playing">Sledovacie riešenie</string>
+  <string name="solution_status_finished">Riešenie končí</string>
+  <string-array name="notification_content">
+    <item>Prichádza denná výzva! Zahrajte si ju a uvidíte, či môžete vyhrať!</item>
+    <item>Najmenší globálny krok je včera %1$s. Dokážeš to poraziť?</item>
+    <item>Najvyššie globálne skóre je %1$s včera. Dokážeš to poraziť?</item>
+    <item>Najlepší svetový čas je včera %1$s. Dokážeš to poraziť?</item>
+    <item>Váš najmenší krok je %1$s. Dokážete zlomiť rekord?</item>
+    <item>Vaše najvyššie skóre je %1$s. Môžete prekonať rekord?</item>
+    <item>Váš najlepší čas je %1$s. Dokážete prekonať rekord?</item>
+    <item>Viac solitérnych obchodov čaká na vyriešenie!</item>
+  </string-array>
+  <string name="notification_ticker_1">Späť do solitaire pre zábavu!</string>
+  <string name="notification_ticker_2">Denná výzva pre Solitaire prichádza!</string>
   <string name="msg_remove_cardback">Odstránime 2 zálohy kariet, aby sme dosiahli súlad s pravidlami služby Google Play. Ospravedlňujem sa za nepríjemnosť! Kartu si môžete prispôsobiť pomocou vlastných obrázkov!</string>
-  <string name="recover_billing">Obnoviť</string>
+  <string name="spider_solitaire">Spider Solitaire</string>
+  <string name="game_mode_spider_solitaire">pavúk</string>
+  <string name="setting_spider_solitaire_level">Číslo obleku</string>
+  <string name="setting_unlimited_deal">Neobmedzený obchod</string>
+  <string name="setting_spider_level_1_suit">1 oblek</string>
+  <string name="setting_spider_level_2_suit">2 obleky</string>
+  <string name="setting_spider_level_4_suit">4 obleky</string>
+  <string name="statistics_spider_level_1_suit">1 oblek</string>
+  <string name="statistics_spider_level_2_suit">2 obleky</string>
+  <string name="statistics_spider_level_4_suit">4 obleky</string>
+  <string name="spider_rule_0_text">Spider Solitaire sa hrá s dvoma balíčkami po 52 kartách. V závislosti od náročnosti sa paluby skladajú z jedného, dvoch alebo štyroch rôznych oblekov.</string>
+  <string name="spider_rule_1_text">V hre Spider je cieľom hry zhromaždiť všetky karty nadácie. Kompletná zostupná postupnosť kariet od kráľa po eso tej istej farby bude automaticky vybraná na jednu zo základov.</string>
+  <string name="spider_rule_2_text">Na začiatku každej hry je rozdaných 10 stohov so 6 alebo 5 kartami. Zostávajúce karty sa položia lícom nadol, aby vytvorili pažbu.</string>
+  <string name="spider_rule_3_text">Ak vám dôjdu platné ťahy, kliknite na akciu, aby ste rozdali jednu kartu pre každý stĺpec v tabuľke.</string>
+  <string name="spider_rule_4_text">Zostupnú postupnosť kariet môžete presunúť ako skupinu do iného stĺpca tabuľky iba vtedy, ak majú rovnakú farbu.</string>
+  <string name="spider_rule_5_text">Ťuknutím na kartu sa karta alebo zostupná postupnosť kariet rovnakej farby automaticky presunie na možné miesto, zatiaľ čo pretiahnutím môžete umiestniť ručne.</string>
+  <string name="can_not_deal">Kartu nemožno spracovať pri tabuľke s prázdnym stĺpcom </string>
+  <string name="custom_notification_btn">Výzva</string>
+  <string name="eye_friendly">Priateľské k oku</string>
+  <string name="title_continous_undo_prompt">Vieš?</string>
+  <string name="msg_continous_undo_prompt">Stlačením a podržaním tlačidla späť vykonáte postupné vrátenie späť.</string>
+  <string name="prompt_msg_sound_off">Poznámka: Zvuk hry je vypnutý. Reklamy stlmíte znížením hlasitosti svojich zariadení.</string>
+  <string name="prompt_msg_orientation_lock_by_system">Poznámka: Ak chcete zariadenie otáčať, zapnite automatické otáčanie.</string>
+  <string name="prompt_msg_orientation_lock_by_game">Poznámka: Zrušte výber "%s" nastavenia, aby sa otáčalo automaticky.</string>
 </resources>

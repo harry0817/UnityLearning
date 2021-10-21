@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">Solitārs </string>
-  <string name="score_label">Rezultāti </string>
+  <string name="score_label">Rezultāts</string>
   <string name="time_label">Laiks </string>
   <string name="move_label">Kustības </string>
   <string name="auto_complete_title">Auto pabeigts </string>
@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">Uzvarēšanas režīms </string>
   <string name="play_action_replay">Atkārtot </string>
   <string name="cancel">Atcelt </string>
+  <string name="tap_to_skip">Pieskarieties, lai pārietu uz</string>
   <string name="setting_ok">labi </string>
   <string name="statistics">Statistika </string>
   <string name="setting_draw1">Zīmēt 1 </string>
   <string name="setting_draw3">Draw 3 </string>
   <string name="setting_sound">Skaņas kontrole </string>
-  <string name="setting_times">Laiks / Kustības </string>
+  <string name="setting_times">Laiks / kustības</string>
   <string name="setting_orientation">Bloķēt orientāciju </string>
   <string name="setting_hints">Auto ieteikumi </string>
-  <string name="setting_tapmove">Pieskarieties Pārvietot </string>
+  <string name="setting_tapmove">Pieskarieties, lai pārvietotos</string>
   <string name="help_rules">Noteikumi </string>
   <string name="setting_draw3_mode">3 kartes </string>
-  <string name="setting_score_anim">Rezultātu ietekme </string>
+  <string name="setting_score_anim">Rādītājs Efekts</string>
   <string name="setting_privacy_policy">Privātuma politika </string>
   <string name="setting_language">Valoda</string>
   <string name="stat_won">Spēles uzvarēja </string>
@@ -38,7 +39,7 @@
   <string name="stat_fwmove">Mazākās uzvarošās kustības </string>
   <string name="stat_mwmove">Lielākā daļa uzvarošo pārcelšanās </string>
   <string name="stat_nundo">Uzvar bez atsaukt </string>
-  <string name="stat_hscroe">Augstākais Rezultāts </string>
+  <string name="stat_hscroe">Augstākais rādītājs</string>
   <string name="reset_stat">Atiestatīt </string>
   <string name="yes">Jā </string>
   <string name="mode_message">Grūtības iestatīšana stāsies spēkā nākamajā jaunajā spēlē </string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">Vai esat pārliecināts pamest? </string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">Vai esat pārliecināts, ka vēlaties atiestatīt spēļu statistiku? </string>
-  <string name="notification_push">Noklikšķiniet uz mani, lai atvērtu spēli! </string>
-  <string name="notification_ticker">Atpakaļ uz solitāru jautrībai! </string>
+  <string name="notification_push">Ienāk jauns ikdienas izaicinājums! Spēlē to tagad un redzi, vai vari uzvarēt!</string>
+  <string name="notification_ticker">Pienāk ikdienas pasjansa izaicinājums!</string>
   <string name="done">Gatavs </string>
   <string name="hint_draw_card">Zīmēt </string>
   <string name="hint_recycle_card">Pārdot atlikušās kartes </string>
@@ -80,6 +81,11 @@
   <string name="invite_rate_gratitude_email_positive">labi </string>
   <string name="invite_rate_google_message">Vai, lūdzu, veltiet laiku, lai novērtētu mūs pakalpojumā Google Play? </string>
   <string name="invite_rate_button_positive">Protams! </string>
+  <string name="invite_rate_special_title">Paldies </string>
+  <string name="invite_rate_special_message" translatable="false">Daži spēlētāji to saka par solitāriju. Ja piekrītat, ielīmējiet to pakalpojumā Google Play. Mēs jau esam to nokopējuši jūsu starpliktuvē. </string>
+  <string name="invite_rate_bonus_message">Vai, lūdzu, veltiet laiku, lai novērtētu mūs pakalpojumā Google Play? </string>
+  <string name="invite_rate_bonus_button_positive">Savākt </string>
+  <string name="invite_rate_bonus_hint">Atlīdzība</string>
   <string name="rule_0_text">Klondike Solitaire izmanto standarta 52 karšu klāstu spēļu kārtis bez jokers. Spēles mērķis ir izdalīt visas kārtis un pārvietot tās uz pamatnes pāļiem. Šīs pāles ir uzceltas uz augšu, no Aces līdz Kings. </string>
   <string name="rule_1_text">Ir 7 tabulas kolonnas, kas tiek uzceltas uz leju (samazinot rangu no Kings līdz Aces) mainīgās krāsās (sarkanā, melnā krāsā). Jebkura tukša kolonna var tikt aizpildīta tikai ar karali vai kartiņu ar karali augšā. </string>
   <string name="rule_2_text">Daļējas vai pilnīgas pāļus var pārvietot no vienas slejas uz otru, ja tās ir izveidotas, izmantojot citas krāsas un samazinot rangu. Lai atrastu nepieciešamās kartes, uz galda parādiet uz leju vērstas kartītes. </string>
@@ -104,6 +110,7 @@
   <string name="magic_store_title">Veikals </string>
   <string name="game_mode_random">Nejaušais</string>
   <string name="game_mode_winning">Uzvarēšanas</string>
+  <string name="game_mode_daily_challenge">Izaicinājums</string>
   <string name="daily_bonus_btn_claim">Pretenzija </string>
   <string name="daily_bonus_today">Šodien </string>
   <string name="daily_bonus_tomorrow">Rīt </string>
@@ -117,10 +124,6 @@
   <string name="daily_bonus_victory_result_message">Jūs nopelnīsiet %1$d%% vairāk monētu nākamajā %2$d minūtēs! </string>
   <string name="daily_bonus_result_done">GO </string>
   <string name="daily_bonus_result_message">Tev ir: </string>
-  <string name="remove_ad">Noņemt reklāmas</string>
-  <string name="purchasing_error_try_again">Kļūda, pērkot! Lūdzu, pamēģiniet vēlreiz vēlāk!</string>
-  <string name="msg_coin_hint">Iegādājieties tēmas vai maģiju</string>
-  <string name="purchasing_succeed_remove_ad">Pirkums izdodas! Reklāmas noņemtas!</string>
   <string name="daily_challenge">Ikdienas izaicinājums</string>
   <string name="daily_challenge_start_btn">Sāciet izaicinājumu</string>
   <string name="daily_challenge_total_count">Kopā:</string>
@@ -128,6 +131,56 @@
   <string name="daily_challenge_status_unsolved">Neatrisināts</string>
   <string name="daily_challenge_start_hint">Sāciet ikdienas izaicinājumu</string>
   <string name="daily_challenge_start_btn_replay">Atkārtot</string>
-  <string name="daily_challenge_mode">Izaicinājums</string>
+  <string name="ask_daily_challenge_dialog_content">Jauns ikdienas izaicinājums ir gatavs! Spēlēt to tagad?</string>
+  <string name="ask_daily_challenge_dialog_btn">labi</string>
+  <string name="game_solution_popup_content">Grūti uzvarēt? Risinājumu skatiet šeit!</string>
+  <string name="no_hint_dialog_solution_popup_content">Nevar uzvarēt? Noklikšķiniet šeit, lai redzētu risinājumu!</string>
+  <string name="solution_rewarded_video_hint">Šis darījums ir izdevīgs. Noskatīties īsu video, lai redzētu risinājumu?</string>
+  <string name="solution_ads_unavailable">Reklāmas nav pieejamas. Lūdzu, pārbaudiet vēlreiz.</string>
+  <string name="solution_not_finished_hint">Risinājums nav pabeigts. Vai joprojām vēlaties pārtraukt skatīšanos?</string>
+  <string name="solution_finished_back_to_game_hint">Jūs esat redzējis risinājumu. Jūs varat atkārtot spēli.</string>
+  <string name="solution_finished_hint">Risinājums ir pabeigts. Noklikšķiniet uz pogas Iziet, lai atgrieztos, vai poga Atkal, lai skatītos vēlreiz.</string>
+  <string name="solution_dialog_btn_quit">Iziet no skatīšanās</string>
+  <string name="solution_dialog_btn_continue">Turpināt</string>
+  <string name="solution_btn_quit">Aiziet</string>
+  <string name="solution_btn_replay">Atkal</string>
+  <string name="solution_status_playing">Vērojam risinājumu</string>
+  <string name="solution_status_finished">Risinājums beidzas</string>
+  <string-array name="notification_content">
+    <item>Ikdienas izaicinājums pienāk! Spēlē to tagad un redzi, vai vari uzvarēt!</item>
+    <item>Vismazākais globālais solis vakar ir %1$s. Vai jūs to varat pārspēt?</item>
+    <item>Augstākais pasaules punktu skaits vakar ir %1$s. Vai jūs to varat pārspēt?</item>
+    <item>Labākais pasaules laiks vakar ir %1$s. Vai jūs to varat pārspēt?</item>
+    <item>Jūsu vismazākais solis ir %1$s. Vai jūs varat sabojāt rekordu?</item>
+    <item>Jūsu augstākais rezultāts ir %1$s. Vai jūs varat sabojāt rekordu?</item>
+    <item>Jūsu labākais laiks ir %1$s. Vai jūs varat sabojāt rekordu?</item>
+    <item>Vairāki pasjansa piedāvājumi gaida atrisinājumu!</item>
+  </string-array>
+  <string name="notification_ticker_1">Atpakaļ pie pasjansa izklaidei!</string>
+  <string name="notification_ticker_2">Pasjanss pienāk ikdienas izaicinājums!</string>
   <string name="msg_remove_cardback">Mēs izdzēšam 2 karšu atzveltnes, lai ievērotu Google Play politiku. Atvainojamies par sagādātajām neērtībām! Jūs varat pielāgot savu karti atpakaļ ar saviem attēliem!</string>
+  <string name="spider_solitaire">Zirnekļa pasjanss</string>
+  <string name="game_mode_spider_solitaire">zirneklis</string>
+  <string name="setting_spider_solitaire_level">Uzvalka numurs</string>
+  <string name="setting_unlimited_deal">Neierobežots darījums</string>
+  <string name="setting_spider_level_1_suit">1 uzvalks</string>
+  <string name="setting_spider_level_2_suit">2 uzvalki</string>
+  <string name="setting_spider_level_4_suit">4 uzvalki</string>
+  <string name="statistics_spider_level_1_suit">1 uzvalks</string>
+  <string name="statistics_spider_level_2_suit">2 uzvalki</string>
+  <string name="statistics_spider_level_4_suit">4 uzvalki</string>
+  <string name="spider_rule_0_text">Zirnekļa pasjanss tiek spēlēts ar diviem pakliem pa 52 kārtīm katrā. Atkarībā no grūtībām klāji sastāv no viena, diviem vai četriem dažādiem kostīmiem.</string>
+  <string name="spider_rule_1_text">Spider spēlē spēles mērķis ir savākt visas kārtis līdz pamatiem. Pilnīga dilstoša kāršu secība no tā paša masta karaļa līdz dūzim automātiski tiks savākta uz vienu no pamatiem.</string>
+  <string name="spider_rule_2_text">Katras spēles sākumā uz galda tiek izdalītas 10 kaudzītes ar 6 vai 5 kartēm. Atlikušās kārtis tiek novietotas ar virspusi uz leju, lai izveidotu krājumu.</string>
+  <string name="spider_rule_3_text">Ja beigušies derīgi gājieni, noklikšķiniet uz krājuma, lai apstrādātu vienu karti katrai tabulas kolonnai.</string>
+  <string name="spider_rule_4_text">Dilstošā kāršu secību kā grupu var pārvietot uz citu tabulas kolonnu tikai tad, ja tās ir vienādas.</string>
+  <string name="spider_rule_5_text">Pieskaršanās pārvieto karti vai dilstošā secībā pieejamo karšu secību ar tādu pašu uzvalku automātiski uz iespējamo vietu, bet velkot ļauj ievietot manuāli.</string>
+  <string name="can_not_deal">Nevaru aplūkot karti, bet tableau ar tukšu kolonnu </string>
+  <string name="custom_notification_btn">Izaicinājums</string>
+  <string name="eye_friendly">Acīm draudzīgs</string>
+  <string name="title_continous_undo_prompt">Vai Tu zini?</string>
+  <string name="msg_continous_undo_prompt">Lai atsauktu secīgu darbību, nospiediet un turiet atsaukšanas pogu.</string>
+  <string name="prompt_msg_sound_off">Piezīme. Spēles skaņa ir izslēgta. Lai izslēgtu reklāmu rādīšanu, samaziniet ierīču skaļumu.</string>
+  <string name="prompt_msg_orientation_lock_by_system">Piezīme. Lai pagrieztu, ieslēdziet ierīces automātisko pagriešanu.</string>
+  <string name="prompt_msg_orientation_lock_by_game">Piezīme. Lai automātiski pagrieztu, noņemiet atzīmi no "%s" iestatījuma.</string>
 </resources>

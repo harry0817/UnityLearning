@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">patiencespel</string>
-  <string name="score_label">scores</string>
+  <string name="score_label">Partituur</string>
   <string name="time_label">Tijd</string>
   <string name="move_label">Zetten</string>
   <string name="auto_complete_title">Automatisch aanvullen</string>
-  <string name="setting">voorkeur</string>
+  <string name="setting">instellingen</string>
   <string name="themes">Thema\'s</string>
   <string name="newgame">Spelen</string>
   <string name="hint_btn">Wenk</string>
@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">Winnende deal</string>
   <string name="play_action_replay">Herhaling</string>
   <string name="cancel">annuleren</string>
+  <string name="tap_to_skip">Tik om over te slaan</string>
   <string name="setting_ok">OK</string>
   <string name="statistics">Statistieken</string>
   <string name="setting_draw1">1 Kaart</string>
   <string name="setting_draw3">3 Kaarten</string>
   <string name="setting_sound">Geluidscontrole</string>
-  <string name="setting_times">Tijden / Zetten</string>
+  <string name="setting_times">Tijd/Zetten</string>
   <string name="setting_orientation">Oriëntatie van het slot</string>
   <string name="setting_hints">Automatische tips</string>
-  <string name="setting_tapmove">Tik op Verplaatsen</string>
+  <string name="setting_tapmove">Tik om te verplaatsen</string>
   <string name="help_rules">Reglement</string>
   <string name="setting_draw3_mode">3 kaarten</string>
-  <string name="setting_score_anim">Score-effect</string>
+  <string name="setting_score_anim">Scoren Effect</string>
   <string name="setting_privacy_policy">Privacybeleid</string>
   <string name="setting_language">Taal</string>
   <string name="stat_won">Gewonnen spelletjes</string>
@@ -38,7 +39,7 @@
   <string name="stat_fwmove">Minst Winnende zetten</string>
   <string name="stat_mwmove">Meest winnende zetten</string>
   <string name="stat_nundo">Wint zonder ongedaan te maken</string>
-  <string name="stat_hscroe">Hoogste scores</string>
+  <string name="stat_hscroe">Hoogste Score</string>
   <string name="reset_stat">Reset</string>
   <string name="yes">Ja</string>
   <string name="mode_message">Moeilijkheidsgraad wordt van kracht in Next New Game</string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">Ben je zeker om te stoppen?</string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">Weet je zeker dat je de spelstatistieken wilt resetten?</string>
-  <string name="notification_push">Klik op mij om het spel te openen!</string>
-  <string name="notification_ticker">Terug naar solitaire voor de lol!</string>
+  <string name="notification_push">Nieuwe dagelijkse uitdaging komt eraan! Speel het nu en kijk of je kunt winnen!</string>
+  <string name="notification_ticker">Dagelijkse uitdaging van Solitaire komt eraan!</string>
   <string name="done">Gedaan</string>
   <string name="hint_draw_card">Trek</string>
   <string name="hint_recycle_card">Recycle resterende kaarten</string>
@@ -80,6 +81,10 @@
   <string name="invite_rate_gratitude_email_positive">OK</string>
   <string name="invite_rate_google_message">Wilt u alstublieft een moment nemen om ons te beoordelen op Google Play?</string>
   <string name="invite_rate_button_positive">Zeker!</string>
+  <string name="invite_rate_special_title">Dank je</string>
+  <string name="invite_rate_bonus_message">Wilt u alstublieft een moment nemen om ons te beoordelen op Google Play?</string>
+  <string name="invite_rate_bonus_button_positive">Verzamelen</string>
+  <string name="invite_rate_bonus_hint">Beloning</string>
   <string name="rule_0_text">Klondike Solitaire maakt gebruik van een standaard 52-kaartspel met speelkaarten zonder jokers. Het doel van het spel is om alle kaarten bloot te leggen en ze in de funderingspalen te plaatsen. Deze stapels zijn naar boven gebouwd, van Azen tot Koningen.</string>
   <string name="rule_1_text">Er zijn 7 tableau-kolommen die naar beneden (in dalende rang, van koningen tot azen) in afwisselende kleuren (rood, zwart) zijn gebouwd. Elke lege kolom kan alleen worden gevuld met een koning of een stapel kaarten met bovenaan een koning.</string>
   <string name="rule_2_text">Gedeeltelijke of volledige palen kunnen van de ene kolom naar de andere worden verplaatst als ze worden opgebouwd door alternatieve kleuren en afnemende rangorde. Leg de kaarten met de verdekte kaarten op het tableau om kaarten te vinden die je nodig hebt.</string>
@@ -104,11 +109,8 @@
   <string name="magic_store_title">Winkel</string>
   <string name="game_mode_random">Willekeurig</string>
   <string name="game_mode_winning">winnend</string>
+  <string name="game_mode_daily_challenge">Uitdaging</string>
   <string name="daily_bonus_btn_claim">vordering</string>
-  <string name="remove_ad">Verwijder advertenties</string>
-  <string name="purchasing_error_try_again">Fout bij kopen! Probeer het later opnieuw!</string>
-  <string name="msg_coin_hint">Koop thema\'s of magie</string>
-  <string name="purchasing_succeed_remove_ad">Aankoop slaagt! Advertenties verwijderd!</string>
   <string name="daily_challenge">Dagelijkse Uitdaging</string>
   <string name="daily_challenge_start_btn">Beginnen Uitdaging</string>
   <string name="daily_challenge_total_count">Totaal:</string>
@@ -116,7 +118,56 @@
   <string name="daily_challenge_status_unsolved">Onopgelost</string>
   <string name="daily_challenge_start_hint">Beginnen Dagelijkse Uitdaging</string>
   <string name="daily_challenge_start_btn_replay">Herhaling</string>
-  <string name="daily_challenge_mode">Uitdaging</string>
+  <string name="ask_daily_challenge_dialog_content">Nieuwe dagelijkse uitdaging is klaar! Speel het nu?</string>
+  <string name="ask_daily_challenge_dialog_btn">OK</string>
+  <string name="game_solution_popup_content">Moeilijk om te winnen? Bekijk hier de oplossing!</string>
+  <string name="no_hint_dialog_solution_popup_content">Niet in staat om te winnen? Klik hier om de oplossing te bekijken!</string>
+  <string name="solution_rewarded_video_hint">Deze deal is te winnen. Een korte video bekijken om de oplossing te zien?</string>
+  <string name="solution_ads_unavailable">Advertenties niet beschikbaar. Kom later nog eens terug.</string>
+  <string name="solution_not_finished_hint">De oplossing is niet voltooid. Wil je nog steeds stoppen met kijken?</string>
+  <string name="solution_finished_back_to_game_hint">Je hebt de oplossing gezien. Je kunt het spel opnieuw spelen.</string>
+  <string name="solution_finished_hint">Oplossing is voltooid. Klik op de knop Afsluiten om terug te gaan of op de knop Opnieuw om opnieuw te kijken.</string>
+  <string name="solution_dialog_btn_quit">Stop met kijken</string>
+  <string name="solution_dialog_btn_continue">Doorgaan met</string>
+  <string name="solution_btn_quit">ophouden</string>
+  <string name="solution_btn_replay">Nog een keer</string>
+  <string name="solution_status_playing">Oplossing kijken</string>
+  <string name="solution_status_finished">Oplossing eindigt</string>
+  <string-array name="notification_content">
+    <item>Dagelijkse uitdaging komt aan! Speel het nu en kijk of je kunt winnen!</item>
+    <item>De minste wereldwijde stap is gisteren %1$s. Kun jij het verslaan?</item>
+    <item>Hoogste wereldwijde score is gisteren %1$s. Kun jij het verslaan?</item>
+    <item>Beste wereldwijde tijd is gisteren %1$s. Kun jij het verslaan?</item>
+    <item>Je minste stap is %1$s. Kun je het record breken?</item>
+    <item>Je hoogste score is %1$s. Kun je het record breken?</item>
+    <item>Je beste tijd is %1$s. Kun je het record breken?</item>
+    <item>Meer solitaire deals wachten om opgelost te worden!</item>
+  </string-array>
+  <string name="notification_ticker_1">Terug naar solitaire voor de lol!</string>
+  <string name="notification_ticker_2">Solitaire Daily challenge komt aan!</string>
   <string name="msg_remove_cardback">We verwijderen 2 kaartbacks om te voldoen aan het beleid van Google Play. Excuses voor het ongemak! U kunt uw kaart terug aanpassen met uw eigen foto\'s!</string>
-  <string name="recover_billing">Herstellen</string>
+  <string name="spider_solitaire">Spider Solitaire</string>
+  <string name="game_mode_spider_solitaire">Spin</string>
+  <string name="setting_spider_solitaire_level">Paknummer</string>
+  <string name="setting_unlimited_deal">Onbeperkte deal</string>
+  <string name="setting_spider_level_1_suit">1 pak</string>
+  <string name="setting_spider_level_2_suit">2 pakken</string>
+  <string name="setting_spider_level_4_suit">4 pakken</string>
+  <string name="statistics_spider_level_1_suit">1 pak</string>
+  <string name="statistics_spider_level_2_suit">2 pakken</string>
+  <string name="statistics_spider_level_4_suit">4 pakken</string>
+  <string name="spider_rule_0_text">Spider Solitaire wordt gespeeld met twee pakken van elk 52 kaarten. Afhankelijk van de moeilijkheidsgraad bestaan de decks uit één, twee of vier verschillende kleuren.</string>
+  <string name="spider_rule_1_text">In Spider is het doel van het spel om alle kaarten naar de basis te verzamelen. Een volledig aflopende reeks kaarten van koning tot aas van dezelfde soort wordt automatisch verzameld naar een van de stichtingen.</string>
+  <string name="spider_rule_2_text">Aan het begin van elk spel worden 10 stapels met 6 of 5 kaarten op het tableau gedeeld. De resterende kaarten worden met de beeldzijde naar beneden gelegd om de stapel te vormen.</string>
+  <string name="spider_rule_3_text">Als je geldige zetten op zijn, klik je op de stapel om één kaart te delen voor elke kolom in het tableau.</string>
+  <string name="spider_rule_4_text">Je mag een aflopende reeks kaarten als groep alleen naar een andere tableau-kolom verplaatsen als ze van dezelfde soort zijn.</string>
+  <string name="spider_rule_5_text">Door te tikken wordt een kaart of een aflopende reeks kaarten van dezelfde reeks automatisch naar een mogelijke locatie verplaatst, terwijl u met slepen handmatig kunt plaatsen.</string>
+  <string name="can_not_deal">Kan kaart niet delen tijdens het tableau met lege kolom </string>
+  <string name="custom_notification_btn">Uitdaging</string>
+  <string name="eye_friendly">Oogvriendelijk</string>
+  <string name="title_continous_undo_prompt">Weet je?</string>
+  <string name="msg_continous_undo_prompt">Houd de knop ongedaan maken ingedrukt om achtereenvolgens ongedaan te maken.</string>
+  <string name="prompt_msg_sound_off">Opmerking: het geluid van de game is uitgeschakeld. Zet het volume van je apparaten lager om de advertenties te dempen.</string>
+  <string name="prompt_msg_orientation_lock_by_system">Opmerking: Schakel automatisch draaien van uw apparaat in om te draaien.</string>
+  <string name="prompt_msg_orientation_lock_by_game">Opmerking: deselecteer "%s" instelling om automatisch te roteren.</string>
 </resources>

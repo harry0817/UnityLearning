@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">Solitaire </string>
-  <string name="score_label">Skor </string>
+  <string name="score_label">Markah</string>
   <string name="time_label">Masa </string>
   <string name="move_label">Gerakan </string>
   <string name="auto_complete_title">Auto Lengkap </string>
@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">Mod pemenang </string>
   <string name="play_action_replay">Putar ulang </string>
   <string name="cancel">Batalkan </string>
+  <string name="tap_to_skip">Ketik untuk Langkau</string>
   <string name="setting_ok">okey </string>
   <string name="statistics">Statistik </string>
   <string name="setting_draw1">Lukis 1 </string>
   <string name="setting_draw3">Lukis 3 </string>
   <string name="setting_sound">Kawalan Bunyi </string>
-  <string name="setting_times">Masa / Gerakan </string>
+  <string name="setting_times">Masa / Bergerak</string>
   <string name="setting_orientation">Orientasi Kunci </string>
   <string name="setting_hints">Petua Auto </string>
-  <string name="setting_tapmove">Ketik Alih </string>
+  <string name="setting_tapmove">Ketik untuk Pindah</string>
   <string name="help_rules">Peraturan </string>
   <string name="setting_draw3_mode">3 Kad </string>
-  <string name="setting_score_anim">Kesan Skor </string>
+  <string name="setting_score_anim">Kesan Pemarkahan</string>
   <string name="setting_privacy_policy">Dasar Privasi </string>
   <string name="setting_language">Bahasa</string>
   <string name="stat_won">Permainan Menang </string>
@@ -38,7 +39,7 @@
   <string name="stat_fwmove">Gerakan Memenangi Sedikit </string>
   <string name="stat_mwmove">Kebanyakan Pemenang Menang </string>
   <string name="stat_nundo">Menang Tanpa Undo </string>
-  <string name="stat_hscroe">Skor Tertinggi </string>
+  <string name="stat_hscroe">Skor tertinggi</string>
   <string name="reset_stat">Bersihkan</string>
   <string name="yes">Ya </string>
   <string name="mode_message">Penetapan Kesukaran akan berkuat kuasa dalam Permainan Baru Seterusnya </string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">Adakah anda pasti berhenti? </string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">Adakah anda pasti untuk menetapkan semula statistik permainan? </string>
-  <string name="notification_push">Klik saya untuk membuka permainan! </string>
-  <string name="notification_ticker">Kembali ke solitaire untuk bersenang-senang! </string>
+  <string name="notification_push">Cabaran harian baru tiba! Mainkan sekarang dan lihat jika anda boleh menang!</string>
+  <string name="notification_ticker">Cabaran harian Solitaire tiba!</string>
   <string name="done">Selesai </string>
   <string name="hint_draw_card">Lukis </string>
   <string name="hint_recycle_card">Kad baki kitar semula </string>
@@ -80,6 +81,11 @@
   <string name="invite_rate_gratitude_email_positive">okey </string>
   <string name="invite_rate_google_message">Bolehkah anda meluangkan sedikit masa untuk menilai kami di Google Play? </string>
   <string name="invite_rate_button_positive">Pasti! </string>
+  <string name="invite_rate_special_title">Terima kasih </string>
+  <string name="invite_rate_special_message" translatable="false">Sesetengah pemain mengatakan ini mengenai solitaire. Jika anda bersetuju, sila tampalkannya di Google Play. Kami telah menyalinnya ke dalam clipboard anda. </string>
+  <string name="invite_rate_bonus_message">Bolehkah anda meluangkan sedikit masa untuk menilai kami di Google Play? </string>
+  <string name="invite_rate_bonus_button_positive">Kumpulkan </string>
+  <string name="invite_rate_bonus_hint">Ganjaran </string>
   <string name="rule_0_text">Klondike Solitaire menggunakan dek kad standard 52 kad bermain tanpa joker. Objektif permainan adalah untuk mendedahkan semua kad dan memindahkannya ke buasir asas. Buasir ini dibina ke atas dari Aces ke Kings. </string>
   <string name="rule_1_text">Terdapat 7 lajur tableau yang dibina ke bawah (dalam pangkat menurun, dari Kings to Aces) dalam warna-warna yang bergantian (merah, hitam). Mana-mana ruangan kosong hanya boleh diisi dengan Raja atau timbunan kad dengan Raja di bahagian atas. </string>
   <string name="rule_2_text">Buasir separa atau lengkap boleh dipindahkan dari satu lajur ke yang lain jika mereka dibina oleh warna alternatif dan menurunkan pangkat. Paparkan kad muka bawah di tableau untuk mencari kad yang anda perlukan. </string>
@@ -104,6 +110,7 @@
   <string name="magic_store_title">Kedai </string>
   <string name="game_mode_random">Rawak </string>
   <string name="game_mode_winning">Pemenang </string>
+  <string name="game_mode_daily_challenge">Cabaran</string>
   <string name="daily_bonus_btn_claim">Tuntutan </string>
   <string name="daily_bonus_today">Hari ini </string>
   <string name="daily_bonus_tomorrow">Esok </string>
@@ -117,10 +124,6 @@
   <string name="daily_bonus_victory_result_message">Anda akan mendapat %1$d%% lebih banyak syiling dalam %2$d seterusnya! </string>
   <string name="daily_bonus_result_done">GO </string>
   <string name="daily_bonus_result_message">Awak dapat: </string>
-  <string name="remove_ad">Alih Keluar Iklan</string>
-  <string name="purchasing_error_try_again">Ralat pembelian! Sila cuba sebentar lagi!</string>
-  <string name="msg_coin_hint">Beli tema atau sihir</string>
-  <string name="purchasing_succeed_remove_ad">Pembelian berjaya! Iklan dialih keluar!</string>
   <string name="daily_challenge">Cabaran harian</string>
   <string name="daily_challenge_start_btn">Mula Cabaran</string>
   <string name="daily_challenge_total_count">Jumlah:</string>
@@ -128,7 +131,56 @@
   <string name="daily_challenge_status_unsolved">Tidak dibubarkan</string>
   <string name="daily_challenge_start_hint">Mulakan Cabaran harian</string>
   <string name="daily_challenge_start_btn_replay">Ulang</string>
-  <string name="daily_challenge_mode">Cabaran</string>
+  <string name="ask_daily_challenge_dialog_content">Cabaran harian baru sudah siap! Mainkan sekarang?</string>
+  <string name="ask_daily_challenge_dialog_btn">okey</string>
+  <string name="game_solution_popup_content">Sukar untuk menang? Lihat penyelesaian di sini!</string>
+  <string name="no_hint_dialog_solution_popup_content">Tidak dapat menang? Klik di sini untuk melihat penyelesaiannya!</string>
+  <string name="solution_rewarded_video_hint">Kesepakatan ini boleh menang. Tonton video pendek untuk melihat penyelesaiannya?</string>
+  <string name="solution_ads_unavailable">Iklan tidak tersedia. Sila semak semula sedikit.</string>
+  <string name="solution_not_finished_hint">Penyelesaian belum selesai. Masih mahu berhenti menonton?</string>
+  <string name="solution_finished_back_to_game_hint">Anda telah melihat penyelesaiannya. Anda boleh memainkan semula permainan.</string>
+  <string name="solution_finished_hint">Penyelesaian telah selesai. Klik butang Keluar untuk kembali atau butang Lagi untuk menonton lagi.</string>
+  <string name="solution_dialog_btn_quit">Berhenti Menonton</string>
+  <string name="solution_dialog_btn_continue">Teruskan</string>
+  <string name="solution_btn_quit">Berhenti</string>
+  <string name="solution_btn_replay">Sekali lagi</string>
+  <string name="solution_status_playing">Menonton Penyelesaian</string>
+  <string name="solution_status_finished">Penyelesaian Berakhir</string>
+  <string-array name="notification_content">
+    <item>Cabaran harian tiba! Mainkan sekarang dan lihat jika anda boleh menang!</item>
+    <item>Sedikit langkah global ialah %1$s semalam. Bolehkah anda mengalahkannya?</item>
+    <item>Skor global tertinggi ialah %1$s semalam. Bolehkah anda mengalahkannya?</item>
+    <item>Masa global terbaik ialah %1$s semalam. Bolehkah anda mengalahkannya?</item>
+    <item>Langkah paling kurang anda ialah %1$s. Bolehkah anda memecahkan rekod itu?</item>
+    <item>Skor tertinggi anda ialah %1$s. Bolehkah anda memecahkan rekod?</item>
+    <item>Masa terbaik anda ialah %1$s. Bolehkah anda memecahkan rekod?</item>
+    <item>Lebih banyak tawaran solitaire menunggu diselesaikan!</item>
+  </string-array>
+  <string name="notification_ticker_1">Kembali ke solitaire untuk bersenang-senang!</string>
+  <string name="notification_ticker_2">Cabaran Solitaire Harian tiba!</string>
   <string name="msg_remove_cardback">Kami memadamkan 2 kad belakang untuk mematuhi dasar main google. Maaf untuk kesulitan! Anda boleh menyesuaikan kad anda kembali dengan gambar anda sendiri!</string>
-  <string name="recover_billing">Pulihkan</string>
+  <string name="spider_solitaire">Spider Solitaire</string>
+  <string name="game_mode_spider_solitaire">Labah-labah</string>
+  <string name="setting_spider_solitaire_level">Nombor Sut</string>
+  <string name="setting_unlimited_deal">Tawaran Tidak Terhad</string>
+  <string name="setting_spider_level_1_suit">1 sut</string>
+  <string name="setting_spider_level_2_suit">2 sut</string>
+  <string name="setting_spider_level_4_suit">4 sut</string>
+  <string name="statistics_spider_level_1_suit">1 sut</string>
+  <string name="statistics_spider_level_2_suit">2 sut</string>
+  <string name="statistics_spider_level_4_suit">4 sut</string>
+  <string name="spider_rule_0_text">Spider Solitaire dimainkan dengan masing-masing dua dek 52 kad. Bergantung pada kesukaran, dek terdiri daripada satu, dua atau empat pakaian yang berbeza.</string>
+  <string name="spider_rule_1_text">Dalam Spider, tujuan permainan adalah mengumpulkan semua kad ke yayasan. Urutan kad yang lengkap dari King ke Ace dengan saman yang sama akan dikumpulkan ke salah satu asas secara automatik.</string>
+  <string name="spider_rule_2_text">Pada awal setiap permainan, 10 tumpukan dengan 6 atau 5 kad dibagikan ke meja. Baki kad ditempatkan menghadap ke bawah untuk membentuk stok.</string>
+  <string name="spider_rule_3_text">Sekiranya anda kehabisan pergerakan yang betul, klik stok untuk memberikan satu kad untuk setiap lajur di tableau.</string>
+  <string name="spider_rule_4_text">Anda boleh mengalihkan urutan kad yang menurun sebagai satu kumpulan ke lajur tableau yang lain hanya jika kad yang sama.</string>
+  <string name="spider_rule_5_text">Mengetuk menggerakkan kad atau urutan turun kad yang sama ke lokasi yang mungkin secara automatik, sambil menyeret membolehkan anda meletakkan secara manual.</string>
+  <string name="can_not_deal">Tidak dapat menangani kad semasa tableau dengan ruang kosong </string>
+  <string name="custom_notification_btn">Cabaran</string>
+  <string name="eye_friendly">Mesra Mata</string>
+  <string name="title_continous_undo_prompt">Adakah awak tahu?</string>
+  <string name="msg_continous_undo_prompt">Tekan dan tahan butang buat buat pembatalan berturut-turut.</string>
+  <string name="prompt_msg_sound_off">Catatan: Suara permainan dimatikan. Turunkan kelantangan peranti anda untuk mematikan Iklan.</string>
+  <string name="prompt_msg_orientation_lock_by_system">Catatan: Hidupkan putaran automatik peranti anda untuk memutar.</string>
+  <string name="prompt_msg_orientation_lock_by_game">Nota: Nyahpilih "%s" tetapan untuk berputar secara automatik.</string>
 </resources>

@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">voitto-tilassa </string>
   <string name="play_action_replay">Uusinta </string>
   <string name="cancel">Peruuttaa </string>
+  <string name="tap_to_skip">Napauta Ohita</string>
   <string name="setting_ok">kunnossa </string>
   <string name="statistics">tilasto </string>
   <string name="setting_draw1">Piirrä 1 </string>
   <string name="setting_draw3">Piirrä 3 </string>
   <string name="setting_sound">Äänensäätö </string>
-  <string name="setting_times">Aika / Liikkuu </string>
+  <string name="setting_times">Aika / Liikkuu</string>
   <string name="setting_orientation">Lukitse suunta </string>
   <string name="setting_hints">Automaattiset vihjeet </string>
-  <string name="setting_tapmove">Napauta Siirrä </string>
+  <string name="setting_tapmove">Napauta Siirrä</string>
   <string name="help_rules">säännöt </string>
   <string name="setting_draw3_mode">3 korttia </string>
-  <string name="setting_score_anim">Tulosvaikutus </string>
+  <string name="setting_score_anim">Pisteytysvaikutus</string>
   <string name="setting_privacy_policy">Tietosuojakäytäntö </string>
   <string name="setting_language">Kieli</string>
   <string name="stat_won">Voitetut pelit </string>
@@ -38,7 +39,7 @@
   <string name="stat_fwmove">Vähiten voittavia liikkeitä </string>
   <string name="stat_mwmove">Useimmat voittavat liikkeet </string>
   <string name="stat_nundo">Voittaa ilman kumoa </string>
-  <string name="stat_hscroe">Korkeimmat pistemäärät </string>
+  <string name="stat_hscroe">Korkein pistemäärä</string>
   <string name="reset_stat">Tyhjentää</string>
   <string name="yes">Joo </string>
   <string name="mode_message">Vaikeusasetus tulee voimaan seuraavassa uudessa pelissä </string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">Oletko varma lopettamaan? </string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">Haluatko varmasti nollata pelitilastot? </string>
-  <string name="notification_push">Klikkaa minua avataksesi pelin! </string>
-  <string name="notification_ticker">Takaisin solitaire hauskaa! </string>
+  <string name="notification_push">Uusi Daily Challenge saapuu! Pelaa nyt ja katso voitko voittaa!</string>
+  <string name="notification_ticker">Solitairen päivittäinen haaste saapuu!</string>
   <string name="done">Tehty </string>
   <string name="hint_draw_card">piirtää </string>
   <string name="hint_recycle_card">Kierrätä jäljellä olevat kortit </string>
@@ -80,6 +81,11 @@
   <string name="invite_rate_gratitude_email_positive">kunnossa </string>
   <string name="invite_rate_google_message">Voisitko hetken aikaa arvioida meitä Google Play? </string>
   <string name="invite_rate_button_positive">Varma! </string>
+  <string name="invite_rate_special_title">Kiitos </string>
+  <string name="invite_rate_special_message" translatable="false">Jotkut pelaajat sanovat tästä solitaireista. Jos hyväksyt, liitä se Google Play -palveluun. Olemme jo kopioineet sen leikepöydälle. </string>
+  <string name="invite_rate_bonus_message">Voisitko hetken aikaa arvioida meitä Google Play? </string>
+  <string name="invite_rate_bonus_button_positive">Kerätä </string>
+  <string name="invite_rate_bonus_hint">Palkinto </string>
   <string name="rule_0_text">Klondike Solitaire käyttää tavallista 52-korttikorttia pelikortteja ilman jokereita. Pelin tavoitteena on altistaa kaikki kortit ja siirtää ne peruspilareiksi. Nämä paalut on rakennettu ylöspäin Aces to Kingsin pukuun. </string>
   <string name="rule_1_text">On olemassa 7 taulukon saraketta, jotka on rakennettu alaspäin (alenevassa järjestyksessä, Kingsistä Acesiin) vuorotellen väreissä (punainen, musta). Jokainen tyhjä sarake voidaan täyttää vain kuningas tai kasa kortit, kun kuningas yläosassa. </string>
   <string name="rule_2_text">Osittaisia tai kokonaisia paaluja voidaan siirtää sarakkeesta toiseen, jos ne on rakennettu vaihtoehtoisilla väreillä ja alenevalla asteikolla. Määritä taulukossa olevat korostetut kortit löytääksesi sinulle tarvittavat kortit. </string>
@@ -104,6 +110,7 @@
   <string name="magic_store_title">Myymälä </string>
   <string name="game_mode_random">satunnainen </string>
   <string name="game_mode_winning">voittoisa </string>
+  <string name="game_mode_daily_challenge">Haaste</string>
   <string name="daily_bonus_btn_claim">vaatimus </string>
   <string name="daily_bonus_today">Tänään </string>
   <string name="daily_bonus_tomorrow">Huomenna </string>
@@ -117,10 +124,6 @@
   <string name="daily_bonus_victory_result_message">Ansaitset %1$d%% enemmän kolikoita seuraavassa %2$d minuutissa! </string>
   <string name="daily_bonus_result_done">MENNÄ </string>
   <string name="daily_bonus_result_message">Sinulla on: </string>
-  <string name="remove_ad">Poista mainokset</string>
-  <string name="purchasing_error_try_again">Virhe ostossa! Yritä uudelleen myöhemmin!</string>
-  <string name="msg_coin_hint">Osta teemoja tai taikuutta</string>
-  <string name="purchasing_succeed_remove_ad">Osto onnistuu! Mainokset poistettu!</string>
   <string name="daily_challenge">Päivittäinen haaste</string>
   <string name="daily_challenge_start_btn">Aloita haaste</string>
   <string name="daily_challenge_total_count">Kaikki yhteensä:</string>
@@ -128,9 +131,56 @@
   <string name="daily_challenge_status_unsolved">ratkaisematon</string>
   <string name="daily_challenge_start_hint">Aloita päivittäinen haaste</string>
   <string name="daily_challenge_start_btn_replay">Uusinta</string>
-  <string name="daily_challenge_mode">Haaste</string>
+  <string name="ask_daily_challenge_dialog_content">Uusi Daily Challenge on valmis! Pelaako se nyt?</string>
+  <string name="ask_daily_challenge_dialog_btn">kunnossa</string>
+  <string name="game_solution_popup_content">Vaikea voittaa? Katso ratkaisu täältä!</string>
+  <string name="no_hint_dialog_solution_popup_content">Etkö voi voittaa? Napsauta tätä nähdäksesi ratkaisun!</string>
+  <string name="solution_rewarded_video_hint">Tämä kauppa on voitollinen. Katso lyhyt video nähdäksesi ratkaisun?</string>
+  <string name="solution_ads_unavailable">Mainoksia ei ole saatavana. Ole hyvä ja tarkista uudelleen.</string>
+  <string name="solution_not_finished_hint">Ratkaisu ei ole valmis. Haluatko silti lopettaa katselun?</string>
+  <string name="solution_finished_back_to_game_hint">Olet nähnyt ratkaisun. Voit toistaa pelin.</string>
+  <string name="solution_finished_hint">Ratkaisu on valmis. Napsauta Lopeta-painiketta palataksesi takaisin tai uudelleen-painiketta nähdäksesi uudelleen.</string>
+  <string name="solution_dialog_btn_quit">Lopeta katseleminen</string>
+  <string name="solution_dialog_btn_continue">Jatkaa</string>
+  <string name="solution_btn_quit">Lopettaa</string>
+  <string name="solution_btn_replay">Uudelleen</string>
+  <string name="solution_status_playing">Katsellen ratkaisua</string>
+  <string name="solution_status_finished">Ratkaisu päättyy</string>
+  <string-array name="notification_content">
+    <item>Päivittäinen haaste saapuu! Pelaa nyt ja katso voitko voittaa!</item>
+    <item>Pienin maailmanlaajuinen askel on eilen %1$s. Voitko voittaa sen?</item>
+    <item>Korkein globaali pistemäärä on eilen %1$s. Voitko voittaa sen?</item>
+    <item>Paras maailmanaika on eilen %1$s. Voitko voittaa sen?</item>
+    <item>Pienin askel on %1$s. Voitko rikkoa ennätyksen?</item>
+    <item>Korkein pistemäärä on %1$s. Voitko rikkoa ennätyksen?</item>
+    <item>Paras aika on %1$s. Voitko rikkoa ennätyksen?</item>
+    <item>Lisää pasianssitarjouksia odotetaan ratkaisemista!</item>
+  </string-array>
+  <string name="notification_ticker_1">Takaisin pasianssiin hauskanpitoon!</string>
+  <string name="notification_ticker_2">Pasianssi Päivittäinen haaste saapuu!</string>
   <string name="msg_remove_cardback">Poistamme 2 kortin selkää Google-käytäntöjen noudattamiseksi. Anteeksi häiriö! Voit mukauttaa korttisi takaisin omilla kuvillasi!</string>
-  <string name="recover_billing">Palauttaa</string>
-  <string name="recover_billing_completed">Valmis. Jos sinulla on kysyttävää, tutustu verkkoon tai tarkista Google Play -toimeksianto ja yritä uudelleen. Kiitos!</string>
-  <string name="recover_billing">Palauttaa</string>
+  <string name="spider_solitaire">Hämähäkki pasianssi</string>
+  <string name="game_mode_spider_solitaire">Hämähäkki</string>
+  <string name="setting_spider_solitaire_level">Puku numero</string>
+  <string name="setting_unlimited_deal">Rajoittamaton kauppa</string>
+  <string name="setting_spider_level_1_suit">1 puku</string>
+  <string name="setting_spider_level_2_suit">2 pukua</string>
+  <string name="setting_spider_level_4_suit">4 pukua</string>
+  <string name="statistics_spider_level_1_suit">1 puku</string>
+  <string name="statistics_spider_level_2_suit">2 pukua</string>
+  <string name="statistics_spider_level_4_suit">4 pukua</string>
+  <string name="spider_rule_0_text">Spider-pasianssia pelataan kahdella 52 kortin kannella. Kannet koostuvat vaikeudesta riippuen yhdestä, kahdesta tai neljästä eri puvusta.</string>
+  <string name="spider_rule_1_text">Spider -pelissä pelin tavoitteena on kerätä kaikki kortit säätiölle. Täydellinen laskeva korttijono samasta maasta kuningasta ässä kerätään automaattisesti yhteen säätiöistä.</string>
+  <string name="spider_rule_2_text">Jokaisen pelin alussa jaetaan 10 pinoa 6 tai 5 kortilla pöydälle. Jäljellä olevat kortit asetetaan kuvapuoli alaspäin varaston muodostamiseksi.</string>
+  <string name="spider_rule_3_text">Jos loppuu kelvollisia siirtoja, napsauta kantaa jakaaksesi yhden kortin jokaisesta taulukon sarakkeesta.</string>
+  <string name="spider_rule_4_text">Voit siirtää laskevan korttijonon ryhmänä toiseen taulukon sarakkeeseen vain, jos ne ovat samaa maata.</string>
+  <string name="spider_rule_5_text">Napauttaminen siirtää saman maata vastaavan kortin tai laskevan korttijonon mahdolliseen sijaintiin automaattisesti, kun taas vetämällä voit asettaa manuaalisesti.</string>
+  <string name="can_not_deal">Ei voi käsitellä korttia, kun taulukko on tyhjä sarakkeessa </string>
+  <string name="custom_notification_btn">Haaste</string>
+  <string name="eye_friendly">Silmäystävällinen</string>
+  <string name="title_continous_undo_prompt">Tiedätkö?</string>
+  <string name="msg_continous_undo_prompt">Pidä kumoamispainiketta painettuna, jos haluat kumota peräkkäin.</string>
+  <string name="prompt_msg_sound_off">Huom. Pelin ääni on pois päältä. Mykistä mainokset pienentämällä laitteidesi äänenvoimakkuutta.</string>
+  <string name="prompt_msg_orientation_lock_by_system">Huomautus: Käännä laitteen automaattinen kierto.</string>
+  <string name="prompt_msg_orientation_lock_by_game">Huomautus: Poista "%s" -asetuksen valinta, jos haluat kiertää automaattisesti.</string>
 </resources>

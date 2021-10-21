@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">Печелившата сделка</string>
   <string name="play_action_replay">просвирване</string>
   <string name="cancel">Отказ</string>
+  <string name="tap_to_skip">Докоснете, за да прескочите</string>
   <string name="setting_ok">Добре</string>
   <string name="statistics">Статистика</string>
   <string name="setting_draw1">Начертайте 1</string>
   <string name="setting_draw3">Равен 3</string>
   <string name="setting_sound">Управление на звука</string>
-  <string name="setting_times">Време / ходове</string>
+  <string name="setting_times">Време / Преминава</string>
   <string name="setting_orientation">Посока на заключване</string>
   <string name="setting_hints">Автоматични съвети</string>
-  <string name="setting_tapmove">Докоснете Преместване</string>
+  <string name="setting_tapmove">Докоснете за преместване</string>
   <string name="help_rules">правилник</string>
   <string name="setting_draw3_mode">3 карти</string>
-  <string name="setting_score_anim">Резултат Ефект</string>
+  <string name="setting_score_anim">Ефект на точкуване</string>
   <string name="setting_privacy_policy">Правила за поверителност</string>
   <string name="setting_language">език</string>
   <string name="stat_won">Игри спечелени</string>
@@ -38,7 +39,7 @@
   <string name="stat_fwmove">Няколко движения</string>
   <string name="stat_mwmove">Повечето движения</string>
   <string name="stat_nundo">Спечели без отмяна</string>
-  <string name="stat_hscroe">Най-високи резултати</string>
+  <string name="stat_hscroe">Най-висок резултат</string>
   <string name="reset_stat">Нулиране</string>
   <string name="yes">да</string>
   <string name="mode_message">Настройката за трудности ще влезе в сила в следващата нова игра</string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">Сигурни ли сте, че сте се отказали?</string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">Наистина ли искате да нулирате статистическите данни за играта?</string>
-  <string name="notification_push">Кликнете върху мен, за да отворите играта!</string>
-  <string name="notification_ticker">Върнете се в пасианса за забавление!</string>
+  <string name="notification_push">Новото ежедневно предизвикателство пристига! Играйте сега и вижте дали можете да спечелите!</string>
+  <string name="notification_ticker">Пристига ежедневно предизвикателство на пасианс!</string>
   <string name="done">Свършен</string>
   <string name="hint_draw_card">Рисувам</string>
   <string name="hint_recycle_card">Рециклиране на останалите карти</string>
@@ -80,6 +81,10 @@
   <string name="invite_rate_gratitude_email_positive">Добре </string>
   <string name="invite_rate_google_message">Бихте ли могли да отделите малко време, за да ни оцените в Google Play?</string>
   <string name="invite_rate_button_positive">Сигурен!</string>
+  <string name="invite_rate_special_title">Благодаря ти</string>
+  <string name="invite_rate_bonus_message">Бихте ли могли да отделите малко време, за да ни оцените в Google Play?</string>
+  <string name="invite_rate_bonus_button_positive">събирам</string>
+  <string name="invite_rate_bonus_hint">Награда</string>
   <string name="rule_0_text">Klondike Solitaire използва стандартен пакет от карти от 52 карти за игра без шегаджии. Целта на играта е да изложите всички карти и да ги преместите в основите. Тези купчини са изградени нагоре в костюм от аса до царе. </string>
   <string name="rule_1_text">Има 7 колони, които са построени надолу (в намаляващ ранг, от царе на аса) в редуващи се цветове (червено, черно). Всяка празна колона може да бъде изпълнена само с крал или куп карти с крал на върха. </string>
   <string name="rule_2_text">Частични или пълни купчини могат да бъдат преместени от една колона в друга, ако са изградени от алтернативни цветове и намаляващи ранг. Изложете карти с лице надолу в таблицата, за да намерите картите, от които се нуждаете. </string>
@@ -104,6 +109,7 @@
   <string name="magic_store_title">магазин</string>
   <string name="game_mode_random">случаен</string>
   <string name="game_mode_winning">Печелившата</string>
+  <string name="game_mode_daily_challenge">Предизвикателство</string>
   <string name="daily_bonus_btn_claim">иск</string>
   <string name="daily_bonus_today">днес</string>
   <string name="daily_bonus_tomorrow">утре</string>
@@ -117,10 +123,6 @@
   <string name="daily_bonus_victory_result_message">Ще спечелите %1$d%% повече монети в следващите %2$d минути! </string>
   <string name="daily_bonus_result_done">ОТИВАМ </string>
   <string name="daily_bonus_result_message">Ти взе: </string>
-  <string name="remove_ad">Премахни рекламите</string>
-  <string name="purchasing_error_try_again">Грешка при закупуването! Моля, опитайте отново по-късно!</string>
-  <string name="msg_coin_hint">Купете теми или магия</string>
-  <string name="purchasing_succeed_remove_ad">Покупката успява! Рекламите са премахнати!</string>
   <string name="daily_challenge">Ежедневно предизвикателство</string>
   <string name="daily_challenge_start_btn">стартирайте предизвикателство</string>
   <string name="daily_challenge_total_count">Обща сума:</string>
@@ -128,9 +130,56 @@
   <string name="daily_challenge_status_unsolved">нерешен</string>
   <string name="daily_challenge_start_hint">Започнете ежедневно предизвикателство</string>
   <string name="daily_challenge_start_btn_replay">просвирване</string>
-  <string name="daily_challenge_mode">отвод</string>
+  <string name="ask_daily_challenge_dialog_content">Новото ежедневно предизвикателство е готово! Играйте сега?</string>
+  <string name="ask_daily_challenge_dialog_btn">Добре</string>
+  <string name="game_solution_popup_content">Трудно да спечелите? Вижте решението тук!</string>
+  <string name="no_hint_dialog_solution_popup_content">Не можете да спечелите? Щракнете тук, за да видите решението!</string>
+  <string name="solution_rewarded_video_hint">Тази сделка е спечелена. Гледайте кратко видео, за да видите решението?</string>
+  <string name="solution_ads_unavailable">Рекламите не са налични. Моля, проверете отново малко.</string>
+  <string name="solution_not_finished_hint">Решението не е приключило. Все още искате да спрете да гледате?</string>
+  <string name="solution_finished_back_to_game_hint">Виждали сте решението. Можете да преиграете играта.</string>
+  <string name="solution_finished_hint">Решението приключи. Щракнете върху бутона „Изход“, за да се върнете, или бутона „Отново“, за да гледате отново.</string>
+  <string name="solution_dialog_btn_quit">Прекратете гледането</string>
+  <string name="solution_dialog_btn_continue">продължи</string>
+  <string name="solution_btn_quit">напускам</string>
+  <string name="solution_btn_replay">Отново</string>
+  <string name="solution_status_playing">Гледане на решение</string>
+  <string name="solution_status_finished">Решението приключва</string>
+  <string-array name="notification_content">
+    <item>Пристига ежедневно предизвикателство! Играйте го сега и вижте дали можете да спечелите!</item>
+    <item>Най-малкото глобално стъпало е %1$s вчера. Можеш ли да го победиш?</item>
+    <item>Най-високият глобален резултат е %1$s вчера. Можеш ли да го победиш?</item>
+    <item>Най-доброто глобално време е %1$s вчера. Можеш ли да го победиш?</item>
+    <item>Вашата най-малка стъпка е %1$s. Можете ли да счупите рекорда?</item>
+    <item>Най-високият ви резултат е %1$s. Можете ли да счупите рекорда?</item>
+    <item>Най-доброто ви време е %1$s. Можете ли да счупите рекорда?</item>
+    <item>Повече пасианс сделки чакат да бъдат решени!</item>
+  </string-array>
+  <string name="notification_ticker_1">Обратно към пасианс за забавление!</string>
+  <string name="notification_ticker_2">Пасианс ежедневно предизвикателство пристига!</string>
   <string name="msg_remove_cardback">Изтриваме гърба на 2 карти, за да спазваме правилата за google play. Съжалявам за неудобството! Можете да персонализирате картата си обратно със собствените си снимки!</string>
-  <string name="recover_billing">Възстанови</string>
-  <string name="recover_billing_completed">Завършен. Ако имате въпроси, проверете мрежата си или проверете поръчката си в Google Play и опитайте отново. Благодаря ви!</string>
-  <string name="recover_billing">Възстанови</string>
+  <string name="spider_solitaire">Пасианс за паяк</string>
+  <string name="game_mode_spider_solitaire">паяк</string>
+  <string name="setting_spider_solitaire_level">Номер на костюма</string>
+  <string name="setting_unlimited_deal">Неограничена сделка</string>
+  <string name="setting_spider_level_1_suit">1 костюм</string>
+  <string name="setting_spider_level_2_suit">2 костюма</string>
+  <string name="setting_spider_level_4_suit">4 костюма</string>
+  <string name="statistics_spider_level_1_suit">1 костюм</string>
+  <string name="statistics_spider_level_2_suit">2 костюма</string>
+  <string name="statistics_spider_level_4_suit">4 костюма</string>
+  <string name="spider_rule_0_text">Spider Solitaire се играе с две тестета от 52 карти всяка. В зависимост от трудността, палубите се състоят от един, два или четири различни костюма.</string>
+  <string name="spider_rule_1_text">В Spider целта на играта е да събере всички карти към фондацията. Пълна низходяща последователност от карти от Кинг до Ас от един и същ костюм ще бъде събрана автоматично до една от фондациите.</string>
+  <string name="spider_rule_2_text">В началото на всяка игра 10 стека с 6 или 5 карти се раздават на масата. Останалите карти се поставят с лицето надолу, за да образуват запаса.</string>
+  <string name="spider_rule_3_text">Ако сте изтекли валидни ходове, щракнете върху запасите, за да раздадете по една карта за всяка колона в таблицата.</string>
+  <string name="spider_rule_4_text">Можете да премествате низходяща последователност от карти като група в друга колона на таблицата, само ако са от един и същи костюм.</string>
+  <string name="spider_rule_5_text">Докосването премества карта или низходяща последователност от карти от един и същ костюм до възможно местоположение автоматично, докато влаченето ви позволява да поставите ръчно.</string>
+  <string name="can_not_deal">Не може да се обработва карта, докато има таблица с празна колона </string>
+  <string name="custom_notification_btn">Предизвикателство</string>
+  <string name="eye_friendly">Приятелски за очите</string>
+  <string name="title_continous_undo_prompt">Знаеш ли?</string>
+  <string name="msg_continous_undo_prompt">Натиснете и задръжте бутона за отмяна за последователно отмяна.</string>
+  <string name="prompt_msg_sound_off">Забележка: Звукът от играта е изключен. Намалете силата на звука на устройствата си, за да заглушите рекламите.</string>
+  <string name="prompt_msg_orientation_lock_by_system">Забележка: Включете автоматичното завъртане на устройството си, за да го завъртите.</string>
+  <string name="prompt_msg_orientation_lock_by_game">Забележка: Отменете настройката "%s", за да се завъртите автоматично.</string>
 </resources>

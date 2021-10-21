@@ -16,18 +16,19 @@
   <string name="play_action_winning_deal">Kazanan Fırsat</string>
   <string name="play_action_replay">Tekrar</string>
   <string name="cancel">Iptal etmek</string>
+  <string name="tap_to_skip">Atlamak için dokunun</string>
   <string name="setting_ok">Tamam</string>
   <string name="statistics">Istatistikler</string>
   <string name="setting_draw1">1 Beraberlik</string>
   <string name="setting_draw3">3 Beraberlik</string>
   <string name="setting_sound">Ses Kontrolü</string>
-  <string name="setting_times">Zaman/Hamle</string>
+  <string name="setting_times">Zaman / taşır</string>
   <string name="setting_orientation">Kilit Oryantasyon</string>
   <string name="setting_hints">Oto İpucu</string>
-  <string name="setting_tapmove">Tap Taşı</string>
+  <string name="setting_tapmove">Taşımak için dokunun</string>
   <string name="help_rules">Kurallar</string>
   <string name="setting_draw3_mode">3 Kart</string>
-  <string name="setting_score_anim">Puan efekti</string>
+  <string name="setting_score_anim">Puanlama Etkisi</string>
   <string name="setting_privacy_policy">Gizlilik Politikası</string>
   <string name="setting_language">Dil</string>
   <string name="stat_won">Galibiyeti</string>
@@ -55,8 +56,8 @@
   <string name="dialog_quit_message">Bırakmaktan emin misin?</string>
   <string name="dialog_quit_btn_positive">@string/yes</string>
   <string name="confirm_reset_game_stat">Oyun istatistiklerini sıfırladığınızdan emin misiniz?</string>
-  <string name="notification_push">Oyunu açmak için beni tıklayın!</string>
-  <string name="notification_ticker">Eğlenmek için solitaire\'ye geri dönün!</string>
+  <string name="notification_push">Yeni Günlük Mücadele geldi! Şimdi oynayın ve kazanıp kazanamayacağınıza bakın!</string>
+  <string name="notification_ticker">Solitaire\'ın günlük mücadelesi geldi!</string>
   <string name="done">tamam</string>
   <string name="hint_recycle_card">Kalan kartları geri dönüşüme sokun</string>
   <string name="hint_draw_card">Çekmek</string>
@@ -78,6 +79,10 @@
   <string name="invite_rate_gratitude_email_positive">Tamam</string>
   <string name="invite_rate_google_message">Eğer Google Play bize oranı bir dakikanızı ayırın lütfen?</string>
   <string name="invite_rate_button_positive">Emin!</string>
+  <string name="invite_rate_special_title">Teşekkür ederiz!</string>
+  <string name="invite_rate_bonus_message">Eğer Google Play bize oranı bir dakikanızı ayırın lütfen?</string>
+  <string name="invite_rate_bonus_button_positive">Toplamak</string>
+  <string name="invite_rate_bonus_hint">Oran Ödülü</string>
   <string name="rule_0_text">
     Klondike solitaire joker olmadan oyun kartları standart 52 kart güverte kullanır.
     Oyunun amacı tüm kartları açığa çıkarmak ve temel yığınları içine taşımak etmektir. Bu yığınları, Ace \'lerden krallara kadar uygun bir şekilde inşa edilmiştir.
@@ -124,6 +129,7 @@ Tablo sütununda açık olan her kart 5 puan alır. Temel kazık bir kart taşı
   <string name="magic_store_title">Dükkanı</string>
   <string name="game_mode_random">Rasgele</string>
   <string name="game_mode_winning">Kazanan</string>
+  <string name="game_mode_daily_challenge">Meydan okuma</string>
   <string name="daily_bonus_today">Bugün</string>
   <string name="daily_bonus_tomorrow">Yarın</string>
   <string name="daily_bonus_victory_format">%1$d dakika</string>
@@ -139,10 +145,6 @@ Tablo sütununda açık olan her kart 5 puan alır. Temel kazık bir kart taşı
   <string name="daily_bonus_result_message">Var: </string>
   <string name="no_hint_message_guilde">Magic Stick oyunu kaydetmek için kullanın.</string>
   <string name="no_hint_message_no_magic">Hiçbir yararlı hamle algılandı. Yeni bir oyun mu açabilirim?</string>
-  <string name="remove_ad">reklamları kaldırmak</string>
-  <string name="purchasing_error_try_again">Satın alma hatası! Lütfen daha sonra tekrar deneyiniz!</string>
-  <string name="msg_coin_hint">Satın alma temaları veya sihir</string>
-  <string name="purchasing_succeed_remove_ad">Satın alma başarılı! Reklamlar kaldırıldı!</string>
   <string name="daily_challenge">Günlük meydan okuma</string>
   <string name="daily_challenge_start_btn">Mücadeleyi Başlat</string>
   <string name="daily_challenge_total_count">Genel Toplam:</string>
@@ -150,7 +152,56 @@ Tablo sütununda açık olan her kart 5 puan alır. Temel kazık bir kart taşı
   <string name="daily_challenge_status_unsolved">çözülmemiş</string>
   <string name="daily_challenge_start_hint">Günlük Mücadeleyi Başlat</string>
   <string name="daily_challenge_start_btn_replay">Tekrar</string>
-  <string name="daily_challenge_mode">Meydan okuma</string>
+  <string name="ask_daily_challenge_dialog_content">Yeni Günlük Mücadele hazır! Şimdi oyna</string>
+  <string name="ask_daily_challenge_dialog_btn">tamam</string>
+  <string name="game_solution_popup_content">Kazanması zor mu? Çözümü burada görün!</string>
+  <string name="no_hint_dialog_solution_popup_content">Kazanamıyor musun? Çözümü görmek için buraya tıklayın!</string>
+  <string name="solution_rewarded_video_hint">Bu anlaşma kazanılabilir. Çözümü görmek için kısa bir video izleyin?</string>
+  <string name="solution_ads_unavailable">Reklamlar kullanılamıyor. Lütfen bir süre sonra tekrar kontrol edin.</string>
+  <string name="solution_not_finished_hint">Çözüm bitmedi. Hala izlemeyi bırakmak istiyor musun?</string>
+  <string name="solution_finished_back_to_game_hint">Çözümü gördünüz. Oyunu tekrar edebilirsiniz.</string>
+  <string name="solution_finished_hint">Çözüm bitti. Geri dönmek için Quit düğmesine veya tekrar izlemek için Again düğmesine tıklayın.</string>
+  <string name="solution_dialog_btn_quit">İzlemeyi Durdur</string>
+  <string name="solution_dialog_btn_continue">Devam et</string>
+  <string name="solution_btn_quit">çıkmak</string>
+  <string name="solution_btn_replay">Tekrar</string>
+  <string name="solution_status_playing">Çözüm izliyor</string>
+  <string name="solution_status_finished">Çözüm biter</string>
+  <string-array name="notification_content">
+    <item>Günlük meydan okuma geldi! Şimdi oynayın ve kazanıp kazanamayacağınıza bakın!</item>
+    <item>En az küresel adım dün %1$s. Yenebilir misin?</item>
+    <item>En yüksek küresel puan dün %1$s. Yenebilir misin?</item>
+    <item>En iyi küresel zaman dün %1$s. Yenebilir misin?</item>
+    <item>En az adımın %1$s\'dir. Rekoru kırabilir misin?</item>
+    <item>En yüksek skorun %1$s. Rekoru kırabilir misin?</item>
+    <item>En iyi zamanın %1$s. Rekoru kırabilir misin?</item>
+    <item>Daha fazla solitaire anlaşmaları çözülmeyi bekliyor!</item>
+  </string-array>
+  <string name="notification_ticker_1">Eğlence için solitaire dönün!</string>
+  <string name="notification_ticker_2">Solitaire Günlük mücadelesi geldi!</string>
   <string name="msg_remove_cardback">Google Play politikasına uymak için 2 kart desteğini siliyoruz. Rahatsızlıktan dolayı özür dileriz! Kartı kendi resimlerinizle özelleştirebilirsiniz!</string>
-  <string name="recover_billing">Restore</string>
+  <string name="spider_solitaire">Örümcek Solitaire</string>
+  <string name="game_mode_spider_solitaire">Örümcek</string>
+  <string name="setting_spider_solitaire_level">Takım Numarası</string>
+  <string name="setting_unlimited_deal">Sınırsız Anlaşma</string>
+  <string name="setting_spider_level_1_suit">1 Takım</string>
+  <string name="setting_spider_level_2_suit">2 Takım</string>
+  <string name="setting_spider_level_4_suit">4 Takım</string>
+  <string name="statistics_spider_level_1_suit">1 Takım</string>
+  <string name="statistics_spider_level_2_suit">2 Takım</string>
+  <string name="statistics_spider_level_4_suit">4 Takım</string>
+  <string name="spider_rule_0_text">Spider Solitaire, her biri 52 kartlık iki deste ile oynanır. Zorluğa bağlı olarak, güverte bir, iki veya dört farklı takımdan oluşur.</string>
+  <string name="spider_rule_1_text">Spider\'da oyunun amacı tüm kartları vakfa toplamaktır. Aynı cinsten Kraldan Asa inen tam bir kart dizisi otomatik olarak vakıflardan birine toplanacaktır.</string>
+  <string name="spider_rule_2_text">Her oyunun başında, tabloya 6 veya 5 kartlı 10 deste dağıtılır. Kalan kartlar stoğu oluşturmak için yüzü aşağıya bakacak şekilde yerleştirilir.</string>
+  <string name="spider_rule_3_text">Geçerli hamleleriniz biterse, tablodaki her sütun için bir kart dağıtmak üzere stoğa tıklayın.</string>
+  <string name="spider_rule_4_text">Bir grup olarak azalan bir kart dizisini, yalnızca aynı türden olmaları durumunda başka bir tablo sütununa taşıyabilirsiniz.</string>
+  <string name="spider_rule_5_text">Dokunulduğunda bir kart veya aynı türden azalan bir kart dizisi otomatik olarak olası bir konuma taşınırken sürükleme elle yerleştirmenizi sağlar.</string>
+  <string name="can_not_deal">Boş sütunlu tablonun bulunduğu sırada karta bakamazsınız</string>
+  <string name="custom_notification_btn">Meydan okuma</string>
+  <string name="eye_friendly">Göz Dostu</string>
+  <string name="title_continous_undo_prompt">Biliyor musunuz?</string>
+  <string name="msg_continous_undo_prompt">Ardışık geri alma için geri al düğmesini basılı tutun.</string>
+  <string name="prompt_msg_sound_off">Not: Oyunun sesi kapalı. Reklamları kapatmak için cihazlarınızın sesini kısın.</string>
+  <string name="prompt_msg_orientation_lock_by_system">Not: Döndürmek için cihazınızın otomatik dönüşünü açın.</string>
+  <string name="prompt_msg_orientation_lock_by_game">Not: Otomatik olarak döndürmek için "%s" ayarının seçimini kaldırın.</string>
 </resources>

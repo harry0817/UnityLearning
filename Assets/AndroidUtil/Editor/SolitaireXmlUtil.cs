@@ -63,7 +63,13 @@ public class SolitaireXmlUtil {
 
     [MenuItem("Solitaire/复制strings.xml")]
     public static void CopyStringsXml() {
-        string[] toCopy = { "recover_billing", "recover_billing_completed" };
+        string[] toCopy = {
+            "title_continous_undo_prompt",
+            "msg_continous_undo_prompt",
+            "prompt_msg_sound_off",
+            "prompt_msg_orientation_lock_by_system",
+            "prompt_msg_orientation_lock_by_game",
+        };
         var fromResDirPath = Path.Combine(Application.dataPath, "AndroidUtil/strings_xml_copy/from/res");
         var fromResDirInfo = new DirectoryInfo(fromResDirPath);
         var valuesDirInfos = fromResDirInfo.GetDirectories();
@@ -83,18 +89,24 @@ public class SolitaireXmlUtil {
                 var stringNode = fromResourcesNode.ChildNodes[i];
                 if (!stringNode.Name.Equals("string"))
                     continue;
-                if (stringNode.Attributes["name"].Value.Equals("recover_billing")) {
-                    //Debug.Log(stringNode.Attributes["name"].Value);
-                    //Debug.Log(stringNode.InnerText);
-                    //Debug.Log(stringNode.OuterXml);
-                    var element = toXml.CreateElement("string");
-                    element.SetAttribute("name", stringNode.Attributes["name"].Value);
-                    element.InnerText = stringNode.InnerText;
-                    toResourcesNode.AppendChild(element);
+                for (int j = 0; j < toCopy.Length; j++) {
+                    if (stringNode.Attributes["name"].Value.Equals(toCopy[i])) {
+                        var element = toXml.CreateElement("string");
+                        element.SetAttribute("name", stringNode.Attributes["name"].Value);
+                        string innerText = stringNode.InnerText;
+                        if (stringNode.Attributes["name"].Value.Equals("prompt_msg_orientation_lock_by_game")) {
+                            innerText = innerText.Replace("#", "\"%s\"");
+                            Debug.Log("匹配: " + innerText);
+                        }
+                        element.InnerText = innerText;
+                        toResourcesNode.AppendChild(element);
+                        break;
+                    }
                 }
             }
             Debug.Log(toXml.OuterXml);
             toXml.Save(toXmlFile.FullName);
+            FileUtil.DeleteFileOrDirectory(toXmlFile.FullName + ".meta");
         }
 
     }
